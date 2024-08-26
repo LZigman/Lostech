@@ -1,0 +1,2778 @@
+fileFormatVersion: 2
+guid: 737165ee1497726dd9f59337b831366a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: The Evil Sage_Frame_0
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 398
+      width: 14
+      height: 15
+    spriteID: 7a32cdc34b24a16118c02a6b0d5418d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 398}
+  - name: The Evil Sage_Frame_1
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 398
+      width: 14
+      height: 15
+    spriteID: cde9d90d9996654169ba432b587dc95b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 398}
+  - name: The Evil Sage_Frame_2
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 398
+      width: 14
+      height: 16
+    spriteID: 494dbc9859e767e269a0b093dc2d87a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 398}
+  - name: The Evil Sage_Frame_3
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 398
+      width: 14
+      height: 16
+    spriteID: 264c0cdb9978fd02ea661e145ea33ade
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 398}
+  - name: The Evil Sage_Frame_4
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 398
+      width: 14
+      height: 16
+    spriteID: 7e01bf65ee6b4ca8e856a50c2fb1ad43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 398}
+  - name: The Evil Sage_Frame_5
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 398
+      width: 14
+      height: 15
+    spriteID: 6a9482abbcbe4f51eae859605c00472e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 398}
+  - name: The Evil Sage_Frame_6
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 202
+      y: 398
+      width: 14
+      height: 15
+    spriteID: 45009ea117a11f8afb71db2054d4d804
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 202, y: 398}
+  - name: The Evil Sage_Frame_7
+    originalName: 
+    pivot: {x: 0.5000001, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 375
+      width: 14
+      height: 14
+    spriteID: 0ae0432150cb63233975ed8d86ec312f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 375}
+  - name: The Evil Sage_Frame_8
+    originalName: 
+    pivot: {x: 0.5000001, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 207
+      y: 375
+      width: 14
+      height: 14
+    spriteID: 48f90e04905d1b7c3a66ffdea3593f18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 207, y: 375}
+  - name: The Evil Sage_Frame_9
+    originalName: 
+    pivot: {x: 0.5000001, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 375
+      width: 14
+      height: 14
+    spriteID: f362ba5ce1abbfc8c99112a97a516678
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 229, y: 375}
+  - name: The Evil Sage_Frame_10
+    originalName: 
+    pivot: {x: 0.42857143, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 398
+      width: 14
+      height: 15
+    spriteID: aa1406b12932a1a44be3568d233c91f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 398}
+  - name: The Evil Sage_Frame_11
+    originalName: 
+    pivot: {x: 0.4666668, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 422
+      width: 15
+      height: 13
+    spriteID: a62bd66768900fde29a119c11ea403db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 422}
+  - name: The Evil Sage_Frame_12
+    originalName: 
+    pivot: {x: 0.5000001, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 422
+      width: 14
+      height: 14
+    spriteID: fc145d6aaa0d40bc29201df5b0c29806
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 422}
+  - name: The Evil Sage_Frame_13
+    originalName: 
+    pivot: {x: 0.4666668, y: -5.142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 375
+      width: 15
+      height: 14
+    spriteID: ce2ce5c6d4ec2318baf8626501816ef7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 375}
+  - name: The Evil Sage_Frame_14
+    originalName: 
+    pivot: {x: 0.43750012, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 351
+      width: 16
+      height: 16
+    spriteID: 2acf535efe60262ff949b509c58323fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 351}
+  - name: The Evil Sage_Frame_15
+    originalName: 
+    pivot: {x: 0.4666668, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 422
+      width: 15
+      height: 13
+    spriteID: 4ff18a590d62f177089beab317690157
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 422}
+  - name: The Evil Sage_Frame_16
+    originalName: 
+    pivot: {x: 0.5000001, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 422
+      width: 14
+      height: 14
+    spriteID: 8907290acfbe53e238539106f648b419
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 422}
+  - name: The Evil Sage_Frame_17
+    originalName: 
+    pivot: {x: 0.4666668, y: -4.733333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 351
+      width: 15
+      height: 15
+    spriteID: e603e62a4d545832a8ddd9a8a4858374
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 351}
+  - name: The Evil Sage_Frame_18
+    originalName: 
+    pivot: {x: 0.4, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 351
+      width: 15
+      height: 15
+    spriteID: 38df6049231a4ad918e41b9f5f3aecc7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 351}
+  - name: The Evil Sage_Frame_19
+    originalName: 
+    pivot: {x: 0.19999982, y: -3.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 241
+      y: 136
+      width: 10
+      height: 20
+    spriteID: a03a78fd9f422976c8ba42416b37cfd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 241, y: 136}
+  - name: The Evil Sage_Frame_20
+    originalName: 
+    pivot: {x: 0.19999982, y: -3.631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 422
+      width: 10
+      height: 19
+    spriteID: 0fc118ff51a52c90aaae9883e4f4616c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 422}
+  - name: The Evil Sage_Frame_21
+    originalName: 
+    pivot: {x: 0.19999982, y: -3.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 422
+      width: 10
+      height: 20
+    spriteID: 0eda781373b4e8a26bc212d532479392
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 422}
+  - name: The Evil Sage_Frame_22
+    originalName: 
+    pivot: {x: 0.19999982, y: -3.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 22
+      y: 422
+      width: 10
+      height: 20
+    spriteID: 9443dd52634125d76b1c04921903a3bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 22, y: 422}
+  - name: The Evil Sage_Frame_23
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.866667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 375
+      width: 14
+      height: 15
+    spriteID: 3ca298700ad779ae5be57f5c2e0435fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 375}
+  - name: The Evil Sage_Frame_24
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 398
+      width: 14
+      height: 16
+    spriteID: 9f6b2c19c13a9e0c289429fb2ca538af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 398}
+  - name: The Evil Sage_Frame_25
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.866667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 375
+      width: 14
+      height: 15
+    spriteID: 51e427e7483fe03feba6dfed96e684e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 375}
+  - name: The Evil Sage_Frame_26
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.866667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 375
+      width: 14
+      height: 15
+    spriteID: 35d86a2d056d0b652aae923680bff6e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 375}
+  - name: The Evil Sage_Frame_27
+    originalName: 
+    pivot: {x: 0.53333324, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 351
+      width: 15
+      height: 16
+    spriteID: 3812548fd8a6798278de3c40c61e5156
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 351}
+  - name: The Evil Sage_Frame_28
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 398
+      width: 14
+      height: 16
+    spriteID: 47d9d84ba6a4dd723823f6c336aabb6f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 398}
+  - name: The Evil Sage_Frame_29
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 398
+      width: 14
+      height: 16
+    spriteID: dffe50e2d4e7643ec87bcf6a209ff3d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 398}
+  - name: The Evil Sage_Frame_30
+    originalName: 
+    pivot: {x: 0.53333324, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 351
+      width: 15
+      height: 16
+    spriteID: f55944c8c86202c539eb72f1cd3a2ad6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 351}
+  - name: The Evil Sage_Frame_31
+    originalName: 
+    pivot: {x: 0.47058815, y: -5.0714283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 219
+      y: 329
+      width: 17
+      height: 14
+    spriteID: a5d24e5cc276da89c838e5ab81b6a92c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 219, y: 329}
+  - name: The Evil Sage_Frame_32
+    originalName: 
+    pivot: {x: 0.47058815, y: -5.0714283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 351
+      width: 17
+      height: 14
+    spriteID: ce000f629179795d48e299b94445a4a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 351}
+  - name: The Evil Sage_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -5.0714283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 141
+      y: 329
+      width: 18
+      height: 14
+    spriteID: 182db1c2447ad5545ac42e719a2d2dfc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 141, y: 329}
+  - name: The Evil Sage_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -5.0714283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 167
+      y: 329
+      width: 18
+      height: 14
+    spriteID: 80e9fad3e797065939e84e09cf14af9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 167, y: 329}
+  - name: The Evil Sage_Frame_35
+    originalName: 
+    pivot: {x: 0.5714284, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 422
+      width: 14
+      height: 14
+    spriteID: 519d4e88efae9de10ad6ffaa2ec2111b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 422}
+  - name: The Evil Sage_Frame_36
+    originalName: 
+    pivot: {x: 0.6666668, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 375
+      width: 15
+      height: 14
+    spriteID: 4a7639f12b0fccec6a41d0f99dd4347a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 375}
+  - name: The Evil Sage_Frame_37
+    originalName: 
+    pivot: {x: 0.7058824, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 351
+      width: 17
+      height: 14
+    spriteID: 2d0b9632d6d998a8eb204dd7815a440c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 351}
+  - name: The Evil Sage_Frame_45
+    originalName: 
+    pivot: {x: 0.3170732, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 115
+      width: 41
+      height: 13
+    spriteID: 2e275cea2a0f16862accf75b073d6f05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 115}
+  - name: The Evil Sage_Frame_46
+    originalName: 
+    pivot: {x: 0.30434778, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 115
+      width: 46
+      height: 13
+    spriteID: ee9e125d807f2a2b2a723f9ff36087f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 115}
+  - name: The Evil Sage_Frame_47
+    originalName: 
+    pivot: {x: 0.15384616, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 307
+      width: 39
+      height: 14
+    spriteID: 7a2fcc5c1a743706ab6b9d000610f4fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 307}
+  - name: The Evil Sage_Frame_48
+    originalName: 
+    pivot: {x: 0.15, y: -4.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 92
+      width: 40
+      height: 15
+    spriteID: 4e984bd7cb78007808d91aa45b1d24de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 92}
+  - name: The Evil Sage_Frame_49
+    originalName: 
+    pivot: {x: 0.14634146, y: -4.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 92
+      width: 41
+      height: 15
+    spriteID: 05e90643702ced7b1a405d1f71ca1ea0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 92}
+  - name: The Evil Sage_Frame_50
+    originalName: 
+    pivot: {x: 0.3, y: -4.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 266
+      width: 20
+      height: 15
+    spriteID: 501234a30b21ccb74a3e7622b6271e52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 266}
+  - name: The Evil Sage_Frame_51
+    originalName: 
+    pivot: {x: 0.42857143, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 422
+      width: 14
+      height: 13
+    spriteID: bd43986082ffbcd16b148a0022914fe2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 422}
+  - name: The Evil Sage_Frame_52
+    originalName: 
+    pivot: {x: 0.42857143, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 422
+      width: 14
+      height: 13
+    spriteID: bcfd4916e6e54e3259805016e9036bfe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 422}
+  - name: The Evil Sage_Frame_53
+    originalName: 
+    pivot: {x: 0.44444436, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 233
+      y: 224
+      width: 18
+      height: 16
+    spriteID: 420cb18276cfd0923b815006d26e96e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 233, y: 224}
+  - name: The Evil Sage_Frame_54
+    originalName: 
+    pivot: {x: 0.45454556, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 203
+      y: 224
+      width: 22
+      height: 19
+    spriteID: 42b1588c7982d2e81af73a6c6d1ba87b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 203, y: 224}
+  - name: The Evil Sage_Frame_55
+    originalName: 
+    pivot: {x: 0.41666675, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 136
+      width: 24
+      height: 19
+    spriteID: 830c63759d338b0b89c0b3d68640ddf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 136}
+  - name: The Evil Sage_Frame_56
+    originalName: 
+    pivot: {x: 0.375, y: -3.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 171
+      y: 224
+      width: 24
+      height: 18
+    spriteID: ba22b0e6842fc5f17b662baad09cb2dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 171, y: 224}
+  - name: The Evil Sage_Frame_57
+    originalName: 
+    pivot: {x: 0.52000004, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 136
+      width: 25
+      height: 19
+    spriteID: 974b20af3c7d4320ca88c8b31fd4c78a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 136}
+  - name: The Evil Sage_Frame_58
+    originalName: 
+    pivot: {x: 0.35999998, y: -3.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 224
+      width: 25
+      height: 18
+    spriteID: bf582374118cc13e6b1fe8cb31037d6f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 224}
+  - name: The Evil Sage_Frame_59
+    originalName: 
+    pivot: {x: 0.4666666, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 181
+      width: 30
+      height: 19
+    spriteID: f6e69152d96704022a0388be8a2d094a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 181}
+  - name: The Evil Sage_Frame_60
+    originalName: 
+    pivot: {x: 0.5555556, y: -3.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 141
+      y: 136
+      width: 27
+      height: 18
+    spriteID: 34ab41a4209d3c968bff263ce207541e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 141, y: 136}
+  - name: The Evil Sage_Frame_61
+    originalName: 
+    pivot: {x: 0.53571427, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 218
+      y: 181
+      width: 28
+      height: 19
+    spriteID: 7e80c6e01ebc01974826d5da103b3576
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 181}
+  - name: The Evil Sage_Frame_62
+    originalName: 
+    pivot: {x: 0.5333334, y: -3.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 181
+      width: 30
+      height: 18
+    spriteID: c34a6190c3926a6feac39a0b18a589a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 181}
+  - name: The Evil Sage_Frame_63
+    originalName: 
+    pivot: {x: 0.45454556, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 266
+      width: 22
+      height: 19
+    spriteID: aa02316fd981b31389a1a88ca1d1e404
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 266}
+  - name: The Evil Sage_Frame_64
+    originalName: 
+    pivot: {x: 0.44444436, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 351
+      width: 18
+      height: 16
+    spriteID: 9c3773f22497126c487e5ee5f87837e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 351}
+  - name: The Evil Sage_Frame_65
+    originalName: 
+    pivot: {x: 0.42857143, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 450
+      width: 14
+      height: 13
+    spriteID: 3b81e4af1d588673fbd90c647d52d74b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 450}
+  - name: The Evil Sage_Frame_66
+    originalName: 
+    pivot: {x: 0.42857143, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 450
+      width: 14
+      height: 13
+    spriteID: b683c7e3874794d4b83302f056cfe225
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 450}
+  - name: The Evil Sage_Frame_67
+    originalName: 
+    pivot: {x: 0.42857143, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 450
+      width: 14
+      height: 13
+    spriteID: b292e4d8e4662ab8a92a215898baaf0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 450}
+  - name: The Evil Sage_Frame_68
+    originalName: 
+    pivot: {x: 0.42857143, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 422
+      width: 14
+      height: 14
+    spriteID: cc9c10c54144904cdb82f14d4977cc1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 422}
+  - name: The Evil Sage_Frame_69
+    originalName: 
+    pivot: {x: 0.44444436, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 351
+      width: 18
+      height: 16
+    spriteID: 8c581d3f246567d7195c700521865b29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 351}
+  - name: The Evil Sage_Frame_70
+    originalName: 
+    pivot: {x: 0.45454556, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 266
+      width: 22
+      height: 19
+    spriteID: 940453debefde3220bbbd7c45dfb1b57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 266}
+  - name: The Evil Sage_Frame_71
+    originalName: 
+    pivot: {x: 0.48305082, y: -2.1212122}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 266
+      width: 118
+      height: 33
+    spriteID: 22e81c2361ec4d6e78945d74f79126fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 266}
+  - name: The Evil Sage_Frame_72
+    originalName: 
+    pivot: {x: 0.468254, y: -2.0588236}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 224
+      width: 126
+      height: 34
+    spriteID: f202ce18a7ae801cdac1a7c2c715c738
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 224}
+  - name: The Evil Sage_Frame_73
+    originalName: 
+    pivot: {x: 0.46153846, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 181
+      width: 130
+      height: 35
+    spriteID: 464f1736a499ca5e6a869c9121d2f587
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 181}
+  - name: The Evil Sage_Frame_74
+    originalName: 
+    pivot: {x: 0.46616542, y: -1.9444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 92
+      width: 133
+      height: 36
+    spriteID: 9a4216496a9968518ad4a574cefcce6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 92}
+  - name: The Evil Sage_Frame_75
+    originalName: 
+    pivot: {x: 0.46666667, y: -1.9444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 48
+      width: 135
+      height: 36
+    spriteID: 4fff53b5d961f5a73b32dffefc20ecf4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 48}
+  - name: The Evil Sage_Frame_76
+    originalName: 
+    pivot: {x: 0.46715325, y: -1.9444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 137
+      height: 36
+    spriteID: d9e90fbb08c99993bb6c97f31236e900
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: The Evil Sage_Frame_77
+    originalName: 
+    pivot: {x: 0.4883721, y: -1.8918918}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 136
+      width: 129
+      height: 37
+    spriteID: 9d115af3137fd2ac19ab69b392152e8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 136}
+  - name: The Evil Sage_Frame_78
+    originalName: 
+    pivot: {x: 0.4883721, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 329
+      width: 129
+      height: 14
+    spriteID: 53abedfd08a4fea7eb13724fa4d569e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 329}
+  - name: The Evil Sage_Frame_79
+    originalName: 
+    pivot: {x: 0.4885496, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 307
+      width: 131
+      height: 14
+    spriteID: fb543b403e4b8040d9ddd69c735bd855
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 307}
+  - name: The Evil Sage_Frame_80
+    originalName: 
+    pivot: {x: 0.42857143, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 422
+      width: 14
+      height: 14
+    spriteID: 48c9d8bcab6836a8e95234d2c090f551
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 128, y: 422}
+  - name: The Evil Sage_Frame_81
+    originalName: 
+    pivot: {x: 0.4, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 375
+      width: 15
+      height: 15
+    spriteID: f9ed192b128c15420a67a00148a00fdf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 375}
+  - name: The Evil Sage_Frame_82
+    originalName: 
+    pivot: {x: 0.4, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 375
+      width: 15
+      height: 15
+    spriteID: 38659a1c75e931b63a85de82013d4355
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 375}
+  - name: The Evil Sage_Frame_83
+    originalName: 
+    pivot: {x: 0.4, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 375
+      width: 15
+      height: 15
+    spriteID: b7a82aeded654b92b8b3edb6339c1889
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 375}
+  - name: The Evil Sage_Frame_84
+    originalName: 
+    pivot: {x: -0.058823306, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 351
+      width: 17
+      height: 14
+    spriteID: a097ab25527d339dba9afa34c7831f5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 351}
+  - name: The Evil Sage_Frame_85
+    originalName: 
+    pivot: {x: -0.039999846, y: -10}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 250
+      width: 25
+      height: 7
+    spriteID: 1e972045bb60fc31891151d2e5efb717
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 250}
+  - name: The Evil Sage_Frame_86
+    originalName: 
+    pivot: {x: -0.08000015, y: -11.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 290
+      width: 25
+      height: 6
+    spriteID: 1ec41f63a5e606d5fbb2a78d027bd567
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 290}
+  - name: The Evil Sage_Frame_87
+    originalName: 
+    pivot: {x: -0.12, y: -11.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 163
+      width: 25
+      height: 6
+    spriteID: e4b677ac4eedb349f8e331d9afe7c660
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 163}
+  - name: The Evil Sage_Frame_88
+    originalName: 
+    pivot: {x: -0.15999985, y: -11.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 141
+      y: 162
+      width: 25
+      height: 6
+    spriteID: 26840377e9476bd31a0d7593fd2e9ac5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 141, y: 162}
+  - name: The Evil Sage_Frame_89
+    originalName: 
+    pivot: {x: -0.15999985, y: -11.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 208
+      width: 25
+      height: 6
+    spriteID: 072cf29af4143b7208f46e0a91efa43b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 208}
+  - name: The Evil Sage_Frame_90
+    originalName: 
+    pivot: {x: -0.15999985, y: -11.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 289
+      width: 25
+      height: 6
+    spriteID: 24691a460aa15a9db96dfab414351ffa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 289}
+  - name: The Evil Sage_Frame_38
+    originalName: 
+    pivot: {x: 0.29268292, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 307
+      width: 41
+      height: 14
+    spriteID: b73da87c031ab0634a6b1230a968f662
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 307}
+  - name: The Evil Sage_Frame_39
+    originalName: 
+    pivot: {x: 0.15384616, y: -4.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 48
+      width: 39
+      height: 16
+    spriteID: 7289fe7bbcda68cd9a6be12d6a1af188
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 48}
+  - name: The Evil Sage_Frame_40
+    originalName: 
+    pivot: {x: 0.17073175, y: -4.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 147
+      y: 48
+      width: 41
+      height: 16
+    spriteID: 22e3af3436b2bfaabaf637d827df418f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 147, y: 48}
+  - name: The Evil Sage_Frame_41
+    originalName: 
+    pivot: {x: 0.16666672, y: -4.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 4
+      width: 42
+      height: 16
+    spriteID: c77cd8a6d795e591a81644f0d72f4e05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 4}
+  - name: The Evil Sage_Frame_42
+    originalName: 
+    pivot: {x: 0.18181814, y: -4.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 149
+      y: 4
+      width: 44
+      height: 16
+    spriteID: a3966545c77482fb2a92c439c265c44e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 149, y: 4}
+  - name: The Evil Sage_Frame_43
+    originalName: 
+    pivot: {x: 0.40000007, y: -4.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 266
+      width: 25
+      height: 16
+    spriteID: 62ce4b30b885a5efb9b7dac04d1b6da8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 266}
+  - name: The Evil Sage_Frame_44
+    originalName: 
+    pivot: {x: 0.6666667, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 193
+      y: 329
+      width: 18
+      height: 14
+    spriteID: 479a7ae2b2235120196e50564f3a26a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 193, y: 329}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1178515439
+    name: The Evil Sage
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: The Evil Sage_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 15
+      spriteId: 7a32cdc34b24a16118c02a6b0d5418d0
+    - name: The Evil Sage_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 15
+      spriteId: cde9d90d9996654169ba432b587dc95b
+    - name: The Evil Sage_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 16
+      spriteId: 494dbc9859e767e269a0b093dc2d87a6
+    - name: The Evil Sage_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 16
+      spriteId: 264c0cdb9978fd02ea661e145ea33ade
+    - name: The Evil Sage_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 16
+      spriteId: 7e01bf65ee6b4ca8e856a50c2fb1ad43
+    - name: The Evil Sage_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 15
+      spriteId: 6a9482abbcbe4f51eae859605c00472e
+    - name: The Evil Sage_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 15
+      spriteId: 45009ea117a11f8afb71db2054d4d804
+    - name: The Evil Sage_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 14
+      spriteId: 0ae0432150cb63233975ed8d86ec312f
+    - name: The Evil Sage_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 14
+      spriteId: 48f90e04905d1b7c3a66ffdea3593f18
+    - name: The Evil Sage_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 14
+      spriteId: f362ba5ce1abbfc8c99112a97a516678
+    - name: The Evil Sage_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 15
+      spriteId: aa1406b12932a1a44be3568d233c91f6
+    - name: The Evil Sage_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 15
+        height: 13
+      spriteId: a62bd66768900fde29a119c11ea403db
+    - name: The Evil Sage_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 14
+      spriteId: fc145d6aaa0d40bc29201df5b0c29806
+    - name: The Evil Sage_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 72
+        width: 15
+        height: 14
+      spriteId: ce2ce5c6d4ec2318baf8626501816ef7
+    - name: The Evil Sage_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 16
+        height: 16
+      spriteId: 2acf535efe60262ff949b509c58323fd
+    - name: The Evil Sage_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 15
+        height: 13
+      spriteId: 4ff18a590d62f177089beab317690157
+    - name: The Evil Sage_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 14
+      spriteId: 8907290acfbe53e238539106f648b419
+    - name: The Evil Sage_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 71
+        width: 15
+        height: 15
+      spriteId: e603e62a4d545832a8ddd9a8a4858374
+    - name: The Evil Sage_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 15
+        height: 15
+      spriteId: 38df6049231a4ad918e41b9f5f3aecc7
+    - name: The Evil Sage_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 94
+        y: 69
+        width: 10
+        height: 20
+      spriteId: a03a78fd9f422976c8ba42416b37cfd1
+    - name: The Evil Sage_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 94
+        y: 69
+        width: 10
+        height: 19
+      spriteId: 0fc118ff51a52c90aaae9883e4f4616c
+    - name: The Evil Sage_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 94
+        y: 69
+        width: 10
+        height: 20
+      spriteId: 0eda781373b4e8a26bc212d532479392
+    - name: The Evil Sage_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 94
+        y: 69
+        width: 10
+        height: 20
+      spriteId: 9443dd52634125d76b1c04921903a3bc
+    - name: The Evil Sage_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 73
+        width: 14
+        height: 15
+      spriteId: 3ca298700ad779ae5be57f5c2e0435fd
+    - name: The Evil Sage_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 72
+        width: 14
+        height: 16
+      spriteId: 9f6b2c19c13a9e0c289429fb2ca538af
+    - name: The Evil Sage_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 73
+        width: 14
+        height: 15
+      spriteId: 51e427e7483fe03feba6dfed96e684e3
+    - name: The Evil Sage_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 73
+        width: 14
+        height: 15
+      spriteId: 35d86a2d056d0b652aae923680bff6e1
+    - name: The Evil Sage_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 88
+        y: 70
+        width: 15
+        height: 16
+      spriteId: 3812548fd8a6798278de3c40c61e5156
+    - name: The Evil Sage_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 16
+      spriteId: 47d9d84ba6a4dd723823f6c336aabb6f
+    - name: The Evil Sage_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 16
+      spriteId: dffe50e2d4e7643ec87bcf6a209ff3d8
+    - name: The Evil Sage_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 88
+        y: 70
+        width: 15
+        height: 16
+      spriteId: f55944c8c86202c539eb72f1cd3a2ad6
+    - name: The Evil Sage_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 88
+        y: 71
+        width: 17
+        height: 14
+      spriteId: a5d24e5cc276da89c838e5ab81b6a92c
+    - name: The Evil Sage_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 88
+        y: 71
+        width: 17
+        height: 14
+      spriteId: ce000f629179795d48e299b94445a4a8
+    - name: The Evil Sage_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 87
+        y: 71
+        width: 18
+        height: 14
+      spriteId: 182db1c2447ad5545ac42e719a2d2dfc
+    - name: The Evil Sage_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 87
+        y: 71
+        width: 18
+        height: 14
+      spriteId: 80e9fad3e797065939e84e09cf14af9c
+    - name: The Evil Sage_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 88
+        y: 70
+        width: 14
+        height: 14
+      spriteId: 519d4e88efae9de10ad6ffaa2ec2111b
+    - name: The Evil Sage_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 86
+        y: 70
+        width: 15
+        height: 14
+      spriteId: 4a7639f12b0fccec6a41d0f99dd4347a
+    - name: The Evil Sage_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 84
+        y: 70
+        width: 17
+        height: 14
+      spriteId: 2d0b9632d6d998a8eb204dd7815a440c
+    - name: The Evil Sage_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 83
+        y: 70
+        width: 41
+        height: 13
+      spriteId: 2e275cea2a0f16862accf75b073d6f05
+    - name: The Evil Sage_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 82
+        y: 70
+        width: 46
+        height: 13
+      spriteId: ee9e125d807f2a2b2a723f9ff36087f1
+    - name: The Evil Sage_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 39
+        height: 14
+      spriteId: 7a2fcc5c1a743706ab6b9d000610f4fd
+    - name: The Evil Sage_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 69
+        width: 40
+        height: 15
+      spriteId: 4e984bd7cb78007808d91aa45b1d24de
+    - name: The Evil Sage_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 69
+        width: 41
+        height: 15
+      spriteId: 05e90643702ced7b1a405d1f71ca1ea0
+    - name: The Evil Sage_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 69
+        width: 20
+        height: 15
+      spriteId: 501234a30b21ccb74a3e7622b6271e52
+    - name: The Evil Sage_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 13
+      spriteId: bd43986082ffbcd16b148a0022914fe2
+    - name: The Evil Sage_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 13
+      spriteId: bcfd4916e6e54e3259805016e9036bfe
+    - name: The Evil Sage_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 88
+        y: 70
+        width: 18
+        height: 16
+      spriteId: 420cb18276cfd0923b815006d26e96e3
+    - name: The Evil Sage_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 86
+        y: 70
+        width: 22
+        height: 19
+      spriteId: 42b1588c7982d2e81af73a6c6d1ba87b
+    - name: The Evil Sage_Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 86
+        y: 70
+        width: 24
+        height: 19
+      spriteId: 830c63759d338b0b89c0b3d68640ddf8
+    - name: The Evil Sage_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 87
+        y: 70
+        width: 24
+        height: 18
+      spriteId: ba22b0e6842fc5f17b662baad09cb2dc
+    - name: The Evil Sage_Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 83
+        y: 70
+        width: 25
+        height: 19
+      spriteId: 974b20af3c7d4320ca88c8b31fd4c78a
+    - name: The Evil Sage_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 87
+        y: 70
+        width: 25
+        height: 18
+      spriteId: bf582374118cc13e6b1fe8cb31037d6f
+    - name: The Evil Sage_Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 82
+        y: 70
+        width: 30
+        height: 19
+      spriteId: f6e69152d96704022a0388be8a2d094a
+    - name: The Evil Sage_Frame_60
+      frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 81
+        y: 70
+        width: 27
+        height: 18
+      spriteId: 34ab41a4209d3c968bff263ce207541e
+    - name: The Evil Sage_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 81
+        y: 70
+        width: 28
+        height: 19
+      spriteId: 7e80c6e01ebc01974826d5da103b3576
+    - name: The Evil Sage_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 80
+        y: 70
+        width: 30
+        height: 18
+      spriteId: c34a6190c3926a6feac39a0b18a589a4
+    - name: The Evil Sage_Frame_63
+      frameIndex: 63
+      additiveSortOrder: 0
+      cellRect:
+        x: 86
+        y: 70
+        width: 22
+        height: 19
+      spriteId: aa02316fd981b31389a1a88ca1d1e404
+    - name: The Evil Sage_Frame_64
+      frameIndex: 64
+      additiveSortOrder: 0
+      cellRect:
+        x: 88
+        y: 70
+        width: 18
+        height: 16
+      spriteId: 9c3773f22497126c487e5ee5f87837e6
+    - name: The Evil Sage_Frame_65
+      frameIndex: 65
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 13
+      spriteId: 3b81e4af1d588673fbd90c647d52d74b
+    - name: The Evil Sage_Frame_66
+      frameIndex: 66
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 13
+      spriteId: b683c7e3874794d4b83302f056cfe225
+    - name: The Evil Sage_Frame_67
+      frameIndex: 67
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 13
+      spriteId: b292e4d8e4662ab8a92a215898baaf0a
+    - name: The Evil Sage_Frame_68
+      frameIndex: 68
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 14
+      spriteId: cc9c10c54144904cdb82f14d4977cc1a
+    - name: The Evil Sage_Frame_69
+      frameIndex: 69
+      additiveSortOrder: 0
+      cellRect:
+        x: 88
+        y: 70
+        width: 18
+        height: 16
+      spriteId: 8c581d3f246567d7195c700521865b29
+    - name: The Evil Sage_Frame_70
+      frameIndex: 70
+      additiveSortOrder: 0
+      cellRect:
+        x: 86
+        y: 70
+        width: 22
+        height: 19
+      spriteId: 940453debefde3220bbbd7c45dfb1b57
+    - name: The Evil Sage_Frame_71
+      frameIndex: 71
+      additiveSortOrder: 0
+      cellRect:
+        x: 39
+        y: 70
+        width: 118
+        height: 33
+      spriteId: 22e81c2361ec4d6e78945d74f79126fb
+    - name: The Evil Sage_Frame_72
+      frameIndex: 72
+      additiveSortOrder: 0
+      cellRect:
+        x: 37
+        y: 70
+        width: 126
+        height: 34
+      spriteId: f202ce18a7ae801cdac1a7c2c715c738
+    - name: The Evil Sage_Frame_73
+      frameIndex: 73
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 70
+        width: 130
+        height: 35
+      spriteId: 464f1736a499ca5e6a869c9121d2f587
+    - name: The Evil Sage_Frame_74
+      frameIndex: 74
+      additiveSortOrder: 0
+      cellRect:
+        x: 34
+        y: 70
+        width: 133
+        height: 36
+      spriteId: 9a4216496a9968518ad4a574cefcce6c
+    - name: The Evil Sage_Frame_75
+      frameIndex: 75
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 70
+        width: 135
+        height: 36
+      spriteId: 4fff53b5d961f5a73b32dffefc20ecf4
+    - name: The Evil Sage_Frame_76
+      frameIndex: 76
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 70
+        width: 137
+        height: 36
+      spriteId: d9e90fbb08c99993bb6c97f31236e900
+    - name: The Evil Sage_Frame_77
+      frameIndex: 77
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 70
+        width: 129
+        height: 37
+      spriteId: 9d115af3137fd2ac19ab69b392152e8c
+    - name: The Evil Sage_Frame_78
+      frameIndex: 78
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 70
+        width: 129
+        height: 14
+      spriteId: 53abedfd08a4fea7eb13724fa4d569e2
+    - name: The Evil Sage_Frame_79
+      frameIndex: 79
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 70
+        width: 131
+        height: 14
+      spriteId: fb543b403e4b8040d9ddd69c735bd855
+    - name: The Evil Sage_Frame_80
+      frameIndex: 80
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 14
+      spriteId: 48c9d8bcab6836a8e95234d2c090f551
+    - name: The Evil Sage_Frame_81
+      frameIndex: 81
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 15
+        height: 15
+      spriteId: f9ed192b128c15420a67a00148a00fdf
+    - name: The Evil Sage_Frame_82
+      frameIndex: 82
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 15
+        height: 15
+      spriteId: 38659a1c75e931b63a85de82013d4355
+    - name: The Evil Sage_Frame_83
+      frameIndex: 83
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 70
+        width: 15
+        height: 15
+      spriteId: b7a82aeded654b92b8b3edb6339c1889
+    - name: The Evil Sage_Frame_84
+      frameIndex: 84
+      additiveSortOrder: 0
+      cellRect:
+        x: 97
+        y: 70
+        width: 17
+        height: 14
+      spriteId: a097ab25527d339dba9afa34c7831f5d
+    - name: The Evil Sage_Frame_85
+      frameIndex: 85
+      additiveSortOrder: 0
+      cellRect:
+        x: 97
+        y: 70
+        width: 25
+        height: 7
+      spriteId: 1e972045bb60fc31891151d2e5efb717
+    - name: The Evil Sage_Frame_86
+      frameIndex: 86
+      additiveSortOrder: 0
+      cellRect:
+        x: 98
+        y: 70
+        width: 25
+        height: 6
+      spriteId: 1ec41f63a5e606d5fbb2a78d027bd567
+    - name: The Evil Sage_Frame_87
+      frameIndex: 87
+      additiveSortOrder: 0
+      cellRect:
+        x: 99
+        y: 70
+        width: 25
+        height: 6
+      spriteId: e4b677ac4eedb349f8e331d9afe7c660
+    - name: The Evil Sage_Frame_88
+      frameIndex: 88
+      additiveSortOrder: 0
+      cellRect:
+        x: 100
+        y: 70
+        width: 25
+        height: 6
+      spriteId: 26840377e9476bd31a0d7593fd2e9ac5
+    - name: The Evil Sage_Frame_89
+      frameIndex: 89
+      additiveSortOrder: 0
+      cellRect:
+        x: 100
+        y: 70
+        width: 25
+        height: 6
+      spriteId: 072cf29af4143b7208f46e0a91efa43b
+    - name: The Evil Sage_Frame_90
+      frameIndex: 90
+      additiveSortOrder: 0
+      cellRect:
+        x: 100
+        y: 70
+        width: 25
+        height: 6
+      spriteId: 24691a460aa15a9db96dfab414351ffa
+    - name: The Evil Sage_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 84
+        y: 70
+        width: 41
+        height: 14
+      spriteId: b73da87c031ab0634a6b1230a968f662
+    - name: The Evil Sage_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 90
+        y: 68
+        width: 39
+        height: 16
+      spriteId: 7289fe7bbcda68cd9a6be12d6a1af188
+    - name: The Evil Sage_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 68
+        width: 41
+        height: 16
+      spriteId: 22e3af3436b2bfaabaf637d827df418f
+    - name: The Evil Sage_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 68
+        width: 42
+        height: 16
+      spriteId: c77cd8a6d795e591a81644f0d72f4e05
+    - name: The Evil Sage_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 88
+        y: 68
+        width: 44
+        height: 16
+      spriteId: a3966545c77482fb2a92c439c265c44e
+    - name: The Evil Sage_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 86
+        y: 68
+        width: 25
+        height: 16
+      spriteId: 62ce4b30b885a5efb9b7dac04d1b6da8
+    - name: The Evil Sage_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 84
+        y: 70
+        width: 18
+        height: 14
+      spriteId: 479a7ae2b2235120196e50564f3a26a5
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 192, y: 192}

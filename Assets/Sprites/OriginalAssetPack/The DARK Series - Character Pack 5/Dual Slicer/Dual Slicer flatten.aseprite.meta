@@ -1,0 +1,1357 @@
+fileFormatVersion: 2
+guid: bae7271b062fb381c875c125ba14141c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Dual Slicer flatten_Frame_0
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 125
+      width: 20
+      height: 19
+    spriteID: c9b9a0f3efd595f0d9e11272b355caad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 125}
+  - name: Dual Slicer flatten_Frame_1
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 152
+      width: 20
+      height: 19
+    spriteID: 983e111b8fee2647f95ce9b5a164323e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 152}
+  - name: Dual Slicer flatten_Frame_2
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 207
+      width: 20
+      height: 20
+    spriteID: c5cf01dd82cd66eb6864b7315e1c19ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 207}
+  - name: Dual Slicer flatten_Frame_3
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 4
+      width: 20
+      height: 20
+    spriteID: 7f23930b44f363832b504b1f80c6e459
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 4}
+  - name: Dual Slicer flatten_Frame_4
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 32
+      width: 20
+      height: 20
+    spriteID: cda599ce4149cd5688090143ea498d2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 32}
+  - name: Dual Slicer flatten_Frame_5
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 179
+      width: 20
+      height: 19
+    spriteID: 39b71b4f52d2c4574936c65c3b2e703d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 179}
+  - name: Dual Slicer flatten_Frame_6
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 206
+      width: 20
+      height: 19
+    spriteID: 3a6751ca1034428b291e4fe158a8a02f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 206}
+  - name: Dual Slicer flatten_Frame_7
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 233
+      width: 20
+      height: 19
+    spriteID: 90a5da5f6f33b0f64b7ba46da1152b07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 233}
+  - name: Dual Slicer flatten_Frame_8
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 60
+      width: 20
+      height: 19
+    spriteID: 710305fe88a32f9d593c48a5e937c58b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 60}
+  - name: Dual Slicer flatten_Frame_9
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 30
+      width: 20
+      height: 17
+    spriteID: a0c32e6d42a7c8e9b8c9e62eb93c5f9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 30}
+  - name: Dual Slicer flatten_Frame_10
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 87
+      width: 20
+      height: 19
+    spriteID: 3cab03e7b72b093868eee85173e10720
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 87}
+  - name: Dual Slicer flatten_Frame_11
+    originalName: 
+    pivot: {x: 0.65, y: -0.052631576}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 114
+      width: 20
+      height: 19
+    spriteID: 81a5d69f42c286ff19314fd9e3727ff1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 114}
+  - name: Dual Slicer flatten_Frame_12
+    originalName: 
+    pivot: {x: 0.65, y: -0.055555552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 4
+      width: 20
+      height: 18
+    spriteID: 24309dc81f71e6236b6ef3f083ef759a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 4}
+  - name: Dual Slicer flatten_Frame_13
+    originalName: 
+    pivot: {x: 0.6666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 192
+      width: 18
+      height: 17
+    spriteID: 34b30dde798634faf952dbf5ee6bd094
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 192}
+  - name: Dual Slicer flatten_Frame_14
+    originalName: 
+    pivot: {x: 0.6666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 85
+      width: 18
+      height: 19
+    spriteID: fa69b65254548d19cbf1bf72b6765630
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 85}
+  - name: Dual Slicer flatten_Frame_15
+    originalName: 
+    pivot: {x: 0.6666666, y: -0.052631576}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 112
+      width: 18
+      height: 19
+    spriteID: 64752ca7637c369299b3a96ded04ceef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 112}
+  - name: Dual Slicer flatten_Frame_16
+    originalName: 
+    pivot: {x: 0.68421054, y: -0.055555552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 139
+      width: 19
+      height: 18
+    spriteID: 2204cf69cbf7191a4a8d6d6a09690aa3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 139}
+  - name: Dual Slicer flatten_Frame_17
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 141
+      width: 20
+      height: 19
+    spriteID: 6bc392e4056cf64618528647a09224a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 141}
+  - name: Dual Slicer flatten_Frame_18
+    originalName: 
+    pivot: {x: 0.65, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 168
+      width: 20
+      height: 19
+    spriteID: 870698d4fd27ec75a851bb26e2a6ae93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 168}
+  - name: Dual Slicer flatten_Frame_19
+    originalName: 
+    pivot: {x: 0.6111111, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 165
+      width: 18
+      height: 19
+    spriteID: bc7466f32729a1b1e97c3b1ac52726bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 165}
+  - name: Dual Slicer flatten_Frame_20
+    originalName: 
+    pivot: {x: 0.4210526, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 195
+      width: 19
+      height: 19
+    spriteID: 4ec2736c25fb179059007c633046feee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 195}
+  - name: Dual Slicer flatten_Frame_21
+    originalName: 
+    pivot: {x: 0.4210526, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 222
+      width: 19
+      height: 19
+    spriteID: 63520c193739fc517bef60b186e4c5e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 222}
+  - name: Dual Slicer flatten_Frame_22
+    originalName: 
+    pivot: {x: 0.4210526, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 4
+      width: 19
+      height: 19
+    spriteID: 003252e1cbf78177ea2c1cb5078e2873
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 4}
+  - name: Dual Slicer flatten_Frame_23
+    originalName: 
+    pivot: {x: 0.72, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 235
+      width: 25
+      height: 16
+    spriteID: 3a0f880019a89d4b69cfe51e5e94fb1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 235}
+  - name: Dual Slicer flatten_Frame_24
+    originalName: 
+    pivot: {x: 0.7083333, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 53
+      width: 24
+      height: 16
+    spriteID: 994b5f684db200efe80cea8ef1c4563d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 53}
+  - name: Dual Slicer flatten_Frame_25
+    originalName: 
+    pivot: {x: 0.6956522, y: 0.058823526}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 28
+      width: 23
+      height: 17
+    spriteID: 69b7f18fac1beb7038baa89999906706
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 28}
+  - name: Dual Slicer flatten_Frame_26
+    originalName: 
+    pivot: {x: 0.6666667, y: 0.058823526}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 182
+      width: 24
+      height: 17
+    spriteID: acd06b36790d4719983aa6d5cf3508d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 182}
+  - name: Dual Slicer flatten_Frame_27
+    originalName: 
+    pivot: {x: 0.64000005, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 25
+      height: 25
+    spriteID: bd7cb8e55f45c496eb0c631675066aee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Dual Slicer flatten_Frame_28
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 37
+      width: 24
+      height: 23
+    spriteID: 747d31eec8dd3f5ecb6c31231fcba6fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 37}
+  - name: Dual Slicer flatten_Frame_29
+    originalName: 
+    pivot: {x: 0.6086957, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 99
+      width: 23
+      height: 22
+    spriteID: 4b7e3bf937657d4e3be49584d3efe62f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 99}
+  - name: Dual Slicer flatten_Frame_30
+    originalName: 
+    pivot: {x: 0.6086957, y: 0.043478258}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 68
+      width: 23
+      height: 23
+    spriteID: 38920e2f26d9adcac90767e293cfc6ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 68}
+  - name: Dual Slicer flatten_Frame_31
+    originalName: 
+    pivot: {x: 0.49999997, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 153
+      y: 4
+      width: 24
+      height: 15
+    spriteID: 6e473385f03ca702c87a71db3e906517
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 153, y: 4}
+  - name: Dual Slicer flatten_Frame_32
+    originalName: 
+    pivot: {x: 0.49999997, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 77
+      width: 24
+      height: 16
+    spriteID: b67d102bf981594468af8b443eaf0658
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 77}
+  - name: Dual Slicer flatten_Frame_33
+    originalName: 
+    pivot: {x: 0.49999997, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 101
+      width: 24
+      height: 16
+    spriteID: bafd66938f96bd5df85d43658ca8104d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 101}
+  - name: Dual Slicer flatten_Frame_34
+    originalName: 
+    pivot: {x: 0.4210526, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 31
+      width: 19
+      height: 19
+    spriteID: 46c859bd74aaf05d48183652ae81cedf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 31}
+  - name: Dual Slicer flatten_Frame_35
+    originalName: 
+    pivot: {x: 0.4210526, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 58
+      width: 19
+      height: 19
+    spriteID: f9d5d6a8703889221bf48cb1a6f2e768
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 58}
+  - name: Dual Slicer flatten_Frame_36
+    originalName: 
+    pivot: {x: 0.4583333, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 129
+      width: 24
+      height: 19
+    spriteID: f9b1f1660ec2970899e4599debf27eea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 129}
+  - name: Dual Slicer flatten_Frame_37
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 156
+      width: 25
+      height: 18
+    spriteID: e1a1ab035ce2de977a64f7a09c2027d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 156}
+  - name: Dual Slicer flatten_Frame_38
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 4
+      width: 25
+      height: 16
+    spriteID: 39198fd7fe3037d68983bcd92e502a09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 4}
+  - name: Dual Slicer flatten_Frame_39
+    originalName: 
+    pivot: {x: 0.4285714, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 32
+      width: 28
+      height: 6
+    spriteID: c6a6f6925d876fcdba69f381b9d02389
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 32}
+  - name: Dual Slicer flatten_Frame_40
+    originalName: 
+    pivot: {x: 0.41379306, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 18
+      width: 29
+      height: 6
+    spriteID: bf82c5ac5b1d305a0b78b6143d40d394
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 18}
+  - name: Dual Slicer flatten_Frame_41
+    originalName: 
+    pivot: {x: 0.4, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 4
+      width: 30
+      height: 6
+    spriteID: ff6ed02627d1839d2a75374c328c9c56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1104556258
+    name: Dual Slicer flatten
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Dual Slicer flatten_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 19
+      spriteId: c9b9a0f3efd595f0d9e11272b355caad
+    - name: Dual Slicer flatten_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 19
+      spriteId: 983e111b8fee2647f95ce9b5a164323e
+    - name: Dual Slicer flatten_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 20
+      spriteId: c5cf01dd82cd66eb6864b7315e1c19ae
+    - name: Dual Slicer flatten_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 20
+      spriteId: 7f23930b44f363832b504b1f80c6e459
+    - name: Dual Slicer flatten_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 20
+      spriteId: cda599ce4149cd5688090143ea498d2d
+    - name: Dual Slicer flatten_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 19
+      spriteId: 39b71b4f52d2c4574936c65c3b2e703d
+    - name: Dual Slicer flatten_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 19
+      spriteId: 3a6751ca1034428b291e4fe158a8a02f
+    - name: Dual Slicer flatten_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 19
+      spriteId: 90a5da5f6f33b0f64b7ba46da1152b07
+    - name: Dual Slicer flatten_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 19
+      spriteId: 710305fe88a32f9d593c48a5e937c58b
+    - name: Dual Slicer flatten_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 17
+      spriteId: a0c32e6d42a7c8e9b8c9e62eb93c5f9b
+    - name: Dual Slicer flatten_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 19
+      spriteId: 3cab03e7b72b093868eee85173e10720
+    - name: Dual Slicer flatten_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 1
+        width: 20
+        height: 19
+      spriteId: 81a5d69f42c286ff19314fd9e3727ff1
+    - name: Dual Slicer flatten_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 1
+        width: 20
+        height: 18
+      spriteId: 24309dc81f71e6236b6ef3f083ef759a
+    - name: Dual Slicer flatten_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 18
+        height: 17
+      spriteId: 34b30dde798634faf952dbf5ee6bd094
+    - name: Dual Slicer flatten_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 18
+        height: 19
+      spriteId: fa69b65254548d19cbf1bf72b6765630
+    - name: Dual Slicer flatten_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 1
+        width: 18
+        height: 19
+      spriteId: 64752ca7637c369299b3a96ded04ceef
+    - name: Dual Slicer flatten_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 1
+        width: 19
+        height: 18
+      spriteId: 2204cf69cbf7191a4a8d6d6a09690aa3
+    - name: Dual Slicer flatten_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 19
+      spriteId: 6bc392e4056cf64618528647a09224a4
+    - name: Dual Slicer flatten_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 19
+      spriteId: 870698d4fd27ec75a851bb26e2a6ae93
+    - name: Dual Slicer flatten_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 0
+        width: 18
+        height: 19
+      spriteId: bc7466f32729a1b1e97c3b1ac52726bc
+    - name: Dual Slicer flatten_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 0
+        width: 19
+        height: 19
+      spriteId: 4ec2736c25fb179059007c633046feee
+    - name: Dual Slicer flatten_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 0
+        width: 19
+        height: 19
+      spriteId: 63520c193739fc517bef60b186e4c5e8
+    - name: Dual Slicer flatten_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 0
+        width: 19
+        height: 19
+      spriteId: 003252e1cbf78177ea2c1cb5078e2873
+    - name: Dual Slicer flatten_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 25
+        height: 16
+      spriteId: 3a0f880019a89d4b69cfe51e5e94fb1c
+    - name: Dual Slicer flatten_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 0
+        width: 24
+        height: 16
+      spriteId: 994b5f684db200efe80cea8ef1c4563d
+    - name: Dual Slicer flatten_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: -1
+        width: 23
+        height: 17
+      spriteId: 69b7f18fac1beb7038baa89999906706
+    - name: Dual Slicer flatten_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: -1
+        width: 24
+        height: 17
+      spriteId: acd06b36790d4719983aa6d5cf3508d8
+    - name: Dual Slicer flatten_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 0
+        width: 25
+        height: 25
+      spriteId: bd7cb8e55f45c496eb0c631675066aee
+    - name: Dual Slicer flatten_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 0
+        width: 24
+        height: 23
+      spriteId: 747d31eec8dd3f5ecb6c31231fcba6fe
+    - name: Dual Slicer flatten_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 4
+        y: 0
+        width: 23
+        height: 22
+      spriteId: 4b7e3bf937657d4e3be49584d3efe62f
+    - name: Dual Slicer flatten_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 4
+        y: -1
+        width: 23
+        height: 23
+      spriteId: 38920e2f26d9adcac90767e293cfc6ba
+    - name: Dual Slicer flatten_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 24
+        height: 15
+      spriteId: 6e473385f03ca702c87a71db3e906517
+    - name: Dual Slicer flatten_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 24
+        height: 16
+      spriteId: b67d102bf981594468af8b443eaf0658
+    - name: Dual Slicer flatten_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 24
+        height: 16
+      spriteId: bafd66938f96bd5df85d43658ca8104d
+    - name: Dual Slicer flatten_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 0
+        width: 19
+        height: 19
+      spriteId: 46c859bd74aaf05d48183652ae81cedf
+    - name: Dual Slicer flatten_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 0
+        width: 19
+        height: 19
+      spriteId: f9d5d6a8703889221bf48cb1a6f2e768
+    - name: Dual Slicer flatten_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 0
+        width: 24
+        height: 19
+      spriteId: f9b1f1660ec2970899e4599debf27eea
+    - name: Dual Slicer flatten_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 25
+        height: 18
+      spriteId: e1a1ab035ce2de977a64f7a09c2027d9
+    - name: Dual Slicer flatten_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 25
+        height: 16
+      spriteId: 39198fd7fe3037d68983bcd92e502a09
+    - name: Dual Slicer flatten_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 28
+        height: 6
+      spriteId: c6a6f6925d876fcdba69f381b9d02389
+    - name: Dual Slicer flatten_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 29
+        height: 6
+      spriteId: bf82c5ac5b1d305a0b78b6143d40d394
+    - name: Dual Slicer flatten_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 30
+        height: 6
+      spriteId: ff6ed02627d1839d2a75374c328c9c56
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 36, y: 25}

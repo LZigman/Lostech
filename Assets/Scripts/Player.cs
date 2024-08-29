@@ -14,7 +14,6 @@ public class Player : MonoBehaviour
 	[SerializeField] private LayerMask groundLayer;
 	[SerializeField] private Transform groundCheck, gunTransform, gunBarrelTransform;
 	[SerializeField] private GameObject bulletPrefab;
-	[SerializeField] private Animation runRight;
 
 	private int isFlippedId, isMovingId;
 	private void Start()
@@ -24,21 +23,15 @@ public class Player : MonoBehaviour
 	private void Update()
 	{
 		rb.position += movementSpeed * horizontal * Time.deltaTime * Vector2.right;								// moving player according to horizontal input
-		if (horizontal > 0)
-		{
-			runRight.Play();
-		}
 	}
 	public void OnMoveInput (InputAction.CallbackContext context)
 	{
-		Debug.Log("Horizontal movement!");
 		horizontal = context.ReadValue<Vector2>().x;															// getting horizontal input
 	}
 	public void OnJumpInput (InputAction.CallbackContext context)
 	{
 		if (context.phase == InputActionPhase.Performed && isGrounded == true)									// getting jump input
 		{
-			Debug.Log("Jump!");
 			rb.AddForce(jumpHeight * Vector2.up, ForceMode2D.Impulse);											// adding jump force
 		}
 	}

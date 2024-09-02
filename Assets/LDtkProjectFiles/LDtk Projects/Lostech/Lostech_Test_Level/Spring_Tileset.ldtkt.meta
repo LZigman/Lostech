@@ -1,0 +1,8079 @@
+fileFormatVersion: 2
+guid: c961624fd0377534c88b1c33d8c7966b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _sprites:
+  - name: Spring_Tileset_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 368
+      width: 16
+      height: 16
+    spriteID: b6ed01c5adddc41479c16c6bc08bc595
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 368
+      width: 16
+      height: 16
+    spriteID: cdf62db6eee8ebd49a42c137e9dc0547
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 604d6a4c24e845c458aa06c56e8c4663
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 05845b05cacda6d43bb508b3946d4d15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 201aeb0dbe9b1b64f88c5e94e806024c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 987ba0d27797b9149ad62cbe544fc06f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 96808679559789d48abf7955cd4b6911
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 368
+      width: 16
+      height: 16
+    spriteID: c7c5fe5fbde249948bf063e56dfb67a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 6b98808b4ab108e4491b89f5f2b8adfc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 23c69f88bbcc9684c999b47a6c36f879
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 368
+      width: 16
+      height: 16
+    spriteID: b7647fd1fafaade4ba396a381b2c5d4a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 368
+      width: 16
+      height: 16
+    spriteID: ab7b80f155b4bd74fa073ad248ed8581
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 368
+      width: 16
+      height: 16
+    spriteID: e5c732b4985a7994b9b0819bfab6d8b5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 06785e64d78b89745ba76ebb55a767d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 5c2a0c5a3a2882a4c897d995760bea84
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 93a99f2c665bac748bbceaaf6c77e64f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 368
+      width: 16
+      height: 16
+    spriteID: b5e57ef6488a7b64c848d657e3c402f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 5822e7b814a6aad45b7ff72fc2c870a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 65944c6e45ccfd14caae2a5f748dca5c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 5ad02caa66c4a894b821dc03b697b8fd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 47b4ee3336d34bd4098e6bafd4cd874c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 84281f8786bc1854cad44d65ec1bde16
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 52c419139dfbadd4ab6f670ace37db0c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 368
+      width: 16
+      height: 16
+    spriteID: e213cb0cee86c9d469673143f1fe3a81
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 352
+      width: 16
+      height: 16
+    spriteID: aece3eed9a40dae42973f3fa7cd1ad28
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 0d634c5604930494dba67763123e144f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 007e61aa9421c08468db8a3d3ba7d48e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 352
+      width: 16
+      height: 16
+    spriteID: ce7e5ea601339744997a75248f2f1299
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 352
+      width: 16
+      height: 16
+    spriteID: c09f90616debffc4f997639fb1f92827
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 1ddec7884cba20b4fbc1a0fe7233b7b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 8f667b3c05d418c4f831e0614b49cbe4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 79c12ddda8d490f4d8bfa9b4e065da48
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 352
+      width: 16
+      height: 16
+    spriteID: d5ac185c7f0e62d479bc86ea31517638
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 352
+      width: 16
+      height: 16
+    spriteID: fe6844c16540de543a6222f1674e4a6e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 352
+      width: 16
+      height: 16
+    spriteID: c4d12bb718d94b34d9ff3b4cfa116d7e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 348bdfcd8424eb144aca76d96f86174b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 7c007cbb18a39c04cadbabdf8d846f30
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 352
+      width: 16
+      height: 16
+    spriteID: b6beda18ffb133b42af15fd247195752
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 36efc588d4fba14438925e0bb5fb5ee7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 352
+      width: 16
+      height: 16
+    spriteID: d82ba68ca96c1a04486d1bc2d8120b95
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 1a73442d47faa6c4bb247c0c7707e61f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 352
+      width: 16
+      height: 16
+    spriteID: da69bf44486dc4c4b89f499281118015
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 352
+      width: 16
+      height: 16
+    spriteID: b509791e761753d488c7356e0bbed5be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 05de9d3585c702445b70b9250f681516
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 352
+      width: 16
+      height: 16
+    spriteID: e5340c66dee9ccb4e951b468265fae39
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 352
+      width: 16
+      height: 16
+    spriteID: a69c69a852d7076449502df9798f9b84
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 43f9099d5eeecaf458f2e14526462fc2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 352
+      width: 16
+      height: 16
+    spriteID: a20646a4b5d7c0740a4f891e45c82b20
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 336
+      width: 16
+      height: 16
+    spriteID: a3b03c3c94cde664d9f1408796b93160
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 18f4e1a93aca88f48913961eb9559388
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 405e88f895e5fa4458a4d47031920d0b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 336
+      width: 16
+      height: 16
+    spriteID: ec8e06c4764be3940b31760f1d62eb25
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 623b2860f6d45814eb4a720a84ec968c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 45e3cfb569f6b7e47b03575fbe2807a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 46902724cdb65ca4f8b3cc770236b92f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 73f154bdc4e2d694da202d405fa94e58
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 482cc0a34641c104da3a90ed877157d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 9cdc7088237ea794db6733edf9cde91e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 755e524a9e45d3f41b35fd5a64abbc47
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 8fb6b80ba5c481f48a11948f0f3eb44f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 1c1f44a21e62cad4db8c57acc4ee9f81
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 8fd6e6c87e62d8248b362fd73ea5bcbd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 6b938347e72ce7943852be69496e7a0f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 3d945eea608e326478dab0908c8c8c63
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 147da8474b0db054d9611208c38de253
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 662cdcf3837ee11459b44172c3af4f56
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 336
+      width: 16
+      height: 16
+    spriteID: ecab1dd59ffa3f341b43b14813907deb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 336
+      width: 16
+      height: 16
+    spriteID: d2828b84f2f0a9649987d4a290b9c680
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 6c4920222bdb8194bbefccac947b2137
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 86acd3d4a4900df4e87a424e72ed706b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 336
+      width: 16
+      height: 16
+    spriteID: f0d6404521fc380468570b1c31bd24f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 336
+      width: 16
+      height: 16
+    spriteID: b28760fddc4c5c44e96aa962bd3e728c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 320
+      width: 16
+      height: 16
+    spriteID: a73312c732a932b4da45b2890c8ffe65
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 41590bdd49e0a104eacb5597f7901f24
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 96a504a70aa3144488b9124c3445d496
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 76795992df4c9bc449b3069a8c758707
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 33d497d3ecadc5a469e3c0dfcb554640
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 39bbb24b4a14ca24b8241eb466125435
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 320
+      width: 16
+      height: 16
+    spriteID: c32d081b575ca6747a328005ef1b14fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 52a35ed25aae1f94f8dc487025897b20
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 5b13be56bf6cd6e4cbfc7b131f2a34ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 500c0d71eb397b841a2103d9dc1071d5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 3e7e2384da382c047a32abf010df9c14
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 3ebb62981eed21a42999c29e760c6691
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 4463abc79a9d75043b7c3b00a9275a92
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 320
+      width: 16
+      height: 16
+    spriteID: c82086c293d7a3a4d8d2e8b0dcfb4087
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 30836ae8d247c5d489df357dd7d0d98f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 8b57b227cdac2104a90e6c10dddc441d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 733f07638fa91024cb97ed8e901519a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 320
+      width: 16
+      height: 16
+    spriteID: ab30ff0e101a14e44a18805e9f5e01ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 09bba019e52bb474a9fa3c10e60a6616
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 320
+      width: 16
+      height: 16
+    spriteID: f12d20a0085b9f945af098645ca4dd8a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 320
+      width: 16
+      height: 16
+    spriteID: ce98be2d57bd2214e819e336b5a41027
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 33fd9e48a5fd5e4419a9a3bdfc7b6816
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 230d28e7c331a434bb44f81656a026ac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 320
+      width: 16
+      height: 16
+    spriteID: af341660973f12349a490ee81b24c255
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 1eda2059187b7b14ca0fd4bfec2c7345
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 304
+      width: 16
+      height: 16
+    spriteID: b2b6fbc04c4e0e647b2379616e6502ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 6b4c34f61764c8c4badc85f90c4a1268
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 304
+      width: 16
+      height: 16
+    spriteID: eb06e51fcb390284397337f0a336caaa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 304
+      width: 16
+      height: 16
+    spriteID: aa79960c8f296214ba681874811af1ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 3f0ae57f35d2b4544b0e80d8b29c1bac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 5546039213fae45448bdd18a4df520bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 9a4505935606bc5419c2fb7372711565
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 113cd6f9a82646f449ebe97e6e790ab3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 304
+      width: 16
+      height: 16
+    spriteID: d548df341e008f54da25bd2a930cc895
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 304
+      width: 16
+      height: 16
+    spriteID: c9db9b689dc7e8f4baded7c152dcb0bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 7f384bb1e3f195d4197b55a950af10e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 0fdc30158b83adc438f70c39969c1216
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 304
+      width: 16
+      height: 16
+    spriteID: aeee31862d4179644bc270f8d015d70b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 38db940ec4f285e45946bbce2e860420
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 657ebc9287048de45bc0de3c50f9175c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 9209b069d5ad3c94d9906e1e8bee37ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 8f5dc4028d67d8541b5e03951e5ab00e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 9aeffd9db3b28954f8c3ec9f2be85534
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 48a770ff577da2a4d9849b24af838fc4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 304
+      width: 16
+      height: 16
+    spriteID: d801902346a61fa4aa556532d0fe4099
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 304
+      width: 16
+      height: 16
+    spriteID: da99430ec70ce7c429b0c8e3b39bc0c9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 304
+      width: 16
+      height: 16
+    spriteID: b9847ae78995fe641acf5b4969ce1b6a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 7af824185bac73543bb661cd7535b03b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 72f3755bb63e49f4aba694d103b8bec2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 288
+      width: 16
+      height: 16
+    spriteID: d7875cf01f1c01743bd63e98880c065b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 05940faabd49db44abdc446bcc523332
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 288
+      width: 16
+      height: 16
+    spriteID: bdba783ab90516a4d8df64187955e282
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 869f0077b5a26f44cbabd0ca8f763896
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 0d61e8378f1f0564fb6a881a833b328b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 288
+      width: 16
+      height: 16
+    spriteID: dde2887e602bd114b8a18da9dead4877
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 288
+      width: 16
+      height: 16
+    spriteID: a6721e337f0264f468efc8e84f3c7fdf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 288
+      width: 16
+      height: 16
+    spriteID: e09fdbce2e3904847bf072ffa39db86c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 614b274863a268f4b9bae93a25356d16
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 288
+      width: 16
+      height: 16
+    spriteID: aff3f185b8e6e9b458189fe62509f9e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 288
+      width: 16
+      height: 16
+    spriteID: db30d9d7218d0fb48b6575904e34724d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 288
+      width: 16
+      height: 16
+    spriteID: ca73aa0046b404c468113ba33bf9eb9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 3869aac0947d238428d6e87a396b92bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 7954cf7b78924af46a212586da769382
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 1c330783b499391408222363cd263588
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 288
+      width: 16
+      height: 16
+    spriteID: c7ce8773ae7103945aa8a470a641cde5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 1629566558852024083b22e11ef9aa40
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 288
+      width: 16
+      height: 16
+    spriteID: b8bbcd0edf9bd5f408e40bc37b5d1742
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 88688ecbd1a0c504aa646ee18e5e1569
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 288
+      width: 16
+      height: 16
+    spriteID: f2af000a27a1b7e4082b31594ece3da8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 288
+      width: 16
+      height: 16
+    spriteID: ed0f530868be3804e982b549d4621ea2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 4d1f125a29825f34dad36c9fb3e12cf7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 387a7487a816b52439d08905977acffa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 184b0d1aedccc4341826a572f2486438
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 7cfad9dbe5dede643bec13d2942beadd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 272
+      width: 16
+      height: 16
+    spriteID: ba480940dd77b5c478f54514c7ec7a56
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 272
+      width: 16
+      height: 16
+    spriteID: d646ace8246d167449ee1587d4f05a4e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 272
+      width: 16
+      height: 16
+    spriteID: d46e77f44707e284bb4d11bc335f794f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 5fa97dc9b1af240468e4cf3727dd6528
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 1ad0d653696e5764b88c5fd8305ca5aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 813539983c0843b4598f712be92a7068
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 2ef7d11dba6385540b143aa36498dea3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 272
+      width: 16
+      height: 16
+    spriteID: c60519863bd6b4f40ba8ab5d0dfcca95
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 272
+      width: 16
+      height: 16
+    spriteID: da24a7f80fc654449a00e18f209dfdcd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 272
+      width: 16
+      height: 16
+    spriteID: aedd771d351cf4e4b8ec96c734c3c37a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 71b2ffb1a110aa542b8237f8b00fbd15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 272
+      width: 16
+      height: 16
+    spriteID: fb158f34ddc82c841b9c394df8b98c26
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 0c85ab16b60da3a4c8329e30f2934ce5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 272
+      width: 16
+      height: 16
+    spriteID: b408e1b0dd7628c4e8b67943c6c9391e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 272
+      width: 16
+      height: 16
+    spriteID: adbb89e1e5cc46141afc60043e3fbf26
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 09ca83afb5ef6ba42871996aa6259720
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 272
+      width: 16
+      height: 16
+    spriteID: c9d002ce0e229204abd4fa38096eade5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 78b355e91b1321849982f192338e9f1c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 6baafeb3c8cf6ca438ec469a2a98f9c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 670e6f58a09f65d47bc11a8297def2cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 1d50e68adc2159c4483ebfc2ed8d7bae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 8a0ad6815edd23c4d85d36f5b11a27ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 256
+      width: 16
+      height: 16
+    spriteID: c9c609379b4afd64b81d7e9df85d8695
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 6bc88ca36a388614eb29557187c7badc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 3fcacd07414b8764196be6329fcd6970
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 1b23522d5f89b6a4099526e9f03eab60
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 70956d145cdad9b4fa6cdb0422179d14
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 256
+      width: 16
+      height: 16
+    spriteID: ba9e47ba4f0f61c449c0d1f2c249adbe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 8fb01728bb5226d4a82c4e98d0593896
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 549e9f3b915c7fe4cb3e3a467115e761
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 0beb5974f45ee1246923e2d3a81c76fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 1113455fc0fa56a4684d38e3370ceba5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 256
+      width: 16
+      height: 16
+    spriteID: ec1fceb6b03ac56418b3fe57d9637a93
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 7770e2ecb692ffd41bcfeb4f0fe43a73
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 74c41aa004c3f554b809cde9015f2a3a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 18084a294947ee84fab6502f10c2ba25
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 883f619fa2301744a8525db4f5fee470
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 256
+      width: 16
+      height: 16
+    spriteID: bbeab3aeebd79964487dcf270cd97ee4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 256
+      width: 16
+      height: 16
+    spriteID: afdb48f3516c41d4ab8bd3863f32fe99
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 6a77dcc214b16d94eb782ecc499f4933
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 6d83f4cfd9a84f649bf6b237d2723d09
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 4c9a9db7e5ac465468185b105f8c79cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 63b77563d3907a0499baaed67470a80f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 6b367c2139edfc5448a6e90a29772e92
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 256
+      width: 16
+      height: 16
+    spriteID: d392820ddd1ac254ab59a193717951f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 36f7a479065e268498c5d1fe8bed56b5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 5877169be0d0af04297d59cfe169ffc8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 5cce54127473cf2428cbbe8b4633d26b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 240
+      width: 16
+      height: 16
+    spriteID: b88f030422041e443a8d2afa56750dcf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 9f458841abfa80243b6e5a03fbbb1cc4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 84aa1766a0d868a438beecdf96df6785
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 056cc5e0ff709f343a99eb0753ac29c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 240
+      width: 16
+      height: 16
+    spriteID: e7dd185987fd6ab4fa81028c5e935886
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 240
+      width: 16
+      height: 16
+    spriteID: a1e73787db739674e917d30fb7910c0a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 114de3ce385a8394398023c2faebd579
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 240
+      width: 16
+      height: 16
+    spriteID: d9dfb82246b90114e923f7fd61a9a843
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 6de9633002fe7ac4d92a7d5881db7d57
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 557210d795daa5346bdb9b16a885d562
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 2a72fd2f280ef654285ea9bb2674248d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 3cf3c1ca6a848c9459c5e3837327094d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 240
+      width: 16
+      height: 16
+    spriteID: d8311142ad5630a489d6741901506a77
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 535810c917805204d90d0e8acb8a91bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 240
+      width: 16
+      height: 16
+    spriteID: a9afebaf9dacc8544ae76014863467ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 3e0d66f1281a7e549b917ff4830dc1cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 5829f30f6566d6e4aa7ff3667df51209
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 207d7faf5e836d24fb991eb31f78a23b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 240
+      width: 16
+      height: 16
+    spriteID: ae2209e85bae30949aebd59f87890237
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 240
+      width: 16
+      height: 16
+    spriteID: fd6b65ecf1d91a4438e3adaab6be7b1e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 819d938fadeb28647a527aa7237c6bff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 240
+      width: 16
+      height: 16
+    spriteID: f39112111eb37af49aa024665a00a53e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 9d1201e7b668a9748805147a0c701098
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 1ae961e338379f14dbd9bb16df0812dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 6b55cb807a38f4c4f9a6ca6459bda393
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 28b6810320e85ed46ae756f253bf7d2a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 67a67071635240c44912ad8ec4a19913
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 9532dc2496ac1ce49b638fbb3ee13b92
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 1f10c0389f4e45a40852e539b597b729
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 152e9b07870947c46a288ef73c2dad5a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_224
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 8a3158e54744fae48b3bbd39a4c25485
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_225
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 224
+      width: 16
+      height: 16
+    spriteID: e23cdc25780d86747940fb33bd8f981a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_226
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 9b94a228949b1b74ea8c49deca7842c6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_227
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 3866cd69f0c6e814eacdb84d4bddc3cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_228
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 224
+      width: 16
+      height: 16
+    spriteID: fd476b6151ce5d143824d8687367fa20
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_229
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 224
+      width: 16
+      height: 16
+    spriteID: ae4e5fc5c868a58449cee60e8185bf5a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_230
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 224
+      width: 16
+      height: 16
+    spriteID: e8a21c1aac33c1f4d87f961ac87ba13b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_231
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 7a5f9df2f87a6e84e90197f66104e4d5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_232
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 224
+      width: 16
+      height: 16
+    spriteID: b08c4af9ecd16274e977ea415d1d64bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_233
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 361ec5c7374b8144a92ee5321c6b6911
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_234
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 224
+      width: 16
+      height: 16
+    spriteID: e2c59a9e47bc35c4c8d58f36b9ebeda6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_235
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 4aa014829ecf5c947a293c62f1600bce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_236
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 076172d25af9f6949a673341f2c394d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_237
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 224
+      width: 16
+      height: 16
+    spriteID: e37f79cc87e02a94aa14336978caaf85
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_238
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 224
+      width: 16
+      height: 16
+    spriteID: a669f4929bbfd094086bda6faf448050
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_239
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 618b99d09d6a75943a5997f980d4eae3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_240
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 0f39c6ad6b619ec43949b8145b13720c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_241
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 7fd0df3cac7fa8f46935b35e3920e441
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_242
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 208
+      width: 16
+      height: 16
+    spriteID: b7f69e13970e54c41abd22eb738f9a13
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_243
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 387c13d01f8dd9248ae40f1bd9cfae35
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_244
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 1ee63d8ae2d988c4e9b3fe5f6a1a0ac1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_245
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 208
+      width: 16
+      height: 16
+    spriteID: f90ec31b4fd06724ab7c71bc12248c7a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_246
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 4b009216e6cdde44191acdec9e324d20
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_247
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 84238518aa1caef4cbf8c687194b0fd9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_248
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 208
+      width: 16
+      height: 16
+    spriteID: b96aa921ad0bc5f48ac606adca90227a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_249
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 79b32916062631a4e8c199aef8bd9cff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_250
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 62158eb897fdea347bb3d57b57b71e69
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_251
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 875e73feb4a6b734ca501686201de410
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_252
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 70bbebb66870afb43809aa08b233b10b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_253
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 43d6e80171f529c43a5c5a2208756e3d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_254
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 208
+      width: 16
+      height: 16
+    spriteID: c5148050fb988a94ca44fa8d981b10ff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_255
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 0dfb77452a0f49f418a40c0e5856c3a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_256
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 208
+      width: 16
+      height: 16
+    spriteID: ef16587aba57a8842b8898998779dee4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_257
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 3ae81b21a9f775b40ba3a13c94e459ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_258
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 886d04e4eb79ec44c957529c165bf9a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_259
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 3a657015f5fe1514889dabc8aadf49ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_260
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 208
+      width: 16
+      height: 16
+    spriteID: c5a28ea0938608646830815499aaf8da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_261
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 8eea34e2c0db15248b32f86b3f44b191
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_262
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 088ad711656dfaa4095b728b228b10ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_263
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 370c8b14db48f2c47b6bf0bac5f211b5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_264
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 077662769bd60d94fa8251ca785936c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_265
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 192
+      width: 16
+      height: 16
+    spriteID: a2dff26db952d544c9f69ea85e139b24
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_266
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 16
+      height: 16
+    spriteID: a709498361af2024d89c670e5b65a559
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_267
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 925a88fd2c310be4c90eb7dae3746274
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_268
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e46b871b61866904aa8bb9eef797f7ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_269
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 7939f24761ef6f142a35ed05caa03cae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_270
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 6782b02570c781d438385b53cd53d099
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_271
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 88a2cc13dea7ef4419da5f99411864f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_272
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 27bd2f08e8c349541aed19090a5572ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_273
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 7ed25827e9d9a65459e1bd898fe576e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_274
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 16
+      height: 16
+    spriteID: b959eb2c0576a5e43ba757f644db0514
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_275
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 83c5dff266c9441428b536df7fb08bc5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_276
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 0c31d304f90ce89458249fd4b3f16445
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_277
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 314b41129f063fc4399b056cb9fd8b79
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_278
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 2359f4ff65983324492791fb7174c324
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_279
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 192
+      width: 16
+      height: 16
+    spriteID: bdd6db7c6fa36e342a1d55bfbf53987c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_280
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 0caae132b4e1f144c912d031dfc2bd9a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_281
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 192
+      width: 16
+      height: 16
+    spriteID: f8b2e4d0c2517b4408143e5eec2dfa4f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_282
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 228c42e44a2922549b6fcba8d726a11c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_283
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 192
+      width: 16
+      height: 16
+    spriteID: fd6c5a9d044291a4b9cd25b4c4009a2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_284
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 70b28cf8d3a20c54f88e997eb00a5342
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_285
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 192
+      width: 16
+      height: 16
+    spriteID: b57ad0fec3681a942b0bcbcc78964791
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_286
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 192
+      width: 16
+      height: 16
+    spriteID: a87ef405da4983a488d4081e3b01b869
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_287
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 83fdbf26901c1874983c99a215953c2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_288
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 8ea3d2285bf4eec4a896cbfbe1f3cece
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_289
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: d506abb1940112e4e846c2ab90700fe1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_290
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 6839ba6654b9f9d498dbaa5e896b8431
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_291
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: f2debaab365426749ad53542ee39aebd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_292
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 1562c70095762c94c93e8333b8d2ad48
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_293
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ff310d9348dcc304eb09516eac7dc398
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_294
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 96d0d70104c45804e9c871465d0391da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_295
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: d971a52950156b04abf75dce639ae646
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_296
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 7a0db3e6c9ee2c5429b53480f065731d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_297
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 5951957ddf5c99c4facd2cf0c9e55303
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_298
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 12cbb074504449b47b797f5e277704dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_299
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 8df5b7862b9f20d469568cba45bb11f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_300
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 877e525be1b6aed4b82eeb089d6e5386
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_301
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: fd22872f7d1d3e34ab11b271c958235f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_302
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 5831ed7db6fd33a4d9b9c71b9ec8aa06
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_303
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 5cf1de7452119cf468a85b625d4ca407
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_304
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 176
+      width: 16
+      height: 16
+    spriteID: dc8d09343dd65f541b8b301b4300aa08
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_305
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 003e413698fb12a4c982b955b9904cde
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_306
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 1ca527e4c41b8e64f982489aaf5019c7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_307
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 2fde68e9caedc4e47a275a199a36a9b1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_308
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 7d08c6ca95d1d5b40a30dc524f909fe0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_309
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 56b0c78d5dcd0db49a3a2e82fb7b2f2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_310
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 176
+      width: 16
+      height: 16
+    spriteID: d44b6d6cb1e62264ebcc50aad2a1d24c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_311
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 3674d4145b88f514cb2d58e3a2a4f8d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_312
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 815b6aa5e6a120c478c4fed9129ad069
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_313
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: a4ec9ce582115c04395f581960ee7f88
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_314
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 6533382377b21564384abf3cc6fa23fb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_315
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 55ced2411e039a64e9b43aa2976cdd98
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_316
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 98f988f1e32ee3f40a001b201d8d63cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_317
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: bb0685007be6b66428ca2caae4b6d370
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_318
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: da5c53ec310e991448a2b12688ddc490
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_319
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 2cf31a85b45c68e4aa17491f803368ff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_320
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 7cc2334b430d0d947832cee05951f00d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_321
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 47f093640966e8c45ac47488ec027449
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_322
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 9f0975764d30c2e4c91a38c14b87d7a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_323
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 6efdfa9588a08c8459ce35edd468e8ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_324
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: b2be84d93154a1846b6e2e5e7c147c1f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_325
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 41d811eea7b2bc24aa867ee65eedfe6c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_326
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 7284666d2833a47458a366183e24a5ef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_327
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 4bf074dac9f6e464d95481fe9eb0b9c5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_328
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 7f5f15592d7f9f1409ae51c3d25e78a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_329
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c07c7496413ae6144901643a2bb368cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_330
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 160
+      width: 16
+      height: 16
+    spriteID: af41d89905c12ae4e90c21471c3dc13d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_331
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c04ff31441a86b74ca60e9ca93f31134
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_332
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 160
+      width: 16
+      height: 16
+    spriteID: db4c38bf14b50b443bae9078ace45be2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_333
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 160
+      width: 16
+      height: 16
+    spriteID: e91e814e5320b5b4aa03eeba6aec9038
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_334
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c7eaa8b4591bca542a3ff22819c7a80f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_335
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 45676664f141add4eb107df9a6f344fb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_336
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: b5b1bee074ccd0d4c924552e93d05e69
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_337
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 84961c6f3e92c124999c0838806699fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_338
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 518f765aec2ebc94baca041a675a55e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_339
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c3498bf5026eaee49994b32eda7014da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_340
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 870de409afc01174b9aa050d9d74c5ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_341
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: e8fe316791a53714aa32f9eb514764e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_342
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 2f49dea0f1e806d4e8755edeba38e59b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_343
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c421b40b198821e4b81325b55b212949
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_344
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: e1652c965cbb8a64fab94c007b69b543
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_345
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 7161bc72cc7c7bd4abced9704c9d4072
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_346
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: be2df17e7b094f44d96e271db39bebcc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_347
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 6b8fa2c3dff15804f8b266ff0bc7bfc9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_348
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 1b93cc79c7df6a34897f15bdf00f26e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_349
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 561902d2b73b1074a880d73da2a2abbb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_350
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 99a672e0457024b44bcddd98002882ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_351
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 6e60b0768056ee74a962a51600aa59a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_352
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 7d73d667ee7127b44857328e4810f3d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_353
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 144
+      width: 16
+      height: 16
+    spriteID: ada36b90ca1736945b4f8511ccfd7882
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_354
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 144
+      width: 16
+      height: 16
+    spriteID: b6a0858d9f9d3fa4e8b2d63c9e604418
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_355
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 75376265e8a1e164f92018484db6ea3d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_356
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 144
+      width: 16
+      height: 16
+    spriteID: dda2ec3bf065ad2419f2e5b11329f5cc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_357
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 066a5e678d996ee478c1ab07969b92fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_358
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 0dfaf80a2f97f8e4bb3fbeb5fb3ee079
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_359
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 457e356a7078ce948924141d9641343f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_360
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 5488db2a12d8de746a1b4bdd9cdf84bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_361
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f06e571a21121f442b5d7f868ce2ad52
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_362
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 0091b18044266ad4e9f76d6f05efae4f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_363
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 1b55d64c7a14999429872a0ef7f3c3d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_364
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8c4f33b00e815b64e8e7b7ed0c45da86
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_365
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 38b8e6ccb54b60a4aac34da573c6cbe9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_366
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 58c11b9e8d2761f48bd41184cc9312f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_367
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: c87141ffda9136e4c926d381495b55aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_368
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 9f604d1325c80294bbc7e5465a07fa03
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_369
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: bec0aa7091da6984397610bf72482d56
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_370
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f4ef3fd74adfb7c41a074e996f2c3128
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_371
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: c2d40bd1175e6124e83587b9957abcc8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_372
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e2bf6915ad215064ea64328a979015d2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_373
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 742b239a8ea19684984c3172a7321112
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_374
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f7109f9604ec8b8449326faaa7d24469
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_375
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f9cff596a8b473147bdbb07f4f4d42c5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_376
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 4975bb40dfb3e314fa16824b1889ef2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_377
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e4f33380b6615fc459279663a71230d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_378
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 931848960027baa459ce5f1dfca0c43c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_379
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b9d14d9f7282aae4baeebbd1ece60fb9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_380
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 128
+      width: 16
+      height: 16
+    spriteID: cda7df93561bdca4ebb0d2354bb1b08c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_381
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 08e2caf250f6f5849b4bf01057534cbf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_382
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 9bf0de60b16daa2468eb092734f584cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_383
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 0f0ecb5c7b766ce4796e2f3fd8e47f8e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_384
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: dc49655fb3fc5f14389f79e76a1e4682
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_385
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 26b18c91e08f45042b1304505ecbdaed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_386
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ffe15a6171b7c1a4cb8b0f76572c0519
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_387
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d0d5691be94a3ab4bad488d5ca8a9e78
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_388
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: afefd801c9f7ecd43b5be266a67a2f34
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_389
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7ce4384406314aa46b97777dfd7ac4f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_390
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 147c4f20405dcab469723cc3d723daa1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_391
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 9acffc9bc5320a840af4cf8091c89756
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_392
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: efcf053305aa2184ba5103def49d3559
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_393
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: b558f3d14facdd242a927e3dce64e488
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_394
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: bd793586cdbcf244b91a3ae16676451a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_395
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c9bbe1842b06fbb41bd9dea8ab9a6032
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_396
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ef627e06522875540857d8620dfbf77e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_397
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 727aae257798cf14297affcc43bc2e0e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_398
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 6f9e4891b9b62b14c80e6f91c77ed685
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_399
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 6f9cc3987ab1fee45a5d3378dff3b7e0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_400
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d4b66355152f068479412b71e2e0f62a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_401
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 35444ed673024ae469307de93bf71e1a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_402
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1a7808aaee9a18a46aea2da6bc009125
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_403
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 946b56ce2d6778849942581e6b77a217
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_404
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e6a2da1734ef8bc4793824f6c4bd7268
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_405
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c59923fdc2ac3ae47a9dd4db4629b176
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_406
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 15f07128605be8a48afbc577d84e0908
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_407
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f193dd66bbb78874c892e49b5c7e5e2f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_408
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ff750d12ac26230498c2f915aa45ce3a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_409
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: a67a438da45167343a91161bc76f781a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_410
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 2bb5b3fac730c2243bf9bed3e5a1f173
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_411
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ac0acf48e3d5afe41b196fdf4a4824bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_412
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ae8cf5e25b6bc284b8df2b54db11f3a7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_413
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 878cc3c6b60af0541bb3bcc32552fd46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_414
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 7661fdcc49b10ee4ea2a47169f2287fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_415
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 4ac7c60cdf7e3564cbe4e4a09a4441b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_416
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 084ce59b2a5264d4cacf59931bddad7a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_417
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 9dd96cd8fd4521a439983051c5356fad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_418
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: e8d31af0c88f74e4c8ddba22d40fd3b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_419
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 708cdfd0864bb2a4ca8e60cdf6b7595a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_420
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 2b7b2a6076a615545b14872b0fcbe356
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_421
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ea26f303bc18c7d48b5c0512ae3daa33
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_422
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 219b41e92517f044484f182d54bc4349
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_423
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: be204cfd4184d734ea01f074dbe5bb6e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_424
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 0b4a80b4802fc6c458f027c2dfb19372
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_425
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 96
+      width: 16
+      height: 16
+    spriteID: adb7d050994e60644ba4ee0617b65be8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_426
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 0d6be60f046503941bf9f259e0e53292
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_427
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 3932df371561a0144a470b931e1caa6a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_428
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f728c06d137425047a1d60ece8079cc0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_429
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 4fab626f6f45408478488030f7d3611b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_430
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c1a10d5d953cf224fb1b7c05b015582c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_431
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 96
+      width: 16
+      height: 16
+    spriteID: a59ea8e3251523a40a2179011381b53a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_432
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: bc76a59b6b375c54eb980612ceeb429a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_433
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: bdf8b00098e1b1d4abd614961e4de9e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_434
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: aa7fec5b114de3145a20654689d700de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_435
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 3b77af6d469fca848938370831698201
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_436
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 47b5705005ee7c1408c7394084e70afa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_437
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 03f4fcf427e88d747925a6428a46c745
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_438
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 6b9854e9c432333418475ab23b00d625
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_439
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: e020e8de969042d4cbf1844ccfd4a2e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_440
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 3f896b86990fa8746b62ffdd6e52ddcb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_441
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 9cd684686b7773c47b788650678f850e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_442
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 572184896af428c48865612ce51be0a6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_443
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 21a16d514fd7e814e96291e17cd2befd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_444
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 64c233dbf00cda24e9ab0842f1220141
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_445
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 076c3f4611840924084f8ec8a178b725
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_446
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: e4828c1d201fc2f46a4764685f38fc70
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_447
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 43e5fd2f5fd8f2643ad9a8daf8410b1e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_448
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 3cd102d3d5e69a0449e9adcc1be0e9b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_449
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4b7fc99348dee6a40beb4db7dc3b68b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_450
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 80
+      width: 16
+      height: 16
+    spriteID: b6885ee734f2f4745a3b3d7e57cbf056
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_451
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 8631f97ae09821d438f1074d827e454b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_452
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 95853d25b844af34b8545c5b8e1887dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_453
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 80
+      width: 16
+      height: 16
+    spriteID: eb9524021230eda4fb7df91348697880
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_454
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 6fa379da312d67a4ea3d62532fd18a43
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_455
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 069707f376e71b144854cf31b2fba95a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_456
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 1ceb01f23b687a64285738494264f194
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_457
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 675902efc0ab9744b93a0f24dda352f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_458
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 5853689b00d2e9442bb07562749625fb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_459
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: fd5424422652b624c83adb5a57511b3c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_460
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: eac062640febbf8479482cf08079731c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_461
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: bc9d429c607bb3d41a54d45333c2ce67
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_462
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: beef704244e4e8447a2398d53ee5d549
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_463
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 877e9fee7f89a9e4fba7d7bfd8e9c722
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_464
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4086f2837208ef243b02ce44e129f6d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_465
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 00b37e9dce420ba488b18ee1bdb6caf9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_466
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 7d0cd0e2a102fa14288d99e9b23555e9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_467
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8dac81b565fdc6a4490b33870a3158d5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_468
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 9677a6b398c65c64dbe685aa4c177131
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_469
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 6720cae2d1356374e8e2b82ccc7b89d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_470
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 53c0bee98c7db914398366b40b93b5a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_471
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 97958c9361bd3914594f77a761bde6dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_472
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 7ede5c84979487443a1bd9de22c90c22
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_473
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 06735994e52104b4d8695eaa565632d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_474
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 6e725eab6e5a3ef4b82d7e7e7835a778
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_475
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 64
+      width: 16
+      height: 16
+    spriteID: f3642f3b8dd77c042a230c357aad2222
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_476
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 07f812494d8833e409755af9cfbc975f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_477
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 64
+      width: 16
+      height: 16
+    spriteID: f31b038b1bd23f646bc60da36585118a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_478
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ff2e4bfca469c4d48bf5842b25201377
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_479
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 9331a8b5506083f4092edf5f6eb7ec94
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_480
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: df262735fbbd7ce43a7734a30b56bf31
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_481
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 790688133c25fe342be3ab98ca6512fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_482
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 235e6f65100315b41af5cad99ce9e1d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_483
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: bc07a9f29cf8daf409f560a6bbf1b570
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_484
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: dbd0eb250bae0ee4d83204f6b720d6f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_485
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3506828ce92347543aa2a4a3d1b0073e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_486
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 178a54198547ea346a3bf17f617c7ef2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_487
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: e270c68d54b6e194da59e25acb36497d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_488
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 0fd0f93556ceb2441a2ddee1087f225e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_489
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 70c82c33917b7a246a89523454563a65
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_490
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 61659d17cf4bc5a4eaa7b779f60c52fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_491
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3aaf119fd88276449aa2b689fe00700c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_492
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: fe7f305b49b7ba645a0e4d8f46ce208f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_493
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 2224e42a0417af64dbd1f7169f8edd06
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_494
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c80acfa50ba4970418e6009c1e05a6e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_495
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: bbd4563c19be56f44b0a093499c23572
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_496
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3e9148145a72db14e854ab52fd60d5c1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_497
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b727e67d43b2e854db8a59a0064f5087
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_498
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 41ccff039ecec684299fff08b1372808
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_499
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 28cfbb3978958af44a0e6f228f997e33
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_500
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 6ba82b27e36a6064eae0aaa85b27a3cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_501
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 7328357340ecf13478beb9a1eef648ef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_502
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 48
+      width: 16
+      height: 16
+    spriteID: a79ca6fbdf044b947ace68fb7e6b95dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_503
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 678a0f38511e1444c9732fbdcddca265
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_504
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: cda28f25d4d0962488c9d66c50f37fba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_505
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e26f6979a3002c44a97a3ca49c992869
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_506
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b942dfd2299184e468b0b2e96f54cdb9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_507
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 2c40249a23898af4caf6aa3e70e397ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_508
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 45a5187dbe5127c4ba722dc72a6effb6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_509
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 23622cd3253d64547b40ca55be57a769
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_510
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 703874f5394bf0b41a33b8a5cd7eb52e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_511
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 3022ecf6c785a604c84c52f31109e656
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_512
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: fd70c98d1b0d9dd4eae0f34a5b17eebb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_513
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0d287bbe79e60ae449612be3416ca730
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_514
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 5e72dff9e20eac240a3bd5facf58131c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_515
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 3e2a63151c651c94bac983a43c7dc4e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_516
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e90e4b2e6da9e7d48baa50492409a876
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_517
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a1190eac762ce3a4eb9ee1f2499d2b3f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_518
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 2f514d6a630410240b559affd0579823
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_519
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 4e7710220bbfb0047aa8e167d70e7000
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_520
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0e3901fa3d8932a4da7b3327a5ed7d16
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_521
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 73d4803c7f99a4a40a5a269948ef7a13
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_522
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 24ce82ead5ac13c4d8a2a8d9ebba2bd8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_523
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 32
+      width: 16
+      height: 16
+    spriteID: bf29120b026ee7141ac5d7337aaf3d4f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_524
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 4991df52cc2e8ed46b1bcc318b009574
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_525
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 32
+      width: 16
+      height: 16
+    spriteID: c41a8b2e2a803a6488aecc02dd23c259
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_526
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e942ab12bcfa69f44be4343e8cdcf8f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_527
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 32
+      width: 16
+      height: 16
+    spriteID: d162f3e5c4a6fc84eb645fcae82309ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_528
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e474867af3d50024ea4d874948be3b01
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_529
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 69f797640eea41b4d9aa87dc920ecf13
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_530
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3c412fab28b868b448311a4b54569171
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_531
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a80982c96a2608948b1acacb87122e6d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_532
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d76d637106f110644a236e254567e187
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_533
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d96cff2d2b856784cbf7b5e85558c546
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_534
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ca9875a2c971baa42b4658f2a58421dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_535
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 6bab4aaeaa3249b45b52b54837e7dd1e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_536
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 76cbe81495307014996326654285aaf8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_537
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d22c93aa59e82d341a8199ef23c5bf93
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_538
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3aca444d144645c4dbd62f5ef465dd19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_539
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 70f82e55bba93ce4183b8c2eea127e7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_540
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 4dfaf4bd63aeb2d40a5e5a0e2d9a2d28
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_541
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 4fc2444b8f821eb4593e6e5837391dd9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_542
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 47b00fbea8e72c743bbf4ee041235338
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_543
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: bfd8c23dc19f5124eaab0dc25ace0f1b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_544
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 16
+      width: 16
+      height: 16
+    spriteID: b329e5d687d4ef44b90341d9def74006
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_545
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 16
+      width: 16
+      height: 16
+    spriteID: fc521dd7bf4343743ad455de8c84bb6c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_546
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 35a86d2e8f7de9f4db208ac2c34bfe5d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_547
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 82bd7607d59cd1748a961ec7bd41dda9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_548
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 16
+      width: 16
+      height: 16
+    spriteID: f697505e04a313b47a3bf00b5169a5dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_549
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 5d10237cd4735e646a03778b3baef2e1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_550
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 4cb851cdea9b3d84d977da37628415d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_551
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 7a03d4607f090af4e87c469b87920e1a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_552
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 6283fc6911bb7d847b999c3c51f34c88
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_553
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a3ff118c47c9ebd45a4d75f9ffb945c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_554
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f736a7cdcda70e64893e6a8a63fccc51
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_555
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: fc5b528bfedf32f409905272cf338e11
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_556
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 28ea0cb0a1ec2e2428153398543ecfbc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_557
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 2c1b45063922f0942803f5a09770bb22
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_558
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 5e67737c639366d4588cb3ff8e4997a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_559
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 56cb4db56094ed8498177343bd21dfd4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_560
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 98946595584330a4d80e5dfb2e8d8cb7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_561
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e164160aa4e637245a7992697f6a1ece
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_562
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3caeb6a4665030e47bbd6fb2c99c555f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_563
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 4aab53ebc44cc7f4c81701bc5c3e1e6c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_564
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3b599ee33f10efd4e99b69db8aa11bfc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_565
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: aa9b1768e97f62a4c88fb2ab75349efe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_566
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a7c84d669fe4a26448ef9dcc59071704
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_567
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 1a840bd6b54e7ea4eae2a9ed7dd95cc8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_568
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ae46dcbd0fb4f064db176cbdc31fcf8d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_569
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 0
+      width: 16
+      height: 16
+    spriteID: cdec6dacc67c362409421f90d0265e55
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_570
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 0
+      width: 16
+      height: 16
+    spriteID: cbe9a0981b719b04382b326090ca0489
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_571
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e1be7b7c89f76bc43b0f38bf9d76cc44
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_572
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 0853b07fd7f6c074f99c1edd9d3f9717
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_573
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 6e6aad63f9521244ca976bb1d0945abf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_574
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 44e4c24e10251c545b2f061b920acb1a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Spring_Tileset_575
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 081f41d977dc60045a7064042c5a1afd
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

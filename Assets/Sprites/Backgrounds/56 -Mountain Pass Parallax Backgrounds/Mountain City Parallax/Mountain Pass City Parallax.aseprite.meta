@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Mountain Pass City Parallaz_Frame_0
+  - name: Mountain Pass City Parallax_Frame_0
     originalName: 
     pivot: {x: 0.46666667, y: 0.33680552}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 360
       height: 288
-    spriteID: 27831ca92a35c58eabb6ceff3412f538
+    spriteID: e0b2bf2a0ac4b034a8d4626206aa43f8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Mountain Pass City Parallaz_Frame_1
+  - name: Mountain Pass City Parallax_Frame_1
     originalName: 
     pivot: {x: 0.46666667, y: 0.33680552}
     alignment: 9
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 360
       height: 288
-    spriteID: 2fb9ec01a0b150a1b841e268438610cf
+    spriteID: fd31c7d125a000c42914c417a64ede7d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 372, y: 4}
-  - name: Mountain Pass City Parallaz_Frame_2
+  - name: Mountain Pass City Parallax_Frame_2
     originalName: 
     pivot: {x: 0.46666667, y: 0.33680552}
     alignment: 9
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 300
       width: 360
       height: 288
-    spriteID: d4d64789208eb9aa69b37ec56f8b05ba
+    spriteID: 74c5bbd89311aa34ea9c4b90037070d0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 300}
-  - name: Mountain Pass City Parallaz_Frame_3
+  - name: Mountain Pass City Parallax_Frame_3
     originalName: 
     pivot: {x: 0.46666667, y: 0.33680552}
     alignment: 9
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 300
       width: 360
       height: 288
-    spriteID: 4d6b57090278bd5e68b25808864ac3ea
+    spriteID: 43c297013dfd1124187f6aa9066ca24c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -204,13 +204,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -119887090
-    name: Mountain Pass City Parallaz
+    guid: -119887884
+    name: Mountain Pass City Parallax
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Mountain Pass City Parallaz_Frame_0
+    - name: Mountain Pass City Parallax_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -218,8 +218,8 @@ ScriptedImporter:
         y: -97
         width: 360
         height: 288
-      spriteId: 27831ca92a35c58eabb6ceff3412f538
-    - name: Mountain Pass City Parallaz_Frame_1
+      spriteId: e0b2bf2a0ac4b034a8d4626206aa43f8
+    - name: Mountain Pass City Parallax_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -227,8 +227,8 @@ ScriptedImporter:
         y: -97
         width: 360
         height: 288
-      spriteId: 2fb9ec01a0b150a1b841e268438610cf
-    - name: Mountain Pass City Parallaz_Frame_2
+      spriteId: fd31c7d125a000c42914c417a64ede7d
+    - name: Mountain Pass City Parallax_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -236,8 +236,8 @@ ScriptedImporter:
         y: -97
         width: 360
         height: 288
-      spriteId: d4d64789208eb9aa69b37ec56f8b05ba
-    - name: Mountain Pass City Parallaz_Frame_3
+      spriteId: 74c5bbd89311aa34ea9c4b90037070d0
+    - name: Mountain Pass City Parallax_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -245,7 +245,7 @@ ScriptedImporter:
         y: -97
         width: 360
         height: 288
-      spriteId: 4d6b57090278bd5e68b25808864ac3ea
+      spriteId: 43c297013dfd1124187f6aa9066ca24c
     linkedCells: []
     parentIndex: -1
   platformSettings: []

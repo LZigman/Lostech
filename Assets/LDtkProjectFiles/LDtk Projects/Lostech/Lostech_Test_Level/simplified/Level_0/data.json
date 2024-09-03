@@ -9,14 +9,13 @@
 	"neighbourLevels": [],
 	"customFields" : {},
 	"layers": [
-		"IntGrid_visible.png",
 		"Sacred_Temple_Background.png",
 		"Dark_City_Background.png",
 		"City_Background.png",
 		"Sacred_Temple_Foreground.png",
 		"Trees_Foreground.png",
 		"Dark_City_Foreground.png",
-		"IntGrid_Collision_grid.png"
+		"IntGrid_Ground.png"
 	],
 	"entities": {
 		"Player": [

@@ -9,6 +9,8 @@ public class BulletScript : MonoBehaviour
 	private void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
-		rb.velocity = bulletSpeed * transform.right;									// giving velocity to bullet
+		
+		// giving velocity to bullet
+		rb.velocity = bulletSpeed * transform.right;
 	}
 }

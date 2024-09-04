@@ -12,11 +12,13 @@ public class Player : MonoBehaviour
 	private bool isGrounded;
 	[SerializeField] private float jumpHeight, movementSpeed;
 	[SerializeField] private LayerMask groundLayer;
-	[SerializeField] private Transform groundCheck, gunTransform, gunBarrelTransform;
+	[SerializeField] private Transform groundCheck, gunTransform, gunBarrelTransform, crosshairTransform;
 	[SerializeField] private GameObject bulletPrefab;
 	[SerializeField] private Animation runRight;
 
 	private int isFlippedId, isMovingId;
+	private float rotationAngle;
+	private Vector2 delta;
 	
 	private void Start()
 	{
@@ -28,9 +30,14 @@ public class Player : MonoBehaviour
 		// moving player according to horizontal input
 		rb.position += movementSpeed * horizontal * Time.deltaTime * Vector2.right;
 		
-		if (horizontal > 0)
+		if (horizontal > 0 && runRight != null)
 		{
 			runRight.Play();
+		}
+		if (Input.GetKeyDown(KeyCode.P))
+		{
+			Debug.Log("rotation angle: " + gunTransform.rotation.eulerAngles.z);
+			// if angle > 90 flip scale
 		}
 	}
 	
@@ -60,11 +67,21 @@ public class Player : MonoBehaviour
 		mousePos = Camera.main.ScreenToWorldPoint(context.ReadValue<Vector2>());
 		
 		// calculating the vector between mousePos and gunPos
-		Vector2 temp = mousePos - (Vector2)gunTransform.position;
-		
+		delta = mousePos - (Vector2)gunTransform.position;
+		// mousePos left of gunTransform.pos
+		if (delta.x < 0)
+		{
+			transform.localScale = new Vector3(-1, 1, 1);
+			rotationAngle = Vector2.SignedAngle(-1 * transform.right, delta);
+		}
+		else
+		{
+			transform.localScale = new Vector3(1, 1, 1);
+			rotationAngle = Vector2.SignedAngle(transform.right, delta);
+		}
+
 		// calculating rotation angle between vector above and x axis
-		float rotationAngle = -1 * Vector2.SignedAngle(temp, Vector2.right);
-		
+		//float rotationAngle = -1 * Vector2.SignedAngle(temp, transform.right);
 		// rotating the gun
 		gunTransform.rotation = Quaternion.Euler(0, 0, rotationAngle);
 	}
@@ -74,8 +91,11 @@ public class Player : MonoBehaviour
 		if (context.phase == InputActionPhase.Performed)
 		{
 			// instantiating the bullet at barrelPos and rotating it
-			GameObject bullet = Instantiate (bulletPrefab, gunBarrelTransform.position, gunTransform.rotation);
+			Vector2 delta = mousePos - (Vector2)gunTransform.position;
+			float rotationAngle = Vector2.SignedAngle(Vector2.right, delta);
+			GameObject bullet = Instantiate (bulletPrefab, gunBarrelTransform.position, Quaternion.Euler(0, 0, rotationAngle));
 			
+			Debug.Log("Bullet rotation: " + bullet.transform.rotation.eulerAngles.z);
 			Debug.Log("Shoot!");
 		}
 	}

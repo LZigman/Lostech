@@ -562,6 +562,32 @@ TilemapCollider2D:
   m_CorrespondingSourceObject: {fileID: 1630171301453841647, guid: f143620b5d74cd74a85868fc806972c2, type: 3}
   m_PrefabInstance: {fileID: 845596836}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &655807020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7784760115061919316, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
+  m_PrefabInstance: {fileID: 3185282424479331645}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &655807021
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655807020}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5bd314b7b38fbe345b735c3ecacd1771, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &668048877
 GameObject:
   m_ObjectHideFlags: 0
@@ -8145,6 +8171,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 655807021}
+    - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: jumpHeight
       value: 10
       objectReference: {fileID: 0}
@@ -8251,7 +8281,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7784760115061919316, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 655807021}
   m_SourcePrefab: {fileID: 100100000, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

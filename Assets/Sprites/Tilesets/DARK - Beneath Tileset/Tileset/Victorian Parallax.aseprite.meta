@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: 403609cd9e286ed4ebe791949162ee61
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Victorian Parallax_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 371
+      height: 213
+    spriteID: 85eaa98e214e4154488353316d4dd6dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Victorian Parallax_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 225
+      width: 371
+      height: 213
+    spriteID: 28f0eb99d65b3364098268da82741ba4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 225}
+  - name: Victorian Parallax_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 446
+      width: 371
+      height: 213
+    spriteID: 43b41bfc59f8f994ab4c12a86a4d098f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 446}
+  - name: Victorian Parallax_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 667
+      width: 371
+      height: 213
+    spriteID: d69255afddd881c44aa942700de44c28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 667}
+  - name: Victorian Parallax_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 888
+      width: 371
+      height: 213
+    spriteID: 44a5c8acd37b98b4ba7d2d4a7614ee32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 888}
+  - name: Victorian Parallax_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1109
+      width: 371
+      height: 213
+    spriteID: f4cbf2ea10c59ed4892d7296fee2b112
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1109}
+  - name: Victorian Parallax_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1330
+      width: 371
+      height: 213
+    spriteID: 49ba98b381d1b334bab214aa28348e0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1330}
+  - name: Victorian Parallax_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1551
+      width: 371
+      height: 213
+    spriteID: 7ba4185d7b9ec4642aa8017d7c98ce9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1551}
+  - name: Victorian Parallax_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1772
+      width: 371
+      height: 213
+    spriteID: 9d7be3aed7bdecc44823b6a9cabd9711
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1772}
+  - name: Victorian Parallax_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 4
+      width: 371
+      height: 213
+    spriteID: 737362f2b0639a9448f9e9732a69916c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 4}
+  - name: Victorian Parallax_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 225
+      width: 371
+      height: 213
+    spriteID: abf9beb19e2a35e44ae17e98ed86bacd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 225}
+  - name: Victorian Parallax_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 446
+      width: 371
+      height: 213
+    spriteID: 5dc70e02e69f3494fa211ad17b65bf73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 446}
+  - name: Victorian Parallax_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 667
+      width: 371
+      height: 213
+    spriteID: 79a46240e3d1bd44c897ce0fcae6547f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 667}
+  - name: Victorian Parallax_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 888
+      width: 371
+      height: 213
+    spriteID: 3f7efc2fd4099814693b7474449800be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 888}
+  - name: Victorian Parallax_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 1109
+      width: 371
+      height: 213
+    spriteID: d0e18fbdf5a86fc4ab7b69e70356d707
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 1109}
+  - name: Victorian Parallax_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 1330
+      width: 371
+      height: 213
+    spriteID: 53f7521d1b1290742a2baefc3b2f37a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 1330}
+  - name: Victorian Parallax_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 1551
+      width: 371
+      height: 213
+    spriteID: f69b303f74ad0dd4b806683f8f8e0197
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 1551}
+  - name: Victorian Parallax_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.13145539}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 1772
+      width: 371
+      height: 213
+    spriteID: 1510bfff5accb7d47b0436841e7712a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 1772}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 427006442
+    name: Victorian Parallax
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Victorian Parallax_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 85eaa98e214e4154488353316d4dd6dc
+    - name: Victorian Parallax_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 28f0eb99d65b3364098268da82741ba4
+    - name: Victorian Parallax_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 43b41bfc59f8f994ab4c12a86a4d098f
+    - name: Victorian Parallax_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: d69255afddd881c44aa942700de44c28
+    - name: Victorian Parallax_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 44a5c8acd37b98b4ba7d2d4a7614ee32
+    - name: Victorian Parallax_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: f4cbf2ea10c59ed4892d7296fee2b112
+    - name: Victorian Parallax_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 49ba98b381d1b334bab214aa28348e0c
+    - name: Victorian Parallax_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 7ba4185d7b9ec4642aa8017d7c98ce9d
+    - name: Victorian Parallax_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 9d7be3aed7bdecc44823b6a9cabd9711
+    - name: Victorian Parallax_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 737362f2b0639a9448f9e9732a69916c
+    - name: Victorian Parallax_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: abf9beb19e2a35e44ae17e98ed86bacd
+    - name: Victorian Parallax_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 5dc70e02e69f3494fa211ad17b65bf73
+    - name: Victorian Parallax_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 79a46240e3d1bd44c897ce0fcae6547f
+    - name: Victorian Parallax_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 3f7efc2fd4099814693b7474449800be
+    - name: Victorian Parallax_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: d0e18fbdf5a86fc4ab7b69e70356d707
+    - name: Victorian Parallax_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 53f7521d1b1290742a2baefc3b2f37a5
+    - name: Victorian Parallax_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: f69b303f74ad0dd4b806683f8f8e0197
+    - name: Victorian Parallax_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -28
+        width: 371
+        height: 213
+      spriteId: 1510bfff5accb7d47b0436841e7712a2
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 371, y: 185}

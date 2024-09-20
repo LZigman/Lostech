@@ -1,0 +1,1898 @@
+fileFormatVersion: 2
+guid: 35bce2fa2f6903600b133c27518b44bb
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638608795127480449
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Big Portal Animations_Frame_0
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2592
+      width: 368
+      height: 245
+    spriteID: 274f260ce2ad8529ab7824053f8ba454
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2592}
+  - name: Big Portal Animations_Frame_56
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.64426875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 368
+      height: 253
+    spriteID: c451c5293842186ceb01eb28abda3229
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Big Portal Animations_Frame_57
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.64426875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 265
+      width: 368
+      height: 253
+    spriteID: 7cc37a0ec69bdcf2b83608d5c3b5142d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 265}
+  - name: Big Portal Animations_Frame_58
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.64426875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 526
+      width: 368
+      height: 253
+    spriteID: 7b409db097add994ab279571653591fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 526}
+  - name: Big Portal Animations_Frame_1
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2845
+      width: 368
+      height: 245
+    spriteID: eba062c01575fcba0b82bd77ef64d527
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2845}
+  - name: Big Portal Animations_Frame_2
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3098
+      width: 368
+      height: 245
+    spriteID: 1f1c21e4db266bf939746813b2d9479a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3098}
+  - name: Big Portal Animations_Frame_3
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3351
+      width: 368
+      height: 245
+    spriteID: dbcd1b17cbbfe3d5793918e59a0c1135
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3351}
+  - name: Big Portal Animations_Frame_4
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3604
+      width: 368
+      height: 245
+    spriteID: 24aaabca27743f600917cb456a7e5798
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3604}
+  - name: Big Portal Animations_Frame_5
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 4
+      width: 368
+      height: 245
+    spriteID: 074a4e0f9c5a0bc6ebd633bd9a9ed5df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 4}
+  - name: Big Portal Animations_Frame_6
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 257
+      width: 368
+      height: 245
+    spriteID: 6551f482b736831cfb8b621835914239
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 257}
+  - name: Big Portal Animations_Frame_7
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 510
+      width: 368
+      height: 245
+    spriteID: 4cb4193c67bc0b1cfb671e571171cb6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 510}
+  - name: Big Portal Animations_Frame_8
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 763
+      width: 368
+      height: 245
+    spriteID: 96baa3f838a2698c0afeab6b93268909
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 763}
+  - name: Big Portal Animations_Frame_9
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 1016
+      width: 368
+      height: 245
+    spriteID: 0a2f3aac54b1813b9a328b2dd6a12618
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 1016}
+  - name: Big Portal Animations_Frame_10
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 1269
+      width: 368
+      height: 245
+    spriteID: 31ec18455f53037219ff6843e5a36a5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 1269}
+  - name: Big Portal Animations_Frame_11
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 1522
+      width: 368
+      height: 245
+    spriteID: fa98d0ff624943956a09f4a5b752faec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 1522}
+  - name: Big Portal Animations_Frame_12
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 1775
+      width: 368
+      height: 245
+    spriteID: 0fd8c7d5dd7b410a999c8f68080abc13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 1775}
+  - name: Big Portal Animations_Frame_13
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 2028
+      width: 368
+      height: 245
+    spriteID: 448b1688acc5ecd8baaf83dcc2c8b91a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 2028}
+  - name: Big Portal Animations_Frame_14
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 2281
+      width: 368
+      height: 245
+    spriteID: 3c3adb422938a6bd6b7dd81d70bda0ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 2281}
+  - name: Big Portal Animations_Frame_15
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 2534
+      width: 368
+      height: 245
+    spriteID: ef6d06563dfb99ae197f415575ccc3fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 2534}
+  - name: Big Portal Animations_Frame_16
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 2787
+      width: 368
+      height: 245
+    spriteID: 868288ccd0178cbea9fb6991b0691805
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 2787}
+  - name: Big Portal Animations_Frame_17
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 3040
+      width: 368
+      height: 245
+    spriteID: b1f37cdd7bd7f2577a27de9df9690858
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 3040}
+  - name: Big Portal Animations_Frame_18
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 3293
+      width: 368
+      height: 245
+    spriteID: 3de5b516a85579f659c6b5ddf0d2eec5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 3293}
+  - name: Big Portal Animations_Frame_19
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 3546
+      width: 368
+      height: 245
+    spriteID: 78d48f7e7ff661234a499243bf142891
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 3546}
+  - name: Big Portal Animations_Frame_20
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 3799
+      width: 368
+      height: 245
+    spriteID: 933a33c3f9a1bddb4b13b25c37d3daec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 3799}
+  - name: Big Portal Animations_Frame_21
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 4
+      width: 368
+      height: 245
+    spriteID: 4f5662f6d658c4a0183b676991247913
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 4}
+  - name: Big Portal Animations_Frame_22
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 257
+      width: 368
+      height: 245
+    spriteID: a1882cd622f0bc301aa560022735a0ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 257}
+  - name: Big Portal Animations_Frame_23
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 510
+      width: 368
+      height: 245
+    spriteID: 15c91f2d23b281982a9bbdb9868f3b26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 510}
+  - name: Big Portal Animations_Frame_24
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 763
+      width: 368
+      height: 245
+    spriteID: b73fefc3d6e07f478bfb7a23c717a2fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 763}
+  - name: Big Portal Animations_Frame_25
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 1016
+      width: 368
+      height: 245
+    spriteID: 9c624840254ccc8cc8afb97c2d2d6ab5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 1016}
+  - name: Big Portal Animations_Frame_26
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 1269
+      width: 368
+      height: 245
+    spriteID: 105013e71c0b170d99d7428cd061975a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 1269}
+  - name: Big Portal Animations_Frame_27
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 1522
+      width: 368
+      height: 245
+    spriteID: ea6169355a35c3e0e8f2f15ee948bb88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 1522}
+  - name: Big Portal Animations_Frame_28
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 1775
+      width: 368
+      height: 245
+    spriteID: 140db7b60f70637878d2f4b9485d48fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 1775}
+  - name: Big Portal Animations_Frame_29
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 2028
+      width: 368
+      height: 245
+    spriteID: dede8ca73cc66fd4fa7533fa8ff92f64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 2028}
+  - name: Big Portal Animations_Frame_30
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 2281
+      width: 368
+      height: 245
+    spriteID: e45b86b749e560584b9ebb0b4cda4626
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 2281}
+  - name: Big Portal Animations_Frame_31
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 2534
+      width: 368
+      height: 245
+    spriteID: 306a89c5af1addbecb502448d729f03c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 2534}
+  - name: Big Portal Animations_Frame_32
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 2787
+      width: 368
+      height: 245
+    spriteID: 1ac9e3a5d643aec59a5b118ccaa42377
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 2787}
+  - name: Big Portal Animations_Frame_33
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 3040
+      width: 368
+      height: 245
+    spriteID: f7b0749d6650304d2be5af19b0108747
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 3040}
+  - name: Big Portal Animations_Frame_34
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 3293
+      width: 368
+      height: 245
+    spriteID: 800e5859befe1695bb52d2a1caf09eea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 3293}
+  - name: Big Portal Animations_Frame_35
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 3546
+      width: 368
+      height: 245
+    spriteID: 9df36d41f149e924a816de134fc9f97d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 3546}
+  - name: Big Portal Animations_Frame_36
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 756
+      y: 3799
+      width: 368
+      height: 245
+    spriteID: 929521278150a94c0b9c52e9cbe9675b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 756, y: 3799}
+  - name: Big Portal Animations_Frame_37
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1132
+      y: 4
+      width: 368
+      height: 245
+    spriteID: a224d455e5f3be14a961331fe75f1b0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1132, y: 4}
+  - name: Big Portal Animations_Frame_38
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1132
+      y: 257
+      width: 368
+      height: 245
+    spriteID: 055a2dfcb326bd7dc99353eb1213051c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1132, y: 257}
+  - name: Big Portal Animations_Frame_39
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1132
+      y: 510
+      width: 368
+      height: 245
+    spriteID: e74f2fb9187943792a5aad081255340c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1132, y: 510}
+  - name: Big Portal Animations_Frame_40
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1132
+      y: 763
+      width: 368
+      height: 245
+    spriteID: 3581e1ccec615affdaf430aa19de3307
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1132, y: 763}
+  - name: Big Portal Animations_Frame_41
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1132
+      y: 1016
+      width: 368
+      height: 245
+    spriteID: 44fb3dc4673c71b9e9989db2116b964c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1132, y: 1016}
+  - name: Big Portal Animations_Frame_42
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1132
+      y: 1269
+      width: 368
+      height: 245
+    spriteID: 748119510f568b0308f8ac7d6d27a9e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1132, y: 1269}
+  - name: Big Portal Animations_Frame_43
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1132
+      y: 1522
+      width: 368
+      height: 245
+    spriteID: 26a0453cd106030349b5103b0e3808e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1132, y: 1522}
+  - name: Big Portal Animations_Frame_44
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1132
+      y: 1775
+      width: 368
+      height: 245
+    spriteID: 84994ed516a276ee2811307514706ad6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1132, y: 1775}
+  - name: Big Portal Animations_Frame_45
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1132
+      y: 2028
+      width: 368
+      height: 245
+    spriteID: 46df1f419b9e213c89d70dc8ccff111d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1132, y: 2028}
+  - name: Big Portal Animations_Frame_46
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1132
+      y: 2281
+      width: 368
+      height: 245
+    spriteID: 752209a4d955b9e1ba3dca11d81ad1f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1132, y: 2281}
+  - name: Big Portal Animations_Frame_47
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1132
+      y: 2534
+      width: 368
+      height: 245
+    spriteID: 3a0b454890a27a04dba93e735c440559
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1132, y: 2534}
+  - name: Big Portal Animations_Frame_48
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66530615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1132
+      y: 2787
+      width: 368
+      height: 245
+    spriteID: 46f20a4bb9cae2dc1b7f536ee51f451f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1132, y: 2787}
+  - name: Big Portal Animations_Frame_49
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.66260165}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2338
+      width: 368
+      height: 246
+    spriteID: f1b3a34477d08ccf0a1ed05be582583e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2338}
+  - name: Big Portal Animations_Frame_50
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.6572581}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2082
+      width: 368
+      height: 248
+    spriteID: 2f512f67eed0deac2b5f7301278ea3ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2082}
+  - name: Big Portal Animations_Frame_51
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.65461844}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1825
+      width: 368
+      height: 249
+    spriteID: 24b218c3143d1ae928d36913a3a32ec3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1825}
+  - name: Big Portal Animations_Frame_52
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1567
+      width: 368
+      height: 250
+    spriteID: fdddc09046c37a99fbc79591486a7443
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1567}
+  - name: Big Portal Animations_Frame_53
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.6494024}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1308
+      width: 368
+      height: 251
+    spriteID: 6f76acb57f43e2bf9a516492345ec302
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1308}
+  - name: Big Portal Animations_Frame_54
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.64682543}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1048
+      width: 368
+      height: 252
+    spriteID: 563c1c82603c2c2aaa7663bb2bb97ec7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1048}
+  - name: Big Portal Animations_Frame_55
+    originalName: 
+    pivot: {x: 0.25679347, y: 0.64426875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 787
+      width: 368
+      height: 253
+    spriteID: 0a5ab1a5617857ee580a076e2fd8a06a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 787}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1001320093
+    name: Big Portal Animations
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Big Portal Animations_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 274f260ce2ad8529ab7824053f8ba454
+    - name: Big Portal Animations_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 253
+      spriteId: c451c5293842186ceb01eb28abda3229
+    - name: Big Portal Animations_Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 253
+      spriteId: 7cc37a0ec69bdcf2b83608d5c3b5142d
+    - name: Big Portal Animations_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 253
+      spriteId: 7b409db097add994ab279571653591fc
+    - name: Big Portal Animations_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: eba062c01575fcba0b82bd77ef64d527
+    - name: Big Portal Animations_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 1f1c21e4db266bf939746813b2d9479a
+    - name: Big Portal Animations_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: dbcd1b17cbbfe3d5793918e59a0c1135
+    - name: Big Portal Animations_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 24aaabca27743f600917cb456a7e5798
+    - name: Big Portal Animations_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 074a4e0f9c5a0bc6ebd633bd9a9ed5df
+    - name: Big Portal Animations_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 6551f482b736831cfb8b621835914239
+    - name: Big Portal Animations_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 4cb4193c67bc0b1cfb671e571171cb6c
+    - name: Big Portal Animations_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 96baa3f838a2698c0afeab6b93268909
+    - name: Big Portal Animations_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 0a2f3aac54b1813b9a328b2dd6a12618
+    - name: Big Portal Animations_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 31ec18455f53037219ff6843e5a36a5a
+    - name: Big Portal Animations_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: fa98d0ff624943956a09f4a5b752faec
+    - name: Big Portal Animations_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 0fd8c7d5dd7b410a999c8f68080abc13
+    - name: Big Portal Animations_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 448b1688acc5ecd8baaf83dcc2c8b91a
+    - name: Big Portal Animations_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 3c3adb422938a6bd6b7dd81d70bda0ca
+    - name: Big Portal Animations_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: ef6d06563dfb99ae197f415575ccc3fa
+    - name: Big Portal Animations_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 868288ccd0178cbea9fb6991b0691805
+    - name: Big Portal Animations_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: b1f37cdd7bd7f2577a27de9df9690858
+    - name: Big Portal Animations_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 3de5b516a85579f659c6b5ddf0d2eec5
+    - name: Big Portal Animations_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 78d48f7e7ff661234a499243bf142891
+    - name: Big Portal Animations_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 933a33c3f9a1bddb4b13b25c37d3daec
+    - name: Big Portal Animations_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 4f5662f6d658c4a0183b676991247913
+    - name: Big Portal Animations_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: a1882cd622f0bc301aa560022735a0ba
+    - name: Big Portal Animations_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 15c91f2d23b281982a9bbdb9868f3b26
+    - name: Big Portal Animations_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: b73fefc3d6e07f478bfb7a23c717a2fc
+    - name: Big Portal Animations_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 9c624840254ccc8cc8afb97c2d2d6ab5
+    - name: Big Portal Animations_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 105013e71c0b170d99d7428cd061975a
+    - name: Big Portal Animations_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: ea6169355a35c3e0e8f2f15ee948bb88
+    - name: Big Portal Animations_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 140db7b60f70637878d2f4b9485d48fc
+    - name: Big Portal Animations_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: dede8ca73cc66fd4fa7533fa8ff92f64
+    - name: Big Portal Animations_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: e45b86b749e560584b9ebb0b4cda4626
+    - name: Big Portal Animations_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 306a89c5af1addbecb502448d729f03c
+    - name: Big Portal Animations_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 1ac9e3a5d643aec59a5b118ccaa42377
+    - name: Big Portal Animations_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: f7b0749d6650304d2be5af19b0108747
+    - name: Big Portal Animations_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 800e5859befe1695bb52d2a1caf09eea
+    - name: Big Portal Animations_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 9df36d41f149e924a816de134fc9f97d
+    - name: Big Portal Animations_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 929521278150a94c0b9c52e9cbe9675b
+    - name: Big Portal Animations_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: a224d455e5f3be14a961331fe75f1b0f
+    - name: Big Portal Animations_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 055a2dfcb326bd7dc99353eb1213051c
+    - name: Big Portal Animations_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: e74f2fb9187943792a5aad081255340c
+    - name: Big Portal Animations_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 3581e1ccec615affdaf430aa19de3307
+    - name: Big Portal Animations_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 44fb3dc4673c71b9e9989db2116b964c
+    - name: Big Portal Animations_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 748119510f568b0308f8ac7d6d27a9e5
+    - name: Big Portal Animations_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 26a0453cd106030349b5103b0e3808e3
+    - name: Big Portal Animations_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 84994ed516a276ee2811307514706ad6
+    - name: Big Portal Animations_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 46df1f419b9e213c89d70dc8ccff111d
+    - name: Big Portal Animations_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 752209a4d955b9e1ba3dca11d81ad1f4
+    - name: Big Portal Animations_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 3a0b454890a27a04dba93e735c440559
+    - name: Big Portal Animations_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 245
+      spriteId: 46f20a4bb9cae2dc1b7f536ee51f451f
+    - name: Big Portal Animations_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 246
+      spriteId: f1b3a34477d08ccf0a1ed05be582583e
+    - name: Big Portal Animations_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 248
+      spriteId: 2f512f67eed0deac2b5f7301278ea3ad
+    - name: Big Portal Animations_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 249
+      spriteId: 24b218c3143d1ae928d36913a3a32ec3
+    - name: Big Portal Animations_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 250
+      spriteId: fdddc09046c37a99fbc79591486a7443
+    - name: Big Portal Animations_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 251
+      spriteId: 6f76acb57f43e2bf9a516492345ec302
+    - name: Big Portal Animations_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 252
+      spriteId: 563c1c82603c2c2aaa7663bb2bb97ec7
+    - name: Big Portal Animations_Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: -163
+        width: 368
+        height: 253
+      spriteId: 0a5ab1a5617857ee580a076e2fd8a06a
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 189, y: 90}

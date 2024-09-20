@@ -172,3 +172,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 5
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64

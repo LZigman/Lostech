@@ -19,12 +19,16 @@ public class Player : MonoBehaviour
 	private int movingDirId, lookingDirId;
 	private float rotationAngle;
 	private Vector2 delta;
-	
+
+	public float maxHealth = 100f;
+	public float currentHealth;
+
 	private void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
 		movingDirId = Animator.StringToHash("movingDir");
 		lookingDirId = Animator.StringToHash("lookingDir");
+		currentHealth = maxHealth;
 	}
 	
 	private void Update()
@@ -80,14 +84,12 @@ public class Player : MonoBehaviour
 			transform.localScale = new Vector3(-1, 1, 1);
 			rotationAngle = Vector2.SignedAngle(-1 * transform.right, delta);
 			animator.SetInteger(lookingDirId, -1);
-			Debug.Log("lookingDir == -1");
 		}
 		else
 		{
 			transform.localScale = new Vector3(1, 1, 1);
 			rotationAngle = Vector2.SignedAngle(transform.right, delta);
 			animator.SetInteger(lookingDirId, 1);
-			Debug.Log("lookingDir == 1");
 		}
 
 		// calculating rotation angle between vector above and x axis
@@ -105,7 +107,6 @@ public class Player : MonoBehaviour
 			float rotationAngle = Vector2.SignedAngle(Vector2.right, delta);
 			GameObject bullet = Instantiate (bulletPrefab, gunBarrelTransform.position, Quaternion.Euler(0, 0, rotationAngle));
 			
-			Debug.Log("Bullet rotation: " + bullet.transform.rotation.eulerAngles.z);
 			Debug.Log("Shoot!");
 		}
 	}

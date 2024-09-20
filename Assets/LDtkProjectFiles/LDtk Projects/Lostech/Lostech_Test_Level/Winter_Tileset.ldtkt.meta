@@ -1,0 +1,8079 @@
+fileFormatVersion: 2
+guid: d045c58817ad9a14b82d3225d57c492c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _sprites:
+  - name: Winter_Tileset_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 3cf3558ed47812d488c071a1e4a08a60
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 5e46393e76c168f46b98a269625ef8a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 667ed965324f20346adf2ec555e6521a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 358e850468fbc1d4bafa1b0c6c89353c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 2db7fe98d18f00946a4171441f837af9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 368
+      width: 16
+      height: 16
+    spriteID: be5070efc9f64284cbb2a41c43323e32
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 368
+      width: 16
+      height: 16
+    spriteID: e9ea2a00c3a705644ae759387792bd69
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 3e92f77d30aee614785cd7a96821b807
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 4545e16e1562cd042b558db659191737
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 9b3fdf19d9c717d42974fc345055513e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 368
+      width: 16
+      height: 16
+    spriteID: bcddd88721ccd254487b283540de5e03
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 368
+      width: 16
+      height: 16
+    spriteID: c574eadd0dace6544aa1dcbf5419b5ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 368
+      width: 16
+      height: 16
+    spriteID: a8f5cfd5b8b8d7d4882e54792aff489c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 368
+      width: 16
+      height: 16
+    spriteID: aa508248c859e434eaff79f13921b127
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 368
+      width: 16
+      height: 16
+    spriteID: e6c2a7545864c32498e50c6bef2025ab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 6c618dbde9639384094eb049f6c5c383
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 8df692a560f5cb345b830549d18c70b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 5c98bb98f52689645bb5072cba05457b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 368
+      width: 16
+      height: 16
+    spriteID: bab6a09a99c744a4c8f73c8e50918a3c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 38e679ceb7841384699dbf4e4ec06bae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 368
+      width: 16
+      height: 16
+    spriteID: cfe4eb5e608d8924d93a9043b0c2944d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 15950a893d879ef41863a065e26d926a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 368
+      width: 16
+      height: 16
+    spriteID: b3f673f7ea5c30c42aaad7b355af9e29
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 0dfc500cbddb5db4cb722ec4b87a3485
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 6c8b5a2719518384784e234763f98ba9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 352
+      width: 16
+      height: 16
+    spriteID: fc5a854b649e23f438d9bfccd2794434
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 352
+      width: 16
+      height: 16
+    spriteID: b1199b42aa4c2a54cb5d286075a11fc3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 758f0416f3e768f49bdd5f77ab55f324
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 589f4df8c0937a64f8f40f819d0e46fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 266a504590437ee43958954b6dc7c8e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 312b3cd7d1a5cdb4d8caca874aa523e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 352
+      width: 16
+      height: 16
+    spriteID: bcc2e58509f6d5248bef66ad5e6a6eab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 36d6937d91f5ed84b9a6499ad9e5a2e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 99b7c54513f1f174b8695d5fae36a34c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 352
+      width: 16
+      height: 16
+    spriteID: e899641322ce9b14a9b6625648d4d957
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 352
+      width: 16
+      height: 16
+    spriteID: ce634cfdacdeb4a4e947014126a23298
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 5e99c20d242e58645b13d088dd5eb45d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 46362228702b9c840833c6ba49b9c663
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 352
+      width: 16
+      height: 16
+    spriteID: d66e4d81dbec0bf4f80646c8a77ee7d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 4bdc3da7a41182d438f6515262294a16
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 5b5d85a0fa56fed499a78e26e749159a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 352
+      width: 16
+      height: 16
+    spriteID: d903b37dfe4ac2448969717cba1eaed4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 0da5eda9a87a2fc40ac8cc22c2bf48ff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 27241ddac6539e04b9ad69856bda3be3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 352
+      width: 16
+      height: 16
+    spriteID: adca2f4d91e7b0a4fa2495d24a091bb1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 81afbc96c2c3f1c4ea6857883eb35df8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 352
+      width: 16
+      height: 16
+    spriteID: c95da87f463563547942e1b78fc0f8db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 9e1467b1dd9455f4290a2eae21bafde4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 25094de8bf6e01041b7ba0c7f0fe6aae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 28b0800f2f4b2c047a7d9d1175044c98
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 336
+      width: 16
+      height: 16
+    spriteID: b8dfee6bda8d27446a54f7b2309f3dda
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 5261c9f644ce62a44b73db081faef433
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 84064a31e15a3ce46877ffe2279a51d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 336
+      width: 16
+      height: 16
+    spriteID: cf8d15d2d1edbb142aab970b50e6d7e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 336
+      width: 16
+      height: 16
+    spriteID: bcfa52158637839438518523cd55fad9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 41757f212bc86a043be4c6dde4bd746b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 4243dba90b432794f9fbcc3211a9c64c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 6b382b6e5795c3e4d8bdc0110bd525b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 336
+      width: 16
+      height: 16
+    spriteID: c33bcca34994e554a9a121bd4e095567
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 336
+      width: 16
+      height: 16
+    spriteID: fd14760fc24e02f478797c549b6b7c6d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 336
+      width: 16
+      height: 16
+    spriteID: b21a990794f711c4baeea4c1ced78ddf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 336
+      width: 16
+      height: 16
+    spriteID: c9e245c1b45216d4e980dd7f4b788688
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 336
+      width: 16
+      height: 16
+    spriteID: a51ff14fb56fe794f95f30614c9ffaff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 215c13fb1c078a442991436045bfafb1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 336
+      width: 16
+      height: 16
+    spriteID: ad096d42fd52b74458b643fd355d7805
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 336
+      width: 16
+      height: 16
+    spriteID: e4d74f8ba14422f4690ce20e4738963d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 50d87082138231b4284eb4d5c8a4f2ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 1c113736e7a93354aac317c9d52225f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 336
+      width: 16
+      height: 16
+    spriteID: f113c13fc4d78c647b9e7e0ae07b098f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 336
+      width: 16
+      height: 16
+    spriteID: dde12824143209b418b2f9fc560976bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 336
+      width: 16
+      height: 16
+    spriteID: b4176ff55247a4747a3e8fb20bf82051
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 9c8e7721c1b05ff41bd98ffe41b943e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 03c522753421e034996df3e67baad8ed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 320
+      width: 16
+      height: 16
+    spriteID: be2420e47a47c3345b6435e324655893
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 8ddacb24ac5b40143ae1c248374d5961
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 320
+      width: 16
+      height: 16
+    spriteID: ecbdafdf6192d8147aef575c9ce089b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 386193b66059cdd439c37ebfdcc53db2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 3f41cbd6b9b5b264db29efc0321117a7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 87013e324539bdd4c89377c7686fa879
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 320
+      width: 16
+      height: 16
+    spriteID: e0d1c2ce783150944aea001923551c75
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 0572523b0acddbe418f444fa4f7e80ac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 320
+      width: 16
+      height: 16
+    spriteID: f5547561ed6346948bf4fe593180b944
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 1dbe458aee530134e870471913575e85
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 541ffadadd40ccd43ac3b927dceaee78
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 90f1fd7b770cf6240a5ec897ba61b842
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 0b9ac8bcb5f947f46896ea49e35aea04
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 5f6e5001860dcb7468d8bb8f0a677a62
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 320
+      width: 16
+      height: 16
+    spriteID: aa7006f72492e3949bbf9f708b90bd92
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 02dff6c7e31b81941863db6a2e1d57ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 320
+      width: 16
+      height: 16
+    spriteID: eb673a11fbb2bdb40ba2b0d43f43736e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 320
+      width: 16
+      height: 16
+    spriteID: ef366a84c4842ff45a766b1fa87bab37
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 6c637b9922e33584ebf037a10b3c3dcd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 320
+      width: 16
+      height: 16
+    spriteID: ec077d5cc5dee394fb10ab58156fc410
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 320
+      width: 16
+      height: 16
+    spriteID: a66bc2167d520804cb5d8312af2deeff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 347d3d6691f803040a6acb2a9bdab4a7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 4988b7bf25c69f14eb6508a9bd45e3e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 357c01c66dd52484099010a1b0a826a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 2c5f6481c6a1fd24dab58c5e93a1adac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 304
+      width: 16
+      height: 16
+    spriteID: dfdb76c1f85858b4aaa2826babe2e7db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 45de7f0e186e0234b97d3882bfb11631
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 3583ec0f637fa724783c257e258862f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 129eab1b83996c84e9d955a02a3fba0a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 1bbac1a386c1d344e9c24ed50398937c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 3253e7f16c0b66b4d88f9ebcddb4b833
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 304
+      width: 16
+      height: 16
+    spriteID: b9a6fafa984b4804fa5382ecce61d0e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 0dfa3dc7f213dca4b9541fd4065f3f3c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 304
+      width: 16
+      height: 16
+    spriteID: dc1f90db0ec787d4698e740bbeadd157
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 174f678d46690794ca0b08d0ac0742fb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 73c94efefbc797e46b47a7b34d4bef2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 9f6e229d8e73ad44f8c1523095a42965
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 635a1be54d3ae7346a5666de9dd26256
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 15ae17107c2bdea4e878a85464b87ed8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 08bb83cf44a0a6b44baf2803ecabb8c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 3bcadc41bf86fc84b8b4f0580d7010b7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 82fe543cbba42a941ab779e1636a2ba5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 529dc2db4a8286e4789a6bc7b22d244b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 7bd9b052372802c469d7151ab78ab753
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 0c704aacc61388d468095e67734bb1cd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 304
+      width: 16
+      height: 16
+    spriteID: b17194f3bfcdfb34f9f44ceae6f8555b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 3df7d4356f8bdd742825e848515fe097
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 288
+      width: 16
+      height: 16
+    spriteID: ecf8b42f4546c584290d7cb6fd9cd889
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 62e362793324fb34bace5e666ae076c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 9599b2227f8f4e84c99b49ec6de24343
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 288
+      width: 16
+      height: 16
+    spriteID: f16d08b459674e54db7da66c103d35f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 8a4ffc3b0678cc24fa56c0cabdf9c4cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 288
+      width: 16
+      height: 16
+    spriteID: f7f70bfdd7d318d42961097697fd26e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 288
+      width: 16
+      height: 16
+    spriteID: e89a2ca14e9964143bb4d43bf6679a48
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 288
+      width: 16
+      height: 16
+    spriteID: ab2e0020b2cb97d42bd055ff7c060b91
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 6060f577ce9a18f4eadc64fc4e7bc9ac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 288
+      width: 16
+      height: 16
+    spriteID: b56b8a3aa9968134d9782de493317acb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 288
+      width: 16
+      height: 16
+    spriteID: ca222efac2c13a14383a5d80285fae44
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 11d8b1117e20e02428fc6b498eaab6e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 288
+      width: 16
+      height: 16
+    spriteID: c0296c1b518d55c42bb0ed55a99a4cc0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 288
+      width: 16
+      height: 16
+    spriteID: a367962f24fc617499c1f5296a33199e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 2eb81510622ab4a46b52b2de6079b09e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 9d3e8a21f1f0bab4f946d25d17a7aa12
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 288
+      width: 16
+      height: 16
+    spriteID: ec431eb2460d3e54f97d48f2212695ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 4fb748af9d64c7f4095e612704d21c76
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 6d86dc0ec64913541925dccf609a18ed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 20d35d994e480134ca3b02a20f7fbaad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 288
+      width: 16
+      height: 16
+    spriteID: f37cee64febbb684d82aa40e1f469a68
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 42f919a2865bce8418f3a15f5dc4a253
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 5b7ece9d6808d4846915ea98effc4db1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 9e5e646ff19cb4f47ae5ab3c604b490b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 272
+      width: 16
+      height: 16
+    spriteID: d2037d83e8e657847ae7d773b3aede7e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 3a72cad117a9c4748a5181345a4d999b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 26e6b0d955e26104da95ef22a4778359
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 70434fe0f7024ad44a5d617438b86ba8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 272
+      width: 16
+      height: 16
+    spriteID: bc979099a661d4e49a267d47775ec197
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 272
+      width: 16
+      height: 16
+    spriteID: af2785e8f5c926942b7d3611af85d7e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 66186ad53ecb13a468a1233fd398ceb9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 028accb0a1deb7b44bfde73db8144470
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 272
+      width: 16
+      height: 16
+    spriteID: ec3a44f927bb73d4db17411a51fdb316
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 85a9ab4aa81c6db47a18124f5a6d05da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 69fb7b0a483765a4e81b6fc0b9ef3bfc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 272
+      width: 16
+      height: 16
+    spriteID: f8aad81515aaa144a8f23be8e8c9f366
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 39df6a8130e044d4d93059deda0d1267
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 8ca03fffbde083549a8c347a5c18ce32
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 272
+      width: 16
+      height: 16
+    spriteID: f7a8dcd0460fca54c875b06a6ca38820
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 9c0a8988581c55b4297ec652094c27b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 1e012b04a2c035a4ab23a0ca13ad0f0a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 8012bd968b71a89409ebf0805640424a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 272
+      width: 16
+      height: 16
+    spriteID: e073fe1f995526a468c6553ed796afb6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 272
+      width: 16
+      height: 16
+    spriteID: e06f40fc5627ae04a865cd316672ede3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 8cae57bc0ed6786459ec20530775e4a0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 272
+      width: 16
+      height: 16
+    spriteID: aaa5898b278055b44a6f7a0c2290091b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 272
+      width: 16
+      height: 16
+    spriteID: fb0f856cdb3a2934a918c34eaa303610
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 7c1a92610b3f9d4429b4a3798ae60fd3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 256
+      width: 16
+      height: 16
+    spriteID: f8c202c414d59b14fb2225a4136c4771
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 8da3d842bd9acea48bc026773e6ed44c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 256
+      width: 16
+      height: 16
+    spriteID: ca362401efed5684aa8f43ffe0aa67a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 256
+      width: 16
+      height: 16
+    spriteID: a308d30044c8f3848ad163e48d6903c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 256
+      width: 16
+      height: 16
+    spriteID: a2899ba12adc9494192eda5c3e1f2c45
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 256
+      width: 16
+      height: 16
+    spriteID: d54da23320c31144d9d5d41d08a02192
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 0850477ff0787004d9c7c15094d5ca16
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 6c132b1e62c4f814abc2314505e4b24b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 457577c38ce04a64b8b48455528eabb6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 256
+      width: 16
+      height: 16
+    spriteID: ed08cbbe2666f5a4d817746633ae2c2b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 256
+      width: 16
+      height: 16
+    spriteID: e5da845200929b44cac84866546c7bc5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 7ec88a0bc915dd44d8b76d6429f9a727
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 256
+      width: 16
+      height: 16
+    spriteID: fefa4273b8b8e05499ca2ec9daa34002
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 256
+      width: 16
+      height: 16
+    spriteID: baf7d0ef0e07f8b41b77698a166dc69e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 80d8204d36335334c9d505fd78899694
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 256
+      width: 16
+      height: 16
+    spriteID: b649b61c898c56f4e9a11cad2907a777
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 9ac30ad6fa31401428de519176f879aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 256
+      width: 16
+      height: 16
+    spriteID: f0e7bedb219aefb4399a6c0a142b2395
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 6042f49a737593449b3bc3e61ca541eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 16aa44ba16c0a124ca7db11df85968e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 256
+      width: 16
+      height: 16
+    spriteID: a00acb20125c5a144a21b7ed14dee42b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 564e07ff0acc3184b90bd06f16373caa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 256
+      width: 16
+      height: 16
+    spriteID: e9464514c97fd0d4aa8df15a970b6616
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 256
+      width: 16
+      height: 16
+    spriteID: d0c4029794372f74b9dd52a5e0b41229
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 42c3826352ddf8e46b29dc0a3049fcf3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 7572c18831155a74786fbfab4cf602d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 039dcedfcf7f0e1469248d3a52f21cf4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 240
+      width: 16
+      height: 16
+    spriteID: d2d57cecd325b2c4490dd11268d137b1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 77994b2a310dbac4e890f1d49910ee47
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 93912577760e35b459307ba33e3fe91f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 89d95255950f6864fba1505f8eeb6fd6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 74a78dd1c975268439b6347600047344
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 240
+      width: 16
+      height: 16
+    spriteID: daca451442f26fc409bb5a2f548dd64f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 4e8c673a5d924984ab58a5808f1e15a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 4b2e3e39995a94a4e908427522c23431
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 240
+      width: 16
+      height: 16
+    spriteID: b4be70800bb6cc643b7db1b5d09c256e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 4e286cf029524aa409339cb07d89833d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 240
+      width: 16
+      height: 16
+    spriteID: ca071c75d9c998c45855d09385ad2648
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 240
+      width: 16
+      height: 16
+    spriteID: f8bfed08e645e6c41baf904bea5e3675
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 16ba42fec1b9aa9408e8a759b987671b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 240
+      width: 16
+      height: 16
+    spriteID: c81f13ce914db5e4c8a95fab9bb192e0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 9c18629e9458da3498971c51203789ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 60d231c5dfc9ae84e9b168c622d5bdb8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 240
+      width: 16
+      height: 16
+    spriteID: caa2df5640c1eb94babcdf0f1def40a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 59aeb45014e383f4c98279ac9c66bb12
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 240
+      width: 16
+      height: 16
+    spriteID: be376dc63ffbf1e4cb784bf18ee009c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 5927ef42f0bd03a47ae77590703777d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 8841301ae2e897447b2d31b9e99313d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 51418952f90f30b4fb335cfe13de285b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 453758fa5406dfa4a86e0363e9b9ce5a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 8764dad8bc7a250488866237745cba4b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 95e94ea522f275941b8f1a4564003a90
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 224
+      width: 16
+      height: 16
+    spriteID: c1d9cb3fa14409444bef5a6e856a4f05
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 224
+      width: 16
+      height: 16
+    spriteID: d4ab98b55856f8a468bb42957a91105e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 90c07bf1bddc7ce4ca487f1adfefdd22
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 64325783c3b49204abb8292190d0b5b6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_224
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 224
+      width: 16
+      height: 16
+    spriteID: df802eea3b674f44e8a9be4afd497b3b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_225
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 0859de3b1cf869344beb642ff8ba6c51
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_226
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 8f6854850517df74dbce34b4808b02c5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_227
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 72966fba2df8fb84da5f255542c445b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_228
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 224
+      width: 16
+      height: 16
+    spriteID: ed95a98998ab6034a929a6c79a720ee2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_229
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 60f06cdd348bae346b3f92f394ce7d9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_230
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 6df86e98f474bbe4fbd8e633adc8bff9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_231
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 12f99f53f80669e4896b9dc38f38a275
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_232
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 39c893c8fb1487843b2ef9e2f08c9044
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_233
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 2f047e44c569a75468f134c032d0393f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_234
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 224
+      width: 16
+      height: 16
+    spriteID: b8218c7b736323c4faa51f6c8b72a34f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_235
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 0226bfb5c6b66fb45b97a4a7417f0b11
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_236
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 224
+      width: 16
+      height: 16
+    spriteID: ba9c852c374b4dc4fbcd3c06076b8faf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_237
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 224
+      width: 16
+      height: 16
+    spriteID: a0f9a293b384c8746896e28f02056738
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_238
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 224
+      width: 16
+      height: 16
+    spriteID: ee83f1a36914cdb4ab9224787e614aaa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_239
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 224
+      width: 16
+      height: 16
+    spriteID: d0e955980b423674aa361a1909e6d701
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_240
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 208
+      width: 16
+      height: 16
+    spriteID: ac672f7b48087a64f8ebeebf065039e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_241
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 4268ddf512e3b6c4aa929383b4fb5b4d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_242
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 8f88c86ed4d191d439e192c6fa455791
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_243
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 8455ef0167ea12c4b93828a76fa5dca9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_244
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 208
+      width: 16
+      height: 16
+    spriteID: cd5e018e31380804cb38569dd197418d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_245
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 208
+      width: 16
+      height: 16
+    spriteID: f9a0b58fdf1d6c64b8be12c0bd89c6bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_246
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 30d2534f5c0c13d43bf5a15bf992cb4a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_247
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 437e482d85ace7146bdbd20023fb5e9f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_248
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 54f00bd15fbbdea4fb16fefa98028094
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_249
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 7e7c35d27be4330448bf4ea34e5952ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_250
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 208
+      width: 16
+      height: 16
+    spriteID: ac6e8fbbb22c0ba4f9ae6f2a38e8cf15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_251
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 37385daceed04e14a8035f5f337e1ed3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_252
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 11619d9fa986e61439b4a5656f8dd1a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_253
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 208
+      width: 16
+      height: 16
+    spriteID: c87a5f826d3a4da44851aeed755d1d5a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_254
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 87e9048364aa30c40b058d3ad6ab602a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_255
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 5ada493b213cdc44ab9eed270393084f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_256
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 522886ecf3057b243be836b887f6be83
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_257
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 84654b8bb973d614eaa221ac890f5560
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_258
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 208
+      width: 16
+      height: 16
+    spriteID: ea410ffe03a176440a678c156bcf9f14
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_259
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 36c523bff043ae0469c41b46addf76e9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_260
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 229002c7382b6da47825bb4a3b40198a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_261
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 304474cb9d5778c45b66d87d3d5b6773
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_262
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 999880e5699f4fc4380e124c6894b23b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_263
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 641abcbcceafc2f40bc246496eda9ee5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_264
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 2c4a1aaba02c29e4b815b50a378951b4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_265
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 4eac68cf6c72a2e4faf2defce0ea282f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_266
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 5fa649b994e55cc48bd3e0171f86d4d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_267
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 3787b0f551cbb79469353e19472dbf6f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_268
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 449165cf05f63bf46b3ea69f97e02029
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_269
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 556064c621695f04795b802a12fd6f3f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_270
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 51e7296c79af58948a029afa6d2469af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_271
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 1e2d5d1029df2504d924539156f3fa34
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_272
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 904ae1e86aac7c549a7fbede469fe317
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_273
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 2cbc3519744b76340bf5a896fe53db97
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_274
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 1d00f2fed11558f489d174a2320cfef6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_275
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e8a0981495ff9d548bfce308f096c312
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_276
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 01c2e46559393db4d87d398bbbf74ff1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_277
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 254a445da55bcab4ab6c04f6b34f897e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_278
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 106522ddaa4037a4b92b72811e7558df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_279
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 6b99cb4df03ff4240ad4841a17236bd9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_280
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 98b05444fdab1bb4a89fb31788ddd441
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_281
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 55f09878a2dba58468530235c6533672
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_282
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 6a003ec34c7583e4aadff8d311e6558e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_283
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 40404599d9d8ce44bb4a35fba122a953
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_284
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 192
+      width: 16
+      height: 16
+    spriteID: ff35918b5ca57234d8a8e722a507cc0e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_285
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c7a975783e469bc42bf679d091216c34
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_286
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 6828c04b3360df849bd9f6b19e254cc9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_287
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 05b942340654d07449cc7f1e046181ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_288
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 45946c82f34602746b5399e760009bbe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_289
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 543df0426f88f094b88a32c24b5dcb6f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_290
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b9b78f68b75103c419fd0510796bc9a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_291
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 098616246e9979240882ae29be9f33ef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_292
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 2ff8482e549970249b5fc6791565f3e0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_293
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: c364dc5591b586f44baa1b2f157f781e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_294
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 52abef41814ea284e8687efa076e5ebc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_295
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: e5b75f283d5da314db3ec6214adca545
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_296
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: a0d815a90fd8a924e97e61afe9b5d129
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_297
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: e526c57e562599441a01e43294fcce7e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_298
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 026c543d50ddae74fad71e86b1ac3554
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_299
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ddefc22ffdab11d478219e1bc2779039
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_300
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 6a0429403f1a3fc44b19c386819d39b4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_301
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 0ad1330e7024afa41a8596af76a9abdb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_302
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 9fd408a36179d664d8194f18f3171b4a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_303
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 136b0370a7b02294381b406b88518aaf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_304
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 24c52cb5a0a56404293794833f14ac10
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_305
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 4c9d2c22ccb52604993602089464818c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_306
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 176
+      width: 16
+      height: 16
+    spriteID: e07ef2bd81169fa4ca44e6f1832fbb81
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_307
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 661a905ee85a1024597c840e3cd62511
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_308
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ebe00221bb1ac024ea2b3f4173f50e2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_309
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 194399e996ad4ac4da88a2c7e366aaf8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_310
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 41a85a5611391fa4cbaaa361e56bbf34
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_311
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 76077d88040418441968859510b71785
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_312
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 50e344ba94fe1c24c93e80ea6fcdca9f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_313
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 5d5a621d00ebdaa438ee421570938faa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_314
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 0e32be74d0f123a40a618bdd1d7835f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_315
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 681d04925b0c6754ab943513019a5532
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_316
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 531d3b382ce39d04f8249f3320d215ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_317
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 01711f7f4f367204fa1e2a62323a3b26
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_318
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 8949adfe5d6444246b820fd53f5c0495
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_319
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: f458af1a495a2f34ea67cb38f9cd8cbd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_320
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 53807ffd39f2feb4996e4284de23039c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_321
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: e2a311dc49b8d7643a70fc4cafa35afd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_322
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 7750eddba8f089446a18957a409963bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_323
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c072e9e870d397e498b99648ebd580e9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_324
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 8b66557d75cd5be47a2508975c9308d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_325
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 625532328c4412d478aca7b6a4857bd1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_326
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 814aba86d9889184da29ebb486235394
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_327
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 16
+      height: 16
+    spriteID: e3f2db7b03465c9429bf07e608a8dc11
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_328
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 053e2c471fe9a124f931f0b949a4a01c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_329
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 160
+      width: 16
+      height: 16
+    spriteID: e98e940025056a74ea6e60bab2b17d02
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_330
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 160
+      width: 16
+      height: 16
+    spriteID: f22f6eddcf1c82c429f7ee0837969192
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_331
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 160
+      width: 16
+      height: 16
+    spriteID: e323e4effd7f3a84b9fb0f48b9799a29
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_332
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 8a300b079a638fb45b20bede07437098
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_333
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 160
+      width: 16
+      height: 16
+    spriteID: f487d048ce3fc0147b43d229372c3004
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_334
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 2bdf27b9c3ea67f44a4240e1dd8bc862
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_335
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 250c87a2579c19240b39271cc090d166
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_336
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 7302b3b5db3073f489b954fd4d70f7e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_337
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: ce694ee7b228eb446ab6e4eaa3c9bacb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_338
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 873d4b9859cf51042ba1c294ccf1ff46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_339
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: df93aede302328d48a35c5dfc9443b19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_340
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 69215723bae3ff748b68e6e6fce19791
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_341
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c8555a458524aff43b81782f58882b00
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_342
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: b38cf91e67db6254c94a04640fc475d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_343
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 36b3231059656e34a8e4b261501065ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_344
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 56f4ebd0110ed1a408f2c2447a5387ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_345
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 1e9df24282492d946950e6d6e5f6d29e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_346
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 41f6fb846c7ed9e41a3ea8ce2661384e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_347
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: ae2621133cfc3c041a12c75c277be391
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_348
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 065070522f0968742b0ff979457cad1d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_349
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: cc1ecf4b91487db43bcf647cdff1c412
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_350
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 4dcbb28b1133f124dbf03ef48e16bde9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_351
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 400c3d97e30c1ec4a80d5c187c3ecf9a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_352
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 8437ba7cb293f4c42b5e5de4871c8684
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_353
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c694f1ab82a334b4ab9b7f645b3e39b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_354
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 23949482ec8abd3449f0886803be3400
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_355
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 67d28bb5d417ebf48ae7954c0791e5f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_356
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 144
+      width: 16
+      height: 16
+    spriteID: d8ed156ae24fd3f4f814a395f7d74a65
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_357
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 2d259a5006901544da88fb31ab8f436c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_358
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 3057b6a1c4ce1f74d9dabc116b94d939
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_359
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 144
+      width: 16
+      height: 16
+    spriteID: ec50f516ea8985246a0f992bd2c9c4e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_360
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 1cf637a1684cbc142a1dc8d4b914c115
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_361
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 2802998a0c8b9f94aaff1464b6aedece
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_362
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: c84acf77a99e097459d12dd7f4cc7c8f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_363
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 46d9db09a87ac0041a59851178ad926e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_364
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ba97e60f354843542b5cb30bedd36f34
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_365
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ab1951e775baa114a99b9c52b195552e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_366
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 186c5e4ff00f4644eac7cbe49ebf1853
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_367
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 0890e0a1e141cfd4299f1d555ebd99a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_368
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 5530e3beab07b3242b66bb693f59d0f8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_369
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 397b59069e5a5e749ab5eec283503030
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_370
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: eaa993e784612164881d3d69bb93696c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_371
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 033985b1fea092946b0a6f8c7364cd7a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_372
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 72db6ae073dd6b340a93f0e011b2a113
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_373
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 5716d55f398969b4eb35f54332d81c17
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_374
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b78dba6cce3af8b498fee138657eee45
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_375
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d05b6c3d90b12a74db77a63f16ae1157
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_376
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 69f4bdf865d4a1f4daf9a8cc5badaef0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_377
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 695e073e86077e348bf16a1f093c4044
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_378
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f6ef50c183c04ea4ab29fd9f3fded502
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_379
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 81a299c6e3b02d547b194bb044dfa2a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_380
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 9b7819896e1428c48809333888fa21cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_381
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 7cdaa20a6efa7bc4c9c2d3e2dddc6c58
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_382
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8e76639b20bf4d6439373e1b248b781d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_383
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 128
+      width: 16
+      height: 16
+    spriteID: db0ffc05b944bb34a9219d9f942256c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_384
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 5f0cf4882c972254393dead4cad85b26
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_385
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: cfac501a138370c449ad4c45ea284833
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_386
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 690a0ab8da535ae4d81ccb9e87d69537
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_387
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c74da6d292767c2498b6ce69e9680507
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_388
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 84bea1de99fbd6e46977f11f65c3be06
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_389
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 88c1e3996fc00444c936418b9d7b22f4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_390
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 2cbdbc1fa69cdf445b95eacbffb154e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_391
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e01aa7d74e56b884ea698f305043d9a2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_392
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 3cc317438b54c6b418c79fcba8203a86
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_393
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 407739179f02a594d811e535e8ca58e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_394
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1f9fc603da8c2b14d8a22a21caadd346
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_395
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: a44f7a1dff435764faf9797e73238b85
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_396
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 22951ac0b15779348890be8c28859228
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_397
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: a5efb7a2cfe111049884086d482f3c7f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_398
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7d05e3c11e5184b418f8f921959d3dba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_399
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 8245576e34832794c88351a5eccd59d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_400
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 8af5cb1e985b83445843a3d26bda78d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_401
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c21012ff8087e8c4f9b11bffaea0b7ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_402
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 492e4a7e42a69ea4ea00932652a989cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_403
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f6686993ef0a51b49a278ec06f02ae90
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_404
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e4359504c6189114ca8de5781d25b6d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_405
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 47e0b96724736bd4cac58aef34532ca7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_406
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 112
+      width: 16
+      height: 16
+    spriteID: eeefdd368a6b94c468332cd1af34d1ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_407
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 0faf306914e025c49b1943308f3e1297
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_408
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ff9b3376b6621fa43b48410b54a097cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_409
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d1c713b5db2ab5541953edb6697ee0a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_410
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: acb1e3e0a1e9a9048a567b4be23860d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_411
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 964c0b8ae4f27c64da0fcf149630cf23
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_412
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 2400a769739fe334cbb9f8e438428d85
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_413
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 3fa7d41196775b04cb4e6973b3e5d333
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_414
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: fe73a821f6933e24d9baf332d60d24ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_415
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f1a9a6cb44d094a4baef74e435508411
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_416
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 9732d8fef6f72864894f09a86a627b49
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_417
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: e691a5867e98d7e48bcf8386cfa2ffb8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_418
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 6de7c4398469da14181f3e1281a5827c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_419
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 0fee5651c23d8e84dba10635f547c06e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_420
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: b71c81350405d12458b6ebc606814516
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_421
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 66abac8ac1a8a8247ac59d0808efe64e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_422
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 5e2a5a58eceb54d44ae2c624dc1e05fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_423
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 98c28eefed3153b42838e405423f424a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_424
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 96
+      width: 16
+      height: 16
+    spriteID: a25f6f53086d1714f81f4f0d65d34cd2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_425
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 87f62f26d046d754ca579b469060e87f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_426
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 56ad3920ba73b6f41b7967aea4ccf534
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_427
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 27d176f2cb8b3734486f32c2b17dec97
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_428
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d8450c205fff6904288e4cdd06b0c398
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_429
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f20e2ce09c191884180ed237f7c278f8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_430
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 998d14cf34946f74385acdd7da22a7c6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_431
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 71c022bb5ba7642499a1b87f487a14e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_432
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 9da9ea69eee519a47a9fbcbbc45595c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_433
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: e8808936388a4c54199e94996aa137d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_434
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: da7036e0bdd4f4b4288f5d015d9f4ae2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_435
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f352a9f7bfd84e841995cf7ca61aba4d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_436
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 7728942588017eb4e81f5dea59e46f74
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_437
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f545efdb7cbb85f4b815adf9dafe4070
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_438
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 63b28b8eaaf104846bbfe26dbe374cd8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_439
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 18d74e061d10d4a4ca45bc673fdd7d31
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_440
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 195cc2d892301bd44860125662db1ff6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_441
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 9909ba2bca8fb7e4089c8d69c0b86c06
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_442
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: b46ee60c60d1b324380f045ee7edbad3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_443
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 0ebb5eff3ca62d94581608f0a204a30b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_444
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 23ac13245c7a8604fb40c94023f32eee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_445
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4b49e06b0831033419ed94dfe6400a2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_446
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 467782c631e0cf44e9ec88fe02e70237
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_447
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 3505f2fd46a0f9a42b1dedfab49f89f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_448
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 8fb82b86a398b264ab92bb81cef28d47
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_449
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 80
+      width: 16
+      height: 16
+    spriteID: c200b9c33ba8a1b4fbc6b8f7e745e0d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_450
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 8ac4e437fc51f344388d3dd82fcb4819
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_451
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 418580d6f7e63174abd5938207adf473
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_452
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 030165daf4483dd46b79105deafd8635
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_453
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 9e5c36e844e990a489e90b03ceb92394
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_454
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 01c7a132a32b6a54394c564bebb2e120
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_455
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 80
+      width: 16
+      height: 16
+    spriteID: fff126c9192434546b1bab0dab2a8ba4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_456
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 2ca599183d19aaf41bf8c9d2ac41895e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_457
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 6aa3909789030894f9b0cc7976c65916
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_458
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 1bfde65de0a6f4c458f65553896acaa6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_459
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: f02dd7040345a8842b3ba6edc556d1fd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_460
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 78dbbafcc9fd9c3459f2fd81fd91d074
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_461
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8e83c403e3194cb4b8d702b606f1c540
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_462
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 7aa7d8fd3aa50e542a23d12563d74b87
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_463
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 56eca6dca76a09445a00fe315fa82237
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_464
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: b70142e7dcffeaa40874352ed36d3cb2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_465
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 185571975276a8d4ebd19e41b2dba50d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_466
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: eef9fec326a976b479d11b717796fd99
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_467
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 10964dcdfc7e4594dbccd586e939bdbc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_468
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: c1fdef3c7f9af144e8d046ebc3b69340
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_469
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 30607ee8a8cfe6945881adfbae3fea39
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_470
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 03212edb8c75c904080ca6993dbef081
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_471
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 276fce5c098c9b642abc776e87317eca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_472
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4ce82f6c1a96b984abd018cb593009a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_473
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 3e689ab4cd0fd5e40ad05b91ed41234f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_474
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 64
+      width: 16
+      height: 16
+    spriteID: a71abd9c01dec994a8376473021087fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_475
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4bfc41b9a0c977c4793cd2afb0e2a337
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_476
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 64
+      width: 16
+      height: 16
+    spriteID: c563aea32f3b3e442a5825e9f151e619
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_477
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 64
+      width: 16
+      height: 16
+    spriteID: a2c0238f04979644fbc57b1527da73de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_478
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 505da637c508ce04f890d0bb8001a583
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_479
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 3fefc73749ae65d468201520b522b655
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_480
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 21c99a8dba87e014f8cd6cb9489a15d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_481
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 214a93f230fa66b46bce0d9c96b643f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_482
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 1745b0b88a7ead34b8d5f80cd96cca6c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_483
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f74a02b754f748340aa0ad095eac9e8c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_484
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 1b3faf476a479334183028618a1af945
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_485
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f8b9d9c3ac868e5439e2d21ff439a57c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_486
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: cd66f6efcff927349ba4503eb5a2b090
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_487
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b9919c63d22b9d146b486b0e9d609c2a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_488
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d59987c55f51fb547b619f12f5bb3ffc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_489
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 7ec0a5faa66fb204481d8cca1ad69c0d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_490
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5ba7f1099d3dd294ba7e2cf034ed9102
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_491
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ac5fd82966ccc514484e301af61448a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_492
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: e8e842cdd669ba04a9ef3403a14e64b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_493
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 06e1c811a03a4b84297dc7c71815f35f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_494
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 50764f36ab48e5944bda76713dc16a83
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_495
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 691860380e50a0242abbfd7f9d1689cd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_496
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b960467b728c622419ed0060204e8dfd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_497
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 72e4fdec46b17904d83b23d481c80e02
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_498
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 48
+      width: 16
+      height: 16
+    spriteID: a3c088d5cafb0b643b45e506c82be617
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_499
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 1f520d28e69ecc94ba50d664e67ed926
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_500
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 6fd2d2446dc689b46a44699eddbf5efe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_501
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3d7584d8bf3995f468b1bc964b760d45
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_502
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 9fd91fd8f74dc384a83dbb5b82a3cb6e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_503
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 48
+      width: 16
+      height: 16
+    spriteID: a3428fc2ee9757c42987258b248e917b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_504
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f8b57198d395ecb47833365ca3883f79
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_505
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0b7a9bf5bd52acf4a99ad14e944f033e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_506
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ed004b21ef3aa474295b1bf27937ce33
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_507
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 1ffe74d96360c3b4bbfcd527ff96be8c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_508
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 6ba032d7d13691a4f8cb93088215fe47
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_509
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f794aac6a2b904a42b7dc27c6ee690d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_510
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b1e85cfbacb8e704984774e8017caabd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_511
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 3179fd99224ca6c4a9851941dc5c7f82
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_512
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a7a167f8741f9e142ab722fc4db9cd23
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_513
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 7637f794c520e544282839ad8fd6eaf3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_514
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 200466f9467050642969bc776902834c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_515
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 6e685d98d5a886a468a66a04ce172243
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_516
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f9c3653f9cbe708418569496344bd8f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_517
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 84f8b2625366c5444b25e881f68f2d37
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_518
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ff78a416fb5bd59498db7f398aa5d9e9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_519
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 3a1bb8a448fdb514e8f55aac9b864cff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_520
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 6a2d6d0becc9b25419175cdadac37d69
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_521
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 38df5e63ccbe5cf4aa9096bacc8a26f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_522
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 8201112015bccbf4db2e98410e6e1729
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_523
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 240b9cc4254a1ed46a0c5d437b408f4d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_524
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 32
+      width: 16
+      height: 16
+    spriteID: d5716bee84ec13344b5bc9dc002c43ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_525
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 26cceea33225c624db17d7aa573e9832
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_526
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a8d397270f94698499bcd1d07d7b3e14
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_527
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 057902a0ee1366c49ab38c3cc4e541cd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_528
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 20ea08d38a6c85543b9cad8f564c6de6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_529
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 76fe7ca1f18997c4ca9dd9be2e8a29ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_530
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 2ab527ed17eba6548bb7667fd14297f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_531
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: b6b1ee125fcb4c54ea3db07e0150791e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_532
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 480fcb9956398c24987f867c84cfbcc5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_533
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 895157e427f179c40b7bec3492d76a75
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_534
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9246855d3c4da964f9010173fc699a3f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_535
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 64d62f0a0fbcbe24a999189acbdb574e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_536
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 05dd6c89e85e536409f5d766ea790f21
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_537
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 7c97769149c330746bb649ce815e56ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_538
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 448802e8d6cd00045bc9bfb50096077c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_539
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3e00d2de5efb4144aaea5c68d0c98111
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_540
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: cb10fbe528d27494d93f7ff3c75fea91
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_541
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: fa7d0bd89a739d74381f856a2d094cb3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_542
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 2a74641b79fb4f44e91ce0042cc86015
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_543
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: be96ad732924b2c49b6f4b71568c502e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_544
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9e5c6e623d63b8d49b3c6dc689364f02
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_545
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e29cfd9814bdca944b6f58b12648d518
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_546
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 463a572ebf81f7d4d8ffad86bf437e9c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_547
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 16
+      width: 16
+      height: 16
+    spriteID: fb094f3aaaa9f184b9b472d82e5ee24f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_548
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 670275479c0701243a201932aeb63b63
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_549
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 4af5f36e89575db498b94e7b418e80e1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_550
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 18b712744eb27d9418bf9c8ccfe7da90
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_551
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 216b45121ec0ce14ea64db5a9ea8803e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_552
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ff33c037158789449b53f24198c77516
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_553
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ac14c1709c3e59d4494a00d7b27002ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_554
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: dffe635e615311d4b86ff2cbcdd056dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_555
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 1ce9e450c4f113e4fbf48254dbffd6a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_556
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 59dd1ab5b446a9b4f81ef00ef4e6eb5c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_557
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f6045c7b04aff9246b024878705a06fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_558
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 88fa3a480bc7f6e40bf8dd48ade69207
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_559
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 08832bd9025cc5647a1a7470eea9cff9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_560
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 04f578e48a38b5f4e8072e65df0fa271
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_561
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ea7caaf567d5df6418b12f83cc07e177
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_562
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 21597cd95885cba469661ede1ed887eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_563
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 892bc826adf714f4ea9a4c62a3609731
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_564
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 441e06dc65aceb040ac7c6ab106dc8aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_565
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: febf97c508ee62c4e96772cc50ef9681
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_566
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f24bcf1b41ee5164995122a3af5150a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_567
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 8f87128a6a1acd6428cbffd3fefa3e40
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_568
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 6f5b1357b1e27ef4f9fc3e232294caaf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_569
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 17d8724b257b7f54d87b371bd84778d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_570
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f2de099a8c0ffed4db099120df7b5527
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_571
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3567f3880999b584bb1e037e2c160813
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_572
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 699810a8f3e37c14c89ec472f5a9dcf9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_573
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e052597f10f429148a262c032bd590e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_574
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 388a6e0a4dda3af4ba7eb98ea3b5e85d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Winter_Tileset_575
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 209804c79b23a3b4a9378290699c22ab
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

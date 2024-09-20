@@ -1,0 +1,41 @@
+fileFormatVersion: 2
+guid: f143620b5d74cd74a85868fc806972c2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aaa16bfc62c086f4fb45da87b6acf9b1, type: 3}
+  _reimportOnDependencyChange: 1
+  _jsonFile: {fileID: -164016180542632921, guid: f143620b5d74cd74a85868fc806972c2, type: 3}
+  _pixelsPerUnit: 16
+  _customLevelPrefab: {instanceID: 0}
+  _intGridValueColorsVisible: 0
+  _useCompositeCollider: 1
+  _geometryType: 0
+  _createBackgroundColor: 1
+  _createLevelBoundsTrigger: 0
+  _useParallax: 1
+  _intGridValues:
+  - _key: IntGrid_Ground_1
+    _asset: {fileID: 11400000, guid: 98e72bd298ede7d4c9cb1d16c218d3ad, type: 2}
+  - _key: IntGrid_Ground_2
+    _asset: {fileID: 11400000, guid: 445e6289ec17c244b906b0ff996378bf, type: 2}
+  - _key: IntGrid_Ground_3
+    _asset: {fileID: 11400000, guid: 754aee3fc389e6643bc7edb69dbf82fa, type: 2}
+  - _key: IntGrid_Ground_4
+    _asset: {fileID: 11400000, guid: 771f17221fa422c4d8fa873951322757, type: 2}
+  - _key: IntGrid_Ground_5
+    _asset: {fileID: 11400000, guid: 112f4596d14083e4ebf76ca7410db528, type: 2}
+  _entities:
+  - _key: Player
+    _asset: {instanceID: 0}
+  - _key: Level_End
+    _asset: {instanceID: 0}
+  - _key: Door
+    _asset: {fileID: -2253911629886400664, guid: 8aae05fd3cd30b0acb5db6e7b51f1f7a, type: 3}
+  _enumGenerate: 0
+  _enumPath: 
+  _enumNamespace: 

@@ -1,0 +1,3151 @@
+fileFormatVersion: 2
+guid: cd9797c6f1d5dd448b5f3e31eaf1b672
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _sprites:
+  - name: Dark_Victorian_Beneath_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 38999a31c3a73a845ade268f2455b3e0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 145561e610daa0a4999bae9fb535c502
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 95513ce9c8cfb314caff29a830c0bc1e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 208
+      width: 16
+      height: 16
+    spriteID: d5c9aecc176596647afb26684d856928
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 437862309dc9ffe468b5ff26403ca2e9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 208
+      width: 16
+      height: 16
+    spriteID: c86f9c4c19ca22645b87d5b113f84cb7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 51da2f434d4f4be4f8d7573cd7eea8ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 208
+      width: 16
+      height: 16
+    spriteID: d028ee8e634830e4b9dcec384af7e999
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 208
+      width: 16
+      height: 16
+    spriteID: e21939d874ec2e641a23eb7b35b1e9ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 4e1a15863254ff14fbdf5894a816e07c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 508ac464b8574da4cb2d17cd31f62028
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 3c1b49528d5e92b439f100ee6a37d358
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 449288abe44471d4488098f77fc94210
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 84b4c769f0246f04ba076f62fa0e0ce6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 208
+      width: 16
+      height: 16
+    spriteID: e42471134cd477649a501891ecb97ca3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 13b6d0012c130d24caab8778880312f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 16abc32d3bbc3924abc4ab5ec2bd81f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 192
+      width: 16
+      height: 16
+    spriteID: a370dae75da4dc34987deb7a95062808
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 16
+      height: 16
+    spriteID: d553d15c90fbb6a49bd55187c48a6f98
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 6bf74bccaa7ddf24a94935ae2902434c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 16
+      height: 16
+    spriteID: ed9a3b9ef85902e4896e57e4baecc920
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 8ff5d5fbdce1de745887709ccaf50daf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 85dada8a5f9c4fc45abc7be9da0c0e44
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 192
+      width: 16
+      height: 16
+    spriteID: a2c22c651d405784e99442d68450fb35
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 50d29feeaa6c88843ad52564d7d45d26
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 61ddfc1429b8bf140a369ee5c9117cd8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 687d33e04b8c8d544903a42994fd409d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 192
+      width: 16
+      height: 16
+    spriteID: d1d2e67e3fd8e794f99f1fc673233ae7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 292ae0ce3d8eeef40b97320dd73f609e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 375f4c00d4bb43047b6d9bfef9238d64
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 16
+      height: 16
+    spriteID: cd4c2edcaae238f4984fe339fc0b6653
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 79ede104bfb41404993c8e5106e7eb24
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 7031adab151c31743bd68796edfd6856
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 6292b550ac0b8df4a990ed16bdb4faf9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 5fb4d6e5e97930542a5688ecbbc58dff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: caa88295cb7492e4c8cf1cef25e16713
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b210020f78a23674baa4ad1cec2f840c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 32a3a0e6294d54e4ab257e47bb18553f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: a37a5d71e3d5b6748808d6bcc307e968
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 2314d4d02ea7ae84b9836e688cd00523
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b80ad39a9747e1b4da0212f32010564e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 6ac17238f39da404983efcd2af1f895c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 5b3adb857cfaa2b469fab2d0700acc0d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 9a33a7fa881a1964a830cd24215cb1ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 76a87b9a57849c947b1c9032c96fe492
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 9dff3a781c8469d43a4ab19dec999441
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: eaa7467d3719fe1408f42bd576606c57
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 176
+      width: 16
+      height: 16
+    spriteID: cff6c28c0e1945f4c8bb096e4d93ad0a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 5d08afe6b9d649e4dbbf44be9c88ac7c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 7a610f33bc6f0914a842235ce3f6f9aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 4832894cfbc3c6c46a1fa59336715fb6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c114917f1d222954a9e4b38d145551de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 84446f90fdc1508498423aee794b5661
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 966c4918cd3e8274493020c2eeece6ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: fea224e59f0ae8e41839a164b1ed943e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 2d57bd39ab988ba46991237bbfc028fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 964506c3340731a48ba850d861c139bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ee416f223039c6a4a815ffe19f216ee4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 2ebe3a06b1eacf44182afffe4701a6d2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: d0685e731cd22034db5fc5e8d647977d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: b9ac4ef1a8513af449a3c2218cbb5a99
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c2d0e4ab855b1924cb55e68d404fb884
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c88d25a3339a823469c00dd718e973d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 54354e9bc54fa904db07466c3236e582
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: ed73987bce3b89941bc95000f7e0588d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 0d5ae7d99dbb76745bb34e6986faf2af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 7880acf002991cc47857ddc6d5ed3b55
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: b7e872c84cc6b624bbcd6c2170bf8ad6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: e143437d19ec9b14989c4aa1d113108c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: cca9ec199c9f55542848538439c40423
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 695b62ebde76a9d4d9824551b84ebcc2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: d1e30c3b38c478949941131a501ce3a7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 5271a4993a6bc0f4db22512be3c82ac6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 32907af44510565478c3fe202023761c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: f0f92d0f2b4ca4848850d78fb8d0d323
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: ae6eb477c843c964596ca2e244958e66
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 1ac7554a433fd1f4eadf80aa6863935f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 51cd5c00ffc98f74f99e402c80a2e36f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 3a64d9d52dd096c4181d1343fba43d83
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 144
+      width: 16
+      height: 16
+    spriteID: e1ea56c6f6dd2b549a14bc7567c6088f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: bed452fce178d9c4a8491251caf701a7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 3b2c9aaf08ff0af4b9de564bd5d65561
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 81aa7aecca807e04f9de2e0f7ff58155
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 7353e3ae390b53a48a68eab338bc81ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: a30cd4522a6c6e245a1148c02f25a1b1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 77992fd34fd4f594eb3d0e32565bb65d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: fa96e5ab2303f1847ae111529ce231ac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 76c74087a3720ae4590bddfe7b76d6ab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f73dfef42d1191c47b517a45ac6048aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b4e68198048bc5d4dae046db9c55a852
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 618b14c67b9ef0a45b07fe135f3a55d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ffed0016462e1c24ba385e91a07419e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: cd111428f30390b45bc81abf0e38fde1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 1ffeeeff777d2c54aa268cb117e2fcfa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ff743d478c65bcb46ae8df63df814598
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 0ebbeb290566d4148837f83403e3d735
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f0bf018e0ccd29e42beeedbd6529eb52
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 775bbfafd5591eb41951a6ddcaf07e0d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c11bd33c5065e4d4891a63cd45aa8555
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: fc5037c8dce18254abd6645b1fa956d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 8a5b4c248c2d1aa46b2642e58a701bef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f46c51663a90ff140b9b3ba320f34dbf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 8a0c82b4505b64c488b720b2df050916
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ba93f90254c3d794ca54da95d49969c3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: b640a2793e2c2224899225cb32ced1f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: a447d6f1685ccf34c9fe811c727b67fb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: b07d5830fa0311d489552d34b231c12b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 50c9a1df303c229418e74330228db1ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7fe6f8042d6b33a4fad520c083d722e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ce45d7764608cc44a86207ab782c0465
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c09f777b8657c1e42976ffca5eb421c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 04b6076ea96298f43b3789cb3ca5a46b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: eeb17d9c08a8eec499d3eeb93193e65d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 146bc195fc33cc74e8bd82f82fa3ab3c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 33e1ee868a9076749b3d5b5e2972ab2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: a0c15b1659e999342abdf1d2479cae95
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 4db4b3e69f25ad24d9a36f05c3ddd6c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 212d7d1cdac16d74eb266724dbd8c1d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 8c7ad1d6d02754a4bb8861356666fefa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: afdaa8f45aec3404e8ffa46de8f7c51b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c9d777be86ea94f4bbbb754d6af90195
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 9197073b1bb40794e98cb5f6c3825d3a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ec89c9512996f3a4982178cfcebac028
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c60ac3a78d6a2ef41b0e792f0d740838
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: a8b8eaa8fc51abe498e914fddee6f42d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 270cd7941d794ce4faeafbb00ff97261
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 356b7b8c16dc9f146956e6b143ac911c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 436560992a9f3d94ca18d33606e5f2a6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f55af056d81315a4a90af9e4ee1ad94e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 065194f9a9bd04048954b55337117995
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: a1aa9729c07579d43941e3fb6a31a7bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4795a4703d1544e47b131ae144b682e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 6d5e2586cd24d0e40b9573d4ceeaac52
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: bc18e1479551c12468110d0383a7eb45
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: c67fc03ec53ba7d499e36ed359c36aa3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 3910fa73fe6060b4c8b8efbcb8319693
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: ee97bf3e4367e254fa11100db14e9bde
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 119aef1a9a83769489e3cbd4a710e593
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: d8cbf38c59beee647b246490bc1981c9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 2261eec70566d924f8fb3290c9c499ac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 346972833382561408e96215f3cffc3d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 8a6cea10559863c4783488c8ad513fcd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: c077b18ce8c53fa4087a5faed96bb00d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 480ff716e33a4ad4bb6a463edd71ecb5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 98ba84d06a01dd049b9b8211ca995b45
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4ad3a5b881339ed4993d56f218de0d19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 94f5516cba7bfdc4189423e46d12022f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 11556b9c9935cb442bd00b98a73c0c56
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: bbf07d3fc27711642962759ad0296160
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: fd421a14f0477a74ca94c2647c4088fb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 6831804e15fd9ce44b987ebe608acffd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 9877b386c1f67f942998ce2f62355855
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 242fd7de0db6c544f9662a6ee41aad9d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 0fb11db9c5be7024aa0db34597524d55
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 86513f4d852b0dc4daa6512e15dd2f46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 41d9f28c79d4f6b46bb4ff405edfdb23
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4461d1fc87f523c47ae95c91badb5b1b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ec44b148514458e449b0c66ea29048d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: b545f579571d1bd4fbbacd9adf93e552
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 3e7c155e6c79aa84e915280674dffa5e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 98ebb45759be7564cbe940cd725124fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: a5137b66debb956459be6f42aeaa7b49
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3e2cfd3ba09546b49981d20592343315
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: a6833444392c58b418da4cc88c786e07
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d75af326685d14b4eb60d427d07e5e65
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c11f841b9b8c4ef4eaa7d5cb89d940d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 37671835a185ed44d8a63ff081f9b02f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b94dac4c23f16fc4a954e3761385a3be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: eef15914e49b5e44db6f87f599169ea9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 8ba7eadc3d4cf144c8ffc4efee6d9a6e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ec80d24d6ea2d954b8ad7e12806d295f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ef119576a0c8fc84a824d80edc0b1726
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 33949a96a04a93f4fbfe183a57227f73
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ca446f81602dd5e449640f4d182fa662
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 9d2958c060aa34341b34eb923687735b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b745aba79c7c78049b6436bdef7a4d67
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 76461ff0c2b8be643b206ff11b0c1404
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: c6804abf2a7abae4bb428968f8224917
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ce7df6525f10c5047bd5ce8884a92b70
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 541c32b7e4c66744e8682b11337d7294
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 7b50fe41c6f70b547b2085446f918dfa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f96f34c514f70f048b097df0a7eea323
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 285bdbff101ef7d43801d963541dfb9a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e7ba65521d853f04cb5dc29a4480d96e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 80bb7f5bb18e9044e89bff9857d726d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 7d9f19b0abdb0a44b84e16640d05fd44
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: fe670bd5aac52d64193df890a3476728
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 94c2e4d3330e30a41854758eba4cb86b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: fea0f61b6822db143a660c84cc61cc9d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 4c5750822ddd24440a0fc77016430e19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 4f24c98350d71c54f99ab8ff3a75c9b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0290dd77afbb65b45acd5279255ccccc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 32e575473d5a9c24db1fb1edb1bd6447
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: bc3b0bf15b340f841adad080f785c3e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9d0f1004d1987ff4093294e5cea6af55
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: c5630242634552d44a287393298a01e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 4bd93e7f43e74634abf4ae58677447d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 268bede310e2a4b4b9fdc8d6694149e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3d2a553daee6fb2498d57192c89119bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 77737580a1609e746a690e19b5cb174f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: b9e22bc3290c4574695fc412759c2cad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: f1555faf47a977a40954716f3d17268b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 47e906c8e8fab1749be4afd4247c1c57
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: fed16447869f4f34eb645abf70ed3ece
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 27bfe1230605f2e439cfbe349d731f50
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: f49b8bb9700ad9b4e8f685107349a909
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 4d9ed1cb3a680444b87e78d683748ee1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 87a68877acd6c444ca21f83f062a34e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3a9ff452fa729be4ca204890041d66e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 516bde7c7f2ca9f4d9d3c0dcfe727342
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 0a87be6b40d1e9c49a37d99ab0ee0548
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 9c3aa704184267a4c916fb508bfe0537
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 6eee63b14a47f534c94b2b63b59ea9e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 80a26fe1f609a384ca534e29aa859acc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 71f7787923c2e42478af03b4a5e49e6d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 148a49a340474c14785de590d154b616
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 457f1fa8f57544b4bb9645bd06898be1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 11459a48fba1baa468a43d9d7637e128
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3d4e945d285bbc845925cff710c3d0fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: b8187ee98b958034f9cc94722e0d9a2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 6dc98e94f63731143bb3dafbaed7262f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 191da894e193f1a4ab6de8daa85cbebe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 04e0de0e74d80fc459cba768073dce8a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dark_Victorian_Beneath_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ea04ca4a245bf0f4f9a6f71450412b1d
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

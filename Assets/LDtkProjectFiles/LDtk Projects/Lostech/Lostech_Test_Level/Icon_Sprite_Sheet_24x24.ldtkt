@@ -1,0 +1,33 @@
+{
+  "Rects": null,
+  "Def": {
+    "__cHei": 6,
+    "__cWid": 6,
+    "cachedPixelData": {
+      "opaqueTiles": "000000000000000000000000000000000000",
+      "averageColors": "c744c844c844c744c855c955c744c844c955c744c955c744c955c844c844c844c844c744c788c9aac899c677c788c899cabbc688c788c9aac688c788c778c899c9aacabbc778c788"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Icon_Sprite_Sheet_24x24",
+    "padding": 0,
+    "pxHei": 144,
+    "pxWid": 144,
+    "relPath": "../../../Sprites/UI/DARK - Skill Icons/Icon Sprite Sheet 24x24.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+      "Icons"
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 24,
+    "uid": 49
+  }
+}

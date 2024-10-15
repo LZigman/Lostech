@@ -47,14 +47,12 @@ public class Player : MonoBehaviour
 		if (context.phase == InputActionPhase.Performed)
 		{
 			GameObject bullet = Instantiate (bulletPrefab, gunBarrelTransform.position, gunTransform.rotation);	// instantiating the bullet at barrelPos and rotating it
-			Debug.Log("Shoot!");
 		}
 	}
 	private void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.gameObject.CompareTag("Ground"))
 		{
-			Debug.Log("Grounded!");
 			isGrounded = true;																					// grounding player
 		}
 	}
@@ -62,7 +60,6 @@ public class Player : MonoBehaviour
 	{
 		if (other.gameObject.CompareTag("Ground"))
 		{
-			Debug.Log("UnGrounded!");
 			isGrounded = false;																					// ungrounding player
 		}
 	}

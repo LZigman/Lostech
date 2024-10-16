@@ -12,18 +12,20 @@ public class Enemy : MonoBehaviour
 	[SerializeField] private float detectionRadius;
 	[SerializeField] private float attackRadius;
 	[Header("Rates")]
-	[SerializeField] private float attackRate;
+	[Tooltip("Amount of time between start of animation and when enemy should hit player.")]
+	[SerializeField] private float attackDelay = 0.3f;
+	[SerializeField] private float attackAnimationLength = 0.7f;
+	[SerializeField] private float wakeUpAnimationLength = 0.4f;
+	[SerializeField] private float sleepAnimationLength = 0.43f;
 	[Space(2)]
 	[SerializeField] private float movementSpeed;
 	[SerializeField] private Animator animator;
+	[SerializeField] private SpriteRenderer spriteRenderer;
 
 	// private variables
 	private Rigidbody2D rb;
-	private Vector2 startingPos, posOfPlayer;
+	private Vector2 startingPos;
 	private GameObject player;
-	private int isPlayerInAttackRadiusId, isPlayerDetectedId;
-	// length of wake animation clip
-	private float wakeClipTime;
 	public enum States
 	{
 		idle,
@@ -31,92 +33,95 @@ public class Enemy : MonoBehaviour
 		attack
 	}
 	public States currentState;
-	private float timeAtLastAttack;
-	private float timeAtPlayerDetected;
+	
 
 	private void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
 		startingPos = rb.position;
+		StartCoroutine(DetectPlayer());
+	}
+	private IEnumerator DetectPlayer ()
+	{
 		currentState = States.idle;
-		timeAtLastAttack = Time.time;
-		isPlayerDetectedId = Animator.StringToHash("isPlayerDetected");
-		isPlayerInAttackRadiusId = Animator.StringToHash("isPlayerInAttackRadius");
+		while (true)
+		{
+			Collider2D[] detectedColliders = Physics2D.OverlapCircleAll(rb.position, detectionRadius);
+			for (int i = 0; i < detectedColliders.Length; i++)
+			{
+				if (CompareLayers(detectedColliders[i].gameObject, playerLayer) == true)
+				{
+					player = detectedColliders[i].gameObject;
+					StartCoroutine(WakeUp());
+					yield break;
+				}
+			}
+			yield return new WaitForSeconds(Time.fixedDeltaTime);
+		}
+	}
+	private IEnumerator WakeUp ()
+	{
+		currentState = States.moveToAttack;
+		animator.SetBool("isPlayerDetected", true);
+		yield return new WaitForSeconds(wakeUpAnimationLength);
+		StartCoroutine (MoveToAttack());
+	}
+	private IEnumerator Sleep ()
+	{
+		currentState = States.idle;
+		yield return new WaitForSeconds (sleepAnimationLength);
+		animator.SetBool("isPlayerDetected", false);
+		StartCoroutine(DetectPlayer());
+	}
+	private IEnumerator MoveToAttack ()
+	{
+		currentState = States.moveToAttack;
+		animator.SetBool("isMoving", true);
+		if (player.transform.position.x < rb.position.x)
+		{
+			spriteRenderer.flipX = true;
+		}
+		else
+		{
+			spriteRenderer.flipX = false;
+		}
+		while (true)
+		{
+			if (IsPlayerInAttackRadius() == true)
+			{
+				StartCoroutine(Attack());
+				yield break;
+			}
+			if (IsPlayerInDetectionRadius() == false)
+			{
+				animator.SetBool("isMoving", false);
+				StartCoroutine(Sleep());
+				yield break;
+			}
+			rb.position = Vector2.MoveTowards (rb.position, player.transform.position, movementSpeed * Time.fixedDeltaTime);
+			yield return new WaitForSeconds(Time.fixedDeltaTime);
+		}
 	}
 
-	private void FixedUpdate()
+	private IEnumerator Attack ()
 	{
-		if (currentState == States.idle)
+		currentState = States.attack;
+		animator.SetBool("isAttacking", true);
+		while (true)
 		{
-			// detect player
-			DetectPlayer();
-		}
-		if (currentState == States.moveToAttack)
-		{
-			// moving towards player
-			MoveTowardsPlayer();
-			
-		}
-		if (currentState == States.attack)
-		{
-			// attack player
-			if (timeAtLastAttack + attackRate <= Time.time)
+			if (IsPlayerInAttackRadius() == false)
 			{
-				Attack();
-				timeAtLastAttack = Time.time;
+				StartCoroutine(MoveToAttack());
+				animator.SetBool("isAttacking", false);
+				yield break;
 			}
+			yield return new WaitForSeconds(attackDelay);								// wait for animation to hit player
+			Debug.Log("Attack!");
+			yield return new WaitForSeconds(attackAnimationLength - attackDelay);       // wait for end of animation
 		}
 	}
-	
-	private void DetectPlayer ()
-	{
-		Collider2D[] detectedColliders = Physics2D.OverlapCircleAll(rb.position, detectionRadius);
-		for (int i = 0; i < detectedColliders.Length; i++)
-		{
-			if (CompareLayers(detectedColliders[i].gameObject, playerLayer) == true)
-			{
-				currentState = States.moveToAttack;
-				player = detectedColliders[i].gameObject;
-				animator.SetBool ("isPlayerDetected", true);
-				timeAtPlayerDetected = Time.time;
-			}
-		}
-	}
-	
-	private void MoveTowardsPlayer ()
-	{
-		// move towards player
-		Vector2 moveTo = (Vector2)player.transform.position;
-		moveTo.y = rb.position.y;
-		if (timeAtPlayerDetected + 0.4f <= Time.time)
-		{
-			rb.position = Vector2.MoveTowards(rb.position, moveTo, movementSpeed * Time.fixedDeltaTime);
-		}
-		// check if player in attack radius
-		if (IsPlayerInAttackRadius () == true)
-		{
-			currentState = States.attack;
-			animator.SetBool("isPlayerInAttackRadius", true);
-		}
-		// check if player exited detection radius
-		if (IsPlayerInDetectionRadius() == false)
-		{
-			currentState = States.idle;
-			animator.SetBool("isPlayerDetected", false);
-			player = null;
-		}
-	}
-	
-	private void Attack ()
-	{
-		Debug.Log("Attack!");
-		// check if player exited attack radius
-		if (IsPlayerInAttackRadius () == false)
-		{
-			currentState = States.moveToAttack;
-			animator.SetBool ("isPlayerInAttackRadius", false);
-		}
-	}
+
+	// helper functions
 	private bool IsPlayerInDetectionRadius ()
 	{
 		if (Vector2.Distance ((Vector2)player.transform.position, rb.position) <= detectionRadius)

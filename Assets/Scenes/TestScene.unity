@@ -489,9 +489,13 @@ MonoBehaviour:
     m_Bits: 64
   detectionRadius: 3
   attackRadius: 1
-  attackRate: 0.25
+  attackDelay: 0.3
+  attackAnimationLength: 0.7
+  wakeUpAnimationLength: 0.4
+  sleepAnimationLength: 0.43
   movementSpeed: 1
   animator: {fileID: 154799601}
+  spriteRenderer: {fileID: 154799602}
   currentState: 0
 --- !u!1 &970652812
 GameObject:

@@ -14,11 +14,14 @@ public class Player : MonoBehaviour
 	[SerializeField] private LayerMask groundLayer;
 	[SerializeField] private Transform groundCheck, gunTransform, gunBarrelTransform;
 	[SerializeField] private GameObject bulletPrefab;
+	[SerializeField] private float maxHealth = 100f;
 
 	private int isFlippedId, isMovingId;
+	private float currentHealth;
 	private void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
+		currentHealth = maxHealth;
 	}
 	private void Update()
 	{
@@ -48,6 +51,11 @@ public class Player : MonoBehaviour
 		{
 			GameObject bullet = Instantiate (bulletPrefab, gunBarrelTransform.position, gunTransform.rotation);	// instantiating the bullet at barrelPos and rotating it
 		}
+	}
+	public void DamagePlayer (float damage)
+	{
+		currentHealth -= damage;
+		Debug.Log("Damage!");
 	}
 	private void OnTriggerEnter2D(Collider2D other)
 	{

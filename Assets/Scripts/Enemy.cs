@@ -1,31 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEditor.Build;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
 	// public variables
-	public Coroutine activeCoroutine;
-	public LayerMask playerLayer;
+	[Header("Stats")]
+	[SerializeField] private float movementSpeed;
+	[SerializeField] private float maxHealth = 100f;
+	[SerializeField] private float damage = 10f;
+	[SerializeField] private bool isReturnToStartingPos = true;
+	[SerializeField] private LayerMask playerLayer;
+	[Space(5)]
 	[Header("Radii")]
 	[SerializeField] private float detectionRadius;
 	[SerializeField] private float attackRadius;
-	[Header("Rates")]
+	[Space(5)]
+	[Header("Animations")]
 	[Tooltip("Amount of time between start of animation and when enemy should hit player.")]
+	[SerializeField] private Animator animator;
+	[SerializeField] private SpriteRenderer spriteRenderer;
 	[SerializeField] private float attackDelay = 0.3f;
 	[SerializeField] private float attackAnimationLength = 0.7f;
 	[SerializeField] private float wakeUpAnimationLength = 0.4f;
 	[SerializeField] private float sleepAnimationLength = 0.43f;
-	[Space(2)]
-	[SerializeField] private float movementSpeed;
-	[SerializeField] private Animator animator;
-	[SerializeField] private SpriteRenderer spriteRenderer;
+	[SerializeField] private float hitAnimationLength = 0.4f;
+	[SerializeField] private float dieAnimationLength = 0.8f;
 
 	// private variables
 	private Rigidbody2D rb;
 	private Vector2 startingPos;
 	private GameObject player;
+	private float currentHealth;
 	public enum States
 	{
 		idle,
@@ -37,6 +45,7 @@ public class Enemy : MonoBehaviour
 
 	private void Start()
 	{
+		currentHealth = maxHealth;
 		rb = GetComponent<Rigidbody2D>();
 		startingPos = rb.position;
 		StartCoroutine(DetectPlayer());
@@ -61,6 +70,7 @@ public class Enemy : MonoBehaviour
 	}
 	private IEnumerator WakeUp ()
 	{
+		Debug.Log("Wake up!");
 		currentState = States.moveToAttack;
 		animator.SetBool("isPlayerDetected", true);
 		yield return new WaitForSeconds(wakeUpAnimationLength);
@@ -68,13 +78,16 @@ public class Enemy : MonoBehaviour
 	}
 	private IEnumerator Sleep ()
 	{
+		Debug.Log("Sleep!");
 		currentState = States.idle;
 		yield return new WaitForSeconds (sleepAnimationLength);
 		animator.SetBool("isPlayerDetected", false);
+		player = null;
 		StartCoroutine(DetectPlayer());
 	}
 	private IEnumerator MoveToAttack ()
 	{
+		Debug.Log("Moving to attack!");
 		currentState = States.moveToAttack;
 		animator.SetBool("isMoving", true);
 		if (player.transform.position.x < rb.position.x)
@@ -94,17 +107,56 @@ public class Enemy : MonoBehaviour
 			}
 			if (IsPlayerInDetectionRadius() == false)
 			{
-				animator.SetBool("isMoving", false);
-				StartCoroutine(Sleep());
-				yield break;
+				if (isReturnToStartingPos == true)
+				{
+					StartCoroutine(MoveToStartingPos());
+					yield break;
+				}
+				else
+				{
+					animator.SetBool("isMoving", false);
+					StartCoroutine(Sleep());
+					yield break;
+				}
 			}
 			rb.position = Vector2.MoveTowards (rb.position, player.transform.position, movementSpeed * Time.fixedDeltaTime);
 			yield return new WaitForSeconds(Time.fixedDeltaTime);
 		}
 	}
-
+	private IEnumerator MoveToStartingPos ()
+	{
+		Debug.Log("Moving Back!");
+		currentState = States.moveToAttack;
+		animator.SetBool("isMoving", true);
+		if (startingPos.x < rb.position.x)
+		{
+			spriteRenderer.flipX = true;
+		}
+        else
+        {
+            spriteRenderer.flipX = false;
+        }
+		while (true)
+		{
+			if (Vector2.Distance(startingPos, rb.position) < 0.25f)
+			{
+				spriteRenderer.flipX = false;
+				animator.SetBool("isMoving", false);
+				StartCoroutine(Sleep());
+				yield break;
+			}
+			if (IsPlayerInDetectionRadius() == true)
+			{
+				StartCoroutine(MoveToAttack());
+				yield break;
+			}
+			rb.position = Vector2.MoveTowards(rb.position, startingPos, movementSpeed * Time.fixedDeltaTime);
+			yield return new WaitForSeconds(Time.fixedDeltaTime);
+		}
+    }
 	private IEnumerator Attack ()
 	{
+		Debug.Log("Starting attack!");
 		currentState = States.attack;
 		animator.SetBool("isAttacking", true);
 		while (true)
@@ -117,14 +169,46 @@ public class Enemy : MonoBehaviour
 			}
 			yield return new WaitForSeconds(attackDelay);								// wait for animation to hit player
 			Debug.Log("Attack!");
+			PerformAttack();
 			yield return new WaitForSeconds(attackAnimationLength - attackDelay);       // wait for end of animation
 		}
 	}
 
+	private void PerformAttack ()
+	{
+		// raycast toward player, if hit player deal damage
+		Vector2 dir = (Vector2)player.transform.position - rb.position;
+		RaycastHit2D hit = Physics2D.Raycast(rb.position, dir, attackRadius, playerLayer);
+		if (hit.collider != null)
+		{
+			Player playerScript = hit.collider.gameObject.GetComponent<Player>();
+			playerScript.DamagePlayer(damage);
+		}
+	}
+	public IEnumerator Damage (float damage)
+	{
+		currentHealth -= damage;
+		Debug.Log("health: " + currentHealth);
+		if (currentHealth <= 0f)
+		{
+			StartCoroutine(Die());
+			yield break;
+		}
+		animator.SetTrigger("hit");
+		yield return new WaitForSeconds(hitAnimationLength);
+		yield break;
+		//animator.ResetTrigger("hit");
+	}
+	private IEnumerator Die ()
+	{
+		animator.SetTrigger("die");
+		yield return new WaitForSeconds(dieAnimationLength);
+		Destroy(gameObject);
+	}
 	// helper functions
 	private bool IsPlayerInDetectionRadius ()
 	{
-		if (Vector2.Distance ((Vector2)player.transform.position, rb.position) <= detectionRadius)
+		if (Vector2.Distance ((Vector2)player.transform.position, rb.position) < detectionRadius + 0.25f)
 		{
 			return true;
 		}
@@ -132,7 +216,7 @@ public class Enemy : MonoBehaviour
 	}
 	private bool IsPlayerInAttackRadius ()
 	{
-		if (Vector2.Distance (player.transform.position, rb.position) <= attackRadius)
+		if (Vector2.Distance (player.transform.position, rb.position) < attackRadius)
 		{
 			return true;
 		}

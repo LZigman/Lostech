@@ -1,0 +1,18 @@
+States:
+idle (if player outside of detection radius)
+moveToAttack (if player inside detection radius but outside attack radius)
+attack (if player in attack radius)
+
+idle -> moveToAttack
+moveToAttack -> attack
+attack -> moveToAttack
+moveToAttack -> idle
+
+idle	-> Physics2D.OverlapCircle (of size detectionRadius)
+	-> if player detected transition to moveToAttack
+
+moveToAttack	-> track playerTransform and move towards him at movementSpeed,
+		-> if Physics2D.OverlapCircle (of size attackRadius) detects player -> transition to attack
+		-> if player exits detectionRadius transition to idle
+attack	-> every attackFreq secs deal damage to player (through OverlapCircle get collider -> playerScript)
+	-> if player exits attack radius transition to moveToAttack

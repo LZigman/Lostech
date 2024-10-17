@@ -32,7 +32,10 @@ public class Player : MonoBehaviour
 		// moving player according to horizontal input
 		rb.position += movementSpeed * horizontal * Time.deltaTime * Vector2.right;
 	}
-	
+	public void DamagePlayer (float damage)
+	{
+		// damage
+	}
 	public void OnMoveInput (InputAction.CallbackContext context)
 	{
 		// getting horizontal input

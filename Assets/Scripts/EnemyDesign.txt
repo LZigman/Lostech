@@ -1,0 +1,9 @@
+Summoner:
+	-> uzet ghoul skriptu i adaptirat za animacije i tip napada koji summoner ima
+	-> napravit skriptu za locusts
+	-> povezat animacije u animatoru
+	-> spremit kao prefab
+Spitter:
+	-> uzet ghoul skriptu i adaptirat za animacije i tip napada koji summoner ima
+	-> povezat animacije u animatoru
+	-> spremit kao prefab

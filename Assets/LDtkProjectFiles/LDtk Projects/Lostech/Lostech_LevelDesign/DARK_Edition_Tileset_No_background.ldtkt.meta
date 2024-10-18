@@ -1,0 +1,4047 @@
+fileFormatVersion: 2
+guid: dadbc9a1fd10849459a0623a7bcac08e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _sprites:
+  - name: DARK_Edition_Tileset_No_background_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 4d1856b459e9f4844a4ae44db3ae21cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 5e8be7076555b65418fba1a5a64f854c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 240
+      width: 16
+      height: 16
+    spriteID: daf00e7d882f0df44b3a6d430200aeaa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 240
+      width: 16
+      height: 16
+    spriteID: a6d9dcc763b62e5419bedb6670a49df5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 017f52569518033479d357cd8fe0b06e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 40594cb4fdacdde43af79da5c1116845
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 8c00616f3e541524e8f968e781dbbaff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 766672c6d87fc574da135dba04989711
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 240
+      width: 16
+      height: 16
+    spriteID: d5674c9c8a502454681f9741fbec81af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 240
+      width: 16
+      height: 16
+    spriteID: bee96820918eb2a41974db17026958e9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 8ec8d56cd73ee00448c87b925cf118c6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 80e69333e26443b4680be0297f8fa5ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 5d74b90385780c345851e4df126433a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 240
+      width: 16
+      height: 16
+    spriteID: c09dc0b40fa0f3a4489635eaf5649899
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 281404d9e2034de40970de50999bcae2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 8e8fc943b99e07843ac1d150615ac5e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 3c73d8bc10fffef4abbb1746b5fc3cfb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 3e77898ba33c5bb4ab2034e5d50636a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 224
+      width: 16
+      height: 16
+    spriteID: edbfa3a668c7fd34c8481b180a5842b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 9b4b0e6c90e579146af2f927369c3525
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 65e6b12a72cac51478734140dcd0d1af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 432b88a60c40ac8489a67fbd6a9f6796
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 224
+      width: 16
+      height: 16
+    spriteID: a6ae6099f192e0f4da8121ccf5657623
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 263aa545c68dd4542b7daff1bcceef3d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 224
+      width: 16
+      height: 16
+    spriteID: a96df704e2f466f47807ea3e41ca7af0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 8cf4f252466159d42be7c41d00267a62
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 224
+      width: 16
+      height: 16
+    spriteID: edb92d9fe9ae41c4abfbf9b569495d2b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 959f9f8ad2247564db83938bfecd8854
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 224
+      width: 16
+      height: 16
+    spriteID: c3bce658764c0af46ad896074a747e74
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 224
+      width: 16
+      height: 16
+    spriteID: b45481436159dc1469e5b68648bb890a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 7c27d19d360cfd249b2f01179bc2d599
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 43a162e5abc02f4468853f7621002f14
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 224
+      width: 16
+      height: 16
+    spriteID: c6da31bee4e23a04db46fa8360b4bab8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 8ef6c5ab1909c3840a4f33d22dfb6e24
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 224
+      width: 16
+      height: 16
+    spriteID: ea61c57ac917de34995efba2545646f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 502e314378ff6364c90c2d272ad2fd62
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 91848c7c37b126f4ebc9ef7a1360f6ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 787fa756752a09f40929658f8642f8ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 1cb810f7f9e61cf4faefe937fd172ad3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 6ba296c22bd961b4284813f459cb0bec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 45181d6c86c0dbf46b3dfa090dc6bcee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 208
+      width: 16
+      height: 16
+    spriteID: cdcffb840c43eb646b45d90b7d20ae94
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 40a75bc330c61144e9aea73bbd3c9022
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 6b58035dbdf14e4409134da3b6bf6573
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 208
+      width: 16
+      height: 16
+    spriteID: a954ada23d4626f48933d55fc4bb248c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 7125e3cc9813b9c4394761bb332f7414
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 208
+      width: 16
+      height: 16
+    spriteID: c20d8dd99695b0d408c9e7f59a2df177
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 125df8dd6a561a84a955efa8707fcc2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 208
+      width: 16
+      height: 16
+    spriteID: ced45d31a3e24594fa846e86d16ec85f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 3220a2fa3a7aa804880df7f00c5ab66d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 484ba793d9db2454096047c6f6665d11
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 3056646988b592a4e8d145b59c09d719
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 208
+      width: 16
+      height: 16
+    spriteID: c91027503a726254bb378b1322dfbae6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 0a90f1557c63be943a6a8e3e755c8d9f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c6e9b7ccf602d98479503a967efe2477
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 39cd939717f174042aba9822ec9eddfb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 16
+      height: 16
+    spriteID: d80294bcf638fbb4583358f3c6c530a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 387191be4e7552a47a470482c4af82a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 16
+      height: 16
+    spriteID: feffb53c49e0bbf43907ae06d8db48d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 2d9639aab49a5e64ab4d5c05ce9f9e15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 494cf6156ccd9804cb3289d22a71a243
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 05318ae2483aefd45bf0f0c6b96a4ec2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 2abb3c2360188c94ca01764e38c3b18a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 300c022e5d5450943bfaf5f919565b6d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c47437e2af69d2248aeb75102a22fbad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 2cb7bfdbf32814c40b89403022b2f10d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 16
+      height: 16
+    spriteID: b99566a9c3759c547a43dcce45bec21b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 11e709ca1c8841749a1badc089cefe06
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 2459546227ad5d2499f1ab0edf0fcf91
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 192
+      width: 16
+      height: 16
+    spriteID: ffc47f656280ac14ea32a0021daaeaf7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 5a0ce8f390493f148be35b825aa8edc3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 96e8d20c6a95f014aac39610e15c9a3a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 558f23fe2a647bd4bba8405213de9d3b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: d76b873f3c5352f46823abb45924ecb2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 7346d192ff433d34db2d29883725c44c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: cc530cc7372c02d45a73ae3270f3e54d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 37b88f2f1f68ba5458f7a5100466e6c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: c5eb8dbd12e64e84eb0b29f58692d278
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b38fca0a466cd4341a4e439fc15b7c32
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 3afbc53edf809454b8788db6301b6098
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 488c49c25fe0f05409a9d7feb0cf8552
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 5ddc194434201274fb02d2e0b0728041
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 04948a66d1c74dd49ad4fd74cd201f31
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ef1b369837e3d9440a9e2a6605a8a132
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 7180b4e921f2dc741a5ed7124a5a00e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 77694e530e41ce74b9913b8d08fb222c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b82ac2d08b1b4a24abed694348205d2c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 12033ff1004ba0d439c83d211aba9046
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 692d6278adfe0824d8ee10b354b5db9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 67f900cabcea1b64cae52affc661b5b7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 76d4cffefb8b82d4286757e4a56c2bac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: da6c58844200c534bb492ca1c924fe2a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ca353d6c23b3bfe42b164e9c3f862a2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 0f9c0d5c3e9c36143a3601ec062a6626
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ff5e8711aadccf7469ed5f542816b327
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 68860d5d985acfe4cbbc1aec3f5c5b4f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: b347274be68f23b46b8a906bce732a8a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 0e37f3a1768f60c4a84c0ba70fdf88a2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: b043306212eddaf44b83258279ccc658
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 5a012cc23ecb72d4aa6b7d390fc98208
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: dcf884ed4a3cd7547b478b6446d844f8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 8e308361164c6ec478ad5ebf6984caa8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 2a8b8bdd0b9964d4080f6c034c390ad6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 3e3750e8e784ffb4db0a195eb3cc814f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: b84cb109b22332846a4ea61b59d3df9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 9589f2444162e56469612a2b1b68e5d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 745bedc983ced304a885b451d80d4fab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c6b149ad7806c164ba22c61cfa78353f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 898740e848881bf4a87216efc19d49f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 085479e03cf1cdb48809eedeffd844e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: a6067a2372507f0488dcdeeb6e1bce4a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 4213190853631e844932a4dbd7c3ca99
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 83fde9afca534d14488ccb10117f37f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: dbcb515320d5aed40a68fd369eef463e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c830b3e2e0f22764caae7f4ffad9f3ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 8d6157adcf2011140b85818c798b9ff1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 2d614bc0330140b48a44bc4a7265c6b1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 03b47c8abb1d23b459e15c2eb64b2d78
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 359c8ca6de9d5024db60440336ffe6c3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 775df1d6976f7fa48adfe83c9a8a0d0b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: ad30e0a64c216b44c8622ac7f32bf62a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 3e5b0c76c6a32d2478149fb77c258a35
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: f7056b8ef098e2144bed12f56901e06c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c4fc3a7f9a2cb874e8adcad75aa25305
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 26d7fe7caebc43040ae59acb55b3163c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 5834d09eb931a0943a5962991c703977
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 583280bfe0b55554bb1953718f6ce2f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 46f5f31db15164a4395ab7d94ef2f8de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8df1a1bb073a306449a7db69d3f1e6d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 1b1419118826f7042ba91988b8fd3921
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 30f2d9fcd58ba7d4685fbca7bd47fcec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ae99f70b1bb22b948baf97dae4eaa2ac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: a5a521fb1db3cc64585de8588ddeeada
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: a650f887071f5894a8081fcd6761fee5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 2009381070afbe142aa065101a21ee5c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 06066b26d36615345817f43b1b0fa81a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: c4de7151668c4b943858d1daaa95d2da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 04ab211b1235a804f94901edaa39b9f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 9d3f79499ef58124eb8e60a8b109d251
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e3443ec56411d35449ea61ed7dfdfa79
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 7374f2c271071f04f9d95443289e4116
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 48df248edaa4ae5408efd9d3b6225428
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d3105324be69cab47ae0f3badca752d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 98b3d7989d4a5c244bf4e816eee16b7f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: bca84457f4558c1418b78cc97a2d16cc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 4e6a5ca8f99192640bfed526e0120c1a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: b51333ea89dfc3d4bb6f4dc54b336aba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: b495c6cb6748cc04eaf0d716b127a015
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 24fe2e3d80473a84d8298ffbf82d48d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1fe78c3921a31df4bb6b123d7f42c23f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 31f6fc4a3935c7b4f8cd52befc0c45ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d43c0d5974724c346880242c7a579de9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 6bc7f05a71b9dbc4784fe8f359916991
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1021f7ecd52491a40ae3f1c7d9687ec7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 95f0e40146295bb4ba4533b0d68e34f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 222492a1683ef614f9eb035273d826c3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f758cddc767029d4085eb0a7a38cd666
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 444e7878f8e348045b4af545d6a40ad5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 756438d3f618e6540a57a2e396f0793c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 66e774bb22199674c8fe7f13cae1a255
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 2991414d86fd0a54b9b3d30559aef0a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7e9c20f207f44144ab7bbc987001f3fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: b90bc5c0a21e67947a14f2c3bf97fa71
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d0e9d70e2d2eb2640a8acf90688ce20c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 2fef5fbef81994346b0425fbb172a01e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 3fb4b1d2b5a385946891e582503275e0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 00481558ba79486449ead233050514a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: eee1e6aae1f74334c9c9695b25464aee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 50c1363013d82274f94c2349be57a75a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 962f30fb3b5368947a54b2569d51bd01
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f2b71469776813448bfbda13d63d5770
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f8c00b6d680c00e41ac6c6b066b04f3e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: b5c1c07b2a4a1794ba160999b98388eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ac87498c0ab12214e91f05af87c721e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: fe2c1ba7357aeb94fac635c59841ea15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 321ab82b73155754095ed0658d696e40
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 9500b1ea914bbf943b4a5bce03a8f0e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 50c9b9dade8fafa4291920f6b26f9704
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 2bf45a87395eeba4a8e7672f7d964267
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d3694c7cf94b9f24f8628378b8b2246f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 912b11a22dd7b004590a8298f419e5c9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 60892cf32bd4cac47b33ec87e5556873
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 0a53f2c8a5125564cb8852804d71f711
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4206d122b5f53774e83ea49a37f4baec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 21d4d0ec2b9d5fb46b9fbd6ac96c25f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: a27a48e9f609c1c4fba0c516076de643
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: e929ada89a2b33a44b0f2467a1e2c7b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 659e80c094f93b84b9ab03c6086c1419
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: d2942819ff0d8ca4aaf71bba48a82f50
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: ac84a84771a99d34f91ceae197889132
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: cffb34881ca53234cb4636c0aad949b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 744e77d55cb335e4aafa617b5c413438
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 1dec04b113a4e344a859b1537356427b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: b52be7e137bfeea408fb9e79378994ed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 98791a83c37fb8b40a8a8f5be0aa672f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 12f112d0878d8a345b4398452a5bce27
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 80
+      width: 16
+      height: 16
+    spriteID: fc7a252ba4fb61b4e96d9deec202b052
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f679e262dc1a7024399877318b804116
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: fc0df5f5d97658a4a9179d72b0abbe5f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 917d201c26842d74e87bc5d7320747e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: fe2583aa979bc954a9432c0633f34af2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: d94b54f7c461ca14684f92d667e289ef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 9dba38ddacd2f1d48bca9da8246a9185
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 2ae0f7f1bb17023408d7fc43cec861a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 36699f773e9bae643be61a951f89f23f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 890a59f8941876245a2a7a243e939be3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: dd1341d6710443248a8c21e4617541d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 614d566517fa74941a449e1ae341023c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 65eec2761a1303243912c7ffcb19cf3e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8fa17fe70b6ba2c4fa7564692c51457c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 593499fec195f3e4793c2ee2289518ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 99aa9dc57d7982841aa404aaf534e925
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: baf74dfb01d13c0449e6e6eebdce7463
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: dd0604324f7a8d143900685253980dc8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ac3bae9dec0686148bd1d9bba29ebd6e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 7662114f0e4f82348bfb7732b8d57d23
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 491d51080e35cff45983680ebacc5c09
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 332a868679d68e44fae75f8dcd09f320
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d66341eda81be4c4aaf86dc8bf94f82f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 8cd1c5dab8540e14489dc22d5c80a904
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 89597381d265418459803b613aa9d10f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 8dedbfa042d1524409ab1383b57911dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: e760b06147a21234b83aca89816189dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 1a938b1fb75587447be9760c2b2eb990
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_224
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 321c9bf190c74074ba63e1006b97ae7f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_225
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 0bc0efd1041c0cf4ca0a003c68f0a7b1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_226
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 569fac60263ca20439ea6589c89e810f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_227
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 12a73793ac030cd489592e8cbe7ff2e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_228
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 0de16395a8b2c6a44afc9a78abc89ea6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_229
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ad194dc83ce2d5f4eb988caabcf355db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_230
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 7a4714f8a52fcad4dbd768667e4ca3a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_231
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b88f005062b0aa543a655996666207bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_232
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 48
+      width: 16
+      height: 16
+    spriteID: a0e4a1f9bd44caf40b7cbdcda2181a9b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_233
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 48
+      width: 16
+      height: 16
+    spriteID: fb0e6334fc454b54b85f4f2072464f6d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_234
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 773ca4f99d16c3a4d99135bb65b81e48
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_235
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 2d1a5ee9eba703047b5a32a62079ecd4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_236
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 6e524fdf19dfd534cb5b272766853214
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_237
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 28d4050d6afb464429680bbe18bdfde2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_238
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 258bf8aa8c8b2394799a668f89d88c59
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_239
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 48c617283e02fbc4380df006ac99af94
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_240
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: cae01fed9f9dae14c97c9c75fd42a01e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_241
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f2cc40003c79f5e46886e5a493ba1487
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_242
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0557e9bccc6a6d24a9eea2f492f7d529
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_243
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 44b9761417e2cc342a5fd1fdb5c0a061
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_244
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: c40d6c23b88a37841a2a9e7ba0c1183f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_245
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 02accfc333f8e4f4eba58d433b4244a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_246
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: dfeb3e079b712cc478874caebfff89bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_247
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: bf50825bd258b7d429acd5f9bdf2a397
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_248
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: deb281567f58c5547b83f8707f64489e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_249
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 8bc34427ef51eb743919af47b2641880
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_250
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 32
+      width: 16
+      height: 16
+    spriteID: d54378bf8917f034c828976d7b0b5bca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_251
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f0b5413091bc5ef4dbf8fea8f7b6be21
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_252
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 79109caa485066c4eb980c1a88327dc9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_253
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 104b9fcadc7afe84fa25f1fc0458bd24
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_254
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 85c7c3cb2d82cc84ca77f51761e64999
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_255
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ed79fadc9fa42d84f869bdf21542422d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_256
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ffe5ccc4717bd8b4ca29fef8ba9a03ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_257
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 80fce819b3674c142b7f4ccf31aee097
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_258
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 042bc395c8e7be547a33498705169c6b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_259
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: bc3236badfa3c034798c663eb8221b6a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_260
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 7ebe8ba89e4fa3e4ab69a115283c0b03
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_261
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ce455922be720714caeed75bbe589573
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_262
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9cfe4daf21a9dc1428f5cb80bacd5eac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_263
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 50d73d4d25228f2478d999db0aa879ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_264
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 768a83ebaf4b71347a0464723204d4bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_265
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: cf3f87b93931fa943a9c2865078d24e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_266
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 8028f844e34f884418c6986ea5d9f0df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_267
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: fb88b45672d04cb4db76e8de8e631fd1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_268
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 295ecd380f643dd4c9eef4c7f6c9e7e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_269
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 1990ed7caf8afb5448dc225c750fcd1f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_270
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: c179655a1556b9a4caad7a2f4691f6a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_271
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 42a9b9b94d55bd447b0c8d9ef04293ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_272
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 4883cfb3e8597d84382a274833929c66
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_273
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 1e7f7112b65a4fa48b7bd4beb8a4b3b8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_274
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f3bb3580af5237c4d905f53508fe0cd0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_275
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 838fcd5c9a5ebeb49a32753ff32351b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_276
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 08fcf5d7513353f4c91699fbb297967d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_277
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 804e42bc9b376c842b609e0d652272f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_278
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 763bb36f2966c3547b693211f69554f4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_279
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 808b048d2544c9f44ba34e0ef55da378
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_280
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: bc76c398fd145a34280aad46e9c93bb8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_281
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f484b8ce224165548bc4eec35feb5664
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_282
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 83ad953461bb20a4b951d9768fbfdc1d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_283
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: c256e67532c5e5148bfdfc06e8532af3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_284
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3c3ba9ec0f63dc243abe00722a7b44af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_285
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 7dcf06e9c58de6742a7fd103f273b498
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_286
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 1167177ad0585dc45a6618d5d667a412
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Edition_Tileset_No_background_287
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ec618315bd54a2947a8959fdcfa16222
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

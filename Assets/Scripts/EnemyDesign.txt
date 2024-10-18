@@ -4,6 +4,21 @@ Summoner:
 	-> povezat animacije u animatoru
 	-> spremit kao prefab
 Spitter:
+	States:
+		-> patrol
+			-> move towards patrol
+			-> detect player
+		-> attack
+			-> stop patroling
+			-> spawn projectile
+			-> detect player
+		-> damage
+			-> if player hits spitter transition into damage
+			-> if health == 0 -> die
 	-> uzet ghoul skriptu i adaptirat za animacije i tip napada koji summoner ima
+		-> napravit skriptu za projektil koji ide iznad playera i ako je dovoljno blizu skuži ga i krene prema njemu
+		-> napravit algo pucanja projektila
+		-> napravit patrolling logiku
+		-> napravit player detection logiku
 	-> povezat animacije u animatoru
 	-> spremit kao prefab

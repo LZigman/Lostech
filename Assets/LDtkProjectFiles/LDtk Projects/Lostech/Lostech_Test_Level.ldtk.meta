@@ -35,7 +35,7 @@ ScriptedImporter:
   - _key: Level_End
     _asset: {instanceID: 0}
   - _key: Door
-    _asset: {fileID: -2253911629886400664, guid: 8aae05fd3cd30b0acb5db6e7b51f1f7a, type: 3}
+    _asset: {instanceID: 0}
   _enumGenerate: 0
   _enumPath: 
   _enumNamespace: 

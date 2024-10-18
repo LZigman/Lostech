@@ -1,0 +1,3599 @@
+fileFormatVersion: 2
+guid: 58080af55ecff48458bfc7d9620d0b55
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _sprites:
+  - name: Blood_Temple_Tileset_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 2a96b9903875bfc42b66b87fc4d7e342
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 5f48e470b5ef96b418beb5ed430c0139
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 7745c148bf83aa14e9dee36a54c4613a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 240
+      width: 16
+      height: 16
+    spriteID: e0afd0c008421a645b6eb26745124907
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 240
+      width: 16
+      height: 16
+    spriteID: d96a1d2cddc90394f841910a98a83448
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 704fb34610b085546b84065e88523fe7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 0d3b0f6b8eb8a2b4383037ce3a2f69c1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 71e68b041e3ddd44aa3dd10434fa4c91
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 3a5282c68f7e4f6499071a1a53322311
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 74bb00f16bfe02b4f87bc83aa177fd7a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 0fa3b00433e286f4ba2fab85ac533fda
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 240
+      width: 16
+      height: 16
+    spriteID: d055589433de66543a6b2f65d313422c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 68341a382b92b2a4890bfd1d31978f53
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 317be73ab8ec72044bd72837ddc27d3b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 510bcf0a3aa18e145b1101a2674d0a57
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 644e14038e09479478d2266223aa3c2b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 224
+      width: 16
+      height: 16
+    spriteID: a41ddb760f38d8e41a89c46bcf13ddb9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 224
+      width: 16
+      height: 16
+    spriteID: b9bc6b2a19f17fe45adeb76b4e7da2e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 224
+      width: 16
+      height: 16
+    spriteID: e3e00453e56056244a19865ef9b2c563
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 224
+      width: 16
+      height: 16
+    spriteID: f86fa8bf7c7c0f24f874a656d1f6ac97
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 224
+      width: 16
+      height: 16
+    spriteID: b6a8577933759554581c3b050fab9460
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 284d3826bd7703b4aba6d06a848ebfa4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 880108f343bd13247a7f75448aae5b0c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 9e1f231248c050543a9dbd0825d9561a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 224
+      width: 16
+      height: 16
+    spriteID: a79bd56f95578af43a090426b9356af1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 6bffe0fdb29c6ec4e9f1f8b34b9485da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 8bdc4367a17a3864da76395b0f20b9b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 2819566269504014aa99e82b0d87f866
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 224
+      width: 16
+      height: 16
+    spriteID: b0609e9686b9cee40bc5445820a65f8e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 224
+      width: 16
+      height: 16
+    spriteID: db788973cdd301d4fa7f24464229d8db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 224
+      width: 16
+      height: 16
+    spriteID: f4996cc992fd6904cb31e2f78a12815f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 396dc5949f464c94f89b043780b2b7e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 26580c3e5a5fd64418d5d23d66f99d1b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 07c72b2a01b0509499055663320ee693
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 64a0e4af250f84640bee5eb4a774f6ac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 17577c575a98fd749a827b7e80b6f665
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 208
+      width: 16
+      height: 16
+    spriteID: ed1b2aed04c08d54382ae9ffbaf799dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 208
+      width: 16
+      height: 16
+    spriteID: ca9621a91c95be14e8568a8846573de9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 208
+      width: 16
+      height: 16
+    spriteID: f795d5c3906ae5848b5d641ffd1b1882
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 5aeb78ae4a760b0499d81139877fe709
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 6907817cccf276a4bb5ad46362a23243
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 70f1e51e29cf9b245911c4f5343d5d92
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 5c4537f4751d5a940bde86ee1e3bb467
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 208
+      width: 16
+      height: 16
+    spriteID: f7aaf8ec4d364ff4e908bb7c06b70100
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 208
+      width: 16
+      height: 16
+    spriteID: f4d037a580c65ae4fb963117245963c3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 208
+      width: 16
+      height: 16
+    spriteID: c865dc684095fca4b8ca00f483a40721
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 208
+      width: 16
+      height: 16
+    spriteID: c4f8af6c6f47ab147bb043113b0c66a6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 208
+      width: 16
+      height: 16
+    spriteID: af7f703eddd6e0a45a1780313548e9e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 16
+      height: 16
+    spriteID: d78ebcb8c4ae419468b08e674d4e3b51
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 11197d004768da64ab4e05f42dcc3f87
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 12f7a2729408509418d8be38c526ec5e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e091232c41fdbba4492d5ff4772018d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 16
+      height: 16
+    spriteID: d61cb7ead8bd38d41ba7aa99a15c9d13
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 192
+      width: 16
+      height: 16
+    spriteID: d86b33613de7510419804da680b9342f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 5019187e97964364b853593cad3f44ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 65df45ad1ad1fd342954499aa56ab263
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 16
+      height: 16
+    spriteID: a736c1aad8e9f684fb8435797b754153
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 735734549e1384747b3112e6c9dd80b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 1d8e9f8b2574efc4aaa16f5e888dd191
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 837bdd7bd403da24fab5e4f8a1fd03f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 16
+      height: 16
+    spriteID: dd9e4ef40f59e8041b212e6cc73c2648
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 65873f0dc1b00d544890583652e72a84
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 16
+      height: 16
+    spriteID: f102acc9ee4ef3c438d21664f6366387
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 4bf0e4dd5c2ef264e8d69495560c517c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: c2345858b00faef4aafc1c7089226765
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b094fb29c36e5a74d85b64c119cee4de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ef93c3b062174c347aacc1ab4196aff8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: a30879d1c193f844c8a75b414ceeb6c7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: c78a7ff1e2c0ff04f9c8d5934cb3a045
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 20ab56823d0434a478adf64af45b0631
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 5314db16cf46b5b4e9c768d1a08b48f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: a98bc24cacd59334791113a668a274a7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 7671c33b6a52fa5498bb8444d48ba942
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 555a454ba01f2054ea40a288a1d061f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 7a3fe562b20c25549a2f80af6ebfe9dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: e1cbb28e2c3b7b644a781c8a399c3f90
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: a172584fdfcd9a642978f92381371918
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ce497e5b71ea22d45973f9b94f6b6a50
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 182ed159053e9fe499266c2feb7a164b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 9749424e8a9808b42b6fdf4e980d86dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 0440ee047f343854ab1f71e39512d041
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: e0aff9706c74079428de6fdb42935d5a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: fed64bcf0c7821e44b3416c2e9c925e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c07dccd90c02a024692671e16e9f97a6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: dbdef4794fd9f4a4cb3734d387bfecd6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 32004a120fbf47040a47db9a6885397d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 7508e9819ef59a54e90c698839056eb8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ded6113d6591c1a4582a1dd1d1068b15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 77def06f3a3abe84eb127e90f610a1b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 95dbb660c27f6c34d93198019af47557
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 509d955fe928afb4e9768d53db287382
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 9f9e1a9215a864c4fabdb66a78a42f06
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: aa40753ddcf79cb419347aa8e16aa59b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: b1c1be9e16a1f1845b4601889bac112b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: da1e725a45acf4745b2737b5a8f15dee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 19292859ab89a5b4891d31c19829a612
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 0f12088e756c05c4085b53131011a5ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 82176c5571ec1a74c9ae24645e6c710c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 6acabc858f3526e41b8e0487e4758b9b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 83842744f8c7ca9409bb1d5e7e7a9cc5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 76957e952291e0e45b10ed81b0d020c1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: dba52125a08e2bd47ab6801272594334
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 20c12716fc26b4a46970c7f304e41140
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c541093fd7a15b8418987869b32058b8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: ddab026892423684a800017e0a5972d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 24929e2b3439cee438f35cacb184e75c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 39b3eebfd75f6234b9e0f6afaaefffa9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 567561c6eda4c5a45ac5c67ff5fc3c96
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 271931d79459d5f48b5947102751663c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 000b2642ee0187b438d7bc67f96a0411
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: e68cd82e30466f04ea061e9456cf773d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 7b54a35dc6043684ba149d5d94c39685
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 3379a7299dcc2f14fa879b8722e08058
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 9ae7ee600bbbd5845aa91b3b171887d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8e072df51f51f7641a2bd3fe36068d9b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 13062da423f840640a73822041cb6612
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 224cb1d435c442e45990ecba262f0af4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e480d677c1116cf4c867069d11a7a745
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 06b0d022845fdc941aa73bd5a06b3ddc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 17ce9b48d8c1b3e479786dfb0784932e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 552e733be6365324abc6494239c0363c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 9a8e589c80b9458408c1b391b9aee569
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 046c0fbbbf27dc246836ee9008c876f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 142cca548f8b2b44f9874a8ae82e7671
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: fdae6cd640b5157418135ac1ec9d3abc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b7d1c97eacca2c54c840ca1972759100
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 62fe12b2540a621468d703ab64116465
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 9840b83ac9a286649821fdb1d271b96a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c5e1781c0f18f2e4eab188c276536fc4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 15b681cd7bebbed4393366bb76d6d519
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: a7b154696d809b54bb3028d51abe7612
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 5591c31fc210fe94581b574d38893685
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c1b6e2961368fcd4f949363060c1427a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 9c76353ddb1629a4fa85b9991572cf66
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7a9a8968512f67e4f89fbec56113bafd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 9b1d869ee893c6f4794b1c1705cf6bc4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f93712f1cef596b43adcd6cde75ce125
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 2eb8978715273ea4fb3a51e8eb0662de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c4b26355d7ae098488af1aab06d65fb0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 2c6a5bf453cc8c747b25946de65f4900
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 08ad28dfe5b90c24486578f8e1d0c49d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e2539fcc497b07a468f49b314b52eee8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1652c61a3a954bc47ac3f7af42f3aeee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 2bc77fa39951fe3419a981f0f9d80d12
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 9118c923a751ee04da86c936234515d2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 72ebfcfa25e7cd94e94991759f8a5a66
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 319d1fd9873b1564aae272a87326a14d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 1ee9a2fd32937a54387d38ddd00cdee3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 6d9baa15cd9eb8747a54f0a0660e9856
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 7416b7883b1286c4985180582cf9928e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: b160b512246ace9459b60b6ba5eda4d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 3903d972c59097546ac2b97194b475b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d72cab4d9c823784abb8035a532e05f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f40ded1c2e5a62042bed7dfffc891f6e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 7fdc590af76e2924d8ae9298bf798260
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 5d558e5ec6f1cd842b028329549905e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d3dc05154d3dda84cb8525ec38893d81
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: abd78308a22e4b149885e65e745254b7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 07b30cdf9c07e644db24e6add396b1cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c7c7d63650c64a84582284cb7aba14cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 476c76d3d400ef24482f964dd2c15ae7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 49d9253a027c9d245b67cd64126d77a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: b46987ee8dfbff7498efb56b413a0b7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: cd1338d40cc9b1f49a43d08c5d4ae629
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: ad79e8524c3b6d949b54aeed0bc43337
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: fd11ac2bddc6da449a5b4f245e96154a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: b1afcaca02c3605419670be1eaf8a16f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 958ab95bd231d6246a9db7d6b9f59233
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 89271b39acc2533428fece5336e4d18b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 9930408e5e20aeb4fa08391f59f15d6b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 67db5f8d32d5a8b47a6b26d92f22589c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: baa88173c800dc64c84275f218e41467
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 73b8dbb338b02b8439f34e5f9c9a1d8a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 81d0bb88c86fb56469fc3b35c02b3979
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 1419f2a109b9b8d4099cecc549e8ef22
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 319f6408fcb5315469a78b40af07cdf3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: bdf9a6f1786b3a64792718ce74ea41ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e73e6d243c52c464192bb67515e5b0de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 40cc65aad33a12a4990bd7889ec3badf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: aa36528d3a2651b44b31a6a59cb45d43
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e5b3fee4b8886054ea8eee11e6a5c4fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 54d6258372405ff4ca9435ee3209b57e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e7abdf52d79fa904ea73950e611bce5a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 37b2315913d44d34488d2f1afc2f76fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 531e40e4757e9bb4ca29a7437b27410f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: c43cc4c037b78ae49a68faee22712ae5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ed9cfbf7f4ccb84418838b25fbabbefb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 3748278cd435a4e4785dc2363a71bc84
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 97e654b804910464293573917fa2f54b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 3512529123f3a3d42b32bbb1e1e16f61
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 22058b70c2b7ee84182db5301ee703ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: c29e9fdc6eae46643865a476a6c3155c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f91edf5e01ddf8a448358586b76e2a87
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 93e099a1e5135884b877329981cf9bad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: bce22a252498258499b651339d5f2136
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ddd4065538b31604aa7587d07ff499de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f98185e97713cd44bae5596dd1d3621f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5ebad00a63530fa4f8c4056f3b02eb46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 033f3b254410f7740af92a92a06bb7ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5831505e6b1256d4c84f183d21f3a620
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 8762e6e9e55bbf5489e6fefa7ba7f0a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 2345e189d236ac94a9040787c2a713ef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 64d03820d378df74c88f8038b2bf4052
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 4f24da288780b6742b9a61406e619771
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: a73ffd76cc79aea4692a6f442b1078c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c56450d956efdf7438864b626a7e8f95
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 2edfa00341fe07f49be568dc45f4302e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 2bc2f702725cee347a8ed71c440f8b3c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 142f67ffbb1832947bdbf325efd9a60e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 41142a99e0b212f4a86abd9dc459266e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a877a81687309ad43ba13276a2e1b71a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 177959b06dd116441b16f82f6d3703e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 8b6e5457baca06f479f1a0e33f4b4c85
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 1ffb60d4074f2fe499affbc558aa0511
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 4e1b6d6db955fca4aa7ae10cb2d49715
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 77f8e013b83f360428fdffcd6d6f57e0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0c41781b37d3c394c92d95ac69dcae66
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 5773134aa71a19543924e4758a26e4ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a6ea2c6e2a619a24b96c03e68b1311e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: c3e688b060e61b64b97eda838b4b1385
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0f12b56e4c75ef147ab5269a6f585e68
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0cbbf7ca48a94a1458b02b7584b37fc1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 98f0ba8b89012b74cbe0e650d07e9bfe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ae902945737cd69428b207d033efd188
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_224
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 6aa4a2e20fc44f24cb3966e39dcce4c6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_225
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 30479c9e334d19247b92ee4d165f501f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_226
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: bf6ddf217480d024aa703bfbd9fa0908
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_227
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 1d310ba638063dc4d9785da31208669a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_228
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a3431ade72b53a84ea539dfa67154595
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_229
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: fbfb4b1be213bed489ddd0f8bed702a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_230
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: cb7f79c56c1ecb244a7a382fd2855a7a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_231
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: f1195dfe22a51074d82c8f5e80f50232
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_232
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 02fb2ef641b43bf4ab909d8f631b1ddc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_233
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 96b0af5f530abe648a8f692c6e58b2d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_234
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a041883550bad374a808ed2d047eecc3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_235
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 1de98b6c883e17b44b0d45aac78307b8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_236
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: b6d1513acc9a1b248baeb541060e6a9a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_237
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 17b266826c171c34cb4d4a747fec5fdc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_238
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 009497ff52b32724aacc9cadbe28a840
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_239
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a7fa464470ed29b429910f860c522451
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_240
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: c0ddcfae22b97994ba2e7dc40f70d230
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_241
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 9e58fbb485715d24193d81320c9d65b4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_242
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 7438cdc3debb268458858562b00910a6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_243
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 0296fd35bfdfb264e8b04240083d637d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_244
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 69e451b511b53274bb536ae59c73a6b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_245
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 1cab200041e754b44bec3f77e8be6fb6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_246
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 7880b0c3f81889b4b8f2c60df5045fa9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_247
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 01afd2f47633cf54fa18725cedfa324d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_248
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e83599612d526a84e8abd605bcbbde13
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_249
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 51468acfc64ef83409e3bca49b91499a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_250
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 5f934b7be3554204d9ff180f99206d21
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_251
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f41513248dbb19349bf810e784e8d2c7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_252
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 9e294c54f5c14434fa25c2a4a7e99b3e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_253
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 9b4d2ad79cffdd04bafe9fd11964e2ef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_254
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: cb8228567c515354b9aeaf08ca1260d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Blood_Temple_Tileset_255
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f3182978277ac8b4f90a60500a233215
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

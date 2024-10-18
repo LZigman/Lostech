@@ -1,0 +1,3151 @@
+fileFormatVersion: 2
+guid: 9417d57a87e3a5f48afdd16883403b28
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _sprites:
+  - name: DARK_Beneath_Tileset_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 1b76597d572567b43844e7a739932b49
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 9ea95ba2adc5d044ebbbc692e94fc090
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 5852f353a430a15489264bff6b698f83
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 208
+      width: 16
+      height: 16
+    spriteID: b4128b63913ac0f4a845be22927f0c92
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 208
+      width: 16
+      height: 16
+    spriteID: a24250aaa7159cf4292bec9797fb7969
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 7377c3e0aaaf2534db0ac8317d01eebf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 5db009cf2d77fa9448156fdea036875f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 8b074f41a03439346b0bb6430186de8f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 6fff63bdaa8a05e4e8593c164ac9ecaa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 208
+      width: 16
+      height: 16
+    spriteID: f6623479abab08c4ca71bfc62ece5a0b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 8f3a574bbbb1bdb4283cc4d3e491a6f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 172dc984dfbe5f34da6a5586220db6e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 208
+      width: 16
+      height: 16
+    spriteID: cd453db4244e2724e8809d60fcc94035
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 15fca3e8915ebe84d9cc210ea46a6722
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 3b5201ad322ce78498a8953b093b403c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 2db217f36f4bd18438583d9aade726fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e13b38dad487f8f4689d65e2c8f52c50
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 5dd1b752680f55e4bb77b21540698c53
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 16
+      height: 16
+    spriteID: eaed4c609a5a8dd4698b6ec59a32a874
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 7ca9e4f4858fee642a629779e4d6aaa1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e8197298eb944a549aeb378928f844a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 0b7b6c96baa401646b99d6d2f7ac2062
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 67666fb463ffae346bd82b5ecb178c45
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 9d5fbbafd07e99a459371986aed878af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 0250d0b7ff9b1244693ca460fc324553
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 0aed8d54aea544b48b4e4a2b596484f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 80cc123ae4d7f974887614574d6d754b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 192
+      width: 16
+      height: 16
+    spriteID: a08dfc8c868a4764a98a8fb473c21136
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 41a5f22f87f0dbc4d95e5921ebba7fe7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 3d2c0fe5082d56e41aabe87809dbee0c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e1a0c089ae971ba4f94eb08fc946e62d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 5281c2f2e35d6fc48ac9d5f6620cc362
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: f242880c84800d244a0187ae12712a4e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: d5bd941be63bb3b41a901eee991a9f54
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 00258424c0ab6454fadab302b36779e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 52593853e7103054cb018b298c113813
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ff36d881a898b8a4e89d487383b45b2f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 7d293f1d510397b47a246bdaec82d22e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 806890fc7f881b14e8bb5f17ab9eb970
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 5a24445d4876c9d459b7bd958e0490c9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b0a1d691d1dabe44282a891b9616d1b8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 2add5190c1495004d86f7fc022cb7598
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 8045727d53e033849aa7df74c0f7d44d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 4de61f849ea7b9e4eacf5bd4a7556219
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ee636778359f545449c2a01fcc673160
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 726a15a44dce1c8479f01c2997515b55
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 83ad492743195cb49b4b34c92905dfdf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 989ad8543b06ed74680a371ad464a937
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: cd7251f3ddb173e4faba692bfb8bf8e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 5375a56da3ee81642b6d800d9293603a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 216b887bbda52b14a9fce4bc87c54152
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 316e60bf044033749afb292400c01933
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 109f1a2e81af8e54c9bbd389128670dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 7d39c993e7ef1654aac23713af860b4e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: f1a144b6aadedcb4f8cb816794ce5f15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 71c696e00bc3d3843ac5f14ed2c4cfad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 316eb316a1dfb574da288c54d01ca9d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 1fc6a5cf5a95da84e9c87e2a6c80871f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ed4ba4b63bc79b4459ee7aa8acbb029f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: d6b48cd317ef659409c5bff6895fd3b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 1eb05da1fc923c149bc3aa72d64b5a31
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 714a399bd1a54b742811b9bda4cf139c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 2454362720428194aa5e8492e1cb3a38
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 0924162b2c81ad541896c05a1cab6d27
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 3f3f2e56eb18f4f4d978349849f84dff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 48aeecc6828e0ea42872c9210ffebf11
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: b827702ae82d4444b979defaf06aafd9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 53ce5e91eee1d604f8374d1c8fdb92e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 26f17b185b175694c9a68a7f83772790
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: f25de91dd994cfd41907127a135b4782
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: f4e322cebcdb9be4ba4204fddef39723
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: b1482c383e03ec145b476b2403cb15e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 4e3c5ece57462e440905fa750b4aaed4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 95f61f78e0a04be47bb129f2d2a6a585
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 94d9087cec1b7604481d37b3ccb79cc5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: b59874bc80d2f4a49813f66cc39e24bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: d5f8a9bfe4db6ef44940c2a06ea1515f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 2488b7659f6103e4388927e406f31c39
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 2b58bcaa32e77a442aa02687e3bb564c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 144
+      width: 16
+      height: 16
+    spriteID: fb6787b074e07384a9c09c678ee2a7bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d004980a7011518479bffce5f2282e78
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b60b324a955781b4eb5ef96bc9869172
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: cdedc9ac169bb1a43a58e783be74bf4b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d88faa88f6af0464cb85982c8008a932
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 33f4291b88903684daf556d824975d7e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: fac0a6e9e382ec04e88524e60157d9ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 369f9ea0e0c2c9e4bb89a1ee009398f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: aab3f5b5a1e4ced488350401f6f38438
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 46bafee337271b0409a6d630c218e26f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 2085c0d71c7814949a2fbf2855d62330
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 5f5e2515843f2d042a2527c690e9cf2a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: eab89bef7ad9bd24aa3cd5c86b1695de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 1a8573a1b9bda024fb6da304db884c84
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: db771f65e9084dd428fdee4a47693317
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 4074ea64c34b23c4a9bf3343520c7903
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 78dc44df12037224aa18f45a692aa7d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: a2ed8ebe7e11dba44a3583ecfc53637e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 01bb6e14f223ee240a9192a764dc8b05
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 09adcbd81a19ee14c843788c556c34d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 073ca34b8eb8f4a458b027409841f028
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ab4b3a8f9f40c2d49a8947793385a0ed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7a853d0c91746c74f899853bac8db238
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e603ab971dad5284991815fe1a31263b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 0e92040653d251540aeb9c8be9aebd23
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 8858e2066e4de8b4ca5551980afd5acf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 569b53b34c9061a4b87cc462b976120f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 634fd2b7ddc58644b8be5223346418b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ee7c3ad23cd7acc4da8fe546c6005ee7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d556ca00b0eff924fbb69b64a3efcade
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d2b3463c8e1c02c44adeb5bc46ac562e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7de771f9dfd7e51498a00b36a0babd8f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7ab79f90db5aaf1469af0827ea3b6899
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: aa896a3801ee9bf48a298344d6c5274f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 5407ab39f695d4543b49ea6724552fdf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: bf0f0c87621d01c4791251df8c7cadfa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 5fa748e5f44631e41a6e3d1c42833eec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 9c036da53c808f943b131f5b7e74a1f4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 1650b1e2406cd5e4280dedf3941c5033
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d525321d4e6369a4aabaacc336aae01f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 1c3a08bcc366b174cb04df21f028f34f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 9268e77c598546a4cb8008bf0310a505
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 100014e6328bfbb4da4d73d5d6a67165
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 62d0913232ee7b14080989ba0897f875
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 8a17e0a1b2417aa4ebdba4db3c07bba8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: de93e6a3e26c36b43bad440bf92de1b8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 23992c5f1ed7f6842aa6cc8b560ed9a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 8d726af8f6996e040b855b89552b8cf7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 2aaaab07c1b8e974e932031acb37fb82
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 830a5cf18cf4276438ddbc498fc1589f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 9f413d7d0a30cb244b87bb1bd17b4086
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: ea2d1cd902d53f546a8d6b9366b20e7e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 83140a96dab2cf7468da201d58bc9c80
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 26888f0b43848244781fa8a29e60dcb3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 57da65554e20be84b8903ecde06b9fcb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4c68ff4ad2c5d2345af3154081061883
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 3065a89050ea8654b967a4a536aee841
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 89434f43e9d274744b6aac76e0b37a60
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: b51e6a0dc8f97cb42a15a40b59fabc88
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 12bac1b3f239df448b331e9790c91d00
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4fd833e2c20fe804cbeb0fb383a1bd2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 72a04478889d5944abfc5f70e52248e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 5c83ab169cda73141bd95cfaba7ad60e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: dc76cd2ab1ef54440bdea53b0dc64a2a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f3aefbc5819cc224eb000894b70baa87
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 23bc0967635409b47ac41fbb11ea31f4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e101ac4471ac0404380ed063b7e45bf3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 762912a6ad347884aa9843765a023eb1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: a36d96092bcdac740a647ddfc15a5ce3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: c7d85ffa9ce1d0d4185763a5ce0663a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 696fe7ca876fbc44e949bd8e273f4861
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 3e4abe8009de7034195581c3874b270d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 80745fe9f2ca61f45b74340dfbc84e52
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 767f98092b5425f4d8b2e082aa127264
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 3890da41b195b6849ae588d7fe0862d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: fa18877d8cf9e4d4097149fa37f9ac32
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4f02e045788daf94c92986e12b80af0f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 6f538c7333d4782469ff0c96059327bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 023727918ef08054e86008fef68730e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ceb380372b27c294b911185de7bed83e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4c1e5e4a035451842b187d823b23de3a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 291f44447feae0c4685fd1c9e01cd215
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ccecf127cb41cbb44989f2443f657ae6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: a78126f79b67dee448bce4dea6b1fd0c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 198f4f104a4ec0342987528778961f70
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3e9de38abced7db498b59bf2d8203cff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c23a1d32f3a1f8c4eb2e0f58ccf72f86
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 2077c74685f669848bc0a22cb2175111
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ebb6b24023aea9343872b854908de004
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 42754898d4f09894683dba054e7e257a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 6e137c7d459fdde408f286dd0c3c24ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b928fa20af9c93f47a5ac62d1a2e5bcd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3540f72b3dc1f744e9dc5b673eaf23fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: dcbdd9da1f8075d449145d20ad3917af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f465466c9ead1cf4180b4cc4d4ec9818
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5aba05cec527f15429aa837842eec203
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c6ac0efb6f9361b43a5efdf6fdbe4e5a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 76445743313104440be848b0adae226e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 12ae09fedd99e4b4b94e965cf15681e0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b8bb46be24e29a94d870bc737e15f61a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 062f178f72cfe4b4db64713ed0f0cbdf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0b374319a1600d846b6b5ce5d92b25d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a39fece1bee686f4b8aca6a83a4f3833
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b78922839cdd2424f8abb36401c75c7f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: be73c3bb108954740a86b04247d02f0f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: fff40ac14a329264cbcdf5e72dd78352
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 838b89b4d08038a4bbc34732c7417741
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: c7995e2006833154eaffdaad62afb635
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 8e05d0a4c28548e48b26b339ec3cf24b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 8e352da6f2daab347b5fe83f7a3cab76
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b9127b3c4cc20c2408a0423159b17a4b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 55bb91ab063bc5f499984666b3002890
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b1cd1e3dda75a2345aa48a2fe299a065
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a7eb1f331d5f5044daba2d98d6ad7ec4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ccd4a9e90b298fe48a492569a3d09cac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: b1595127850dffe459d6a75b7146cb43
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a6f13ae169346ca488b876e1e48d39b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: b0f8319e8af9ed349af10f8953afb746
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: f29d94c65a5d7904c8661257eab95a98
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 8f160ec20234be241bd15951f2604089
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 0f875885cb8960945835409a7ef85a95
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: bec5097aed94fd142a577894453467fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e6cec1aaf9013bc4097a61bd6aef042f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: c8cf0dec1b0c0e144adff2928c0ff1de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 5465310aae885544a86c8b26985f7886
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d4973e8355e29784cb993beeb249c0db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 77d215d4fce1040448f4dddbc3595719
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: cf41b4a2b74762843afc2327d0531d5d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: cb01181082ab24f4cbe22f17ec8dcc51
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: fa0401d5609028c41b5fa9c69f64e237
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 66ed316ebe1c0aa4692f8886de99f674
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: b652b0101d87fdf469e16763abcc759b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: eba4db9ad4a41d64885284adf9b28d1e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 0657fada8123c8e4d9d70a995e8c17da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f744eae7b9b3f944eb5fca18f6aaf163
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 67d99c7307421224d8b31d390dddefe5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e8f2dc186691bdd42839e1682243acf4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 4b05a1d81119a76449a74de0128e5600
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 8be8d53c1f706c040b545b1e8a775b46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a5ab15d7fc6854e4a86d074ef7e34861
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: badcd0c9d5e3b284fb8af3951c5649d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 9850296f4adf32b44b0ae8f6869bdb32
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d5398c7bb39b65946b5f6513e676ff3a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 718366c57be253946ad0a701e510951c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: DARK_Beneath_Tileset_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 1f18c55ddad617842a3112389e73be1f
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

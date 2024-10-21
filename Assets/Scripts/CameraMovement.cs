@@ -11,11 +11,11 @@ public class CameraMovement : MonoBehaviour
     public bool isFollowHorizontal, isFollowVertical;
 	public float distance = 10f;
 
-	private Camera camera;
+	private Camera mainCamera;
 	private Vector3 posToMove;
 	private void Awake()
 	{
-		camera = GetComponent<Camera>();
+		mainCamera = GetComponent<Camera>();
 		posToMove = transform.position - distance * Vector3.forward;
 	}
 
@@ -23,8 +23,8 @@ public class CameraMovement : MonoBehaviour
 	{
 		if (isFollowHorizontal == true)
 		{
-			float posToCheckLeft = playerTransform.position.x - (camera.orthographicSize * Screen.width / Screen.height);
-			float posToCheckRight = playerTransform.position.x + (camera.orthographicSize * Screen.width / Screen.height);
+			float posToCheckLeft = playerTransform.position.x - (mainCamera.orthographicSize * Screen.width / Screen.height);
+			float posToCheckRight = playerTransform.position.x + (mainCamera.orthographicSize * Screen.width / Screen.height);
 
 			if (posToCheckLeft > leftLimit.position.x && posToCheckRight < rightLimit.position.x)
 			{
@@ -33,8 +33,8 @@ public class CameraMovement : MonoBehaviour
 		}
 		if (isFollowVertical == true)
 		{
-			float posToCheckTop = playerTransform.position.y + camera.orthographicSize;
-			float posToCheckBottom = playerTransform.position.y - camera.orthographicSize;
+			float posToCheckTop = playerTransform.position.y + mainCamera.orthographicSize;
+			float posToCheckBottom = playerTransform.position.y - mainCamera.orthographicSize;
 
 			if (posToCheckTop < topLimit.position.y && posToCheckBottom > bottomLimit.position.y)
 			{

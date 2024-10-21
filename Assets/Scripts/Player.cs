@@ -15,16 +15,19 @@ public class Player : MonoBehaviour
 	[SerializeField] private Transform groundCheck, gunTransform, gunBarrelTransform, crosshairTransform;
 	[SerializeField] private GameObject bulletPrefab;
 	[SerializeField] private Animator animator;
+	[SerializeField] private float maxHealth = 100f;
 
 	private int movingDirId, lookingDirId;
 	private float rotationAngle;
 	private Vector2 delta;
+	private float currentHealth;
 	
 	private void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
 		movingDirId = Animator.StringToHash("movingDir");
 		lookingDirId = Animator.StringToHash("lookingDir");
+		currentHealth = maxHealth;
 	}
 	
 	private void Update()
@@ -110,6 +113,15 @@ public class Player : MonoBehaviour
 		}
 	}
 	
+	public void DamagePlayer (float damage)
+	{
+		currentHealth -= damage;
+		if (currentHealth <= 0f)
+		{
+			Debug.Log("Die!");
+		}
+	}
+
 	private void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.gameObject.CompareTag("Ground"))

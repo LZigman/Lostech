@@ -15,16 +15,23 @@ public class Spitter : MonoBehaviour
     [SerializeField] private LayerMask playerLayer;
     [SerializeField] private float attackAnimationDelay = 0.33f;
     [SerializeField] private float attackAnimationLength = 0.8f;
+    [SerializeField] private float damageAnimationLength = 0.8f;
+    [SerializeField] private float deathAnimationLength = 0.8f;
     [SerializeField] private Animator animator;
+    [SerializeField] private float attackRate = 1f;
+    [SerializeField] private float maxHealth = 1f;
     
     // private variables
     private Rigidbody2D rb;
     private GameObject player;
+    private float timeAtLastAttack;
+    private float currentHealth;
 
 	private void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
-        
+        timeAtLastAttack = 0f;
+        currentHealth = maxHealth;
         StartCoroutine(Patrol());
 	}
 	private IEnumerator Patrol ()
@@ -86,6 +93,24 @@ public class Spitter : MonoBehaviour
 		}
         return false;
 	}
+    public IEnumerator Damage (float damage)
+    {
+        currentHealth -= damage;
+        if (currentHealth <= 0f)
+        {
+            StartCoroutine(Death());
+            yield break;
+        }
+        animator.SetBool("isDamage", true);
+        yield return new WaitForSeconds(damageAnimationLength);
+        animator.SetBool("isDamage", false);
+    }
+    public IEnumerator Death ()
+    {
+        animator.SetBool("isDead", true);
+        yield return new WaitForSeconds(deathAnimationLength);
+        Destroy(gameObject);
+    }
     private IEnumerator ShootingState ()
     {
         while (true)
@@ -96,9 +121,35 @@ public class Spitter : MonoBehaviour
                 StartCoroutine(Patrol());
                 yield break;
             }
+            if (Time.time > timeAtLastAttack + attackRate)
+            {
+                StartCoroutine(Shoot());
+                timeAtLastAttack = Time.time;
+            }
+
             yield return new WaitForSeconds (Time.fixedDeltaTime);
         }
     }
+
+    private IEnumerator Shoot ()
+    {
+        animator.SetBool("isShooting", true);
+        yield return new WaitForSeconds(attackAnimationDelay);
+        var temp = Instantiate (projectile, projectileSpawnPoint.position, Quaternion.identity);
+        var temp2 = temp.GetComponent<SpitterProjectile>();
+        if (transform.localScale.x == 1)
+        {
+            temp2.dir = Vector2.one;
+            temp2.distanceFromPlayer = Mathf.Abs(player.transform.position.x - projectileSpawnPoint.position.x);
+        }
+        else
+        {
+			temp.GetComponent<SpitterProjectile>().dir = Vector2.left + Vector2.up;
+		}
+        yield return new WaitForSeconds(attackAnimationLength - attackAnimationDelay);
+        animator.SetBool("isShooting", false);
+    }
+
     // helper functions
 	private bool CompareLayers(GameObject objectWithLayer, LayerMask layerMask)
 	{

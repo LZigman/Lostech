@@ -4,51 +4,49 @@ using UnityEngine;
 
 public class SpitterProjectile : MonoBehaviour
 {
-    public Vector2 dir;
-	[SerializeField] private float movementSpeed;
-	[SerializeField] private float detectionRadius;
+	// serializable variables
+	[SerializeField] private float playerHitAnimationLength = 0.3f, groundHitAnimationLength = 0.35f;
 	[SerializeField] private LayerMask playerLayer, groundLayer;
+	// public variables
+	[HideInInspector] public float distanceFromPlayer;
+	[HideInInspector] public Vector2 dir;
+	
+	// private variables
 	private Rigidbody2D rb;
-	private void Awake()
+	private Animator animator;
+	private float force;
+	private void Start()
 	{
-		dir = Vector2.zero;
-		dir = CalculateDir(dir);
-		StartCoroutine(MoveProjectile());
-	}
-	private IEnumerator MoveProjectile ()
-	{
-		while (true)
-		{
-			rb.position += movementSpeed * Time.fixedDeltaTime * dir;
-			DetectPlayer();
-			dir = CalculateDir(dir);
-			yield return new WaitForSeconds(Time.fixedDeltaTime);
-		}
-	}
-	private void DetectPlayer ()
-	{
-		Collider2D[] detectedColliders = Physics2D.OverlapCircleAll(rb.position, detectionRadius);
-		for (int i = 0; i < detectedColliders.Length; i++)
-		{
-			if (CompareLayers(detectedColliders[i].gameObject, playerLayer) == true)
-			{
-				dir = (Vector2)detectedColliders[i].transform.position - rb.position;
-				return;
-			}
-		}
+		animator = GetComponent<Animator>();
+		rb = GetComponent<Rigidbody2D>();
+		force = distanceFromPlayer;
+		rb.AddForce(force * dir, ForceMode2D.Impulse);
 	}
 	private void OnTriggerEnter2D(Collider2D other)
 	{
+		rb.bodyType = RigidbodyType2D.Static;
 		if (CompareLayers(other.gameObject, playerLayer) == true)
 		{
 			Debug.Log("Player hit!");
-			Destroy(gameObject);
+			StartCoroutine(PlayerHitAnimation());
 		}
 		if (CompareLayers (other.gameObject, groundLayer) == true)
 		{
 			Debug.Log("Ground Hit!");
-			Destroy(gameObject);
+			StartCoroutine(GroundHitAnimation());
 		}
+	}
+	private IEnumerator PlayerHitAnimation ()
+	{
+		animator.SetBool("isHitPlayer", true);
+		yield return new WaitForSeconds(playerHitAnimationLength);
+		Destroy(gameObject);
+	}
+	private IEnumerator GroundHitAnimation()
+	{
+		animator.SetBool("isHitPlayer", true);
+		yield return new WaitForSeconds(groundHitAnimationLength);
+		Destroy(gameObject);
 	}
 	// helper functions
 	private bool CompareLayers(GameObject objectWithLayer, LayerMask layerMask)
@@ -59,11 +57,5 @@ public class SpitterProjectile : MonoBehaviour
 		}
 		return false;
 	}
-	// calculates dir for next physic update
-	private Vector2 CalculateDir (Vector2 dir)
-	{
-		Vector2 dir2 = dir;
-		dir2.y = -0.25f * (dir.x - 2) * (dir.x - 2) + 1;
-		return dir2;
-	}
+	
 }

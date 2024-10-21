@@ -43,17 +43,17 @@ public class Player : MonoBehaviour
 		if (horizontal > 0)
 		{
 			animator.SetInteger(movingDirId, 1);
-			Debug.Log("movingDir == 1");
+			//Debug.Log("movingDir == 1");
 		}
 		else if (horizontal < 0)
 		{
 			animator.SetInteger(movingDirId, -1);
-			Debug.Log("movingDir == -1");
+			//Debug.Log("movingDir == -1");
 		}
 		else
 		{
 			animator.SetInteger(movingDirId, 0);
-			Debug.Log("movingDir == 0");
+			//Debug.Log("movingDir == 0");
 		}
 		Debug.Log("Horizontal movement!");
 	}
@@ -83,14 +83,14 @@ public class Player : MonoBehaviour
 			transform.localScale = new Vector3(-1, 1, 1);
 			rotationAngle = Vector2.SignedAngle(-1 * transform.right, delta);
 			animator.SetInteger(lookingDirId, -1);
-			Debug.Log("lookingDir == -1");
+			//Debug.Log("lookingDir == -1");
 		}
 		else
 		{
 			transform.localScale = new Vector3(1, 1, 1);
 			rotationAngle = Vector2.SignedAngle(transform.right, delta);
 			animator.SetInteger(lookingDirId, 1);
-			Debug.Log("lookingDir == 1");
+			//Debug.Log("lookingDir == 1");
 		}
 
 		// calculating rotation angle between vector above and x axis
@@ -129,7 +129,7 @@ public class Player : MonoBehaviour
 			// grounding player
 			isGrounded = true;
 			
-			Debug.Log("Grounded!");
+			//Debug.Log("Grounded!");
 		}
 	}
 	
@@ -140,7 +140,7 @@ public class Player : MonoBehaviour
 			// un-grounding player
 			isGrounded = false;
 			
-			Debug.Log("UnGrounded!");
+			//Debug.Log("UnGrounded!");
 		}
 	}
 }

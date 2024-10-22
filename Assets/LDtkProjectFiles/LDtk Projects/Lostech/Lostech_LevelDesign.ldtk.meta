@@ -36,6 +36,8 @@ ScriptedImporter:
     _asset: {instanceID: 0}
   - _key: Player
     _asset: {instanceID: 0}
+  - _key: Death
+    _asset: {instanceID: 0}
   _enumGenerate: 0
   _enumPath: 
   _enumNamespace: 

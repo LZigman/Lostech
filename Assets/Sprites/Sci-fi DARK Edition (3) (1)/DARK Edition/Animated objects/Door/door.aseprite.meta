@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: 8aae05fd3cd30b0acb5db6e7b51f1f7a
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: door_Clip
+    second: {fileID: 7400000, guid: c94e6359786b1b14dbfba43396a8698f, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -97,7 +102,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638651261291390183
+  platformSettingsDirtyTick: 638651868799018307
   textureAssetName: 
   singleSpriteImportData:
   - name: 

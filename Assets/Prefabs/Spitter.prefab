@@ -122,8 +122,11 @@ MonoBehaviour:
     m_Bits: 64
   attackAnimationDelay: 0.33
   attackAnimationLength: 0.8
+  damageAnimationLength: 0.3
+  deathAnimationLength: 0.8
   animator: {fileID: 2391727166485985991}
   attackRate: 1.5
+  maxHealth: 1
 --- !u!1 &2608840879312414906
 GameObject:
   m_ObjectHideFlags: 0

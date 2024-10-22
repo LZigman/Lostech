@@ -6,7 +6,7 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
 	[SerializeField] private float bulletSpeed, bulletDamage;
-	[SerializeField] private LayerMask enemyLayer, groundLayer, spitterLayer;
+	[SerializeField] private LayerMask enemyLayer, groundLayer, spitterLayer, locustLayer;
 	private Rigidbody2D rb;
 	private void Start()
 	{
@@ -24,6 +24,10 @@ public class BulletScript : MonoBehaviour
 		else if (CompareLayers(other.gameObject, spitterLayer) == true)
 		{
 			StartCoroutine(other.gameObject.GetComponent<Spitter>().Damage(bulletDamage));
+		}
+		else if (CompareLayers(other.gameObject, locustLayer) == true)
+		{
+			StartCoroutine(other.gameObject.GetComponent<Locust>().Die());
 		}
 		Destroy(gameObject);
 

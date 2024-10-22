@@ -22,3 +22,6 @@ Spitter:
 		-> napravit player detection logiku
 	-> povezat animacije u animatoru
 	-> spremit kao prefab
+locust:
+	-> state: move towards player, if in attack radius attack player and die
+	-> if player hits once die

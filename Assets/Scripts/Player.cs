@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
 	public void DamagePlayer (float damage)
 	{
 		// damage
+		Debug.Log("Damage: " + damage);
 	}
 	public void OnMoveInput (InputAction.CallbackContext context)
 	{

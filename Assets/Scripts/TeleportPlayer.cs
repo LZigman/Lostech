@@ -1,9 +1,18 @@
 using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 public class TeleportPlayer : MonoBehaviour
 {
-    [SerializeField] private Transform origin, destination;
+    [Header("Animation")]
+    [Space]
+    [SerializeField] private Animator animator;
+    [SerializeField] private bool animate;
+
+    [Header("Parameters")] 
+    [Space] 
+    [SerializeField] private Transform origin;
+    [SerializeField] private Transform destination;
     [SerializeField] private TextMeshProUGUI promptText;
     [SerializeField] private KeyCode keyToPress = KeyCode.E;
     [SerializeField] private float activationDistance = 5f;
@@ -13,6 +22,9 @@ public class TeleportPlayer : MonoBehaviour
     private bool done = false;
     private String prompt;
     private float timer = 0f;
+    
+    private static readonly int IdleTeleport = Animator.StringToHash("idleTeleport");
+    private static readonly int Warp = Animator.StringToHash("warp");
 
     private void Start()
     {
@@ -20,6 +32,8 @@ public class TeleportPlayer : MonoBehaviour
         promptText.text = $"Press '{keyToPress}' key to activate.";
         promptText.gameObject.SetActive(false);
         GetComponent<BoxCollider2D>().isTrigger = true;
+        animator = GetComponent<Animator>();
+        if (animator != null) animate = true;
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -32,15 +46,14 @@ public class TeleportPlayer : MonoBehaviour
                 promptText.gameObject.SetActive(true);
                 if (!teleporting && Input.GetKey(keyToPress) && !done)
                 {
-                    timer = 0;
+                    timer = Time.time;
                     teleporting = true;
                 }
             }
             
             if (teleporting && !done)
             {
-                timer += Time.deltaTime;
-                var timeRemaining = chargeTime - timer;
+                var timeRemaining = chargeTime + timer - Time.time;
                 int minutes = (int)timeRemaining / 60;
                 int seconds = (int)timeRemaining % 60;
                 promptText.text = $"Charging... Time remaining: {minutes:00}:{seconds:00}";
@@ -53,7 +66,7 @@ public class TeleportPlayer : MonoBehaviour
                 promptText.text = $"Press '{keyToPress}' to teleport";
                 if (Input.GetKey(keyToPress) && Vector2.Distance(playerPos.position, origin.position) <= activationDistance)
                 {
-                    Teleport(destination, other.transform);
+                    StartCoroutine(Teleport(destination, other.transform));
                     done = false;
                 }
             }
@@ -65,8 +78,14 @@ public class TeleportPlayer : MonoBehaviour
         }
     }
 
-    private void Teleport(Transform target, Transform player)
+    private IEnumerator Teleport(Transform target, Transform player)
     {
+        if (animate)
+        {
+            AnimationStateChanger.Instance.ChangeAnimationState(Warp, animator);
+            yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0).Length);
+            AnimationStateChanger.Instance.ChangeAnimationState(IdleTeleport, animator);
+        }
         player.position = new Vector2(target.position.x, target.position.y + 2);
         promptText.gameObject.SetActive(false);
         promptText.text = $"Press '{keyToPress}' key to activate.";

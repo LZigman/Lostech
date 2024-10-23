@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor.Tilemaps;
 using UnityEngine;
-[RequireComponent(typeof(Rigidbody2D))]
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Summoner : MonoBehaviour
 {
     [SerializeField] private GameObject locustPrefab;
@@ -17,19 +17,29 @@ public class Summoner : MonoBehaviour
 	[SerializeField] private Animator animator;
 	[SerializeField] private LayerMask playerLayer;
 	[SerializeField] private float detectionRadius;
+	[SerializeField] private float maxHealth = 100f;
 
     private Rigidbody2D rb;
 	private Transform playerTransform;
+	private float currentHealth;
+	private int walkAnimationId = Animator.StringToHash("Move");
+	private int summonAnimationId = Animator.StringToHash("Summon");
+	private int hitAnimationId = Animator.StringToHash("Hit");
+	private int deathAnimationId = Animator.StringToHash("Death");
+	private int idleAnimationId = Animator.StringToHash("Idle");
+	private bool isHit;
 
 	private void Awake()
 	{
+		AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
 		rb = GetComponent<Rigidbody2D>();
 		StartCoroutine(Patrol());
+		currentHealth = maxHealth;
 	}
 
 	private IEnumerator Patrol ()
 	{
-		animator.SetBool("isMoving", true);
+		AnimationStateChanger.Instance.ChangeAnimationState(walkAnimationId, animator);
 		Vector2 moveTo;
 		while (true)
 		{
@@ -43,6 +53,14 @@ public class Summoner : MonoBehaviour
 					StartCoroutine(PlayerDetected());
 					yield break;
 				}
+			}
+			if (isHit == true)
+			{
+				AnimationStateChanger.Instance.ChangeAnimationState(hitAnimationId, animator);
+				Debug.Log("Hit animation len: " + animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
+				yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
+				AnimationStateChanger.Instance.ChangeAnimationState(walkAnimationId, animator);
+				isHit = false;
 			}
 			if (Mathf.Abs(rb.position.x - patrolLimiterLeft.position.x) < 0.1f)
 			{
@@ -78,27 +96,51 @@ public class Summoner : MonoBehaviour
 		 * */
 		while (true)
 		{
+			AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
 			if (IsPlayerDetected () == false)
 			{
 				StartCoroutine(Patrol());
 				playerTransform = null;
 				yield break;
 			}
-			StartCoroutine(Summon());
+			if (isHit == true)
+			{
+				AnimationStateChanger.Instance.ChangeAnimationState(hitAnimationId, animator);
+				Debug.Log("Hit animation len: " + animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
+				yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
+				AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
+				Debug.Log("Animation Performed!");
+				isHit = false;
+			}
+			// summon
+			AnimationStateChanger.Instance.ChangeAnimationState(summonAnimationId, animator);
+			for (int i = 0; i < swarmSize; i++)
+			{
+				yield return new WaitForSeconds(summonAnimationDelay);
+				GameObject temp = Instantiate(locustPrefab, spawnPos.position, Quaternion.identity);
+				temp.GetComponent<Locust>().playerTransform = playerTransform;
+				yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0).Length);
+			}
+			AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
 			yield return new WaitForSeconds(summoningRate);
 		}
 	}
-	private IEnumerator Summon ()
+	public void Damage (float damage)
 	{
-		animator.SetBool("isSummoning", true);
-		for (int i = 0; i < swarmSize; i++)
+		currentHealth -= damage;
+		if (currentHealth <= 0f)
 		{
-			yield return new WaitForSeconds(summonAnimationDelay);
-			GameObject temp = Instantiate(locustPrefab, spawnPos.position, Quaternion.identity);
-			temp.GetComponent<Locust>().playerTransform = playerTransform;
-			yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0).Length);
+			StartCoroutine(Death());
+			return;
 		}
-		animator.SetBool("isSummoning", false);
+		Debug.Log("Damage registered!");
+		isHit = true;
+	}
+	private IEnumerator Death()
+	{
+		AnimationStateChanger.Instance.ChangeAnimationState(deathAnimationId, animator);
+		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0).Length);
+		Destroy(gameObject);
 	}
 	// helper functions
 	private bool CompareLayers(GameObject objectWithLayer, LayerMask layerMask)

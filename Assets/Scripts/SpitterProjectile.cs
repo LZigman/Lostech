@@ -15,12 +15,16 @@ public class SpitterProjectile : MonoBehaviour
 	private Rigidbody2D rb;
 	private Animator animator;
 	private float force;
+	private int travelAnimationId = Animator.StringToHash("Travel");
+	private int playerHitAnimationId = Animator.StringToHash("Burst 2");
+	private int groundHitAnimationId = Animator.StringToHash("burst 1");
 	private void Start()
 	{
 		animator = GetComponent<Animator>();
 		rb = GetComponent<Rigidbody2D>();
 		force = distanceFromPlayer;
 		rb.AddForce(force * dir, ForceMode2D.Impulse);
+		AnimationStateChanger.Instance.ChangeAnimationState(travelAnimationId, animator);
 	}
 	private void OnTriggerEnter2D(Collider2D other)
 	{
@@ -38,13 +42,13 @@ public class SpitterProjectile : MonoBehaviour
 	}
 	private IEnumerator PlayerHitAnimation ()
 	{
-		animator.SetBool("isHitPlayer", true);
+		AnimationStateChanger.Instance.ChangeAnimationState(playerHitAnimationId, animator);
 		yield return new WaitForSeconds(playerHitAnimationLength);
 		Destroy(gameObject);
 	}
 	private IEnumerator GroundHitAnimation()
 	{
-		animator.SetBool("isHitPlayer", true);
+		AnimationStateChanger.Instance.ChangeAnimationState (groundHitAnimationId, animator);
 		yield return new WaitForSeconds(groundHitAnimationLength);
 		Destroy(gameObject);
 	}

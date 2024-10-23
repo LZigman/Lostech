@@ -26,6 +26,12 @@ public class Spitter : MonoBehaviour
     private GameObject player;
     private float timeAtLastAttack;
     private float currentHealth;
+    private int walkAnimationId = Animator.StringToHash("Walk");
+    private int hitAnimationId = Animator.StringToHash("hit");
+    private int deathAnimationId = Animator.StringToHash("death");
+    private int attackAnimationId = Animator.StringToHash("attack");
+    private int idleAnimationId = Animator.StringToHash("Idle");
+    private bool isHit;
 
 	private void Start()
 	{
@@ -37,9 +43,16 @@ public class Spitter : MonoBehaviour
 	private IEnumerator Patrol ()
     {
         Vector2 moveTo;
-        animator.SetBool("isMoving", true);
+        AnimationStateChanger.Instance.ChangeAnimationState(walkAnimationId, animator);
         while (true)
         {
+            if (isHit == true)
+            {
+                AnimationStateChanger.Instance.ChangeAnimationState(hitAnimationId, animator);
+                yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
+                AnimationStateChanger.Instance.ChangeAnimationState(walkAnimationId, animator);
+                isHit = false;
+            }
             if (Mathf.Abs(rb.position.x - patrolLimiterLeft.position.x) < 0.1f)
             {
                 patrolStartLeft = false;
@@ -63,7 +76,7 @@ public class Spitter : MonoBehaviour
             rb.position = Vector2.MoveTowards (rb.position, moveTo, movementSpeed * Time.fixedDeltaTime);
             if (DetectPlayer() == true)
             {
-                animator.SetBool("isMoving", false);
+                AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
                 StartCoroutine(ShootingState());
                 yield break;
             }
@@ -87,28 +100,27 @@ public class Spitter : MonoBehaviour
                 {
 					transform.localScale = new Vector3(1f, 1f, 1f);
 				}
-                Debug.Log("Player Detected!");
                 return true;
 			}
 		}
         return false;
 	}
-    public IEnumerator Damage (float damage)
+    public void Damage (float damage)
     {
+
         currentHealth -= damage;
         if (currentHealth <= 0f)
         {
             StartCoroutine(Death());
-            yield break;
+            return;
         }
-        animator.SetBool("isDamage", true);
-        yield return new WaitForSeconds(damageAnimationLength);
-        animator.SetBool("isDamage", false);
+        isHit = true;
     }
     public IEnumerator Death ()
     {
-        animator.SetBool("isDead", true);
-        yield return new WaitForSeconds(deathAnimationLength);
+        Debug.Log("death!");
+        AnimationStateChanger.Instance.ChangeAnimationState(deathAnimationId, animator);
+		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
         Destroy(gameObject);
     }
     private IEnumerator ShootingState ()
@@ -121,19 +133,25 @@ public class Spitter : MonoBehaviour
                 StartCoroutine(Patrol());
                 yield break;
             }
-            if (Time.time > timeAtLastAttack + attackRate)
+			if (isHit == true)
+			{
+				AnimationStateChanger.Instance.ChangeAnimationState(hitAnimationId, animator);
+				yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
+				AnimationStateChanger.Instance.ChangeAnimationState(walkAnimationId, animator);
+				isHit = false;
+			}
+			if (Time.time > timeAtLastAttack + attackRate)
             {
                 StartCoroutine(Shoot());
                 timeAtLastAttack = Time.time;
             }
-
             yield return new WaitForSeconds (Time.fixedDeltaTime);
         }
     }
 
     private IEnumerator Shoot ()
     {
-        animator.SetBool("isShooting", true);
+        AnimationStateChanger.Instance.ChangeAnimationState(attackAnimationId, animator);
         yield return new WaitForSeconds(attackAnimationDelay);
         var temp = Instantiate (projectile, projectileSpawnPoint.position, Quaternion.identity);
         var temp2 = temp.GetComponent<SpitterProjectile>();
@@ -147,7 +165,7 @@ public class Spitter : MonoBehaviour
 			temp.GetComponent<SpitterProjectile>().dir = Vector2.left + Vector2.up;
 		}
         yield return new WaitForSeconds(attackAnimationLength - attackAnimationDelay);
-        animator.SetBool("isShooting", false);
+        AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
     }
 
     // helper functions

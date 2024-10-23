@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4252405632219899724}
   - component: {fileID: 3739300113734843362}
   - component: {fileID: 7834335105421889689}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}

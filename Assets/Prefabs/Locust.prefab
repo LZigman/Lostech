@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8494078006958579725}
   - component: {fileID: 5740647372831968884}
   - component: {fileID: 3694798626534439083}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Locust
   m_TagString: Untagged
   m_Icon: {fileID: 0}

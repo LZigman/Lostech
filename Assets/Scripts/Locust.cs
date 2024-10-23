@@ -71,15 +71,21 @@ public class Locust : MonoBehaviour
             if (CompareLayers(detectedColliders[i].gameObject, playerLayer) == true)
             {
                 detectedColliders[i].gameObject.GetComponent<Player>().DamagePlayer(damage);
-                StartCoroutine(Die());
+				
+				StartCoroutine(Die());
+                Debug.LogError("Coro Die started");
                 yield break;
             }
         }
     }
     public IEnumerator Die ()
     {
-        animator.SetBool("isDeath", true);
-        yield return new WaitForSeconds(deathAnimationLength);
+		animator.SetBool("isFlying", false);
+		animator.SetBool("isAttacking", false);
+        //  animator.SetBool("isDeath", true);
+        animator.SetTrigger("Die");
+		yield return new WaitForSeconds(deathAnimationLength);
+        Debug.Log("DIE!!!");
         Destroy(gameObject);
     }
 
@@ -109,7 +115,6 @@ public class Locust : MonoBehaviour
             moveTowards.y = Random.Range(dir.y, 2 * rb.position.y - dir.y);
         }
         moveTowards.x = Random.Range(Mathf.Min(rb.position.x, dir.x), Mathf.Max(rb.position.x, dir.x));
-        Debug.Log("Moving towards: " + moveTowards);
         return moveTowards;
         
     }

@@ -36354,7 +36354,7 @@ PrefabInstance:
       objectReference: {fileID: 655807021}
     - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: jumpForce
-      value: 850
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: jumpHeight
@@ -36367,14 +36367,14 @@ PrefabInstance:
     - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: croshairTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2144785731}
     - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: crosshairTransform
       value: 
       objectReference: {fileID: 2144785731}
     - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: fallTimeBeforeAnimation
-      value: 1
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 3967460615956505532, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -36448,6 +36448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8127452466749991391, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 853927350}
     - target: {fileID: 8511555605973999720, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: m_Size.x
       value: 0.52838993

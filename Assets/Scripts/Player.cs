@@ -6,11 +6,10 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {
-	
-	[SerializeField] private float jumpForce, movementSpeed;
-	[SerializeField] private float fallTimeBeforeAnimation;
 	[SerializeField] private Transform gunTransform, gunBarrelTransform, croshairTransform;
 	[SerializeField] private GameObject bulletPrefab;
+	[SerializeField] private float jumpForce, movementSpeed;
+	[SerializeField] private float fallTimeBeforeAnimation;
 	[SerializeField] private float maxHealth = 100f;
 	
 	private Animator animator;
@@ -18,15 +17,16 @@ public class Player : MonoBehaviour
 	private int groundMask;
 	private float xAxis, yAxis;
 	private Vector2 mousePos;
-	public bool isGrounded;
-	private bool isAttackPressed;
-	private bool isAttacking;
-	public bool isFalling;
-	
 	private float rotationAngle;
 	private Vector2 delta, vel;
 	private float currentHealth;
-	private float fallingTime = 0;
+	private float fallingTime;
+	
+	private bool isGrounded;
+	private bool isJumping;
+	private bool isAttackPressed;
+	private bool isAttacking;
+	private bool isFalling;
 	
 	private static readonly int PlayerRunForward = Animator.StringToHash("playerRunForward");
 	private static readonly int PlayerRunBackward = Animator.StringToHash("playerRunBackward");
@@ -44,12 +44,28 @@ public class Player : MonoBehaviour
 		animator = GetComponent<Animator>();
 		currentHealth = maxHealth;
 		groundMask = 1 << LayerMask.NameToLayer("Ground");
-		vel = new Vector2(0, 0);
+		vel = new Vector2(rb.velocity.x, rb.velocity.y);
 	}
 
 	private void FixedUpdate()
 	{
 		// check if player is on the ground
+		GroundCheck();
+		
+		// check if falling
+		FallCheck();
+		
+		// check where the player is moving
+		MovementCheck();
+		
+		// assign the velocity to the rigidbody
+		var vector2 = rb.velocity;
+		vector2.x = vel.x;
+		rb.velocity = vector2;
+	}
+
+	private void GroundCheck()
+	{
 		RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.5f + 0.1f, groundMask);
 		Debug.DrawLine(transform.position, hit.point, Color.red);
 
@@ -61,14 +77,30 @@ public class Player : MonoBehaviour
 		{
 			isGrounded = false;
 		}
-		
-		vel = new Vector2(0, rb.velocity.y);
-		// assign the velocity to the rigidbody
-		rb.velocity = vel;
+	}
 
-		
-		// check if falling
-		if (rb.velocity.y < 0)
+	private void MovementCheck()
+	{
+		if (xAxis > 0)
+		{
+			vel.x = movementSpeed;
+			if (!isFalling && isGrounded && !isJumping) AnimationStateChanger.Instance.ChangeAnimationState(PlayerRunForward, animator);
+		}
+		else if (xAxis < 0)
+		{
+			vel.x = -movementSpeed;
+			if (!isFalling && isGrounded && !isJumping) AnimationStateChanger.Instance.ChangeAnimationState(PlayerRunBackward, animator);
+		}
+		else
+		{
+			vel.x = 0;
+			if (!isFalling && isGrounded && !isJumping) AnimationStateChanger.Instance.ChangeAnimationState(PlayerIdle, animator);
+		}
+	}
+
+	private void FallCheck()
+	{
+		if (rb.velocity.y < -0.1)
 		{
 			isFalling = true;
 			fallingTime += Time.fixedDeltaTime;
@@ -84,32 +116,18 @@ public class Player : MonoBehaviour
 			isFalling = false;
 			fallingTime = 0;
 		}
-		
-		Debug.Log(rb.velocity);
+	}
+
+	private IEnumerator Falling()
+	{
+		AnimationStateChanger.Instance.ChangeAnimationState(PlayerFall, animator);
+		yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0)[0].clip.length);
 	}
 
 	public void OnMoveInput (InputAction.CallbackContext context)
 	{
-		Debug.Log("Move");
 		// getting horizontal input
 		xAxis = context.ReadValue<Vector2>().x;
-		Debug.Log(xAxis);
-		if (xAxis > 0)
-		{
-			vel.x = movementSpeed;
-			AnimationStateChanger.Instance.ChangeAnimationState(PlayerRunForward, animator);
-		}
-		else if (xAxis < 0)
-		{
-			vel.x = -movementSpeed;
-			AnimationStateChanger.Instance.ChangeAnimationState(PlayerRunBackward, animator);
-		}
-		else
-		{
-			vel.x = 0;
-			AnimationStateChanger.Instance.ChangeAnimationState(PlayerIdle, animator);
-		}
-		rb.velocity = vel;
 	}
 	
 	public void OnJumpInput (InputAction.CallbackContext context)
@@ -117,17 +135,16 @@ public class Player : MonoBehaviour
 		// getting jump input
 		if (context.phase == InputActionPhase.Performed && isGrounded && !isFalling)
 		{
+			isJumping = true;
 			// adding jump force
 			rb.AddForce(new Vector2(0, jumpForce));
 			AnimationStateChanger.Instance.ChangeAnimationState(PlayerJump, animator);
-			
 		}
-	}
-
-	private IEnumerator Falling()
-	{
-		AnimationStateChanger.Instance.ChangeAnimationState(PlayerFall, animator);
-		yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0)[0].clip.length);
+		
+		else
+		{
+			isJumping = false;
+		}
 	}
 	
 	public void OnMousePos (InputAction.CallbackContext context)

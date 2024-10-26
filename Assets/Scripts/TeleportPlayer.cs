@@ -85,7 +85,7 @@ public class TeleportPlayer : MonoBehaviour
         if (animate)
         {
             AnimationStateChanger.Instance.ChangeAnimationState(Warp, animator);
-            yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0).Length);
+            yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0)[0].clip.length);
             AnimationStateChanger.Instance.ChangeAnimationState(IdleTeleport, animator);
         }
         player.position = new Vector2(target.position.x, target.position.y + 2);

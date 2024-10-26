@@ -57,7 +57,7 @@ public class Door : MonoBehaviour
 	private IEnumerator Open()
 	{
 		AnimationStateChanger.Instance.ChangeAnimationState(OpenDoor, animator);
-		yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0).Length);
+		yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0)[0].clip.length);
 		AnimationStateChanger.Instance.ChangeAnimationState(IdleOpen, animator);
 		doorCollider.SetActive(false);
 		isOpen = true;
@@ -65,9 +65,8 @@ public class Door : MonoBehaviour
 
 	private IEnumerator Close()
 	{
-		
 		AnimationStateChanger.Instance.ChangeAnimationState(CloseDoor, animator);
-		yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0).Length);
+		yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0)[0].clip.length);
 		AnimationStateChanger.Instance.ChangeAnimationState(IdleClosed, animator);
 		doorCollider.SetActive(true);
 		isOpen = false;

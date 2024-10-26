@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4417695353963390892}
   - component: {fileID: 1200344235514157454}
   - component: {fileID: 4428044641632821217}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghoul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,19 +119,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08b5f5bd144c72d40975847dea8babad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementSpeed: 1
+  maxHealth: 100
+  damage: 10
+  isReturnToStartingPos: 1
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
   detectionRadius: 3
   attackRadius: 1
+  animator: {fileID: 4769153230723620468}
+  spriteRenderer: {fileID: 4174327092974137342}
   attackDelay: 0.3
   attackAnimationLength: 0.7
   wakeUpAnimationLength: 0.4
   sleepAnimationLength: 0.43
-  movementSpeed: 1
-  damage: 10
-  animator: {fileID: 4769153230723620468}
-  spriteRenderer: {fileID: 4174327092974137342}
+  hitAnimationLength: 0.4
+  dieAnimationLength: 0.8
   currentState: 0
 --- !u!1 &6428424065020376353
 GameObject:

@@ -179,3 +179,12 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  spitterLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  locustLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  summonerLayer:
+    serializedVersion: 2
+    m_Bits: 1024

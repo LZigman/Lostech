@@ -1,0 +1,34 @@
+{
+	"identifier": "Level_0",
+	"uniqueIdentifer": "b68377f0-73f0-11ef-b754-ab7a9e7815f9",
+	"x": 0,
+	"y": -512,
+	"width": 144,
+	"height": 512,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "719592c2-73f0-11ef-b579-f5a99f81abb0",
+			"dir": "s"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Grey_Background.png",
+		"Sacred_Temple_Background.png",
+		"Dark_City_Background.png",
+		"Victorian_City_Background.png",
+		"Trees_background.png",
+		"DARK_Beneath_Background.png",
+		"City_Background.png",
+		"Sacred_Temple_Foreground.png",
+		"Victorian_City_Foreground.png",
+		"Trees_Foreground.png",
+		"DARK_Beneath_Foreground.png",
+		"Dark_City_Foreground.png",
+		"Victorian_Add_On_Foreground.png",
+		"Victorian_City_Foreground2.png",
+		"IntGrid_Ground.png"
+	],
+	"entities" : {}
+}

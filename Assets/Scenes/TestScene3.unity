@@ -561,7 +561,7 @@ PrefabInstance:
     - target: {fileID: 1160356261127867848, guid: fc30743f0a201c58ca7008e943ee16aa, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 837737b10ba121541ae08ba934b0b037, type: 2}
+      objectReference: {fileID: 9100000, guid: db36d987c6be1e840b012955debd1021, type: 2}
     - target: {fileID: 7878350319992209165, guid: fc30743f0a201c58ca7008e943ee16aa, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -620,6 +620,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: fc30743f0a201c58ca7008e943ee16aa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1043280127}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: fc30743f0a201c58ca7008e943ee16aa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1043280131}
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: fc30743f0a201c58ca7008e943ee16aa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1043280128}
@@ -854,10 +857,12 @@ MonoBehaviour:
   animate: 0
   origin: {fileID: 842844373}
   destination: {fileID: 377773413}
+  activationArea: {fileID: 842844375}
   promptText: {fileID: 634728894}
   keyToPress: 101
-  activationDistance: 5
   chargeTime: 0
+  charging: 0
+  teleporting: 0
 --- !u!61 &842844375
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1339,6 +1344,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8904046881997571251, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: -8571595962718614340, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -1382,6 +1391,10 @@ PrefabInstance:
     - target: {fileID: -8253808470296148311, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_Name
       value: Lostech_LevelDesign
+      objectReference: {fileID: 0}
+    - target: {fileID: -8205479393797882180, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8167696772058516567, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: <BgColor>k__BackingField.b
@@ -2923,6 +2936,10 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[0].m_Collider
       value: 
       objectReference: {fileID: 1017010211}
+    - target: {fileID: -6852906763286513054, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: -6714432088413566715, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_TileSpriteArray.Array.data[0].m_Data
       value: 
@@ -3018,6 +3035,10 @@ PrefabInstance:
     - target: {fileID: -6392972427681912381, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6052778072970045853, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -6035283595269858278, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_TileMatrixArray.Array.size
@@ -3415,6 +3436,10 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[0].m_Collider
       value: 
       objectReference: {fileID: 1017010207}
+    - target: {fileID: -5388676986384300636, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: -5373102917607055091, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -7094,6 +7119,10 @@ PrefabInstance:
     - target: {fileID: -4015167475809167432, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_Tiles.Array.data[33].second.m_TileSpriteIndex
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: -3959184811676734650, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -3914214759139620635, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -19631,6 +19660,10 @@ PrefabInstance:
       propertyPath: m_Tiles.Array.data[134].second.m_TileSpriteIndex
       value: 46
       objectReference: {fileID: 0}
+    - target: {fileID: 1554998855052595392, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1670162753962732058, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_TileMatrixArray.Array.size
       value: 2
@@ -19851,6 +19884,10 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[0].m_Collider
       value: 
       objectReference: {fileID: 1017010203}
+    - target: {fileID: 1740169638095508681, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2038549294081394252, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -28803,6 +28840,10 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[0].m_Collider
       value: 
       objectReference: {fileID: 1017010240}
+    - target: {fileID: 6483626886408934760, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6503081997474817691, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: _tilemap
       value: 
@@ -28823,6 +28864,10 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[0].m_Collider
       value: 
       objectReference: {fileID: 1017010222}
+    - target: {fileID: 7097367086242332061, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7232144076024284041, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: _tilemap
       value: 
@@ -29230,6 +29275,14 @@ PrefabInstance:
     - target: {fileID: 7894689414674067740, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.data[0].Array.data[17].X
       value: 40000000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119059659579082871, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8145785799855511947, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8298310288754696523, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_IsActive
@@ -34853,7 +34906,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 2}
+  m_Offset: {x: 0.16485357, y: 2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -34864,7 +34917,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 15, y: 5}
+  m_Size: {x: 13.478301, y: 5}
   m_EdgeRadius: 0
 --- !u!114 &1043280128
 MonoBehaviour:
@@ -34882,15 +34935,62 @@ MonoBehaviour:
   animate: 0
   origin: {fileID: 1043280126}
   destination: {fileID: 584551324}
+  activationArea: {fileID: 1043280131}
   promptText: {fileID: 1690231574}
   keyToPress: 101
-  activationDistance: 5
   chargeTime: 5
+  charging: 0
+  teleporting: 0
 --- !u!95 &1043280129 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1160356261127867848, guid: fc30743f0a201c58ca7008e943ee16aa, type: 3}
   m_PrefabInstance: {fileID: 487300914}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1043280131
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043280123}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.5625}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 3.5, y: 1.125}
+    newSize: {x: 3.5, y: 1.125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5, y: 1.125}
+  m_EdgeRadius: 0
 --- !u!4 &1127235822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4138934589259486793, guid: 509f7d4f4666fa2449893d2213de02a9, type: 3}
@@ -35846,6 +35946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 2026068897562103001, guid: 737cc33f89217b44391c8b6cba39b8b7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7943770105390612619, guid: 737cc33f89217b44391c8b6cba39b8b7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.5
@@ -35951,6 +36055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformCollider (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4913857911817395564, guid: 4335680ad045c2542bd47310b3491cd0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8380426756426536300, guid: 4335680ad045c2542bd47310b3491cd0, type: 3}
       propertyPath: m_RotationalOffset
       value: 0
@@ -35971,6 +36079,10 @@ PrefabInstance:
     - target: {fileID: 1523487611398826219, guid: 57d21d5ad1d221445ada83cec98d8480, type: 3}
       propertyPath: m_Name
       value: PlatformCollider (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523487611398826219, guid: 57d21d5ad1d221445ada83cec98d8480, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1523487611398826219, guid: 57d21d5ad1d221445ada83cec98d8480, type: 3}
       propertyPath: m_IsActive
@@ -36081,6 +36193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformCollider (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4961802867022876846, guid: f2dcbad6ca83d154ba8da8bac43e86b6, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36142,6 +36258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformCollider (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 9024025074903428905, guid: 882a99701eb9a3845bd76dc3efe204a1, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36158,6 +36278,10 @@ PrefabInstance:
     - target: {fileID: 811165449071078808, guid: 8750682cbb40d1d43a8bc8ac7ee01f8c, type: 3}
       propertyPath: m_Name
       value: PlatformCollider (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 811165449071078808, guid: 8750682cbb40d1d43a8bc8ac7ee01f8c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4268586345113740696, guid: 8750682cbb40d1d43a8bc8ac7ee01f8c, type: 3}
       propertyPath: m_RotationalOffset
@@ -36229,13 +36353,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 655807021}
     - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
+      propertyPath: jumpForce
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: jumpHeight
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
+      propertyPath: movementSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
+      propertyPath: croshairTransform
+      value: 
+      objectReference: {fileID: 2144785731}
+    - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: crosshairTransform
       value: 
       objectReference: {fileID: 2144785731}
+    - target: {fileID: 3202081711139892656, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
+      propertyPath: fallTimeBeforeAnimation
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 3967460615956505532, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -36257,6 +36397,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4517321922019794313, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4517321922019794313, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 22d443ad95cc933438c7f11cc5b3356a, type: 2}
+    - target: {fileID: 4517321922019794313, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
@@ -36266,11 +36414,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5206045555457368828, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.375001
+      value: 4.2850003
       objectReference: {fileID: 0}
     - target: {fileID: 5206045555457368828, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.3624997
+      value: 30.917498
       objectReference: {fileID: 0}
     - target: {fileID: 5206045555457368828, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -36308,6 +36456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8127452466749991391, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 853927350}
     - target: {fileID: 8511555605973999720, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       propertyPath: m_Size.x
       value: 0.52838993
@@ -36349,7 +36501,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3620196960373431110, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
+    - {fileID: 4954139837798714405, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5206045555457368828, guid: b605e9d943def194aa1801bf33ddd6bb, type: 3}
       insertIndex: -1
@@ -36424,6 +36578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformCollider (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 9075891381762563251, guid: 370fadf23c205024482c4a3041437306, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36440,6 +36598,10 @@ PrefabInstance:
     - target: {fileID: 678010107611128412, guid: 74f29fdcb758cb346b6469e4acd2ad7f, type: 3}
       propertyPath: m_Name
       value: PlatformCollider (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 678010107611128412, guid: 74f29fdcb758cb346b6469e4acd2ad7f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7694448123941153085, guid: 74f29fdcb758cb346b6469e4acd2ad7f, type: 3}
       propertyPath: m_Color.a
@@ -36501,6 +36663,10 @@ PrefabInstance:
     - target: {fileID: 2005930450951609346, guid: 4d6fc24f52e67184d91107455ec9de75, type: 3}
       propertyPath: m_Name
       value: PlatformCollider (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005930450951609346, guid: 4d6fc24f52e67184d91107455ec9de75, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3146530809406149634, guid: 4d6fc24f52e67184d91107455ec9de75, type: 3}
       propertyPath: m_RotationalOffset
@@ -36567,6 +36733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformCollider (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3458518055570624648, guid: b8b197a6ee0847b4a974214a0502c513, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5503383954791078889, guid: b8b197a6ee0847b4a974214a0502c513, type: 3}
       propertyPath: m_Color.a
       value: 0.007843138
@@ -36627,6 +36797,10 @@ PrefabInstance:
     - target: {fileID: 4337067156665129444, guid: 0c5ea9835d14e2a4c844f7b4ed5f46ca, type: 3}
       propertyPath: m_Name
       value: PlatformCollider (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4337067156665129444, guid: 0c5ea9835d14e2a4c844f7b4ed5f46ca, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5626018096076363190, guid: 0c5ea9835d14e2a4c844f7b4ed5f46ca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36689,6 +36863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformCollider (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1633946238924007732, guid: fd1c35078de455945be2ac9da8fa3b5f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7246022753715905894, guid: fd1c35078de455945be2ac9da8fa3b5f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.2751
@@ -36749,6 +36927,10 @@ PrefabInstance:
     - target: {fileID: 1074155762971937505, guid: 56992666fd8f96d4ebd44673427cafb7, type: 3}
       propertyPath: m_Name
       value: PlatformCollider (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074155762971937505, guid: 56992666fd8f96d4ebd44673427cafb7, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7874763495055966592, guid: 56992666fd8f96d4ebd44673427cafb7, type: 3}
       propertyPath: m_Color.a
@@ -36855,6 +37037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformCollider (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5724783236392466906, guid: 923789c9b529a3b44bcf2af72cefee25, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36915,6 +37101,10 @@ PrefabInstance:
     - target: {fileID: 5427832795196512795, guid: 509f7d4f4666fa2449893d2213de02a9, type: 3}
       propertyPath: m_Name
       value: PlatformCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427832795196512795, guid: 509f7d4f4666fa2449893d2213de02a9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8876400445220885019, guid: 509f7d4f4666fa2449893d2213de02a9, type: 3}
       propertyPath: m_RotationalOffset
@@ -36981,6 +37171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformCollider (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8763837650146924607, guid: 5b81dcf38884a3b45a9d6e2614a74a10, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36997,6 +37191,10 @@ PrefabInstance:
     - target: {fileID: 1459572054153772582, guid: df79be1d4ebeb064893ede4c9888bb93, type: 3}
       propertyPath: m_Name
       value: PlatformCollider (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1459572054153772582, guid: df79be1d4ebeb064893ede4c9888bb93, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2611444618822809126, guid: df79be1d4ebeb064893ede4c9888bb93, type: 3}
       propertyPath: m_RotationalOffset
@@ -37067,6 +37265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformCollider (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3720332975932269817, guid: 0398f0245d1c2f445864bdc677bcd689, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4720543297194010795, guid: 0398f0245d1c2f445864bdc677bcd689, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.5978
@@ -37127,6 +37329,10 @@ PrefabInstance:
     - target: {fileID: 1441060018212444449, guid: 511964f113dbed64f9d166ac2821ffc6, type: 3}
       propertyPath: m_Name
       value: PlatformCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441060018212444449, guid: 511964f113dbed64f9d166ac2821ffc6, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7051606004078138739, guid: 511964f113dbed64f9d166ac2821ffc6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37233,6 +37439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformCollider (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5898471382950145731, guid: a9794bebee29d3f4fbdf124826f6d5b5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7036683648454174403, guid: a9794bebee29d3f4fbdf124826f6d5b5, type: 3}
       propertyPath: m_RotationalOffset
       value: 0
@@ -37257,6 +37467,10 @@ PrefabInstance:
     - target: {fileID: 2309438259415058874, guid: 35b7552088e24b241acb5a6c78c7b8c3, type: 3}
       propertyPath: m_Name
       value: PlatformCollider (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2309438259415058874, guid: 35b7552088e24b241acb5a6c78c7b8c3, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4876317065063318235, guid: 35b7552088e24b241acb5a6c78c7b8c3, type: 3}
       propertyPath: m_Color.a
@@ -37312,7 +37526,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1017010181}
-  - {fileID: 3185282424479331645}
   - {fileID: 1554920430}
   - {fileID: 1680542995}
   - {fileID: 1304366104}
@@ -37322,3 +37535,4 @@ SceneRoots:
   - {fileID: 842844373}
   - {fileID: 377773413}
   - {fileID: 1763690274}
+  - {fileID: 3185282424479331645}

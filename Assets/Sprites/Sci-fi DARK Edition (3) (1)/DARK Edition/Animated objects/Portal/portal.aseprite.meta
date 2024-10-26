@@ -2,7 +2,17 @@ fileFormatVersion: 2
 guid: fc30743f0a201c58ca7008e943ee16aa
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: idle
+    second: {fileID: 7400000, guid: 4011e7bfd44f4e44585c6fbf69be3de1, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: warp
+    second: {fileID: 7400000, guid: ae9dcd232412f24409bacce6cac2d917, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -97,7 +107,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638648505964264684
+  platformSettingsDirtyTick: 638652016124356726
   textureAssetName: 
   singleSpriteImportData:
   - name: 

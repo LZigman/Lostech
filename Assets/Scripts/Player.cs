@@ -1,80 +1,159 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {
-	private Rigidbody2D rb;
-	private float horizontal;
-	private Vector2 mousePos;
-	private bool isGrounded;
-	[SerializeField] private float jumpHeight, movementSpeed;
-	[SerializeField] private LayerMask groundLayer;
-	[SerializeField] private Transform groundCheck, gunTransform, gunBarrelTransform, crosshairTransform;
+	[SerializeField] private Transform gunTransform, gunBarrelTransform, croshairTransform;
 	[SerializeField] private GameObject bulletPrefab;
-	[SerializeField] private Animator animator;
+	[SerializeField] private float jumpForce, movementSpeed;
+	[SerializeField] private float fallTimeBeforeAnimation;
 	[SerializeField] private float maxHealth = 100f;
-
-	private int movingDirId, lookingDirId;
+	
+	private Animator animator;
+	private Rigidbody2D rb;
+	private int groundMask;
+	private float xAxis, yAxis;
+	private Vector2 mousePos;
 	private float rotationAngle;
-	private Vector2 delta;
+	private Vector2 delta, vel;
 	private float currentHealth;
+	private float fallingTime;
+	
+	private bool isGrounded;
+	private bool isJumping;
+	private bool isAttackPressed;
+	private bool isAttacking;
+	private bool isFalling;
+	private bool isColliding;
+	
+	private static readonly int PlayerRunForward = Animator.StringToHash("playerRunForward");
+	private static readonly int PlayerRunBackward = Animator.StringToHash("playerRunBackward");
+	private static readonly int LookingDir = Animator.StringToHash("lookingDir");
+	private static readonly int PlayerIdle = Animator.StringToHash("playerIdle");
+	private static readonly int PlayerJump = Animator.StringToHash("playerJump");
+	private static readonly int PlayerFall = Animator.StringToHash("playerFall");
+	private static readonly int PlayerCrouchLand = Animator.StringToHash("playerCrouchLand");
+	private static readonly int PlayerRoll = Animator.StringToHash("playerRoll");
+
 	
 	private void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
-		movingDirId = Animator.StringToHash("movingDir");
-		lookingDirId = Animator.StringToHash("lookingDir");
+		animator = GetComponent<Animator>();
 		currentHealth = maxHealth;
+		groundMask = 1 << LayerMask.NameToLayer("Ground");
+		vel = new Vector2(rb.velocity.x, rb.velocity.y);
 	}
-	
-	private void Update()
-	{								
-		// moving player according to horizontal input
-		rb.position += movementSpeed * horizontal * Time.deltaTime * Vector2.right;
-	}
-	
-	public void OnMoveInput (InputAction.CallbackContext context)
+
+	private void FixedUpdate()
 	{
-		// getting horizontal input
-		horizontal = context.ReadValue<Vector2>().x;
-		if (horizontal > 0)
+		// check if player is on the ground
+		GroundCheck();
+		
+		// check if falling
+		FallCheck();
+		
+		// check where the player is moving
+		MovementCheck();
+		
+		// assign the velocity to the rigidbody
+		var vector2 = rb.velocity;
+		vector2.x = vel.x;
+		rb.velocity = vector2;
+	}
+
+	private void GroundCheck()
+	{
+		RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.5f + 0.1f, groundMask);
+		Debug.DrawLine(transform.position, hit.point, Color.red);
+
+		if (hit.collider != null)
 		{
-			animator.SetInteger(movingDirId, 1);
-			//Debug.Log("movingDir == 1");
-		}
-		else if (horizontal < 0)
-		{
-			animator.SetInteger(movingDirId, -1);
-			//Debug.Log("movingDir == -1");
+			isGrounded = true;
 		}
 		else
 		{
-			animator.SetInteger(movingDirId, 0);
-			//Debug.Log("movingDir == 0");
+			isGrounded = false;
 		}
-		Debug.Log("Horizontal movement!");
+	}
+
+	private void MovementCheck()
+	{
+		if (xAxis > 0)
+		{
+			vel.x = movementSpeed;
+			if (!isFalling && isGrounded && !isJumping) AnimationStateChanger.Instance.ChangeAnimationState(PlayerRunForward, animator);
+		}
+		else if (xAxis < 0)
+		{
+			vel.x = -movementSpeed;
+			if (!isFalling && isGrounded && !isJumping) AnimationStateChanger.Instance.ChangeAnimationState(PlayerRunBackward, animator);
+		}
+		else
+		{
+			vel.x = 0;
+			if (!isFalling && isGrounded && !isJumping) AnimationStateChanger.Instance.ChangeAnimationState(PlayerIdle, animator);
+		}
+	}
+
+	private void FallCheck()
+	{
+		if (rb.velocity.y < -0.1)
+		{
+			isFalling = true;
+			fallingTime += Time.fixedDeltaTime;
+			if (fallingTime >= fallTimeBeforeAnimation)
+			{
+				// play falling animation
+				StartCoroutine(Falling());
+			}
+		}
+		
+		else
+		{
+			isFalling = false;
+			fallingTime = 0;
+		}
+	}
+
+	private IEnumerator Falling()
+	{
+		AnimationStateChanger.Instance.ChangeAnimationState(PlayerFall, animator);
+		yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0)[0].clip.length);
+	}
+
+	public void OnMoveInput (InputAction.CallbackContext context)
+	{
+		// getting horizontal input
+		xAxis = context.ReadValue<Vector2>().x;
 	}
 	
 	public void OnJumpInput (InputAction.CallbackContext context)
 	{
 		// getting jump input
-		if (context.phase == InputActionPhase.Performed && isGrounded == true)
+		if (context.phase == InputActionPhase.Performed && isGrounded && !isFalling)
 		{
+			isJumping = true;
 			// adding jump force
-			rb.AddForce(jumpHeight * Vector2.up, ForceMode2D.Impulse);
-			
-			Debug.Log("Jump!");
+			rb.AddForce(new Vector2(0, jumpForce));
+			AnimationStateChanger.Instance.ChangeAnimationState(PlayerJump, animator);
+		}
+		
+		else
+		{
+			isJumping = false;
 		}
 	}
 	
 	public void OnMousePos (InputAction.CallbackContext context)
 	{
 		// calculating world point of mouse
-		mousePos = Camera.main.ScreenToWorldPoint(context.ReadValue<Vector2>());
-		
+		if (Camera.main != null) mousePos = Camera.main.ScreenToWorldPoint(context.ReadValue<Vector2>());
+
 		// calculating the vector between mousePos and gunPos
 		delta = mousePos - (Vector2)gunTransform.position;
 		// mousePos left of gunTransform.pos
@@ -82,14 +161,14 @@ public class Player : MonoBehaviour
 		{
 			transform.localScale = new Vector3(-1, 1, 1);
 			rotationAngle = Vector2.SignedAngle(-1 * transform.right, delta);
-			animator.SetInteger(lookingDirId, -1);
+			animator.SetInteger(LookingDir, -1);
 			//Debug.Log("lookingDir == -1");
 		}
 		else
 		{
 			transform.localScale = new Vector3(1, 1, 1);
 			rotationAngle = Vector2.SignedAngle(transform.right, delta);
-			animator.SetInteger(lookingDirId, 1);
+			animator.SetInteger(LookingDir, 1);
 			//Debug.Log("lookingDir == 1");
 		}
 
@@ -104,8 +183,8 @@ public class Player : MonoBehaviour
 		if (context.phase == InputActionPhase.Performed)
 		{
 			// instantiating the bullet at barrelPos and rotating it
-			Vector2 delta = mousePos - (Vector2)gunTransform.position;
-			float rotationAngle = Vector2.SignedAngle(Vector2.right, delta);
+			delta = mousePos - (Vector2)gunTransform.position;
+			rotationAngle = Vector2.SignedAngle(Vector2.right, delta);
 			GameObject bullet = Instantiate (bulletPrefab, gunBarrelTransform.position, Quaternion.Euler(0, 0, rotationAngle));
 			
 			Debug.Log("Bullet rotation: " + bullet.transform.rotation.eulerAngles.z);
@@ -119,28 +198,6 @@ public class Player : MonoBehaviour
 		if (currentHealth <= 0f)
 		{
 			Debug.Log("Die!");
-		}
-	}
-
-	private void OnTriggerEnter2D(Collider2D other)
-	{
-		if (other.gameObject.CompareTag("Ground"))
-		{
-			// grounding player
-			isGrounded = true;
-			
-			//Debug.Log("Grounded!");
-		}
-	}
-	
-	private void OnTriggerExit2D(Collider2D other)
-	{
-		if (other.gameObject.CompareTag("Ground"))
-		{
-			// un-grounding player
-			isGrounded = false;
-			
-			//Debug.Log("UnGrounded!");
 		}
 	}
 }

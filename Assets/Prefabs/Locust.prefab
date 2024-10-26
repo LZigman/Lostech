@@ -195,7 +195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 0}
   direction: {x: 0, y: 0}
-  attackRadius: 0.7
+  attackRadius: 1
   movementSpeed: 2
   attackAnimationDelay: 0.3
   attackAnimationLength: 0.6
@@ -204,4 +204,3 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
-  randomDirectionRadius: 5

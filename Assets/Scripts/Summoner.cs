@@ -27,7 +27,7 @@ public class Summoner : MonoBehaviour
 	private int hitAnimationId = Animator.StringToHash("Hit");
 	private int deathAnimationId = Animator.StringToHash("Death");
 	private int idleAnimationId = Animator.StringToHash("Idle");
-	private bool isHit, isSummoning;
+	private bool isHit;
 
 	private void Awake()
 	{
@@ -43,97 +43,98 @@ public class Summoner : MonoBehaviour
 		Vector2 moveTo;
 		while (true)
 		{
-			// check if player detected
-			if (IsPlayerDetected() == true)
+			Collider2D[] detectedColliders = Physics2D.OverlapCircleAll(rb.position, detectionRadius);
+			for (int i = 0; i < detectedColliders.Length; i++)
 			{
-				animator.SetBool("isMoving", false);
-				StartCoroutine(PlayerDetected());
-				yield break;
+				if (IsPlayerDetected() == true)
+				{
+					animator.SetBool("isMoving", false);
+					playerTransform = detectedColliders[i].transform;
+					StartCoroutine(PlayerDetected());
+					yield break;
+				}
 			}
-			// if hit -> play hit animation
 			if (isHit == true)
 			{
 				AnimationStateChanger.Instance.ChangeAnimationState(hitAnimationId, animator);
+				Debug.Log("Hit animation len: " + animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 				yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 				AnimationStateChanger.Instance.ChangeAnimationState(walkAnimationId, animator);
 				isHit = false;
 			}
-			// check if arrived at left patrol limiter
 			if (Mathf.Abs(rb.position.x - patrolLimiterLeft.position.x) < 0.1f)
 			{
 				patrolStartLeft = false;
 			}
-			// check if arrived at right patrol limiter
 			else if (Mathf.Abs(rb.position.x - patrolLimiterRight.position.x) < 0.1f)
 			{
 				patrolStartLeft = true;
 			}
-			// check if should move left
 			if (patrolStartLeft == true)
 			{
 				FlipLeft(true);
 				moveTo = (Vector2)patrolLimiterLeft.position;
 				moveTo.y = rb.position.y;
 			}
-			// check if should move right
 			else
 			{
 				FlipLeft(false);
 				moveTo = (Vector2)patrolLimiterRight.position;
 				moveTo.y = rb.position.y;
 			}
-			// moving the rigidbody
 			rb.position = Vector2.MoveTowards(rb.position, moveTo, movementSpeed * Time.fixedDeltaTime);
 			yield return new WaitForSeconds(Time.fixedDeltaTime);
 		}
 	}
 	private IEnumerator PlayerDetected ()
 	{
+		/*
+		 * transition into idle
+		 * transition into summoning
+		 * transition back into idle
+		 * if player exited detection radius transition back into patrol
+		 * */
 		while (true)
 		{
-			// check if player still in detection radius
+			AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
 			if (IsPlayerDetected () == false)
 			{
 				StartCoroutine(Patrol());
 				playerTransform = null;
 				yield break;
 			}
+			if (isHit == true)
+			{
+				AnimationStateChanger.Instance.ChangeAnimationState(hitAnimationId, animator);
+				Debug.Log("Hit animation len: " + animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
+				yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
+				AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
+				Debug.Log("Animation Performed!");
+				isHit = false;
+			}
 			// summon
 			AnimationStateChanger.Instance.ChangeAnimationState(summonAnimationId, animator);
-			isSummoning = true;
 			for (int i = 0; i < swarmSize; i++)
 			{
 				yield return new WaitForSeconds(summonAnimationDelay);
 				GameObject temp = Instantiate(locustPrefab, spawnPos.position, Quaternion.identity);
 				temp.GetComponent<Locust>().playerTransform = playerTransform;
-				yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0).Length - summonAnimationDelay);
+				yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0).Length);
 			}
-			isSummoning = false;
 			AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
 			yield return new WaitForSeconds(summoningRate);
 		}
 	}
 	public void Damage (float damage)
 	{
-		// invounrable if summoning
-		if (isSummoning == false)
+		currentHealth -= damage;
+		if (currentHealth <= 0f)
 		{
-			currentHealth -= damage;
-			if (currentHealth <= 0f)
-			{
-				StartCoroutine(Death());
-				return;
-			}
-			StartCoroutine (DamageAnimation());
-			Debug.Log("Damage registered!");
-			isHit = true;
+			StartCoroutine(Death());
+			return;
 		}
-	}
-	private IEnumerator DamageAnimation ()
-	{
-		AnimationStateChanger.Instance.ChangeAnimationState (hitAnimationId, animator);
-		yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex: 0).Length);
-		AnimationStateChanger.Instance.ChangeAnimationState (idleAnimationId, animator);
+		Debug.Log("Damage registered!");
+		isHit = true;
 	}
 	private IEnumerator Death()
 	{

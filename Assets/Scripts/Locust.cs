@@ -13,16 +13,13 @@ public class Locust : MonoBehaviour
     [SerializeField] private float deathAnimationLength;
     [SerializeField] private float damage;
     [SerializeField] private LayerMask playerLayer;
-    [SerializeField] private float randomDirectionRadius = 5f;
 
     private Rigidbody2D rb;
     private Animator animator;
-    private int randomDirectionCount;
 
 	private void Start()
 	{
-		randomDirectionCount = 0;
-        rb = GetComponent<Rigidbody2D>();
+		rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         direction = (Vector2)playerTransform.position;                                              // kad napravim Summoner skriptu stavit ovo u nju
         if (direction.x >= rb.position.x)
@@ -41,13 +38,13 @@ public class Locust : MonoBehaviour
         animator.SetBool("isFlying", true);
         while (true)
         {
-            if (Vector2.Distance(rb.position, playerTransform.position) < attackRadius)
+            if (Vector2.Distance(rb.position, direction) < attackRadius)
             {
                 animator.SetBool("isFlying", false);
                 StartCoroutine(Attack());
                 yield break;
             }
-            if (tempDirection.x > rb.position.x)
+            if (direction.x > rb.position.x)
             {
                 transform.localScale = new Vector3(-1, 1, 1);
             }
@@ -57,12 +54,7 @@ public class Locust : MonoBehaviour
 			}
             if (Vector2.Distance(tempDirection, rb.position) < 0.1f)
             {
-                tempDirection = RandomDirTowardsPlayer();
-                randomDirectionCount++;
-                if (randomDirectionCount == 3)
-                {
-                    tempDirection = playerTransform.position;
-                }
+                tempDirection = RandomDirTowards(direction);
             }
             rb.position = Vector2.MoveTowards(rb.position, tempDirection, movementSpeed * Time.fixedDeltaTime);
             yield return new WaitForSeconds(Time.fixedDeltaTime);
@@ -79,8 +71,9 @@ public class Locust : MonoBehaviour
             if (CompareLayers(detectedColliders[i].gameObject, playerLayer) == true)
             {
                 detectedColliders[i].gameObject.GetComponent<Player>().DamagePlayer(damage);
-				Debug.Log("Player attacked!");
+				
 				StartCoroutine(Die());
+                Debug.LogError("Coro Die started");
                 yield break;
             }
         }
@@ -89,9 +82,8 @@ public class Locust : MonoBehaviour
     {
 		animator.SetBool("isFlying", false);
 		animator.SetBool("isAttacking", false);
-        //animator.SetBool("isDeath", true);
+        //  animator.SetBool("isDeath", true);
         animator.SetTrigger("Die");
-        rb.bodyType = RigidbodyType2D.Static;
 		yield return new WaitForSeconds(deathAnimationLength);
         Debug.Log("DIE!!!");
         Destroy(gameObject);
@@ -106,12 +98,24 @@ public class Locust : MonoBehaviour
 		}
 		return false;
 	}
-	// odabere random poziciju iznat playera u radijusu od randomDirectionRadius
-    private Vector2 RandomDirTowardsPlayer ()
+	// dir je position playera tj pozicije prema kojoj se randomly trebamo pomaknuti
+    private Vector2 RandomDirTowards (Vector2 dir)
     {
-        Vector2 randomDirection;
-        randomDirection.x = playerTransform.position.x + Random.Range(-randomDirectionRadius, randomDirectionRadius);
-        randomDirection.y = playerTransform.position.y + Random.Range(1f, randomDirectionRadius);
-        return randomDirection;
+        Vector2 moveTowards;
+        if (dir.y <= transform.position.y)
+        {
+            // random vektor po y izmeðu 0 i +beskonaèno                        <- po y
+            // po x treba random izmeðu trenutne pozicije i dir.x
+            moveTowards.y = Random.Range(dir.y, dir.y + 5f);
+        }
+        else
+        {
+            // random vektor izmeðu player.position.y i 2 * rb.pos.y - dir.y    <- po y
+            // random.position
+            moveTowards.y = Random.Range(dir.y, 2 * rb.position.y - dir.y);
+        }
+        moveTowards.x = Random.Range(Mathf.Min(rb.position.x, dir.x), Mathf.Max(rb.position.x, dir.x));
+        return moveTowards;
+        
     }
 }

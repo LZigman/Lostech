@@ -1,0 +1,8079 @@
+fileFormatVersion: 2
+guid: c7a8ce2a50fd3c6419d2030518e74130
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _sprites:
+  - name: Ancient_Caves_Tileset3_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 368
+      width: 16
+      height: 16
+    spriteID: cafe53524e640464ab9920e0fddf1825
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 8e81e3946af1a1348b8c220f8b01820c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 368
+      width: 16
+      height: 16
+    spriteID: c973588bea3363e44939aad99594b5b7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 9cf3f3f8f4fff6e4db2ffba2a684ca78
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 365faaa2a237f6646bdd9cd74fc588e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 93f4737a038069744aa1f50190fb8aaf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 54a6dc8fc0f0e4143b67b897d92ca0bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 2a6eeef3e86b77e4fae478bbb2742bce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 5640c996159d4084493bae965e031438
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 368
+      width: 16
+      height: 16
+    spriteID: c79701d07e43fef42857cc5fbdaf4df0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 368
+      width: 16
+      height: 16
+    spriteID: eaaf565a7971efe4cbbf2b23c3a693a0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 5349e9bef0a225345b21156a4e021685
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 5cc468d6b7a4bfb49a5c0d7c01bad0d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 368
+      width: 16
+      height: 16
+    spriteID: e8861461a0bc1d44c9dfd585cdf0aa9d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 3a94fe4b9d6b2d24d9a7afce89736f72
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 368
+      width: 16
+      height: 16
+    spriteID: d237738ba654e49488b6750ccd34a02d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 6d32c051b5c90894a9b68fb681e09501
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 2cfdee6ed9d25814fb9c00f1fe4faf4b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 368
+      width: 16
+      height: 16
+    spriteID: f9030d574d8a0dd4f9fea8ae7d119600
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 368
+      width: 16
+      height: 16
+    spriteID: fd479090ab820ef49b98155b9356fd35
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 79a4d77e9696a0349ab071255b47388d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 5224947f3bf21d14dbf49bcb7cdebba8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 536f9eb1bf2945840a70431022894c3a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 368
+      width: 16
+      height: 16
+    spriteID: 517eba26919e90847a375801e934b3e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 09e6bcac33341aa4188c0516d2084cfe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 12851c6c867df7c40950b7eabe3b3f39
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 0afef8ceae89cb64eb18361038983ebd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 822520fac22258f42a4a76bedd84f320
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 09003fc9f0bae6744ab27317106650a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 2ea68c1ef8f066844879cc43728ba086
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 352
+      width: 16
+      height: 16
+    spriteID: a0364df170a82a848904d58d3f4b4810
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 04d39c5c52ab5f04e83711a2985458cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 5bffb7baa8784dd4aa745383b8f18bed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 4cf638199774beb40a987be8ab629a3f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 352
+      width: 16
+      height: 16
+    spriteID: c0b363ab53290fd44a86b7f3398414f4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 811bb0ada57a6ac4181aae4727c427b8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 63397b8539c8118468d4dbb3800f0e7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 352
+      width: 16
+      height: 16
+    spriteID: a064f78bb9f19b74e8d7c412f73da207
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 45816975c05af7e4a86ddeb7006a460d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 22413c76bc5566047878e60c7748c741
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 04c3a2b7adecbc04cbcc7786ed5bfd5b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 22c2a7837f31f024ab83705252960e30
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 938241d3036a30c4bbfb39a71a39dc92
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 1d02d8fd5d5438f4c99ea7b6cd11e187
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 352
+      width: 16
+      height: 16
+    spriteID: ea52cb8ce009af84eb9dac87bad75a12
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 352
+      width: 16
+      height: 16
+    spriteID: e8a6a88b70a5d8d49b42dd27488da14e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 352
+      width: 16
+      height: 16
+    spriteID: e22bb10d4070f964cbcd994864d7a28d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 352
+      width: 16
+      height: 16
+    spriteID: 9f7910d513a7eab419908b7ee9377aa5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 336
+      width: 16
+      height: 16
+    spriteID: b6ba75a15ff42cb4e8cef9045e47f9d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 336
+      width: 16
+      height: 16
+    spriteID: d75a7c2e8f0afbf46a4274fc764e8c1e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 336
+      width: 16
+      height: 16
+    spriteID: d897339fe60148a41bd2c0be578f210c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 336
+      width: 16
+      height: 16
+    spriteID: bbdeae883f24602449bc1839d7ebe82e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 336
+      width: 16
+      height: 16
+    spriteID: b214cf6d8044a8647bd459f6fc9540fd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 79a49ec28de28584f90af7bced8f1e94
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 46b9d92ee971b2d4d96dd9217729bdfb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 06e2dc8ba5faba14ca572233db119e12
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 336
+      width: 16
+      height: 16
+    spriteID: ec0078f56ebb1814fb3e362c98715745
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 6932dd4145cd2b643b8d630a80d92341
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 83282db250e4d9841b1a6cec4200bb94
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 7e2487d137ea43b469768b8b9a85f9b1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 902ccbeb94cb19d41b444d3a64e083db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 95af7819e8a975e419241d4b9f236d6c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 52c22ece0cd2bbb4e8296c1070f39d0c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 1fcd4e40e9f1ee645a66901094d77be6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 06b52ffaa1dcacb4984fe1c49c4ddc9a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 44152b2bfd31b474ba9f50b52fd97c81
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 5c58342e06d519646adb75d6b9ac5506
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 9568d8b5a8f4326489add37c5a99f35a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 5af86de59896cfc41ad00587b4f4dc7b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 6e68c6d3fe8057c4695a791e81d2e6d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 336
+      width: 16
+      height: 16
+    spriteID: e68b8fbcd4b815142bc4bd5d1f65f562
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 336
+      width: 16
+      height: 16
+    spriteID: 9e7309e7cea95184796ca3d6d7ef3ead
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 663c41d2d1b1c7948adb2eaadb30f2d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 320
+      width: 16
+      height: 16
+    spriteID: a4899d4496526a142afaace615e889d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 320
+      width: 16
+      height: 16
+    spriteID: b1e40735241374941911c972ab43dcfd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 73449bbcd385c1e498059736a2a28d69
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 320
+      width: 16
+      height: 16
+    spriteID: ea692e553c3616c458f200ac1dacb7df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 9367cf1bc81874b489cbac5a2cd637e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 91cc8aff8512e3a438737df377764616
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 320
+      width: 16
+      height: 16
+    spriteID: f60621c62f9e99447a6923d1d497ebbe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 5083201d14309f14dbe4c8667b2e0b9f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 004b443949d8ecb408e5b5ea3aa9ea36
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 5097aaff8f587a24bae1cfd6d29d93cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 24ad345034d59ff4387c8fa46f2357b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 05de97ef49e2a0b4db02afd275f4d47b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 320
+      width: 16
+      height: 16
+    spriteID: f31d1d1f387f0874094c1af760943067
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 320
+      width: 16
+      height: 16
+    spriteID: cf1a859db2c2a6a439702c74dc3a1f7b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 7a67580519f541249a39e8d60f16203b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 00958fe8e280cbc4a98bdcd3bc521a4c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 320
+      width: 16
+      height: 16
+    spriteID: c2c28916e24e61446b5371be5e1ff088
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 8ffbcfbb544d0ab46b3bfcaa4e5f5dc3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 491be354f9b47ea42a3ce26519c0a73c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 8b68d1a14fde09c40bf284ab96e63d3b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 320
+      width: 16
+      height: 16
+    spriteID: aaca6940a4d49094d880e2b304f87099
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 42f18a93ef8539f4da22a5cede7226d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 320
+      width: 16
+      height: 16
+    spriteID: 428155c859c5fbe4bb36febea6fbee5d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 1fcd9638856f39347a2fcaed526e1a3d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 304
+      width: 16
+      height: 16
+    spriteID: df0c1ad0a81338849880c6bed7708041
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 304
+      width: 16
+      height: 16
+    spriteID: ad75cd7c677a0ad4b9ddbb5f8331100e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 304
+      width: 16
+      height: 16
+    spriteID: b07a5671dfc0e2041b6c7764a908712a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 966cde65b0b83024fad6861d4868aeb8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 304
+      width: 16
+      height: 16
+    spriteID: a7701ca5e08cab7478ca863c86256e69
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 304
+      width: 16
+      height: 16
+    spriteID: f06fd038e54868042b783ae6387bf4a2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 304
+      width: 16
+      height: 16
+    spriteID: f2946297d60379a4391ee30a6b168a55
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 08c0922590b5e2c4ea5b164e6c862f3c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 4a867bd6a2be04041af80e707ad86d5b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 4e7d47447eaa09d4b8b2da031f383374
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 304
+      width: 16
+      height: 16
+    spriteID: aa8be60ba7f750b419c1180e27280b2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 304
+      width: 16
+      height: 16
+    spriteID: db55c8b22a89fde4f87597cebcce02cc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 5aec5ac5f2578784d9b16d3cbe716df1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 04cdac01154260c45a62b2b4fb484697
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 9da56d4a0c19b6344af961845c3e713e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 2f4ee1311946adb4f8e5b3dc78ffb4ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 5d4a5c4a111887d488518564a3aee299
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 620d0b31225ba7c49912e1f2247b06a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 304
+      width: 16
+      height: 16
+    spriteID: ca95a9e5e9bedf8468ad2e4d3a27463b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 304
+      width: 16
+      height: 16
+    spriteID: a63d0007eb5fdac45b59b2e2d74c84ff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 9ebfa2170e6ee084092796e68d85e715
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 0e81b0d1544cff448bcc62489a1100f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 304
+      width: 16
+      height: 16
+    spriteID: 54a0816ad8e730d4abd5b63a1cb211d2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 6b4232ff16279994f987a435d282588b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 288
+      width: 16
+      height: 16
+    spriteID: b8e720e08ebef05418687ae4d862c7a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 484307929bacb9749bb86ca907853f23
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 6ff5a2393fb5aef4ab96f6457653061b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 38c27a35e52508447b34d03c3f97b241
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 288
+      width: 16
+      height: 16
+    spriteID: f7cea9d2d2be58b4abf49be7624b8b17
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 00a11c8abf490934cb5cee0d82b88005
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 288
+      width: 16
+      height: 16
+    spriteID: c38c6457d1d63cd4eba0837b88feabe1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 12f0f6ff901b7ef4eae108ed4f2c97e0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 288
+      width: 16
+      height: 16
+    spriteID: af4709bb3b05836439b22e6de6c336bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 1b49fd8ab24f0c842bbba5c8d50badec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 5a1cdb51efcad5b4fa381497eaad5f7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 2aa6589f70aacd848b84eb960b5842fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 29751bbad4a7c994e848238e4a45041f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 288
+      width: 16
+      height: 16
+    spriteID: f38a8537efd43cc45a3587796b66ea7f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 9be5362ed287c3e41b2609ef041a47a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 288
+      width: 16
+      height: 16
+    spriteID: e86ad8cb87a80c74b90b03b200b76c65
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 288
+      width: 16
+      height: 16
+    spriteID: ae008fb562af4c146a518ed7525ed849
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 459e564327f5cbd4293469cf055e85c7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 59c1aa0eb507c1f43919c0878974e727
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 288
+      width: 16
+      height: 16
+    spriteID: ee226ba6c6e3fe3428609a8d6fb7c683
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 288
+      width: 16
+      height: 16
+    spriteID: cba3eea355988e04197ec91b121a1c42
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 2ae633e9e05a490449854cd2dd6087c9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 288
+      width: 16
+      height: 16
+    spriteID: 13a2a6b222c81454fa3ad985f61b8e76
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 60c67afb12fda6f40a123b98e9db9a05
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 096bcf4aac7d8064992eff93fc01115a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 272
+      width: 16
+      height: 16
+    spriteID: c9b1313b5adc8e94ea9862e13d0504db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 272
+      width: 16
+      height: 16
+    spriteID: f91ffcab9435ed84194b41c5462270b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 524e25e4b30c77649b0f304807e822af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 5041fad87150b774492f87c63f2aafc2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 8e2b5c73f1e0baa41a327f95262efa7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 5bc3bcdf42da4e74ca7a8a7bc6b50c0a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 43ce09dcbbaee364794531d1589edd18
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 75aa9adea0fb8f5458dd9add5bbbe57c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 272
+      width: 16
+      height: 16
+    spriteID: decadac1f06fddd44b4179163fd77f8a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 272
+      width: 16
+      height: 16
+    spriteID: a19dea5437fa9b74e905205e6cdb5ded
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 272
+      width: 16
+      height: 16
+    spriteID: fef786ec57343444d9c7294e3807193d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 87857780c34bb9c498e387bf54cf01b7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 272
+      width: 16
+      height: 16
+    spriteID: b4429d2873324a74d950d7999d47a515
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 2d121200a9ba5114b9c491996b7b18f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 1de211ee6d3f9534e9723d90ae84ffc5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 69827d833f702254888ae2dd2f2af800
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 26c4b6967988c66488ae626a75acc1e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 8dadf8b906a46b144afdabd7269bd10e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 272
+      width: 16
+      height: 16
+    spriteID: 3688e457cccd91b4b85517080a2b3b16
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 272
+      width: 16
+      height: 16
+    spriteID: d389d12dbb7e8d441ae3e296cf1966d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 272
+      width: 16
+      height: 16
+    spriteID: d30132e56e30dc847ae542df6ac43251
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 272
+      width: 16
+      height: 16
+    spriteID: b2f4a30d18652ff4589384f7768632c8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 256
+      width: 16
+      height: 16
+    spriteID: f57798e9004d21a45860b57d42abc160
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 7999e03239ea6524da1178e6f3ff5b33
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 256
+      width: 16
+      height: 16
+    spriteID: c13d4159cfaedfd4e9fe745d79cd8d61
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 1e6b72956e1c3b948a7dda5efa321d01
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 256
+      width: 16
+      height: 16
+    spriteID: be8ec35d3a0960548a2d8faf483598c7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 85f6aa2a7e218e44ba4cda3ccb74eb37
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 28567d09edac54243bdef64e24ad3cb7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 256
+      width: 16
+      height: 16
+    spriteID: ddced6c7fe51df843a149c240ff31499
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 3ccdccbecfcb9064191bdb2324dd90fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 256
+      width: 16
+      height: 16
+    spriteID: f267545fac170c74db520e099207ad79
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 256
+      width: 16
+      height: 16
+    spriteID: a930a764680713647a2218b39f9337e1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 256
+      width: 16
+      height: 16
+    spriteID: e56af5e438b007240b79a59160047a10
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 391ee640aa97a3645b8de91f2b350b8b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 4fcfd78b749ae844196f471c3a4c362b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 2dca7db6fba707748beb526d6beab2eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 31e728adfda94804a811e455228903be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 256
+      width: 16
+      height: 16
+    spriteID: f8567e0297a55e7408345cd604618e9c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 256
+      width: 16
+      height: 16
+    spriteID: e542b47d4035c454d82e322a72927710
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 256
+      width: 16
+      height: 16
+    spriteID: dad7ad9c91a1b034f93ed6b573b7c44a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 256
+      width: 16
+      height: 16
+    spriteID: bc1b2369ec653dd41aaccb6c76145f14
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 5a28dc164c8d7d34792b500bd703887e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 256
+      width: 16
+      height: 16
+    spriteID: bd08820b845f3694689e5bf9f83259df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 2366d0462358a3743bc7ba9241b59383
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 256
+      width: 16
+      height: 16
+    spriteID: 5677becf2fd2d1b45a4fbfc304f5288d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 240
+      width: 16
+      height: 16
+    spriteID: f5bdea9b1650af1488be8b67ad5efbd3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 240
+      width: 16
+      height: 16
+    spriteID: c3f445612a916c4438f9cbdbce624ea4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 240
+      width: 16
+      height: 16
+    spriteID: f631e7edc76da7a4c9275d7c665c7fd9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 41ec983e5b460d74d9ca0833c1cfe5a0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 473329d886875814ea4f0db4a443c89e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 240
+      width: 16
+      height: 16
+    spriteID: c1ea71f1c4afaf74498f90e90a4b3fee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 240
+      width: 16
+      height: 16
+    spriteID: b0963b3277e69d049a174f36b2e1121b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 962a591f3745f4744b1068b315a15806
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 132914b39800eba4ca72e93c2d02cd4f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 240
+      width: 16
+      height: 16
+    spriteID: d9c059f55a30938428a46a27ffbec46b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 9a9dd8908c4630f41bf468a52e88a051
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 240
+      width: 16
+      height: 16
+    spriteID: cd0f131b2abbbf5498ee4591ef6bc068
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 240
+      width: 16
+      height: 16
+    spriteID: fe75583c02af97c4ca5d576cdddc7dc3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 581fae7b596a51346940d7b9ba9e9b08
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 4f87bcae944fdff4dae50799df67c417
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 0bbf9a869e322484d9aae43cab26b78a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 3c58cb08cac4831479432223812422c9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 240
+      width: 16
+      height: 16
+    spriteID: cb76f9fc9ed2d234fb92d6e4eec577e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 66bf7b6ce5b202c4fbeecaa080799ac8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 1211372dd0e77ff4aa6245514054ed4b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 240
+      width: 16
+      height: 16
+    spriteID: e67322944726c5f4483e5fde4aab14ff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 5df1fa8e4662a514baa27557f4c2b2cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 240
+      width: 16
+      height: 16
+    spriteID: bffdd10fa40cbee46a3fcd7ffc344a7a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 3ccb508dc230e054ea79903697148ad4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 6ec6381ebe7f1b34ba69214be0a0d76e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 66d5954d5aa54934bbf88d2d9f640c3c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 29057299525c25f40b4219e6f94e5437
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 224
+      width: 16
+      height: 16
+    spriteID: e2c802e7675432345b62681d60783b49
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 9b6e67d8582b49c4b809419d53dff034
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 78e4d9a7c6baa6642a8c513f9626ac2c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 224
+      width: 16
+      height: 16
+    spriteID: d7678a22f36a9c74d8baab4a06fc87f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 224
+      width: 16
+      height: 16
+    spriteID: a354a82242adc144da20520e213128bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_224
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 56604ff7173422341bcb26ed8ac33c7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_225
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 224
+      width: 16
+      height: 16
+    spriteID: f77c318cbd82b22449c5b4c87dcf353a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_226
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 41fd64c3dfbdac34d87874ad22551f1e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_227
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 7fed1f0c4901b814f827832008e9e586
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_228
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 9adb286e17e719b4dbfefa345035a21a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_229
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 4fdbc7e2817bab34fa2f21adf5e96341
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_230
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 224
+      width: 16
+      height: 16
+    spriteID: ab76926f29487ff43b2c80d563159592
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_231
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 224
+      width: 16
+      height: 16
+    spriteID: b89441c8eae888b419cc09a9c4df069f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_232
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 224
+      width: 16
+      height: 16
+    spriteID: a45dad4e84367ab42a4994674e108082
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_233
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 0be135887affb7546b047e454717beb4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_234
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 5967fd78ad7a0d04989e2f243047e030
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_235
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 3e1b9ebf2a999cf41a09b6fb1f636db5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_236
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 224
+      width: 16
+      height: 16
+    spriteID: ddf69dc7ca012cd459e016231e075429
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_237
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 224
+      width: 16
+      height: 16
+    spriteID: f3606f66d357b6c4d9ee87d9c86d4e7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_238
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 224
+      width: 16
+      height: 16
+    spriteID: cd64ddab8c8760446838d27223668768
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_239
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 224
+      width: 16
+      height: 16
+    spriteID: f307bb8dd112cd0459a54fcab5f58d02
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_240
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 9e3aae0931cd71143b9d50c2d0d75ab9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_241
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 208
+      width: 16
+      height: 16
+    spriteID: e80dab8acd2802d41a74bde68a7c8c74
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_242
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 208
+      width: 16
+      height: 16
+    spriteID: d1d87a9e5bd95d842b3cf825017092bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_243
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 2882d8098faf8704a96d715d773d868b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_244
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 208
+      width: 16
+      height: 16
+    spriteID: b1eae43863db1e341b24c51274bf8f27
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_245
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 6a6cc0fdc7034d64a8e4265837de416e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_246
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 047a3afc85d4fe14f87b7b3bafc7cb76
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_247
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 563b0ef70508ea0409ffa1b413262e75
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_248
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 401e2c89f60607b45a653dd528325971
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_249
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 82ec554c6f5bb0c459b7fc744d4c9555
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_250
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 208
+      width: 16
+      height: 16
+    spriteID: fcb68b21a37d2664b9e9384ad80a1843
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_251
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 05c49297f4cadb24c94afd3c47621117
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_252
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 74c66baa8a9380244bc305cdc914067d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_253
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 208
+      width: 16
+      height: 16
+    spriteID: fdf1a7e99820f0f4db9b666d442a1732
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_254
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 63e3d942af6691345884771fe72ff02c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_255
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 86a02f41e464be5418fc7d820d7dd0ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_256
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 208
+      width: 16
+      height: 16
+    spriteID: ec159134f3e761c43b0fba4b52c15962
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_257
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 208
+      width: 16
+      height: 16
+    spriteID: ffbc567c76aaf6d4bb1f1fa1cea6a84e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_258
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 9971b9cb51ef7ac4f9d5a5e73368acf3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_259
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 208
+      width: 16
+      height: 16
+    spriteID: db49b647ccb15c34ebeee03f0be26c61
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_260
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 115bbc8f976b4d441844f43080528e9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_261
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 75658c264e804324b972924e63074842
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_262
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 8ee50b78693f77e499768b28b9964e84
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_263
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 005a5ea91984548499b11b3f03462588
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_264
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 31cab907c46fd1c4f822f112dafd4cd6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_265
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 9b310c91a929e0b43ab1645296cd06a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_266
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c64ba7fae52bcc4439107924ac326ebe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_267
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 8ef6d4eb90d8c7148bc4f6048c4cd21a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_268
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 16
+      height: 16
+    spriteID: a7f6b6a560f38ba4f9ae511248756c76
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_269
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 192
+      width: 16
+      height: 16
+    spriteID: f7e5ecfde7aa7004088529fdc7684b8f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_270
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 6aec473a5cd19244a9775b4cba04f1dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_271
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 01a2ca1139ceb0e41b1c2f9d27c51ddf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_272
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 476cee24dafe02b4499394adb4d2c589
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_273
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c494b397e03b2584ab69a604cc85afa9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_274
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 16
+      height: 16
+    spriteID: fe1799f0d2886ee479b917de6905077d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_275
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 685d468ab784347439eb6e2179cec305
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_276
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 2460ac640637d3d47a56667f7c0ee7cd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_277
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 192
+      width: 16
+      height: 16
+    spriteID: b4f0989570e48ac408c4fde4b6e7b7b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_278
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 8d49e5dfbd3b0244cb0543ac8f1d19c1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_279
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 60266cff974af8746b3e01d357f12ccb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_280
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e96a7c96db8d0c14b90f4965fc5ebb38
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_281
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 192
+      width: 16
+      height: 16
+    spriteID: ad34321fbd4ad0648a713fc2e6d1daf0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_282
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 442a6f98a5adbe94e986ac4f66cd91c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_283
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 8b6153059e1fb304ba75efbdd295d47f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_284
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 0abee556fa8ad4b49b916d43a1e8dd64
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_285
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e655df8aeba9f5b4db948eb68056d18d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_286
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 78870d5d3fb434846920d1156d4029c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_287
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 192
+      width: 16
+      height: 16
+    spriteID: fee090a97c661d940868cb8ed0413899
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_288
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 66fb9a511cf045449bcdfe36cc59758c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_289
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: fc6cd5ce2e466e4489fb2449fe936e84
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_290
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 18d29d01380b7a2448bd3ee7ecf77720
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_291
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 61bc5cb9e17f28f41ae277f7dba3ae8b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_292
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 8a75036c4e0ca14469c78d25c488b864
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_293
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: d96ca42e5e4b15047a14a55ee53e4b5d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_294
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: d0fccf49dc4b37a45bf73c803bd3a2f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_295
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 9cab20a79d0925f4ba53c195c67a80da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_296
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 20683dbf16afa6a408fd777466651b45
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_297
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: f168199652bd2c248a1acb1cd49dfca5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_298
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 504eb14b2fa2f4947a22a164930bb4d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_299
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: e5e3abda245e6a243acfcae3faa1f884
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_300
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: c674470ecf6dea84fb9f1b86cc2d9065
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_301
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 2820c2a4742943c419c5be8ccbb411de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_302
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 04d778ced2aebdf4f9d8b6c20feab3fb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_303
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b0226d91cbc2c2641a860809ab3b5ecc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_304
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b5b2983c4c7a304488d3b1c8aaeef68f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_305
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 01238ff2538923844966e930fc40f67e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_306
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 80443e128d8323d4d9ae5ac27967f8e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_307
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 176
+      width: 16
+      height: 16
+    spriteID: dac96ff92f6f05e45981fdfbf0665ce2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_308
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 176
+      width: 16
+      height: 16
+    spriteID: c75db887e09d42e40970779ff0233a6d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_309
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 176
+      width: 16
+      height: 16
+    spriteID: f992e5cf05a6de7448a3ecf70ad48572
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_310
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 545464fb19f8c8c429f29ac481ee8fa7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_311
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 400c07f8c3587c74ca07a3263a8dfb79
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_312
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 82d1686fbc06a33458abdd87c2a9cc12
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_313
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 6e060511d25980047870cf2868622ac3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_314
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 3ae4354a4d0b39249bbe844906f29be3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_315
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 9528122fb68c44d4bbf8b0584bb6ecc9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_316
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 08e88197fb7a74a4bafc33e1f0b94c6b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_317
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: f568d40ef7f627547affcb2956a02774
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_318
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 957f5ae6d1a6e904da419fcf3a5936f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_319
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: f2e49f90d6508284a9fc2eeff0059c81
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_320
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: e4289b9eb26c2a149a889922c6c0fbfd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_321
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 4a150db5ce6aa4a40b8874a9fa324387
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_322
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ef176e01abcac354ab9f9b222ddf997f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_323
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 27ff85c280aa9384fa0fd086ad1604a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_324
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 30616d5b8465d4142b1548fdeadc0621
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_325
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: f856e3cf2210edc4aab0c472ecb1012c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_326
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 54fe71999525416469c80110bba008e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_327
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 883e87161eee32a4c8ff4a8033aecd8e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_328
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ddde090307ec7e04d982d13643b5c684
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_329
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 50260093fab77e14aa40f12b3f8d7f99
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_330
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 609923b0a6d2ef048939f72fb278cea3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_331
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 037b93aa001f0764e9430f576d5ce565
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_332
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 160
+      width: 16
+      height: 16
+    spriteID: f2d1e937851ab50429d1fb893f834d0f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_333
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 03956db10cc3c444e8a0be2d1337d784
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_334
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 352677d1dc3337f4c9178fded922ae59
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_335
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 160
+      width: 16
+      height: 16
+    spriteID: a5c884900e1732243b6b3176b5e8a9d2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_336
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 46267dbc79225f24f82823d9c4ec7ee7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_337
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: f327a6eddbea5d64f9438e70af510cd0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_338
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 8c51d0793b19a3e4aad68c23c61c4769
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_339
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c0243b069b50b624fa0fe5a9a26c0919
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_340
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 48bf5f21fc2b5bb4aa61ef07fc286d6a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_341
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 53cf764d80c168a489c7eb0748361912
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_342
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: dfc555c2f22f8f34fa079ff0207386c6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_343
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: cf2f76038adcdb743a269e7da1d9f7fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_344
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 88a638e731a6b1f42af5f17c65adc985
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_345
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: e75d7b04c18ca5e458c96cfa3bf4ef16
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_346
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 4e22bdca931d2954a98b483016ba916d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_347
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 42c5a3e0bb7257d44868a2c32d2e82fd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_348
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: a8ae81dec1a7a42479aa1ae632a99ff3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_349
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 65525a71af44ee740bc293b3ae02c86d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_350
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: a042543833ed9534b89136bbcabd0b8f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_351
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c26f3af79f05bb14aad1580e971bd59f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_352
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 5a501788c90f89a488ab7172091718e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_353
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 16f749f42ce73724397320d22e5f893f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_354
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 87ca0df8120b8f4498a1fc0e87561e19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_355
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 2fd57a1daa198a34d82b1aa09dd5c1c5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_356
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 90761920a1ef1a145a65729199e9d5ac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_357
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 78c198d5c2dd15f4d843f9d44015aef4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_358
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 12e339b639460454eb7e5726a5be4bea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_359
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 4e295d6b312c2a746897e4e971bb93ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_360
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 5c46c418fbad5ae4695caeb4cad754e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_361
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 9c6a579460c71ef46adb36cbd0b5d2b5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_362
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8b246130eddf52c4f9551e81ff7cf311
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_363
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 0c5b5daf05be8824ea7e04c395a8c00d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_364
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: a27d7c7d634acc948a25b3de3efa5f57
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_365
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 6de85bef731635b4dbb5fcdffac6ea85
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_366
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 53d1ff2a26a102d45be41c4a486d3daf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_367
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 33d55590aceeaba4ca0b91c394eaf8c7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_368
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 2acb1db85cf3ac3469dbc2e273758449
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_369
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 230be3dc3ed8fa34ba600afa6e297706
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_370
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 81f8a9b5abfdc514dafa37495c09778b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_371
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e106c6b33ba4f1c45868bd8285eb137a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_372
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 6321a7da1a39bc342a9600dee72cea96
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_373
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 01b87b5d75da8104ea4fd2af8b79552e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_374
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8ebe44264dca81740a21adac8b0e77bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_375
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d306b89bab80ce948a59fbb08ab27fa9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_376
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 68fadfb52faf56e469bb718228457f49
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_377
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 05b3685800b48ff498b25000a3d931cc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_378
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 026daf5d89cbfc442a944b35678cad58
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_379
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 4acb7c5e79fe3884c97b0b73336b1acb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_380
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 07762856903ca7d4989b1e464071bc8c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_381
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 158813a8c128ea040a7d96a61b71c322
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_382
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 261517c62870ad44497c19c2786f9ead
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_383
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 128
+      width: 16
+      height: 16
+    spriteID: c6283cf798d56d549b4405c1cdde8ee6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_384
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ae6b51a3d82057547ba3918e008a111c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_385
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 4c298f3ef06f2f5499405a2997faf3e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_386
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f799fdcdc9d3bce49b28ed567f5548e1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_387
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 5618c62a3839bbb4d98bff6439998885
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_388
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 4d33b739c35d6a2408373c78146328bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_389
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: b5086ac8c81fdcd44932818d870c0975
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_390
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ff0e0ef220908504088a161251b2e8eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_391
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 0c4a62e4694d07c40af2ae51fe6a9a66
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_392
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 243265f3232ef9440864330124e73c03
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_393
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 0db2509c762a1a649858686c9487472b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_394
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 8c5cad30ae82cdf4a97eebde93b4364b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_395
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 87f43172f9ef92f47b4fb97501aa5b15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_396
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 5caf968927e2a4e41a9547c6e753f775
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_397
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 969a0b2b201bdb44fb2674e5191be2d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_398
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 66375723672fb2b4988253eb57cd8f52
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_399
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1d4170702fa3a264eabc5f1a83358b62
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_400
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 16dc367995600654e9da2c0f558df847
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_401
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 6cdbc64d7b5f1af409878a88d4bb4a01
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_402
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 76421a194641df04ca7dbe64f144fad8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_403
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f7df0da4a925bc146916aad8d2b119bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_404
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7561fd8047d757b4c8c69c8ff05abc2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_405
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 6ea4d1d5719f4374f95bf9a1891a70db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_406
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 2be684080581192448de3f00a3573301
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_407
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 0c29db57ce84d884f86b56c61b248129
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_408
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d69314d0a74421947987f0b383c9c940
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_409
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d405653a8ee63b8429f7e9b9922e8fae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_410
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 47efef489b2dfb04db55e6297a718acb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_411
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c92bcc677f594dc4e8d63210b28fc43c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_412
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 1996c54b8a10ce84cbe70857016245ef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_413
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: a9c015b1e12459e4e9090e820825bee2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_414
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ffa993afacbd2454c87aa558f4422634
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_415
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 107f61bf2cf94284db07dea071d81dae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_416
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ff18470843c04774b92c1379506f9f96
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_417
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: a72db5982ba77794aa2b35678adb2a95
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_418
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 456f375de5d810645af3ff7bc58c876f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_419
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 2d46dbefa0d691740ae7e2b01623b791
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_420
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 9b89906af412bd846bfff6caba376d00
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_421
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ba53cec11beb22e49b9a0db6b2fc9331
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_422
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d31da98ac730ccd4a90d08674af68454
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_423
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 7bf9d4d7f77690c44863b0fb458d3b2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_424
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 189d0fde35efd23409f2a21eea7f82d2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_425
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c1fd686907f15de4499f70dc7393a12e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_426
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 96
+      width: 16
+      height: 16
+    spriteID: cd30d8ff975a1114b8c1c2ee3c9c254a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_427
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 96
+      width: 16
+      height: 16
+    spriteID: dbf37160b2fef884897f9cfafa288775
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_428
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 7d4bba524973d4e40b7ada190dd2db46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_429
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 4b2453bf2fed4384abbc345e10734544
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_430
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 06bf99eb0daffd6468fd8a61420d072c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_431
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 519183faf9976c042807e87e52cd8eec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_432
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4f1f22546d8236740942f7a4e6872783
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_433
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: aaa66b722de0cc741b2c30410b58bfa8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_434
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 7bdfc0f4f241dc849866a460313fdaa4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_435
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 8f3ce5ca54ff25543bf756d997e49412
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_436
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 99e82d87a31b8f944ab39977abda876f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_437
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 80388d78deffd254f9604f350b2747bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_438
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: ed46989dd0979a44eaff1d29f1a27977
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_439
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 7effe08856f871a4cb5ab89dc9370d96
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_440
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 6b5431e2932fc5c41b91c17ccb57e96a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_441
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 53a6366d18ef02843bd5b2cbc96d9867
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_442
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: c0899a533b6fc9c46af0697cdefec531
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_443
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 9c37ebb57d437634ba02be6069505100
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_444
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 499e31aa183aaec4e8422e7172f7d5e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_445
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 83e6d5faf4fb04842ac05bf6d6df28db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_446
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 83b861c46a2624d49a1abab099ad684a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_447
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 82fd4b91d62c4ce428eedb3fb9a6f0f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_448
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 5051296a4ce7fcc48be90a4fa3e6cece
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_449
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 035eecd3f2f5a624a983cde190702d77
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_450
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 80
+      width: 16
+      height: 16
+    spriteID: d93d7ff8eced8bf41b58fa33150522a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_451
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 8766fa8f035803c40bbc85f2d0680fae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_452
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f2868cc7bdaadf14f8dc9026595b1226
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_453
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4f8323cc2239fee47b1a68ffc5d9c040
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_454
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 9f62d353d4541fe4aa7f7a52f3f1c716
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_455
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 80
+      width: 16
+      height: 16
+    spriteID: c33c0cec00ece8943bb28da9317835e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_456
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 2d93add9e7dd9a44f8b98106303d2074
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_457
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: f214416c226f0eb4b9f564012055ced7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_458
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 1766dac7fdc77184aae9d3305bd5d4da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_459
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: cae9c74d7c865084c9e270d147d57ecf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_460
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 41d5fbb89c0164b46afed98f885b9f72
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_461
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 20f927424e5e8724faddf5d4e0588556
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_462
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: f9875c033a6f8bd45bc530d3e32018e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_463
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 92e15c6e8f758d74e9215565d9e2871b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_464
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 2e619818fb0ec6d4eb8910214e47e9ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_465
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 15f47c118a5f0a74489ce173c7b28bc9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_466
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 0105c1440e6bc6f4f84a3e9386fa7a0f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_467
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 08d4dca9d53269a4bb8e42e04290bc2c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_468
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: c103df3bc9f872d4da331f2f2fb6950d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_469
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: eaa11cbf60b800b4e91a7d4c666dc9e9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_470
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: aecaefcd156adfa4ea2ced0b1d9b74f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_471
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 76cbd8942bc65c1479045d4fd099e62b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_472
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 384442a658da58e4d9234b6e83b42991
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_473
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e9ded8436239e8646857c88a43ba36bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_474
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 793c66640e64fc942ad435f2254aacf5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_475
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 64
+      width: 16
+      height: 16
+    spriteID: dee675795a2cf5a40986e1eb7741bf24
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_476
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4b84228dd8b60b949bc9120184d5c39d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_477
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 80c6ce01e10bf784e99d8c94c33edf6b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_478
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 64
+      width: 16
+      height: 16
+    spriteID: a5264e7f5700c934c8059b680993c982
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_479
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 543221dd6f350574788b1f06f67367a2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_480
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 81a4ba661c5f1d24f8258b765feb437c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_481
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 428d9f5d991c3a24caf07e9b2a5c0ba8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_482
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 6eac38d6ee795b24caa65b6e080e7ebd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_483
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 6bf7c260ff92d68409c0eb68cec05175
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_484
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c380811f2bec1f24ca596a10df729a71
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_485
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 39fe98317dc906c4ea62dec85de98819
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_486
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 7d3383557f2f3854baaf47acb20a94d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_487
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 51d7343e6226eb54fa89faeb681b21f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_488
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: a029e9d6cf900144d81b4d1f32f943d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_489
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: de381e7d4c3ea8b4185e32159320cd8d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_490
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5d7cc92cfde85e648aa5fce3286a29b8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_491
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 600c0ad25924e7343a3f6c507dee06a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_492
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 1bbc710cc92a6454fa967a4d76ef3802
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_493
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 88bf3558e35723646bee5966f36e99ed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_494
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: a754cce79ba7c2c4592dffa5bd02b500
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_495
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 1d9acdc376cef5243bfa03859ad61112
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_496
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 48
+      width: 16
+      height: 16
+    spriteID: e8358549703a4394380c086b4ddd66f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_497
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f4731a2e60740cd41aea349ec93e3c49
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_498
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 144ab7216fa6bd143b3cf6a6523688f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_499
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 75cab0b3ef88b6a49824e556effffecb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_500
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ee06275efb76a9646a1bd04679ee975c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_501
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 0644466b40293a540b94b012601a5796
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_502
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 48
+      width: 16
+      height: 16
+    spriteID: dbf444704d9cde24fbc22c316fbd549d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_503
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5a9cd3d12abb29446a03fffa12c81d8e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_504
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 444e04216cf03da4e84a48a45f6806c1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_505
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 17eb6d7bb53d33242a2cb5c208c092eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_506
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f47fd3b40a7cf304a89797538e9a265f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_507
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b554e158a21b5a4468c795273f5249ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_508
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ea9f2d0455ca6044c8c4efbc6a9a5b8d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_509
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ffae8b2ed64fb7c4cb97943c1304d1f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_510
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a3cfd9652afb55a479578dea3dee76f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_511
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 1a4d8f099954ac641b57a847cc2e9adf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_512
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 572851c4148d7234ba1696ec05d3176f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_513
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 2fc83ae1f78c8474a8f18647f1cffe8d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_514
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e8cb73280f008ed45b94bdf0cebae226
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_515
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0cc13e4871ef51d48bb368b6e4954a94
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_516
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ac21e65e237822648ad3bf55576f8cac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_517
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0adafafc06070f14696a46eb235311f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_518
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 7814734bef3306342a2d2db05341f9af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_519
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a0d2ad53a7fabb64c9090f4d6624d2e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_520
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 1dccf85fc515a8d40a51f069d86a87ef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_521
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f2545dc0a3b3b9246bc460d2d06d4f0c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_522
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 05749cf3ad74444488276d178dd741cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_523
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b71ae4881f039d34cb1196da46fa0595
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_524
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b91260c8ab733b1488803b57aae0d95e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_525
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 5f11406e71a9b544eb132f800b2841eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_526
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 55e28d28eabff2346a74afd04de9cef6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_527
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 32
+      width: 16
+      height: 16
+    spriteID: cac3093c3a7ae3846886f4435207fe18
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_528
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 6a07ecd6195d4e0429fee9fa12bfc0da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_529
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: cbd9640e6672259488dee2c838bbe1cc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_530
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 5858382416f4a9e4e8a5d4170e3297c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_531
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d3629b10efbc9294b9cc1b0a8b5becb2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_532
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 505686390be9b7d47aed38c7813e200d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_533
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ba4f21b1bc56ff14ba32c91aa2b5968f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_534
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 535c8e84fa4c2d6499fb477757eac8bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_535
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ed6b29802d150a948a7e56958758f451
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_536
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 051054a637643e74c881d3c0f21968e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_537
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ad557323d6ad4cf4b9e0d46dc57ee55f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_538
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9293ad5e4d62ce843a986f8b0d92e7b5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_539
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e3b50bb39db08834c9af38af2bbbd5b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_540
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 57717d8419491b0428189f9e17b96822
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_541
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 33655796020ee904eabcd172c12dae78
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_542
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 6889f62b72bd698459b18a0351367bcc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_543
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 910848e4e9d3f3640b431e35f81d44e1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_544
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3bcf6e3af8f73be41b4917787e6e7854
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_545
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 16
+      width: 16
+      height: 16
+    spriteID: bc6ebe781d4981d4989f914222b874c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_546
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 16
+      width: 16
+      height: 16
+    spriteID: c20e50a62d16a284594d793647b956e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_547
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 65f832f5fbb8a9c4d9abcd0329eeedf2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_548
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ac7dcfd5f5e93ac499c058f36c3ca7f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_549
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 16
+      width: 16
+      height: 16
+    spriteID: be7cb0d210515104c9016333584af3d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_550
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 5fa126a3399ca474ebd3038b40b7a130
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_551
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3151cdeb36ddae54da090749371a036f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_552
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 7c897965b40c828449783677dc8455ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_553
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f4bcd4209afd80f49872d5bb86540e9c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_554
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 2d8f3dbfe8a21f342ba9b24d831ce609
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_555
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e801d51bf22f2f94a9eb649187b86d57
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_556
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e3bfc3c0a2d2a814d853e36535486108
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_557
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 35ce331d9549b4d46b535b276f7db5bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_558
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 11e3ce698d80b01499ef3871eac88dfb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_559
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d658285f90d020c4188f721522b3b16f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_560
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 14c880af9e28cfb4b827444217d01241
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_561
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 07be4c80435d81240b22758140722cea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_562
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 46545e43ef4c7464fb98491921907c46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_563
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 719b4e4e76b6a0a4585fee70e96b3cfa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_564
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d11fd6e8e5749bb42bdef91b806a9b5e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_565
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ad0901a105e245d45bd6c42f215c00d5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_566
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: edf09a638ae5cb14494890fd8d9cd473
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_567
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 555bbda5c20e5f1488ab9bbd4e04f7f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_568
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 134bef2e98bf1564580bb18e5a90dd67
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_569
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 26c7426c7c80793468a4ec5f3458a93c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_570
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 1d1e130325774e34190562363c1516d2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_571
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d95d9bced6cc1fe4aab545f15837189b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_572
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ad4eecd5a2a519b4c863daa9e91f4881
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_573
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 78c81bba803789e41accd1be67ca453b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_574
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 8cc359d5497178444bf19c5c2c62e4ab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Ancient_Caves_Tileset3_575
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e4e1d274e4bf9b2448da907d69fffaaa
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

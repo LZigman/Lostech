@@ -14,17 +14,20 @@ public class Player : MonoBehaviour
 	[SerializeField] private LayerMask groundLayer;
 	[SerializeField] private Transform groundCheck, gunTransform, gunBarrelTransform, crosshairTransform;
 	[SerializeField] private GameObject bulletPrefab;
-	//[SerializeField] private Animator animator;
+	[SerializeField] private Animator animator;
+	[SerializeField] private float maxHealth = 100f;
 
 	private int movingDirId, lookingDirId;
 	private float rotationAngle;
 	private Vector2 delta;
+	private float currentHealth;
 	
 	private void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
 		movingDirId = Animator.StringToHash("movingDir");
 		lookingDirId = Animator.StringToHash("lookingDir");
+		currentHealth = maxHealth;
 	}
 	
 	private void Update()
@@ -32,29 +35,25 @@ public class Player : MonoBehaviour
 		// moving player according to horizontal input
 		rb.position += movementSpeed * horizontal * Time.deltaTime * Vector2.right;
 	}
-	public void DamagePlayer (float damage)
-	{
-		// damage
-		Debug.Log("Damage: " + damage);
-	}
+	
 	public void OnMoveInput (InputAction.CallbackContext context)
 	{
 		// getting horizontal input
 		horizontal = context.ReadValue<Vector2>().x;
 		if (horizontal > 0)
 		{
-			//animator.SetInteger(movingDirId, 1);
-			Debug.Log("movingDir == 1");
+			animator.SetInteger(movingDirId, 1);
+			//Debug.Log("movingDir == 1");
 		}
 		else if (horizontal < 0)
 		{
-			//animator.SetInteger(movingDirId, -1);
-			Debug.Log("movingDir == -1");
+			animator.SetInteger(movingDirId, -1);
+			//Debug.Log("movingDir == -1");
 		}
 		else
 		{
-			//animator.SetInteger(movingDirId, 0);
-			Debug.Log("movingDir == 0");
+			animator.SetInteger(movingDirId, 0);
+			//Debug.Log("movingDir == 0");
 		}
 		Debug.Log("Horizontal movement!");
 	}
@@ -83,15 +82,15 @@ public class Player : MonoBehaviour
 		{
 			transform.localScale = new Vector3(-1, 1, 1);
 			rotationAngle = Vector2.SignedAngle(-1 * transform.right, delta);
-			//animator.SetInteger(lookingDirId, -1);
-			Debug.Log("lookingDir == -1");
+			animator.SetInteger(lookingDirId, -1);
+			//Debug.Log("lookingDir == -1");
 		}
 		else
 		{
 			transform.localScale = new Vector3(1, 1, 1);
 			rotationAngle = Vector2.SignedAngle(transform.right, delta);
-			//animator.SetInteger(lookingDirId, 1);
-			Debug.Log("lookingDir == 1");
+			animator.SetInteger(lookingDirId, 1);
+			//Debug.Log("lookingDir == 1");
 		}
 
 		// calculating rotation angle between vector above and x axis
@@ -114,6 +113,15 @@ public class Player : MonoBehaviour
 		}
 	}
 	
+	public void DamagePlayer (float damage)
+	{
+		currentHealth -= damage;
+		if (currentHealth <= 0f)
+		{
+			Debug.Log("Die!");
+		}
+	}
+
 	private void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.gameObject.CompareTag("Ground"))
@@ -121,7 +129,7 @@ public class Player : MonoBehaviour
 			// grounding player
 			isGrounded = true;
 			
-			Debug.Log("Grounded!");
+			//Debug.Log("Grounded!");
 		}
 	}
 	
@@ -132,7 +140,7 @@ public class Player : MonoBehaviour
 			// un-grounding player
 			isGrounded = false;
 			
-			Debug.Log("UnGrounded!");
+			//Debug.Log("UnGrounded!");
 		}
 	}
 }

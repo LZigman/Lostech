@@ -1,0 +1,2535 @@
+fileFormatVersion: 2
+guid: 7b1fb5ee9220beb45b006d55c1155eb1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _sprites:
+  - name: Victorian_tileset2_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 9bcf07439a6543441893c65500c82e8e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 659839f4b40bec34997953a8b1d6e957
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 4453f52b3ee40b84596460059cd02f1c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b8fa4401f0e73304682edf1db716dd17
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 4fef3f9eb41053f47bb619678791da4a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 33278fad250b43b4ca010f5b5197bd29
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 46d49f429bcecad4d9fea80af5caba59
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 4b0d4287ccf61534ea090e1ee79344ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 1b3636cadfde8b0489759f9a8de31995
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 6e6f42d24e76ed84a9510deec3bc9dfe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ff851a5e558b5554cbd32edcfb41d4d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: f8c1c653719ecbd4ba6d54e7563cf8f8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 35b5416cd5fbb5a4a9d970c9a50b9bf1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 15d89bb1e2500544794a89aa4ee20d60
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 2363f63fe2fd1b446bbb16da80e9cf15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 843baef6e5d327949a9b7445b7badaf1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 1a11df003be3ca3448d67039a5c91533
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 3027689e8ddf1bd45aee758d37d8cf5b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 213e63a5f063e6842af924c63033c70e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 1b41c1a6e77e285488f8674a1657701a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: eb3ab05636208ce4e9daed9cd6a5a9da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 9f9f10887f38b5e458e9af590c8c1f22
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: a91ee2a8e5de6f446b46b303478398b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: a68993deb0113eb4aaf523ab5715bd6a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 2ded55808b92faa4ea29e66cd2b23d05
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 0a1670174dcfa364eb20ddae1de8d14a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 6d6cd40f489da924784e738eddb635cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: a339470978c9bb54aa96cf536300361d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 359c2d79110e78541934ab2fa1f753b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 20369961c72eb654ab8200c5e418afc7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 97710eaae09857645b6ff5059e917700
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 0cd75ea0459231146b4ebb7390c18ff1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 8f5a183f3fa486f4f81ebef54d659d6c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: a5fc8f2fac943a34ea106525a07ad76b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 0bcf4fafb109dc14e8c8bc67c7e95e19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: ac4bd8679ffcf38409d08be35f8afac0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 501bbf2387d9e124f9423acbab86a175
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 42e80dd229cad264dafd6a8ee24ec803
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 55900dbbb78cc4c4c88ca6121df0d523
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 28284c016a6b281498f0ac4aaf9c8d73
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 7ca8d1c3e744c8d498e29bab5b18e8a2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 1a86c973ed7ba4d47944517182f3afca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: fc14cc5fd30e35a448a0ebd36e49238b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 63eba0c95aa17414db043668047390cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c21af2d5fff27404facd8b859e6148a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f4d59a9597fa70f4eb699bafdb9a6ada
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f263bb10b6f342c46a0cc6e3b37ae770
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: c9ce2aac2caa92a4791264bdb6377aea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 518754ff6fe9f0548ae1a136bc80e02d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: c55b658be37926445ab544b62f776d23
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8475246166c4b6242b060ea3b4655d43
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ead7603cc21ee364e8302fd2cfda655c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 6e793b5ad42eafc4085d6c90b2dd9627
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f69d82b7ac4e3034f967cbae772cf489
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: c33c83485b7ebc947aa9d0295c80ea47
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f32d560afa8930a4099bf993a831a517
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 90b4a8fc19cc5104fa2b08f617a8f320
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b1ea423fd6e1bfe4f88c28044316d374
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8eaa4667caf790a45a54638172aab1df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 427b1e1821ab60d45ab49b218c36b5be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: a8364c55ad408d1488f9d144896c9c45
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 4d5e45a578ca4cc4fbf3789fe22ac086
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7664ca29aa732284180d7bbea536c94d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 621125044d0bd354fa5349fcdc4f6263
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 8cc5467341550b54fb55f73f940f10c3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: b74ca69d09f767040a9cb04ad6bb88cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 9a8d0ece6999a0043925122c6059068e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 929445256855f834994005fa06cc017b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 4124e620b4928934bb452b3ca5af8650
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e8990d9ddc523d944a1bb6fd3f1e693c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: bcfd6d207da74cd4eae4bd399442739e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: cd9b877d455e17949a21dee6330b8a65
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f1da166b4d58b6341bd1a315052a284c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f0caf80f175802a48a211fba6cb6eee3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 871732e4e1a51154dae3a17258387b0a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: bf07ca8d577c9cc4ebbaee0d826a929d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 939b19c21af9e9e46bf69cedbf445fb6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 8b0840efd5a273343bada22d2ed9497f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 99f0f62f9d9af754d897fff74688f86e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 26bf7def9ba0cc943825c19ce892ca41
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d8f33c7bbc2160f448e5797f08e6de46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 5a4385108227975469f9bb1290810b1f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 2c1c5200aade6404b812c97faafae5ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c99f7b3776a20c045ae595ffd05a17f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: e987a5b2f2b1fb64d82a249165199816
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 3a45b72cb85f87347984e7db83b7e2b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 318ada30890b36f4bb7b266450461370
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 13b100317bbd29b40a859fa7b0d47233
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 3f08e2732568c604e9239d1f313be087
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 404d6ee2594924c4eb5247bbd6e1e7a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 0bad3b468b6d5e84f99f952ace113772
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 0032ea5b6323e734e810babf2b608695
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4013885db2422284387cfb52b4cfed36
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f193c6d5f56808942913d888729a911f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 88c8cd92589e2cf4ba918b67f1a6d753
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: d43ac54540ef41f4bbe784a4c21c0c24
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: be52c734f2934b443a789b1665c377f4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 1ab82b221ecf7894283e9658c43b0c19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: a33647780e999c24eb67fe79a0f74c93
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: a9cea6526c7e31c459ea949cfd61d970
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: db6550311eff3eb44b0073f5d9e5a4a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 27c8f2e2da56d624b9f03b5022b308aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: c174b5fbc941de649ada8d4d45aa077a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 17732e7a998ed89409285e7dd405b084
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 812878e7cefaec14b9f73104d44ffe74
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 925c421bab2da6f4d93727882da62213
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 7b89a3e45a9c0fe46ac513700f56af9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: efd3ad254c6f96d428f2c9944b2d808d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: db14b6ffe27387e4b9d468f77a9a39aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 69bf00636856bc04ebfd8fb094626b27
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e99701d006ed80349a4620b7db05b2c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: a5e1c5d67543ffc41892cf1237f69f66
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 525c3eb65b478a548ba6ea5069fdfd53
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: a9ad01c49b34f634799f6482b684d722
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: f02e4229e715f6d49b7782fa474f7b10
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8764a91047aac464f98e62e987884082
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 124b597a3267ddd43bae9622d2dd81a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: f33df6a8c415b6b4b9de012672e52c02
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 506fa50ef6fcdbf468861307735b1086
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8e4c59c6ade86aa4ebc3de223ca3f67e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 59ab67e1fa765e54b9908a1021d8b2d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 4e46c62048a635840bd255726a3268e9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d1c5e270b47e6cf4780c6fe79b2378b6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: bf04ef7a98a8f0a48b1bf8cb8c46268a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: e9af2ee2430160c41a54c4cde54b1d62
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 6bcad0ced39a53b4eb3c24e04c394844
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: e7b122cbbd95fc44697f34a09e83dd9a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 85a31acffd50b5f42a6c1d2c94de41ef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 152747b2fc3ae3042a95c6bbfbfc887e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 9fa1a0852cd99bc46a565ea50cbec8cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3c70df309749ecf4f944b9a38c1ffe65
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 20268c4d44a8ef5408f0a41c775ff3c8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 0cb08abeda5f08b42887ba3eedb95bb6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 54ea9576f7b56a043a8aa84de8ef1c69
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 23ca78a3db8c0294c9a943d0d55b0c22
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e0b5ef8a7c176e246a3c0a0adc78a347
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 439e062bf9616584985831afbc28dae1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0b00674b1b735a64b9deec033c65c1ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: fb1c4bee7083fcb43ac6f26e488061bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 22960c23b95e44348ab3e835d62c6fe5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e4e46549c052bff46b9ee74de245f52f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 04dc41be603558e408d31a93fe0e063b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 9a480be9ac858ed4498a48b9d48aa019
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 25094909a2c4e144eaa45988b9e9277c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: cd97478debdee2a40ae161f87bca7cb3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ad52bf2517ab00747a4d5ec27c4eb762
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 38705a8a21ea4fb42b10445f73606410
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 970fb509220cf7d42b0c1880215caa44
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b00beb9d2efc28f48a5119ebbfb335af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 3191211360418eb42a58156935615862
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: f98f0fcf506f71f4ba3433cc176c1432
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 92b0e4b6319862d4ab18af9e677d8eba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ce7d6821762329942aeadbcb0ca21e19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 517d7a09e10baf64181bc61f10258241
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a23b1d7a1d2631f4986347ebb48f18be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ed8134ee57cc1f94a8302f139a6ddcdb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 99fbd74971ffed14db80fe9d4eca7326
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e7097113f0181cb4a9036ed584d33226
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 61910b1f5bf4a8d40bb0d589b72ea041
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 059463da0171708479b84012a457f98a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 882d31350f9190c46a731010cd20c45f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d65492e6ea6d9f046813a3f31c06e926
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 7b1337e4524f02b4cb1b54b16bc5a462
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9d7de203ba080e946a12a36434d9057e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ce45e6edf5eeb4d48932842fb3d6d3e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 7ba2d14856439524484630b3fa732052
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 68972cfdb4b086943aa33c76999db729
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f4b347fc9ee05f7478527ac30d01aa6f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 9c6a961a6a8b9554f9e27515ed3d9012
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 951a344a3acdf024797de9206f26e163
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 78c4e0a6f4ad305489078879cf64dcdb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: fa8b3d0ab6e302a4282a315cabaec179
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a7f987b9e1461d14cbf695045dd44059
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: c5f88e74449aa924fb5b9add4bffb996
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 5e5f55bc364e4ee4f993446e63e5b215
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 1f5b4973abd78b949810f1fb9c49e7e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 44b598950fad09b4aa88c3e46f49f530
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f758a0b6b95abe74eaf02f723c39ebbf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: b24255d5b670949488ae70d58ec8afe8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Victorian_tileset2_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: bd1b7e44564c69f43b782463808c2fbd
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

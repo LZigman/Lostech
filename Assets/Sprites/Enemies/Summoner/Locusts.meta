@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Enemies/Summoner/Locusts.meta
 guid: 3b9962a69b030014d8d73d87348220dd
 folderAsset: yes
+========
+guid: ac9374620a7a82e4e9ded91393f2832d
+>>>>>>>> develop:Assets/Scenes/TestScene3.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

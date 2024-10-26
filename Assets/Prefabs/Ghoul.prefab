@@ -47,7 +47,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 100
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -126,11 +126,11 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
-  detectionRadius: 3
-  attackRadius: 1
+  detectionRadius: 3.5
+  attackRadius: 2
   animator: {fileID: 4769153230723620468}
   spriteRenderer: {fileID: 4174327092974137342}
-  attackDelay: 0.3
+  attackDelay: 1
   attackAnimationLength: 0.7
   wakeUpAnimationLength: 0.4
   sleepAnimationLength: 0.43

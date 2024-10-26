@@ -15,8 +15,8 @@ public class Spitter : MonoBehaviour
     [SerializeField] private LayerMask playerLayer;
     [SerializeField] private float attackAnimationDelay = 0.33f;
     [SerializeField] private float attackAnimationLength = 0.8f;
-    [SerializeField] private float damageAnimationLength = 0.8f;
-    [SerializeField] private float deathAnimationLength = 0.8f;
+    //[SerializeField] private float damageAnimationLength = 0.8f;
+    //[SerializeField] private float deathAnimationLength = 0.8f;
     [SerializeField] private Animator animator;
     [SerializeField] private float attackRate = 1f;
     [SerializeField] private float maxHealth = 1f;

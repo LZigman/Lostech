@@ -23,8 +23,9 @@ public class Player : MonoBehaviour
 	private float currentHealth;
 	private float fallingTime;
 	
+	public bool isJumping;
+	public bool isDropDown;
 	private bool isGrounded;
-	private bool isJumping;
 	private bool isAttackPressed;
 	private bool isAttacking;
 	private bool isFalling;
@@ -139,13 +140,25 @@ public class Player : MonoBehaviour
 		{
 			isJumping = true;
 			// adding jump force
-			rb.AddForce(new Vector2(0, jumpForce));
+			rb.AddForce(new Vector2(0, jumpForce * rb.mass));
 			AnimationStateChanger.Instance.ChangeAnimationState(PlayerJump, animator);
 		}
 		
 		else
 		{
 			isJumping = false;
+		}
+	}
+
+	public void OnDropDownInput(InputAction.CallbackContext context)
+	{
+		if (context.phase == InputActionPhase.Performed && isGrounded && !isFalling && !isJumping)
+		{
+			isDropDown = true;
+		}
+		else
+		{
+			isDropDown = false;
 		}
 	}
 	

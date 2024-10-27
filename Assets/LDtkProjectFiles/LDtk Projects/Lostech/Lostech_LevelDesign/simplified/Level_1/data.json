@@ -1,7 +1,7 @@
 {
 	"identifier": "Level_1",
 	"uniqueIdentifer": "719592c2-73f0-11ef-b579-f5a99f81abb0",
-	"x": 0,
+	"x": -512,
 	"y": 0,
 	"width": 512,
 	"height": 320,
@@ -12,12 +12,12 @@
 			"dir": "n"
 		},
 		{
-			"levelIid": "fb6dbbf0-73f0-11ef-b754-f588f41a82db",
-			"dir": "e"
+			"levelIid": "3e597d50-73f0-11ef-b754-6f0f2d5fb511",
+			"dir": "se"
 		},
 		{
-			"levelIid": "3e597d50-73f0-11ef-b754-6f0f2d5fb511",
-			"dir": "s"
+			"levelIid": "18e60560-73f0-11ef-b490-2b3901265281",
+			"dir": "e"
 		}
 	],
 	"customFields" : {},

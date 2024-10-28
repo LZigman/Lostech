@@ -212,7 +212,7 @@ public class Player : MonoBehaviour
 			delta = mousePos - (Vector2)gunTransform.position;
 			rotationAngle = Vector2.SignedAngle(Vector2.right, delta);
 			GameObject bullet = Instantiate (bulletPrefab, gunBarrelTransform.position, Quaternion.Euler(0, 0, rotationAngle));
-			
+			AudioManager.Instance.PlaySound("player shoot");
 			Debug.Log("Bullet rotation: " + bullet.transform.rotation.eulerAngles.z);
 			Debug.Log("Shoot!");
 		}

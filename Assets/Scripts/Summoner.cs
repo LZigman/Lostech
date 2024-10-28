@@ -29,7 +29,7 @@ public class Summoner : MonoBehaviour
 	private int idleAnimationId = Animator.StringToHash("Idle");
 	private bool isHit;
 
-	private void Awake()
+	private void Start()
 	{
 		AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
 		rb = GetComponent<Rigidbody2D>();

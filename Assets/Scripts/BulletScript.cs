@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class BulletScript : MonoBehaviour
 {
-	[SerializeField] private float bulletSpeed, bulletDamage;
+	[SerializeField] private float bulletSpeed, bulletDamage, destroyDelay = 1f;
 	[SerializeField] private LayerMask enemyLayer, groundLayer, spitterLayer, locustLayer, summonerLayer;
 	private Rigidbody2D rb;
 	private void Start()
@@ -28,6 +28,7 @@ public class BulletScript : MonoBehaviour
 		else if (CompareLayers(other.gameObject, locustLayer) == true)
 		{
 			StartCoroutine(other.gameObject.GetComponent<Locust>().Die());
+			Debug.Log("Locust Hit!");
 		}
 		else if (CompareLayers(other.gameObject, summonerLayer) == true)
 		{
@@ -35,6 +36,11 @@ public class BulletScript : MonoBehaviour
 		}
 		Destroy(gameObject);
 
+	}
+	private IEnumerator DestroyDelay ()
+	{
+		yield return new WaitForSeconds(destroyDelay);
+		Destroy(gameObject);
 	}
 	// helper function
 	private bool CompareLayers(GameObject objectWithLayer, LayerMask layerMask)

@@ -13,14 +13,17 @@ public class Locust : MonoBehaviour
     [SerializeField] private float deathAnimationLength;
     [SerializeField] private float damage;
     [SerializeField] private LayerMask playerLayer;
+    [SerializeField] private Animator animator;
 
     private Rigidbody2D rb;
-    private Animator animator;
+    private int flyingAnimationId = Animator.StringToHash("Fly");
+    private int attackAnimationId = Animator.StringToHash("attack");
+    private int deathAnimationId = Animator.StringToHash("Death");
+    private Coroutine activeCoroutine;
 
 	private void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
         direction = (Vector2)playerTransform.position;                                              // kad napravim Summoner skriptu stavit ovo u nju
         if (direction.x >= rb.position.x)
         {
@@ -30,18 +33,17 @@ public class Locust : MonoBehaviour
         {
 			direction += new Vector2(1, -0.5f);
 		}
-        StartCoroutine(Fly());
+        activeCoroutine = StartCoroutine(Fly());
 	}
 	private IEnumerator Fly ()
     {
         Vector2 tempDirection = rb.position;
-        animator.SetBool("isFlying", true);
+        AnimationStateChanger.Instance.ChangeAnimationState(flyingAnimationId, animator);
         while (true)
         {
             if (Vector2.Distance(rb.position, direction) < attackRadius)
             {
-                animator.SetBool("isFlying", false);
-                StartCoroutine(Attack());
+                activeCoroutine = StartCoroutine(Attack());
                 yield break;
             }
             if (direction.x > rb.position.x)
@@ -62,8 +64,7 @@ public class Locust : MonoBehaviour
     }
     private IEnumerator Attack ()
     {
-        Debug.Log("Attack Triggered!");
-        animator.SetBool("isAttacking", true);
+        AnimationStateChanger.Instance.ChangeAnimationState(attackAnimationId, animator);
         yield return new WaitForSeconds(attackAnimationDelay);
         Collider2D[] detectedColliders = Physics2D.OverlapCircleAll(rb.position, attackRadius);
         for (int i = 0; i < detectedColliders.Length; i++)
@@ -71,24 +72,27 @@ public class Locust : MonoBehaviour
             if (CompareLayers(detectedColliders[i].gameObject, playerLayer) == true)
             {
                 detectedColliders[i].gameObject.GetComponent<Player>().DamagePlayer(damage);
-				
-				StartCoroutine(Die());
-                Debug.LogError("Coro Die started");
+                activeCoroutine = StartCoroutine(Die());
                 yield break;
             }
         }
     }
     public IEnumerator Die ()
     {
-		animator.SetBool("isFlying", false);
-		animator.SetBool("isAttacking", false);
-        //  animator.SetBool("isDeath", true);
-        animator.SetTrigger("Die");
-		yield return new WaitForSeconds(deathAnimationLength);
-        Debug.Log("DIE!!!");
+        StopCoroutine(activeCoroutine);
+        AnimationStateChanger.Instance.ChangeAnimationState(deathAnimationId, animator);
+        Debug.Log("Animation started!\nlen: " + deathAnimationLength);
+        Debug.Log("Time scale: " + Time.timeScale);
+        //yield return new WaitForSeconds(0.6f);
+        Invoke(nameof(DestroySelf), 0.6f);
+        Debug.Log("Destroying self!");
+        //Destroy(gameObject);
+        yield return null;
+    }
+    private void DestroySelf ()
+    {
         Destroy(gameObject);
     }
-
 	// helper functions
 	private bool CompareLayers(GameObject objectWithLayer, LayerMask layerMask)
 	{

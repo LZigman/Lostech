@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
@@ -25,6 +26,8 @@ public class Player : MonoBehaviour
 	
 	public bool isJumping;
 	public bool isDropDown;
+	public bool isDead;
+	
 	private bool isGrounded;
 	private bool isAttackPressed;
 	private bool isAttacking;
@@ -43,11 +46,21 @@ public class Player : MonoBehaviour
 	
 	private void Start()
 	{
+		isDead = false;
 		rb = GetComponent<Rigidbody2D>();
 		animator = GetComponent<Animator>();
 		currentHealth = maxHealth;
 		groundMask = 1 << LayerMask.NameToLayer("Ground");
 		vel = new Vector2(rb.velocity.x, rb.velocity.y);
+	}
+
+	private void Update()
+	{
+		if (currentHealth <= 0f || isDead)
+		{
+			Debug.Log("Die!");
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		}
 	}
 
 	private void FixedUpdate()
@@ -208,9 +221,5 @@ public class Player : MonoBehaviour
 	public void DamagePlayer (float damage)
 	{
 		currentHealth -= damage;
-		if (currentHealth <= 0f)
-		{
-			Debug.Log("Die!");
-		}
 	}
 }

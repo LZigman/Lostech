@@ -8,16 +8,20 @@
 	"bgColor": "#696A79",
 	"neighbourLevels": [
 		{
-			"levelIid": "719592c2-73f0-11ef-b579-f5a99f81abb0",
-			"dir": "w"
-		},
-		{
 			"levelIid": "3e597d50-73f0-11ef-b754-6f0f2d5fb511",
 			"dir": "w"
 		},
 		{
 			"levelIid": "50e87750-73f0-11ef-b754-77ee4d6bc353",
 			"dir": "e"
+		},
+		{
+			"levelIid": "d5772ce0-73f0-11ef-b490-735dad02db00",
+			"dir": "e"
+		},
+		{
+			"levelIid": "18e60560-73f0-11ef-b490-2b3901265281",
+			"dir": "w"
 		}
 	],
 	"customFields" : {},

@@ -20,21 +20,28 @@ public class BulletScript : MonoBehaviour
 		if (CompareLayers(other.gameObject, enemyLayer) == true)
 		{
 			StartCoroutine (other.gameObject.GetComponent<Enemy>().Damage(bulletDamage));
-		}
+            Destroy(gameObject);
+        }
 		else if (CompareLayers(other.gameObject, spitterLayer) == true)
 		{
 			other.gameObject.GetComponent<Spitter>().Damage(bulletDamage);
-		}
+            Destroy(gameObject);
+        }
 		else if (CompareLayers(other.gameObject, locustLayer) == true)
 		{
 			StartCoroutine(other.gameObject.GetComponent<Locust>().Die());
-			Debug.Log("Locust Hit!");
+            Destroy(gameObject);
+            Debug.Log("Locust Hit!");
 		}
 		else if (CompareLayers(other.gameObject, summonerLayer) == true)
 		{
 			other.gameObject.GetComponent<Summoner>().Damage(bulletDamage);
+            Destroy(gameObject);
+        }
+		else if (CompareLayers(other.gameObject, groundLayer) == true)
+		{
+			Destroy(gameObject);
 		}
-		Destroy(gameObject);
 
 	}
 	private IEnumerator DestroyDelay ()

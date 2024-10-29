@@ -33,6 +33,7 @@ public class Enemy : MonoBehaviour
 	private Vector2 startingPos;
 	private GameObject player;
 	private float currentHealth;
+	private bool isDying;
 	public enum States
 	{
 		idle,
@@ -186,6 +187,10 @@ public class Enemy : MonoBehaviour
 	}
 	public IEnumerator Damage (float damage)
 	{
+		if (isDying == true)
+		{
+			yield break;
+		}
 		currentHealth -= damage;
 		Debug.Log("health: " + currentHealth);
 		if (currentHealth <= 0f)
@@ -200,6 +205,7 @@ public class Enemy : MonoBehaviour
 	}
 	private IEnumerator Die ()
 	{
+		isDying = true;
 		animator.SetTrigger("die");
 		yield return new WaitForSeconds(dieAnimationLength);
 		Destroy(gameObject);

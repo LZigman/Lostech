@@ -28,6 +28,10 @@ public class Summoner : MonoBehaviour
 	private int deathAnimationId = Animator.StringToHash("Death");
 	private int idleAnimationId = Animator.StringToHash("Idle");
 	private bool isHit;
+	private float timeAtLastSummon;
+	private float timeAtLastHit;
+	private bool isSummonning;
+	private bool isDying;
 
 	private void Start()
 	{
@@ -35,6 +39,8 @@ public class Summoner : MonoBehaviour
 		rb = GetComponent<Rigidbody2D>();
 		StartCoroutine(Patrol());
 		currentHealth = maxHealth;
+		timeAtLastSummon = 0.0f;
+		timeAtLastHit = 0.0f;
 	}
 
 	private IEnumerator Patrol ()
@@ -43,17 +49,16 @@ public class Summoner : MonoBehaviour
 		Vector2 moveTo;
 		while (true)
 		{
-			Collider2D[] detectedColliders = Physics2D.OverlapCircleAll(rb.position, detectionRadius);
-			for (int i = 0; i < detectedColliders.Length; i++)
+            if (isDying == true)
+            {
+                yield break;
+            }
+			if (IsPlayerDetected() == true)
 			{
-				if (IsPlayerDetected() == true)
-				{
-					animator.SetBool("isMoving", false);
-					playerTransform = detectedColliders[i].transform;
-					StartCoroutine(PlayerDetected());
-					yield break;
-				}
+				StartCoroutine(PlayerDetected());
+				yield break;
 			}
+
 			if (isHit == true)
 			{
 				AnimationStateChanger.Instance.ChangeAnimationState(hitAnimationId, animator);
@@ -94,8 +99,13 @@ public class Summoner : MonoBehaviour
 		 * transition back into idle
 		 * if player exited detection radius transition back into patrol
 		 * */
+
 		while (true)
 		{
+			if (isDying == true)
+			{
+				yield break;
+			}
 			AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
 			if (IsPlayerDetected () == false)
 			{
@@ -105,28 +115,37 @@ public class Summoner : MonoBehaviour
 			}
 			if (isHit == true)
 			{
+				isHit = false;
 				AnimationStateChanger.Instance.ChangeAnimationState(hitAnimationId, animator);
-				Debug.Log("Hit animation len: " + animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 				yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 				AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
 				Debug.Log("Animation Performed!");
-				isHit = false;
 			}
-			// summon
-			AnimationStateChanger.Instance.ChangeAnimationState(summonAnimationId, animator);
-			for (int i = 0; i < swarmSize; i++)
+            // summon
+			if (timeAtLastSummon + summoningRate < Time.time)
 			{
-				yield return new WaitForSeconds(summonAnimationDelay);
-				GameObject temp = Instantiate(locustPrefab, spawnPos.position, Quaternion.identity);
-				temp.GetComponent<Locust>().playerTransform = playerTransform;
-				yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0).Length);
+				isSummonning = true;
+				AnimationStateChanger.Instance.ChangeAnimationState(summonAnimationId, animator);
+				for (int i = 0; i < swarmSize; i++)
+				{
+					yield return new WaitForSeconds(summonAnimationDelay);
+					GameObject temp = Instantiate(locustPrefab, spawnPos.position, Quaternion.identity);
+					temp.GetComponent<Locust>().playerTransform = playerTransform;
+					yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
+				}
+				AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
+				timeAtLastSummon = Time.time;
+				isSummonning = false;
 			}
-			AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
-			yield return new WaitForSeconds(summoningRate);
+            yield return new WaitForSeconds(Time.fixedDeltaTime);
 		}
 	}
 	public void Damage (float damage)
 	{
+		if (isDying == true || isSummonning == true)
+		{
+			return;
+		}
 		currentHealth -= damage;
 		if (currentHealth <= 0f)
 		{
@@ -138,8 +157,9 @@ public class Summoner : MonoBehaviour
 	}
 	private IEnumerator Death()
 	{
+		isDying = true;
 		AnimationStateChanger.Instance.ChangeAnimationState(deathAnimationId, animator);
-		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0).Length);
+		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 		Destroy(gameObject);
 	}
 	// helper functions

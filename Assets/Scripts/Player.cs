@@ -220,17 +220,16 @@ public class Player : MonoBehaviour
 			if (!bulletCounter.canFire) return;
 			bulletCounter.ReduceAmmo();
 			// instantiating the bullet at barrelPos and rotating it
-			delta = mousePos - (Vector2)gunTransform.position;
+            delta = (Vector2)croshairTransform.position - (Vector2)gunTransform.position;
 			rotationAngle = Vector2.SignedAngle(Vector2.right, delta);
 			GameObject bullet = Instantiate (bulletPrefab, gunBarrelTransform.position, Quaternion.Euler(0, 0, rotationAngle));
 			AudioManager.Instance.PlaySFX("player shoot");
-			//Debug.Log("Bullet rotation: " + bullet.transform.rotation.eulerAngles.z);
-			//Debug.Log("Shoot!");
 		}
 	}
 	
 	public void DamagePlayer (float damage)
 	{
 		currentHealth -= damage;
+		Debug.Log("Current health: " + currentHealth);
 	}
 }

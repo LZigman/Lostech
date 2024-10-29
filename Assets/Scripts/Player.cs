@@ -100,12 +100,20 @@ public class Player : MonoBehaviour
 		if (xAxis > 0)
 		{
 			vel.x = movementSpeed;
-			if (!isFalling && isGrounded && !isJumping) AnimationStateChanger.Instance.ChangeAnimationState(PlayerRunForward, animator);
+			if (!isFalling && isGrounded && !isJumping)
+			{
+				AnimationStateChanger.Instance.ChangeAnimationState(PlayerRunForward, animator);
+				AudioManager.Instance.PlaySFX("player walk");
+			}
 		}
 		else if (xAxis < 0)
 		{
 			vel.x = -movementSpeed;
-			if (!isFalling && isGrounded && !isJumping) AnimationStateChanger.Instance.ChangeAnimationState(PlayerRunBackward, animator);
+			if (!isFalling && isGrounded && !isJumping)
+			{
+				AnimationStateChanger.Instance.ChangeAnimationState(PlayerRunBackward, animator);
+				AudioManager.Instance.PlaySFX("player walk");
+			}
 		}
 		else
 		{
@@ -212,7 +220,7 @@ public class Player : MonoBehaviour
 			delta = mousePos - (Vector2)gunTransform.position;
 			rotationAngle = Vector2.SignedAngle(Vector2.right, delta);
 			GameObject bullet = Instantiate (bulletPrefab, gunBarrelTransform.position, Quaternion.Euler(0, 0, rotationAngle));
-			
+			AudioManager.Instance.PlaySFX("player shoot");
 			Debug.Log("Bullet rotation: " + bullet.transform.rotation.eulerAngles.z);
 			Debug.Log("Shoot!");
 		}

@@ -34,11 +34,18 @@ public class Door : MonoBehaviour
 			if (!isOpen)
 			{
 				promptText.enabled = true;
+				if (other.gameObject.GetComponent<Player>().isInteracting == true)
+				{
+					Debug.Log("Opening door!");
+					StartCoroutine(Open());
+					other.gameObject.GetComponent<Player>().isInteracting = false;
+                }
 			}
-			if (!isOpen && Input.GetKey(keyToPress))
+			/*if (!isOpen && Input.GetKey(keyToPress))
 			{
+				Debug.Log("open triggered!");
 				StartCoroutine(Open());
-			}
+			}*/
 		}
 	}
 

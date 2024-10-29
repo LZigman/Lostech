@@ -47,10 +47,14 @@ public class TeleportPlayer : MonoBehaviour
             if (Vector2.Distance(playerPos.position, origin.position) <= activationDistance)
             {
                 promptText.gameObject.SetActive(true);
-                if (!charging && Input.GetKey(keyToPress) && !teleporting)
+                if (!charging && !teleporting)
                 {
-                    timer = Time.time;
-                    charging = true;
+                    if (other.gameObject.GetComponent<Player>().isInteracting == true)
+                    {
+                        timer = Time.time;
+                        charging = true;
+                        other.gameObject.GetComponent<Player>().isInteracting = false;
+                    }
                 }
             }
             

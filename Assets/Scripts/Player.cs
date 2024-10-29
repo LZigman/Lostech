@@ -28,12 +28,14 @@ public class Player : MonoBehaviour
 	public bool isJumping;
 	public bool isDropDown;
 	public bool isDead;
+	public bool isInteracting;
 	
 	private bool isGrounded;
 	private bool isAttackPressed;
 	private bool isAttacking;
 	private bool isFalling;
 	private bool isColliding;
+	private bool isHurt;
 	
 	private static readonly int PlayerRunForward = Animator.StringToHash("playerRunForward");
 	private static readonly int PlayerRunBackward = Animator.StringToHash("playerRunBackward");
@@ -43,11 +45,13 @@ public class Player : MonoBehaviour
 	private static readonly int PlayerFall = Animator.StringToHash("playerFall");
 	private static readonly int PlayerCrouchLand = Animator.StringToHash("playerCrouchLand");
 	private static readonly int PlayerRoll = Animator.StringToHash("playerRoll");
+	private static readonly int PlayerHurt = Animator.StringToHash("PlayerHurt");
 
 	
 	private void Start()
 	{
 		isDead = false;
+		isInteracting = false;
 		rb = GetComponent<Rigidbody2D>();
 		animator = GetComponent<Animator>();
 		currentHealth = maxHealth;
@@ -120,7 +124,7 @@ public class Player : MonoBehaviour
 		else
 		{
 			vel.x = 0;
-			if (!isFalling && isGrounded && !isJumping) AnimationStateChanger.Instance.ChangeAnimationState(PlayerIdle, animator);
+			if (!isFalling && isGrounded && !isJumping && !isHurt) AnimationStateChanger.Instance.ChangeAnimationState(PlayerIdle, animator);
 		}
 	}
 
@@ -150,6 +154,13 @@ public class Player : MonoBehaviour
 		yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0)[0].clip.length);
 	}
 
+	public void OnInteractInput (InputAction.CallbackContext context)
+	{
+		if (context.phase == InputActionPhase.Performed)
+		{
+			isInteracting = true;
+		}
+	}
 	public void OnMoveInput (InputAction.CallbackContext context)
 	{
 		// getting horizontal input
@@ -242,6 +253,14 @@ public class Player : MonoBehaviour
 	public void DamagePlayer (float damage)
 	{
 		currentHealth -= damage;
+		StartCoroutine(DamageAnimation());
 		Debug.Log("Current health: " + currentHealth);
 	}
+	private IEnumerator DamageAnimation ()
+	{
+		isHurt = true;
+		AnimationStateChanger.Instance.ChangeAnimationState(PlayerHurt, animator);
+		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
+		isHurt = false;
+    }
 }

@@ -350,6 +350,46 @@ MonoBehaviour:
   sfxAudioSource: {fileID: 0}
   sounds: []
   audioSourcePrefab: {fileID: 0}
+--- !u!1 &701292519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4463857670780430620, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
+  m_PrefabInstance: {fileID: 2052945318}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &701292526
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701292519}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2
 --- !u!1 &931840092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,16 +1638,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3694798626534439083, guid: 8fc0563534238dd468966619285e5644, type: 3}
+      propertyPath: attackRadius
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3694798626534439083, guid: 8fc0563534238dd468966619285e5644, type: 3}
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 389332298}
     - target: {fileID: 7527817805433910137, guid: 8fc0563534238dd468966619285e5644, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5998137
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7527817805433910137, guid: 8fc0563534238dd468966619285e5644, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1967329
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 7527817805433910137, guid: 8fc0563534238dd468966619285e5644, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1647,7 +1691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7617598161940364982, guid: 8fc0563534238dd468966619285e5644, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1718,6 +1762,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2391774275139882647, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391774275139882647, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_ActionId
+      value: c6341441-51f7-48c2-bdba-5b8f7353394e
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391774275139882647, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_ActionName
+      value: Keyboard+Mouse/Interact[/Keyboard/e]
+      objectReference: {fileID: 0}
     - target: {fileID: 4463857670780430620, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1728,7 +1784,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1856712487251576244, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
       insertIndex: -1
       addedObject: {fileID: 931840093}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4463857670780430620, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 701292526}
   m_SourcePrefab: {fileID: 100100000, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
 --- !u!1001 &5480710416827495642
 PrefabInstance:
@@ -1792,7 +1851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6178548388938337338, guid: 3976f49b505a4872e8a807e23bc648f6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

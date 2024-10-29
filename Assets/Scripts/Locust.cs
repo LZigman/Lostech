@@ -5,7 +5,6 @@ using UnityEngine;
 public class Locust : MonoBehaviour
 {
     public Transform playerTransform;
-    public Vector2 direction;
     [SerializeField] private float attackRadius;
     [SerializeField] private float movementSpeed;
     [SerializeField] private float attackAnimationDelay;
@@ -24,15 +23,6 @@ public class Locust : MonoBehaviour
 	private void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
-        direction = (Vector2)playerTransform.position;                                              // kad napravim Summoner skriptu stavit ovo u nju
-        if (direction.x >= rb.position.x)
-        {
-            direction += new Vector2(-1, -0.5f);
-        }
-        else
-        {
-			direction += new Vector2(1, -0.5f);
-		}
         activeCoroutine = StartCoroutine(Fly());
 	}
 	private IEnumerator Fly ()
@@ -41,12 +31,21 @@ public class Locust : MonoBehaviour
         AnimationStateChanger.Instance.ChangeAnimationState(flyingAnimationId, animator);
         while (true)
         {
-            if (Vector2.Distance(rb.position, direction) < attackRadius)
+            if (Vector2.Distance(rb.position, (Vector2)playerTransform.position) < attackRadius)
             {
                 activeCoroutine = StartCoroutine(Attack());
                 yield break;
             }
-            if (direction.x > rb.position.x)
+            if (Vector2.Distance(tempDirection, rb.position) < 0.1f)
+            {
+                tempDirection = RandomDirTowards(playerTransform.position);
+                if (Vector2.Distance(tempDirection, playerTransform.position) < 2f)
+                {
+                    tempDirection = playerTransform.position;
+                }
+            }
+            rb.position = Vector2.MoveTowards(rb.position, tempDirection, movementSpeed * Time.fixedDeltaTime);
+            if (tempDirection.x > rb.position.x)
             {
                 transform.localScale = new Vector3(-1, 1, 1);
             }
@@ -54,11 +53,6 @@ public class Locust : MonoBehaviour
             {
 				transform.localScale = new Vector3(1, 1, 1);
 			}
-            if (Vector2.Distance(tempDirection, rb.position) < 0.1f)
-            {
-                tempDirection = RandomDirTowards(direction);
-            }
-            rb.position = Vector2.MoveTowards(rb.position, tempDirection, movementSpeed * Time.fixedDeltaTime);
             yield return new WaitForSeconds(Time.fixedDeltaTime);
         }
     }
@@ -76,6 +70,7 @@ public class Locust : MonoBehaviour
                 yield break;
             }
         }
+        activeCoroutine = StartCoroutine(Die());
     }
     public IEnumerator Die ()
     {

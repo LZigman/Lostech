@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3905568225427144190}
   - component: {fileID: 4464158614907347074}
   - component: {fileID: 179633044408876593}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,6 +173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 5
   bulletDamage: 10
+  destroyDelay: 1
   enemyLayer:
     serializedVersion: 2
     m_Bits: 128

@@ -6,7 +6,7 @@ public class SpitterProjectile : MonoBehaviour
 {
 	// serializable variables
 	[SerializeField] private float playerHitAnimationLength = 0.3f, groundHitAnimationLength = 0.35f;
-	[SerializeField] private LayerMask playerLayer, groundLayer;
+	[SerializeField] private LayerMask playerLayer, groundLayer, bulletLayer;
 	// public variables
 	[HideInInspector] public float distanceFromPlayer;
 	[HideInInspector] public Vector2 dir;
@@ -34,7 +34,7 @@ public class SpitterProjectile : MonoBehaviour
 			Debug.Log("Player hit!");
 			StartCoroutine(PlayerHitAnimation());
 		}
-		if (CompareLayers (other.gameObject, groundLayer) == true)
+		else if (CompareLayers (other.gameObject, groundLayer) == true || CompareLayers(other.gameObject, bulletLayer) == true)
 		{
 			rb.bodyType = RigidbodyType2D.Static;
 			Debug.Log("Ground Hit!");

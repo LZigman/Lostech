@@ -141,6 +141,7 @@ public class Spitter : MonoBehaviour
         {
             if (isDying == true)
             {
+                Debug.Log("Tu!");
                 yield break;
             }
             if (DetectPlayer () == false)

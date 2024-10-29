@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
 {
 	[SerializeField] private Transform gunTransform, gunBarrelTransform, croshairTransform;
 	[SerializeField] private GameObject bulletPrefab;
+	[SerializeField] private BulletCounter bulletCounter;
 	[SerializeField] private float jumpForce, movementSpeed;
 	[SerializeField] private float fallTimeBeforeAnimation;
 	[SerializeField] private float maxHealth = 100f;
@@ -216,13 +217,15 @@ public class Player : MonoBehaviour
 	{
 		if (context.phase == InputActionPhase.Performed)
 		{
+			if (!bulletCounter.canFire) return;
+			bulletCounter.ReduceAmmo();
 			// instantiating the bullet at barrelPos and rotating it
 			delta = mousePos - (Vector2)gunTransform.position;
 			rotationAngle = Vector2.SignedAngle(Vector2.right, delta);
 			GameObject bullet = Instantiate (bulletPrefab, gunBarrelTransform.position, Quaternion.Euler(0, 0, rotationAngle));
 			AudioManager.Instance.PlaySFX("player shoot");
-			Debug.Log("Bullet rotation: " + bullet.transform.rotation.eulerAngles.z);
-			Debug.Log("Shoot!");
+			//Debug.Log("Bullet rotation: " + bullet.transform.rotation.eulerAngles.z);
+			//Debug.Log("Shoot!");
 		}
 	}
 	

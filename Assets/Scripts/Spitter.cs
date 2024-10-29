@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq.Expressions;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Spitter : MonoBehaviour
@@ -32,6 +33,7 @@ public class Spitter : MonoBehaviour
     private int attackAnimationId = Animator.StringToHash("attack");
     private int idleAnimationId = Animator.StringToHash("Idle");
     private bool isHit;
+    private bool isDying;
 
 	private void Start()
 	{
@@ -39,6 +41,7 @@ public class Spitter : MonoBehaviour
         timeAtLastAttack = 0f;
         currentHealth = maxHealth;
         StartCoroutine(Patrol());
+        FlipLeft(false);
 	}
 	private IEnumerator Patrol ()
     {
@@ -46,6 +49,10 @@ public class Spitter : MonoBehaviour
         AnimationStateChanger.Instance.ChangeAnimationState(walkAnimationId, animator);
         while (true)
         {
+            if (isDying == true)
+            {
+                yield break;
+            }
             if (isHit == true)
             {
                 AnimationStateChanger.Instance.ChangeAnimationState(hitAnimationId, animator);
@@ -63,13 +70,13 @@ public class Spitter : MonoBehaviour
             }
             if (patrolStartLeft == true)
             {
-                transform.localScale = new Vector3(-1f, 1f, 1f);
+                FlipLeft(true);
                 moveTo = (Vector2)patrolLimiterLeft.position;
                 moveTo.y = rb.position.y;
             }
             else
             {
-				transform.localScale = new Vector3(1f, 1f, 1f);
+                FlipLeft(false);
 				moveTo = (Vector2)patrolLimiterRight.position;
 				moveTo.y = rb.position.y;
 			}
@@ -94,11 +101,11 @@ public class Spitter : MonoBehaviour
                 player = detectedColliders[i].gameObject;
                 if (player.transform.position.x < rb.position.x)
                 {
-					transform.localScale = new Vector3(-1f, 1f, 1f);
+                    FlipLeft(true);
 				}
                 else
                 {
-					transform.localScale = new Vector3(1f, 1f, 1f);
+                    FlipLeft(false);
 				}
                 return true;
 			}
@@ -107,7 +114,10 @@ public class Spitter : MonoBehaviour
 	}
     public void Damage (float damage)
     {
-
+        if (isDying == true)
+        {
+            return;
+        }
         currentHealth -= damage;
         if (currentHealth <= 0f)
         {
@@ -119,7 +129,9 @@ public class Spitter : MonoBehaviour
     public IEnumerator Death ()
     {
         Debug.Log("death!");
+        isDying = true;
         AnimationStateChanger.Instance.ChangeAnimationState(deathAnimationId, animator);
+        Debug.Log("death length: " + animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
         Destroy(gameObject);
     }
@@ -127,6 +139,10 @@ public class Spitter : MonoBehaviour
     {
         while (true)
         {
+            if (isDying == true)
+            {
+                yield break;
+            }
             if (DetectPlayer () == false)
             {
                 Debug.Log("Player escaped!");
@@ -151,25 +167,35 @@ public class Spitter : MonoBehaviour
 
     private IEnumerator Shoot ()
     {
+        if (isDying == true)
+        {
+            yield break;
+        }
         AnimationStateChanger.Instance.ChangeAnimationState(attackAnimationId, animator);
         yield return new WaitForSeconds(attackAnimationDelay);
         var temp = Instantiate (projectile, projectileSpawnPoint.position, Quaternion.identity);
         var temp2 = temp.GetComponent<SpitterProjectile>();
-        if (transform.localScale.x == 1)
+        if (transform.localScale.x == -1)
         {
-            temp2.dir = Vector2.one;
-            temp2.distanceFromPlayer = Mathf.Abs(player.transform.position.x - projectileSpawnPoint.position.x);
+            temp2.dir = new Vector2(-1, 1);
         }
         else
         {
-			temp.GetComponent<SpitterProjectile>().dir = Vector2.left + Vector2.up;
+            temp2.dir = Vector2.one;
 		}
+        temp2.distanceFromPlayer = Mathf.Abs(player.transform.position.x - projectileSpawnPoint.position.x);
         yield return new WaitForSeconds(attackAnimationLength - attackAnimationDelay);
         AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
     }
-
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (CompareLayers(other.gameObject, playerLayer) == true)
+        {
+            rb.velocity = Vector2.zero;
+        }
+    }
     // helper functions
-	private bool CompareLayers(GameObject objectWithLayer, LayerMask layerMask)
+    private bool CompareLayers(GameObject objectWithLayer, LayerMask layerMask)
 	{
 		if ((layerMask.value & (1 << objectWithLayer.gameObject.layer)) != 0)
 		{
@@ -177,4 +203,15 @@ public class Spitter : MonoBehaviour
 		}
 		return false;
 	}
+    private void FlipLeft (bool toggle)
+    {
+        if (toggle == true)
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
+        else
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+        }
+    }
 }

@@ -28,14 +28,15 @@ public class SpitterProjectile : MonoBehaviour
 	}
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		rb.bodyType = RigidbodyType2D.Static;
 		if (CompareLayers(other.gameObject, playerLayer) == true)
 		{
+			rb.bodyType = RigidbodyType2D.Static;
 			Debug.Log("Player hit!");
 			StartCoroutine(PlayerHitAnimation());
 		}
 		if (CompareLayers (other.gameObject, groundLayer) == true)
 		{
+			rb.bodyType = RigidbodyType2D.Static;
 			Debug.Log("Ground Hit!");
 			StartCoroutine(GroundHitAnimation());
 		}

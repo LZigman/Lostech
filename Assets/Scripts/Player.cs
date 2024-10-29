@@ -221,13 +221,12 @@ public class Player : MonoBehaviour
 			rotationAngle = Vector2.SignedAngle(Vector2.right, delta);
 			GameObject bullet = Instantiate (bulletPrefab, gunBarrelTransform.position, Quaternion.Euler(0, 0, rotationAngle));
 			AudioManager.Instance.PlaySFX("player shoot");
-			Debug.Log("Bullet rotation: " + bullet.transform.rotation.eulerAngles.z);
-			Debug.Log("Shoot!");
 		}
 	}
 	
 	public void DamagePlayer (float damage)
 	{
 		currentHealth -= damage;
+		Debug.Log("Current health: " + currentHealth);
 	}
 }

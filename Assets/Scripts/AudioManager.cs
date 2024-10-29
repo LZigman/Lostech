@@ -27,11 +27,13 @@ public class AudioManager : MonoBehaviour
         {
             if (transform.GetChild(i).name == name)
             {
-                if (transform.GetChild(i).GetComponent<AudioSource>().isPlaying == false)
+                if (transform.GetChild(i).GetComponent<AudioSource>().isPlaying == true)
                 {
+                    transform.GetChild(i).GetComponent<AudioSource>().Stop();
                     transform.GetChild(i).GetComponent<AudioSource>().Play();
                     return;
                 }
+                transform.GetChild(i).GetComponent<AudioSource>().Play();
             }
         }
         Debug.Log("Sound not found!\nName: " + name);

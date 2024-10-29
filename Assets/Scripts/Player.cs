@@ -79,6 +79,7 @@ public class Player : MonoBehaviour
 		var vector2 = rb.velocity;
 		vector2.x = vel.x;
 		rb.velocity = vector2;
+		
 	}
 
 	private void GroundCheck()
@@ -171,7 +172,6 @@ public class Player : MonoBehaviour
 			isJumping = false;
 		}
 	}
-
 	public void OnDropDownInput(InputAction.CallbackContext context)
 	{
 		if (context.phase == InputActionPhase.Performed && isGrounded && !isFalling && !isJumping)
@@ -194,14 +194,14 @@ public class Player : MonoBehaviour
 		// mousePos left of gunTransform.pos
 		if (delta.x < 0)
 		{
-			transform.localScale = new Vector3(-1, 1, 1);
+			FlipLeft(true);
 			rotationAngle = Vector2.SignedAngle(-1 * transform.right, delta);
 			animator.SetInteger(LookingDir, -1);
 			//Debug.Log("lookingDir == -1");
 		}
 		else
 		{
-			transform.localScale = new Vector3(1, 1, 1);
+			FlipLeft(false);
 			rotationAngle = Vector2.SignedAngle(transform.right, delta);
 			animator.SetInteger(LookingDir, 1);
 			//Debug.Log("lookingDir == 1");
@@ -226,7 +226,19 @@ public class Player : MonoBehaviour
 			AudioManager.Instance.PlaySFX("player shoot");
 		}
 	}
-	
+	private void FlipLeft (bool toggle)
+	{
+		if (toggle == true)
+		{
+			transform.localScale = new Vector3(-1f, 1f, 1f);
+			transform.GetChild(0).localScale = new Vector3(-1f, 0.35f, 1f);
+		}
+		else
+		{
+			transform.localScale = new Vector3(1f, 1f, 1f);
+            transform.GetChild(0).localScale = new Vector3(1f, 0.35f, 1f);
+        }
+	}
 	public void DamagePlayer (float damage)
 	{
 		currentHealth -= damage;

@@ -29,7 +29,6 @@ public class Summoner : MonoBehaviour
 	private int idleAnimationId = Animator.StringToHash("Idle");
 	private bool isHit;
 	private float timeAtLastSummon;
-	private float timeAtLastHit;
 	private bool isSummonning;
 	private bool isDying;
 
@@ -40,7 +39,6 @@ public class Summoner : MonoBehaviour
 		StartCoroutine(Patrol());
 		currentHealth = maxHealth;
 		timeAtLastSummon = 0.0f;
-		timeAtLastHit = 0.0f;
 	}
 
 	private IEnumerator Patrol ()

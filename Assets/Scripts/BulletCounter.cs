@@ -6,38 +6,56 @@ public class BulletCounter : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Sprite[] ammoSprites;
     [SerializeField] private float reloadTime;
+    [SerializeField] private float reloadCooldown = 2f;
     public bool canFire = true;
-    
-    private int currentAmmo;
+        
+    public int currentAmmo;
     private readonly int maxAmmo = 5;
+    private Coroutine activeCoroutine;
 
     private void Start()
     {
         spriteRenderer.sprite = ammoSprites[^1];
+        spriteRenderer.color = Color.white;
         currentAmmo = maxAmmo;
+        activeCoroutine = null;
     }
 
     public void ReduceAmmo()
     {
         if (!canFire) return;
         currentAmmo--;
-        Debug.Log(currentAmmo + " " + spriteRenderer.sprite.name);
         spriteRenderer.sprite = ammoSprites[currentAmmo];
+        if (activeCoroutine != null)
+        {
+            StopCoroutine(activeCoroutine);
+        }
+        activeCoroutine = StartCoroutine(ReloadCooldown());
         if (currentAmmo == 0)
         {
             canFire = false;
-            StartCoroutine(Reload());
-            currentAmmo = maxAmmo;
+            spriteRenderer.color = Color.red;
+            StopCoroutine(activeCoroutine);
+            StartCoroutine(ReloadCooldown());
         }
     }
-
+    public IEnumerator ReloadCooldown ()
+    {
+        yield return new WaitForSeconds(reloadCooldown);
+        activeCoroutine = StartCoroutine(Reload());
+    }
     private IEnumerator Reload()
     {
-        foreach (var sprite in ammoSprites)
+        for (int i = currentAmmo; i < ammoSprites.Length - 1; i++)
         {
-            spriteRenderer.sprite = sprite;
+            currentAmmo++;
+            spriteRenderer.sprite = ammoSprites[currentAmmo];
             yield return new WaitForSeconds(reloadTime / ammoSprites.Length);
         }
         canFire = true;
+        if (spriteRenderer.color != Color.white)
+        {
+            spriteRenderer.color = Color.white;
+        }
     }
 }

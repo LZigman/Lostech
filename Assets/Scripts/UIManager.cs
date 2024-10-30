@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject musicToggle, menuButtons, optionsButtons, pauseMenu;
+    public GameObject musicToggle, menuButtons, optionsButtons, pauseMenu, mainMenu, introSequence;
     public Slider musicSlider;
     [SerializeField] private Sprite musicOn, musicOff;
 
@@ -32,7 +32,8 @@ public class UIManager : MonoBehaviour
     public void NewGame()
     {
         PlayerPrefs.SetFloat("volume", AudioListener.volume);
-        SceneManager.LoadSceneAsync("Stage1");
+        mainMenu.SetActive(false);
+        introSequence.SetActive(true);
     }
     
     public void OpenMainMenu()

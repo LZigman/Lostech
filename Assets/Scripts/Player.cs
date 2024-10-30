@@ -8,13 +8,14 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {
+	[SerializeField] private HealthBar healthBar;
 	[SerializeField] private GameObject pauseMenu;
 	[SerializeField] private Transform gunTransform, gunBarrelTransform, croshairTransform;
 	[SerializeField] private GameObject bulletPrefab;
 	[SerializeField] private BulletCounter bulletCounter;
 	[SerializeField] private float jumpForce, movementSpeed;
 	[SerializeField] private float fallTimeBeforeAnimation;
-	[SerializeField] private float maxHealth = 100f;
+	[SerializeField] private int maxHealth = 5;
 	
 	private Animator animator;
 	private Rigidbody2D rb;
@@ -26,10 +27,10 @@ public class Player : MonoBehaviour
 	private float currentHealth;
 	private float fallingTime;
 	
-	public bool isJumping;
-	public bool isDropDown;
-	public bool isDead;
-	public bool isInteracting;
+	[HideInInspector] public bool isJumping;
+	[HideInInspector] public bool isDropDown;
+	[HideInInspector] public bool isDead;
+	[HideInInspector] public bool isInteracting;
 	
 	private bool isGrounded;
 	private bool isAttackPressed;
@@ -47,6 +48,7 @@ public class Player : MonoBehaviour
 	private static readonly int PlayerCrouchLand = Animator.StringToHash("playerCrouchLand");
 	private static readonly int PlayerRoll = Animator.StringToHash("playerRoll");
 	private static readonly int PlayerHurt = Animator.StringToHash("PlayerHurt");
+	private static readonly int PlayerHeal = Animator.StringToHash("PlayerHeal");
 
 	
 	private void Start()
@@ -64,6 +66,7 @@ public class Player : MonoBehaviour
 	{
 		if (currentHealth <= 0f || isDead)
 		{
+			isDead = true;
 			Debug.Log("Die!");
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
@@ -155,20 +158,20 @@ public class Player : MonoBehaviour
 		yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0)[0].clip.length);
 	}
 
-	public void OnInteractInput (InputAction.CallbackContext context)
+	public void OnInteractInput(InputAction.CallbackContext context)
 	{
 		if (context.phase == InputActionPhase.Performed)
 		{
 			isInteracting = true;
 		}
 	}
-	public void OnMoveInput (InputAction.CallbackContext context)
+	public void OnMoveInput(InputAction.CallbackContext context)
 	{
 		// getting horizontal input
 		xAxis = context.ReadValue<Vector2>().x;
 	}
 	
-	public void OnJumpInput (InputAction.CallbackContext context)
+	public void OnJumpInput(InputAction.CallbackContext context)
 	{
 		// getting jump input
 		if (context.phase == InputActionPhase.Performed && isGrounded && !isFalling)
@@ -196,7 +199,7 @@ public class Player : MonoBehaviour
 		}
 	}
 	
-	public void OnMousePos (InputAction.CallbackContext context)
+	public void OnMousePos(InputAction.CallbackContext context)
 	{
 		// calculating world point of mouse
 		if (Camera.main != null) mousePos = Camera.main.ScreenToWorldPoint(context.ReadValue<Vector2>());
@@ -225,7 +228,7 @@ public class Player : MonoBehaviour
 		gunTransform.rotation = Quaternion.Euler(0, 0, rotationAngle);
 	}
 	
-	public void OnMouseShoot (InputAction.CallbackContext context)
+	public void OnMouseShoot(InputAction.CallbackContext context)
 	{
 		if (context.phase == InputActionPhase.Performed)
 		{
@@ -238,7 +241,7 @@ public class Player : MonoBehaviour
 			AudioManager.Instance.PlaySFX("player shoot");
 		}
 	}
-	private void FlipLeft (bool toggle)
+	private void FlipLeft(bool toggle)
 	{
 		if (toggle == true)
 		{
@@ -251,19 +254,42 @@ public class Player : MonoBehaviour
             transform.GetChild(0).localScale = new Vector3(1f, 0.35f, 1f);
         }
 	}
-	public void DamagePlayer (float damage)
+	public void DamagePlayer(float damage)
 	{
 		currentHealth -= damage;
 		StartCoroutine(DamageAnimation());
-		Debug.Log("Current health: " + currentHealth);
+		healthBar.ReduceHealthBar((int)currentHealth);
 	}
-	private IEnumerator DamageAnimation ()
+	
+	public void HealPlayer (float healing)
+	{
+		currentHealth += healing;
+		StartCoroutine(HealAnimation());
+		healthBar.IncreaseHealthBar((int)currentHealth);
+	}
+	
+	public void HealPlayerToFull ()
+	{
+		currentHealth = maxHealth;
+		StartCoroutine(HealAnimation());
+		healthBar.IncreaseHealthBarToFull();
+	}
+	
+	private IEnumerator DamageAnimation()
 	{
 		isHurt = true;
 		AnimationStateChanger.Instance.ChangeAnimationState(PlayerHurt, animator);
 		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 		isHurt = false;
     }
+	
+	private IEnumerator HealAnimation()
+	{
+		isHurt = true;
+		AnimationStateChanger.Instance.ChangeAnimationState(PlayerHeal, animator);
+		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
+		isHurt = false;
+	}
 
 	public void OnMenuButtonClick(InputAction.CallbackContext context)
 	{

@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
 	[SerializeField] private Transform gunTransform, gunBarrelTransform, croshairTransform;
 	[SerializeField] private GameObject bulletPrefab;
 	[SerializeField] private BulletCounter bulletCounter;
-	[SerializeField] private float jumpForce, movementSpeed;
+	[SerializeField] private float jumpForce, movementSpeed, downwardForce;
 	[SerializeField] private float fallTimeBeforeAnimation;
 	[SerializeField] private int maxHealth = 5;
 	
@@ -166,6 +166,8 @@ public class Player : MonoBehaviour
 			{
 				// play falling animation
 				StartCoroutine(Falling());
+				// add downward force
+				rb.AddForce(new Vector2(0, -downwardForce));
 			}
 		}
 		

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -15,7 +16,8 @@ public class BulletScript : MonoBehaviour
 		rb = GetComponent<Rigidbody2D>();
 		
 		// giving velocity to bullet
-		rb.velocity = bulletSpeed * transform.right; //+ player.GetComponent<Rigidbody2D>().velocity;
+		rb.velocity = bulletSpeed * transform.right;
+		rb.velocity += new Vector2((player.GetComponent<Rigidbody2D>().velocity.x), (player.GetComponent<Rigidbody2D>().velocity.y))  ;
 	}
 	private void OnTriggerEnter2D(Collider2D other)
 	{
@@ -40,7 +42,7 @@ public class BulletScript : MonoBehaviour
 			other.gameObject.GetComponent<Summoner>().Damage(bulletDamage);
             Destroy(gameObject);
         }
-		else if (CompareLayers(other.gameObject, groundLayer) == true)
+		else if (CompareLayers(other.gameObject, groundLayer) == true && !other.CompareTag("Platform"))
 		{
 			Destroy(gameObject);
 		}

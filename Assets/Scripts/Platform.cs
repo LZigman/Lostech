@@ -20,19 +20,19 @@ public class Platform : MonoBehaviour
         if (player.isJumping)
         {
             platformEffector2D.rotationalOffset = 0;
-            StartCoroutine(ResetOffset());
+            StartCoroutine(ResetOffset(1));
         }
 
         if (player.isDropDown)
         {
             platformEffector2D.rotationalOffset = 180;
-            StartCoroutine(ResetOffset());
+            StartCoroutine(ResetOffset(0.5f));
         }
     }
 
-    private IEnumerator ResetOffset()
+    private IEnumerator ResetOffset(float delay)
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(delay);
         platformEffector2D.rotationalOffset = 0;
     }
 }

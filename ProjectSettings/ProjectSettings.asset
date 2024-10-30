@@ -771,11 +771,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: fcdc8a26-c0b5-46b0-9893-892e58dcd640
+  cloudProjectId: f9fccf0a-1f7d-4381-92d7-2a2d2f5d8955
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Lostech
-  organizationId: postcynical
+  projectName: Lostech 2024-08-24_13-09-38
+  organizationId: lzigman
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

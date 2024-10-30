@@ -53,6 +53,7 @@ public class EndScreen : MonoBehaviour
 
 	public void Restart()
 	{
-		SceneManager.LoadSceneAsync("Stage1");
+		SceneManager.LoadSceneAsync("MainMenu");
+		Time.timeScale = 1;
 	}
 }

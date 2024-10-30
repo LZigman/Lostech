@@ -39,6 +39,7 @@ public class AudioManager : MonoBehaviour
             temp.name = mainMenuTheme.name;
             levelThemeAudioSource = temp.GetComponent<AudioSource>();
             levelThemeAudioSource.clip = levelTheme.clip;
+            levelThemeAudioSource.volume = 0.75f;
             PlayLevelTheme();
         }
     }
@@ -82,6 +83,10 @@ public class AudioManager : MonoBehaviour
                 else if (transform.GetChild(i).GetComponent<AudioSource>().isPlaying == false)
                 {
                     transform.GetChild(i).GetComponent<AudioSource>().Play();
+                }
+                else
+                {
+                    return;
                 }
             }
         }

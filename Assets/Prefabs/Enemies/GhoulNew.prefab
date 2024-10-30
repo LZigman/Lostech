@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08b5f5bd144c72d40975847dea8babad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 1
+  movementSpeed: 3
   maxHealth: 5
   damage: 1
   isReturnToStartingPos: 1

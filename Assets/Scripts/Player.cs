@@ -38,6 +38,7 @@ public class Player : MonoBehaviour
 	private bool isFalling;
 	private bool isColliding;
 	private bool isHurt;
+	private bool isGroundMetallic;
 	
 	private static readonly int PlayerRunForward = Animator.StringToHash("playerRunForward");
 	private static readonly int PlayerRunBackward = Animator.StringToHash("playerRunBackward");
@@ -98,10 +99,19 @@ public class Player : MonoBehaviour
 		if (hit.collider != null)
 		{
 			isGrounded = true;
+			if (hit.collider.gameObject.CompareTag("Platform"))
+			{
+				isGroundMetallic = true;
+			}
+			else
+			{
+				isGroundMetallic = false;
+			}
 		}
 		else
 		{
 			isGrounded = false;
+			isGroundMetallic = false;
 		}
 	}
 
@@ -113,7 +123,14 @@ public class Player : MonoBehaviour
 			if (!isFalling && isGrounded && !isJumping)
 			{
 				AnimationStateChanger.Instance.ChangeAnimationState(PlayerRunForward, animator);
-				AudioManager.Instance.PlaySFX("player walk");
+				if (isGroundMetallic == true)
+				{
+					AudioManager.Instance.PlaySFX("player walk metallic");
+				}
+				else
+				{
+					AudioManager.Instance.PlaySFX("player walk");
+				}
 			}
 		}
 		else if (xAxis < 0)
@@ -128,7 +145,10 @@ public class Player : MonoBehaviour
 		else
 		{
 			vel.x = 0;
-			if (!isFalling && isGrounded && !isJumping && !isHurt) AnimationStateChanger.Instance.ChangeAnimationState(PlayerIdle, animator);
+			if (!isFalling && isGrounded && !isJumping && !isHurt)
+			{
+				AnimationStateChanger.Instance.ChangeAnimationState(PlayerIdle, animator);
+			}
 		}
 	}
 
@@ -136,6 +156,10 @@ public class Player : MonoBehaviour
 	{
 		if (rb.velocity.y < -0.1)
 		{
+			if (isGrounded == true)
+			{
+				AudioManager.Instance.PlaySFX("land");
+			}
 			isFalling = true;
 			fallingTime += Time.fixedDeltaTime;
 			if (fallingTime >= fallTimeBeforeAnimation)
@@ -181,6 +205,7 @@ public class Player : MonoBehaviour
 			isJumping = true;
 			// adding jump force
 			rb.AddForce(new Vector2(0, jumpForce * rb.mass));
+			AudioManager.Instance.PlaySFX("jump");
 			AnimationStateChanger.Instance.ChangeAnimationState(PlayerJump, animator);
 		}
 		
@@ -259,7 +284,10 @@ public class Player : MonoBehaviour
 	public void DamagePlayer(float damage)
 	{
 		currentHealth -= damage;
+		AnimationStateChanger.Instance.ChangeAnimationState(PlayerHurt, animator);
 		StartCoroutine(DamageAnimation());
+		AudioManager.Instance.PlaySFX("player hurt");
+		Debug.Log("Current health: " + currentHealth);
 		healthBar.ReduceHealthBar((int)currentHealth);
 	}
 	

@@ -126,6 +126,7 @@ public class Summoner : MonoBehaviour
 				AnimationStateChanger.Instance.ChangeAnimationState(summonAnimationId, animator);
 				for (int i = 0; i < swarmSize; i++)
 				{
+					AudioManager.Instance.PlaySFX("summon");
 					yield return new WaitForSeconds(summonAnimationDelay);
 					GameObject temp = Instantiate(locustPrefab, spawnPos.position, Quaternion.identity);
 					temp.GetComponent<Locust>().playerTransform = playerTransform;
@@ -145,18 +146,20 @@ public class Summoner : MonoBehaviour
 			return;
 		}
 		currentHealth -= damage;
-		if (currentHealth <= 0f)
+        if (currentHealth <= 0f)
 		{
 			StartCoroutine(Death());
 			return;
 		}
+        AudioManager.Instance.PlaySFX("enemy hurt");
 		Debug.Log("Damage registered!");
 		isHit = true;
 	}
 	private IEnumerator Death()
 	{
 		isDying = true;
-		AnimationStateChanger.Instance.ChangeAnimationState(deathAnimationId, animator);
+        AudioManager.Instance.PlaySFX("enemy death");
+        AnimationStateChanger.Instance.ChangeAnimationState(deathAnimationId, animator);
 		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 		Destroy(gameObject);
 	}

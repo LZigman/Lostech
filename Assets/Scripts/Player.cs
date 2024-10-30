@@ -338,6 +338,7 @@ public class Player : MonoBehaviour
 	public void HealPlayerToFull ()
 	{
 		currentHealth = maxHealth;
+		Debug.Log("healing!");
 		StartCoroutine(HealAnimation());
 		healthBar.IncreaseHealthBarToFull();
 	}

@@ -125,7 +125,7 @@ MonoBehaviour:
   attackAnimationDelay: 0.35
   attackAnimationLength: 0.6
   deathAnimationLength: 0.6
-  damage: 0.5
+  damage: 1
   playerLayer:
     serializedVersion: 2
     m_Bits: 64

@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
 	[SerializeField] private HealthBar healthBar;
-	[SerializeField] private GameObject pauseMenu;
+	[SerializeField] private GameObject pauseMenu, deathScreen;
 	[SerializeField] private Transform gunTransform, gunBarrelTransform, croshairTransform;
 	[SerializeField] private GameObject bulletPrefab;
 	[SerializeField] private BulletCounter bulletCounter;
@@ -40,6 +40,7 @@ public class Player : MonoBehaviour
 	private bool isColliding;
 	private bool isHurt;
 	private bool isGroundMetallic;
+	private bool isDying;
 	
 	private static readonly int PlayerRunForward = Animator.StringToHash("playerRunForward");
 	private static readonly int PlayerRunBackward = Animator.StringToHash("playerRunBackward");
@@ -67,9 +68,14 @@ public class Player : MonoBehaviour
 
 	private void Update()
 	{
-		if (currentHealth <= 0f || isDead)
+		if (currentHealth <= 0f)
 		{
-			currentHealth = maxHealth;
+			isDead = true;
+		}  
+		if (isDead && !isDying)
+		{
+			// start death
+			isDying = true;
 			StartCoroutine(Death());
 		}
 	}
@@ -77,14 +83,13 @@ public class Player : MonoBehaviour
 	{
 		//currentHealth = maxHealth;
         Debug.Log("Die!");
+        // Player death animation
 		AnimationStateChanger.Instance.ChangeAnimationState(PlayerDie, animator);
         yield return new WaitForSeconds(1f);
-		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-		AnimationStateChanger.Instance.ChangeAnimationState(PlayerIdle, animator);
-		rb.position = lastSavePoint;
-		Debug.Log("Respawned!");
-		healthBar.IncreaseHealthBarToFull();
-		isDead = false;
+        // Load Death screen
+        deathScreen.SetActive(true);
+        // freeze time
+        Time.timeScale = 0;
     }
 	private void FixedUpdate()
 	{
@@ -365,5 +370,17 @@ public class Player : MonoBehaviour
 		{
 			pauseMenu.SetActive(true);
 		}
+	}
+
+	public void OnRespawnClick()
+	{
+		currentHealth = maxHealth;
+		rb.position = lastSavePoint;
+		Debug.Log("Respawned!");
+		healthBar.IncreaseHealthBarToFull();
+		isDead = false;
+		isDying = false;
+		Time.timeScale = 1;
+		AnimationStateChanger.Instance.ChangeAnimationState(PlayerIdle, animator);
 	}
 }

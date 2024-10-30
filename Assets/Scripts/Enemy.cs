@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
@@ -34,6 +35,7 @@ public class Enemy : MonoBehaviour
 	private GameObject player;
 	private float currentHealth;
 	private bool isDying;
+	private bool isHurt;
 	public enum States
 	{
 		idle,
@@ -73,6 +75,7 @@ public class Enemy : MonoBehaviour
 		Debug.Log("Wake up!");
 		currentState = States.moveToAttack;
 		animator.SetBool("isPlayerDetected", true);
+		AudioManager.Instance.PlaySFX("ghoul wake up");
 		yield return new WaitForSeconds(wakeUpAnimationLength);
 		StartCoroutine (MoveToAttack());
 	}
@@ -80,6 +83,7 @@ public class Enemy : MonoBehaviour
 	{
 		Debug.Log("Sleep!");
 		currentState = States.idle;
+		AudioManager.Instance.PlaySFX("ghoul sleep");
 		yield return new WaitForSeconds (sleepAnimationLength);
 		animator.SetBool("isPlayerDetected", false);
 		player = null;
@@ -100,26 +104,33 @@ public class Enemy : MonoBehaviour
 		}
 		while (true)
 		{
-			if (IsPlayerInAttackRadius() == true)
+			if (Mathf.Abs(player.transform.position.y - rb.position.y) > 2f)
 			{
-				StartCoroutine(Attack());
-				yield break;
+				yield return new WaitForSeconds(Time.fixedDeltaTime);
 			}
-			if (IsPlayerInDetectionRadius() == false)
+			if (isHurt == false)
 			{
-				if (isReturnToStartingPos == true)
+				if (IsPlayerInAttackRadius() == true)
 				{
-					StartCoroutine(MoveToStartingPos());
+					StartCoroutine(Attack());
 					yield break;
 				}
-				else
+				if (IsPlayerInDetectionRadius() == false)
 				{
-					animator.SetBool("isMoving", false);
-					StartCoroutine(Sleep());
-					yield break;
+					if (isReturnToStartingPos == true)
+					{
+						StartCoroutine(MoveToStartingPos());
+						yield break;
+					}
+					else
+					{
+						animator.SetBool("isMoving", false);
+						StartCoroutine(Sleep());
+						yield break;
+					}
 				}
+				rb.position = Vector2.MoveTowards (rb.position, player.transform.position, movementSpeed * Time.fixedDeltaTime);
 			}
-			rb.position = Vector2.MoveTowards (rb.position, player.transform.position, movementSpeed * Time.fixedDeltaTime);
 			yield return new WaitForSeconds(Time.fixedDeltaTime);
 		}
 	}
@@ -138,19 +149,22 @@ public class Enemy : MonoBehaviour
         }
 		while (true)
 		{
-			if (Vector2.Distance(startingPos, rb.position) < 0.25f)
+			if (isHurt == false)
 			{
-				spriteRenderer.flipX = false;
-				animator.SetBool("isMoving", false);
-				StartCoroutine(Sleep());
-				yield break;
+				if (Vector2.Distance(startingPos, rb.position) < 0.25f)
+				{
+					spriteRenderer.flipX = false;
+					animator.SetBool("isMoving", false);
+					StartCoroutine(Sleep());
+					yield break;
+				}
+				if (IsPlayerInDetectionRadius() == true)
+				{
+					StartCoroutine(MoveToAttack());
+					yield break;
+				}
+				rb.position = Vector2.MoveTowards(rb.position, startingPos, movementSpeed * Time.fixedDeltaTime);
 			}
-			if (IsPlayerInDetectionRadius() == true)
-			{
-				StartCoroutine(MoveToAttack());
-				yield break;
-			}
-			rb.position = Vector2.MoveTowards(rb.position, startingPos, movementSpeed * Time.fixedDeltaTime);
 			yield return new WaitForSeconds(Time.fixedDeltaTime);
 		}
     }
@@ -161,15 +175,19 @@ public class Enemy : MonoBehaviour
 		animator.SetBool("isAttacking", true);
 		while (true)
 		{
-			if (IsPlayerInAttackRadius() == false)
+			if (isHurt == false)
 			{
-				StartCoroutine(MoveToAttack());
-				animator.SetBool("isAttacking", false);
-				yield break;
+				if (IsPlayerInAttackRadius() == false)
+				{
+					StartCoroutine(MoveToAttack());
+					animator.SetBool("isAttacking", false);
+					yield break;
+				}
+				yield return new WaitForSeconds(attackDelay);								// wait for animation to hit player
+				Debug.Log("Attack!");
+				AudioManager.Instance.PlaySFX("ghoul attack");
+				PerformAttack();
 			}
-			yield return new WaitForSeconds(attackDelay);								// wait for animation to hit player
-			Debug.Log("Attack!");
-			PerformAttack();
 			yield return new WaitForSeconds(attackAnimationLength - attackDelay);       // wait for end of animation
 		}
 	}
@@ -191,7 +209,9 @@ public class Enemy : MonoBehaviour
 		{
 			yield break;
 		}
+		isHurt = true;
 		currentHealth -= damage;
+		AudioManager.Instance.PlaySFX("enemy hit");
 		Debug.Log("health: " + currentHealth);
 		if (currentHealth <= 0f)
 		{
@@ -200,12 +220,14 @@ public class Enemy : MonoBehaviour
 		}
 		animator.SetTrigger("hit");
 		yield return new WaitForSeconds(hitAnimationLength);
+		isHurt = false;
 		yield break;
 		//animator.ResetTrigger("hit");
 	}
 	private IEnumerator Die ()
 	{
 		isDying = true;
+		AudioManager.Instance.PlaySFX("enemy death");
 		animator.SetTrigger("die");
 		yield return new WaitForSeconds(dieAnimationLength);
 		Destroy(gameObject);

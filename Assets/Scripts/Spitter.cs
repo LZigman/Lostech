@@ -119,6 +119,7 @@ public class Spitter : MonoBehaviour
             return;
         }
         currentHealth -= damage;
+        AudioManager.Instance.PlaySFX("enemy hurt");
         if (currentHealth <= 0f)
         {
             StartCoroutine(Death());
@@ -130,6 +131,7 @@ public class Spitter : MonoBehaviour
     {
         Debug.Log("death!");
         isDying = true;
+        AudioManager.Instance.PlaySFX("enemy death");
         AnimationStateChanger.Instance.ChangeAnimationState(deathAnimationId, animator);
         Debug.Log("death length: " + animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
@@ -159,6 +161,7 @@ public class Spitter : MonoBehaviour
 			}
 			if (Time.time > timeAtLastAttack + attackRate)
             {
+                AudioManager.Instance.PlaySFX("spitter attack");
                 StartCoroutine(Shoot());
                 timeAtLastAttack = Time.time;
             }

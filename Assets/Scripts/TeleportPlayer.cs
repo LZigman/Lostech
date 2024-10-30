@@ -86,6 +86,7 @@ public class TeleportPlayer : MonoBehaviour
 
     private IEnumerator Teleport(Transform target, Transform player)
     {
+        AudioManager.Instance.PlaySFX("teleporting");
         if (animate)
         {
             AnimationStateChanger.Instance.ChangeAnimationState(Warp, animator);

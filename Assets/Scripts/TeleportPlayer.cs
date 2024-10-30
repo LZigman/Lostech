@@ -71,7 +71,7 @@ public class TeleportPlayer : MonoBehaviour
             {
                 charging = false;
                 promptText.text = $"Press '{keyToPress}' to teleport";
-                if (Input.GetKey(keyToPress) && Vector2.Distance(playerPos.position, origin.position) <= activationDistance)
+                if ((Input.GetKey(keyToPress) || !animate) && Vector2.Distance(playerPos.position, origin.position) <= activationDistance)
                 {
                     StartCoroutine(Teleport(destination, other.transform));
                 }

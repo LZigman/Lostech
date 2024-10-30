@@ -32,7 +32,7 @@ public class Platform : MonoBehaviour
 
     private IEnumerator ResetOffset()
     {
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(1f);
         platformEffector2D.rotationalOffset = 0;
     }
 }

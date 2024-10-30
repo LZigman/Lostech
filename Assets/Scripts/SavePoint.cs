@@ -24,12 +24,14 @@ public class SavePoint : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            var playerScript = other.gameObject.GetComponent<Player>();
             if (!isOn)
             {
-                other.gameObject.GetComponent<Player>().lastSavePoint = (Vector2)transform.position + 2f * Vector2.up;
+                playerScript.lastSavePoint = (Vector2)transform.position + 2f * Vector2.up;
                 Debug.Log("RespawnPoint: " + (Vector2)transform.position);
                 StartCoroutine(TurnOn());
             }
+            playerScript.HealPlayerToFull();
         }
     }
 

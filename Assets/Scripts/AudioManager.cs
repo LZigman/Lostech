@@ -27,11 +27,14 @@ public class AudioManager : MonoBehaviour
         {
             if (transform.GetChild(i).name == name)
             {
-                if (transform.GetChild(i).GetComponent<AudioSource>().isPlaying == true && name == "player shoot")
+                if (transform.GetChild(i).GetComponent<AudioSource>().isPlaying == true)
                 {
-                    transform.GetChild(i).GetComponent<AudioSource>().Stop();
-                    transform.GetChild(i).GetComponent<AudioSource>().Play();
-                    return;
+                    if (name == "player shoot" || name == "laser charge")
+                    {
+                        transform.GetChild(i).GetComponent<AudioSource>().Stop();
+                        transform.GetChild(i).GetComponent<AudioSource>().Play();
+                        return;
+                    }
                 }
                 else if (transform.GetChild(i).GetComponent<AudioSource>().isPlaying == false)
                 {

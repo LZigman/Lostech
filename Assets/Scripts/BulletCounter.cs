@@ -41,6 +41,7 @@ public class BulletCounter : MonoBehaviour
     }
     public IEnumerator ReloadCooldown ()
     {
+        AudioManager.Instance.PlaySFX("laser charge");
         yield return new WaitForSeconds(reloadCooldown);
         activeCoroutine = StartCoroutine(Reload());
     }
@@ -50,6 +51,7 @@ public class BulletCounter : MonoBehaviour
         {
             currentAmmo++;
             spriteRenderer.sprite = ammoSprites[currentAmmo];
+            AudioManager.Instance.PlaySFX("laser charge bullet");
             yield return new WaitForSeconds(reloadTime / ammoSprites.Length);
         }
         canFire = true;

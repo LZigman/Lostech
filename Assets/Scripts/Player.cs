@@ -124,7 +124,10 @@ public class Player : MonoBehaviour
 		else
 		{
 			vel.x = 0;
-			if (!isFalling && isGrounded && !isJumping && !isHurt) AnimationStateChanger.Instance.ChangeAnimationState(PlayerIdle, animator);
+			if (!isFalling && isGrounded && !isJumping && !isHurt)
+			{
+				AnimationStateChanger.Instance.ChangeAnimationState(PlayerIdle, animator);
+			}
 		}
 	}
 
@@ -132,6 +135,10 @@ public class Player : MonoBehaviour
 	{
 		if (rb.velocity.y < -0.1)
 		{
+			if (isGrounded == true)
+			{
+				AudioManager.Instance.PlaySFX("land");
+			}
 			isFalling = true;
 			fallingTime += Time.fixedDeltaTime;
 			if (fallingTime >= fallTimeBeforeAnimation)
@@ -175,6 +182,7 @@ public class Player : MonoBehaviour
 			isJumping = true;
 			// adding jump force
 			rb.AddForce(new Vector2(0, jumpForce * rb.mass));
+			AudioManager.Instance.PlaySFX("jump");
 			AnimationStateChanger.Instance.ChangeAnimationState(PlayerJump, animator);
 		}
 		
@@ -253,13 +261,13 @@ public class Player : MonoBehaviour
 	public void DamagePlayer (float damage)
 	{
 		currentHealth -= damage;
+		AnimationStateChanger.Instance.ChangeAnimationState(PlayerHurt, animator);
 		StartCoroutine(DamageAnimation());
 		Debug.Log("Current health: " + currentHealth);
 	}
 	private IEnumerator DamageAnimation ()
 	{
 		isHurt = true;
-		AnimationStateChanger.Instance.ChangeAnimationState(PlayerHurt, animator);
 		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 		isHurt = false;
     }

@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
 	private bool isFalling;
 	private bool isColliding;
 	private bool isHurt;
+	private bool isGroundMetallic;
 	
 	private static readonly int PlayerRunForward = Animator.StringToHash("playerRunForward");
 	private static readonly int PlayerRunBackward = Animator.StringToHash("playerRunBackward");
@@ -94,10 +95,19 @@ public class Player : MonoBehaviour
 		if (hit.collider != null)
 		{
 			isGrounded = true;
+			if (hit.collider.gameObject.CompareTag("Platform"))
+			{
+				isGroundMetallic = true;
+			}
+			else
+			{
+				isGroundMetallic = false;
+			}
 		}
 		else
 		{
 			isGrounded = false;
+			isGroundMetallic = false;
 		}
 	}
 
@@ -109,7 +119,14 @@ public class Player : MonoBehaviour
 			if (!isFalling && isGrounded && !isJumping)
 			{
 				AnimationStateChanger.Instance.ChangeAnimationState(PlayerRunForward, animator);
-				AudioManager.Instance.PlaySFX("player walk");
+				if (isGroundMetallic == true)
+				{
+					AudioManager.Instance.PlaySFX("player walk metallic");
+				}
+				else
+				{
+					AudioManager.Instance.PlaySFX("player walk");
+				}
 			}
 		}
 		else if (xAxis < 0)
@@ -263,11 +280,13 @@ public class Player : MonoBehaviour
 		currentHealth -= damage;
 		AnimationStateChanger.Instance.ChangeAnimationState(PlayerHurt, animator);
 		StartCoroutine(DamageAnimation());
+		AudioManager.Instance.PlaySFX("player hurt");
 		Debug.Log("Current health: " + currentHealth);
 	}
 	private IEnumerator DamageAnimation ()
 	{
 		isHurt = true;
+		Debug.Log("hurt animation length: " + animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 		isHurt = false;
     }

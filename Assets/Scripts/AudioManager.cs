@@ -18,6 +18,10 @@ public class AudioManager : MonoBehaviour
             GameObject temp = Instantiate(audioSourcePrefab, transform);
             temp.name = sounds[i].name;
             temp.GetComponent<AudioSource>().clip = sounds[i].clip;
+            if (temp.name == "laser charge")
+            {
+                temp.GetComponent<AudioSource>().volume = 0.8f;
+            }
         }
     }
 

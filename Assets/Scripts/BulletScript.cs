@@ -8,12 +8,14 @@ public class BulletScript : MonoBehaviour
 	[SerializeField] private float bulletSpeed, bulletDamage, destroyDelay = 1f;
 	[SerializeField] private LayerMask enemyLayer, groundLayer, spitterLayer, locustLayer, summonerLayer;
 	private Rigidbody2D rb;
+	private Player player;
 	private void Start()
 	{
+		player = FindObjectOfType<Player>();
 		rb = GetComponent<Rigidbody2D>();
 		
 		// giving velocity to bullet
-		rb.velocity = bulletSpeed * transform.right;
+		rb.velocity = bulletSpeed * transform.right; //+ player.GetComponent<Rigidbody2D>().velocity;
 	}
 	private void OnTriggerEnter2D(Collider2D other)
 	{

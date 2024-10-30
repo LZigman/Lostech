@@ -93,7 +93,7 @@ public class TeleportPlayer : MonoBehaviour
             yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0)[0].clip.length);
             AnimationStateChanger.Instance.ChangeAnimationState(IdleTeleport, animator);
         }
-        player.position = new Vector2(target.position.x, target.position.y + 2);
+        player.position = new Vector2(target.position.x, target.position.y + 1);
         promptText.gameObject.SetActive(false);
         promptText.text = $"Press '{keyToPress}' key to activate.";
         teleporting = false;

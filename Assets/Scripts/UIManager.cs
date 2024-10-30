@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     public Slider musicSlider;
     [SerializeField] private Sprite musicOn, musicOff;
 
+    
     private void Start()
     {
         if (SceneManager.GetActiveScene().name == "Stage1")

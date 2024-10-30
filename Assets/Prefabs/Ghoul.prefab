@@ -61,7 +61,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1200344235514157454
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -119,18 +119,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08b5f5bd144c72d40975847dea8babad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 1
-  maxHealth: 100
-  damage: 10
+  movementSpeed: 3
+  maxHealth: 5
+  damage: 1
   isReturnToStartingPos: 1
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
-  detectionRadius: 3.5
-  attackRadius: 2
-  animator: {fileID: 4769153230723620468}
-  spriteRenderer: {fileID: 4174327092974137342}
-  attackDelay: 1
+  detectionRadius: 5
+  attackRadius: 1.5
+  animator: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  attackDelay: 1.4
   attackAnimationLength: 0.7
   wakeUpAnimationLength: 0.4
   sleepAnimationLength: 0.43

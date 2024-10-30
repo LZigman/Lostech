@@ -8,7 +8,9 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource sfxAudioSource;
     [SerializeField] private Sound[] sounds;
     [SerializeField] private GameObject audioSourcePrefab;
+    [SerializeField] private Sound mainMenuTheme, levelTheme;
     private AudioSource audioSource;
+    private AudioSource mainMenuThemeAudioSource, levelThemeAudioSource;
     private void Awake()
     {
         Instance = this;
@@ -23,8 +25,45 @@ public class AudioManager : MonoBehaviour
                 temp.GetComponent<AudioSource>().volume = 0.8f;
             }
         }
+        if (mainMenuTheme != null)
+        {
+            GameObject temp = Instantiate(audioSourcePrefab, transform);
+            temp.name = mainMenuTheme.name;
+            mainMenuThemeAudioSource = temp.GetComponent<AudioSource>();
+            mainMenuThemeAudioSource.clip = mainMenuTheme.clip;
+            PlayMainMenuTheme();
+        }
+        if (levelTheme != null)
+        {
+            GameObject temp = Instantiate(audioSourcePrefab, transform);
+            temp.name = mainMenuTheme.name;
+            levelThemeAudioSource = temp.GetComponent<AudioSource>();
+            levelThemeAudioSource.clip = levelTheme.clip;
+            PlayLevelTheme();
+        }
     }
-
+    public void PlayMainMenuTheme()
+    {
+        mainMenuThemeAudioSource.loop = true;
+        mainMenuThemeAudioSource.Play();
+    }
+    public void StopMainMenuTheme ()
+    {
+        mainMenuThemeAudioSource.Stop();
+    }
+    public void PlayLevelTheme ()
+    {
+        levelThemeAudioSource.loop = true;
+        levelThemeAudioSource.Play();
+    }
+    public void PauseLevelTheme ()
+    {
+        levelThemeAudioSource.Play();
+    }
+    public void StopLevelTheme ()
+    {
+        levelThemeAudioSource.Stop();
+    }
     public void PlaySFX (string name)
     {
         for (int i = 0; i < transform.childCount; i++)

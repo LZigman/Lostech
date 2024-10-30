@@ -186,6 +186,10 @@ public class Player : MonoBehaviour
 
 	public void OnInteractInput(InputAction.CallbackContext context)
 	{
+		if (Time.timeScale != 1f)
+		{
+			return;
+		}
 		if (context.phase == InputActionPhase.Performed)
 		{
 			isInteracting = true;
@@ -193,14 +197,22 @@ public class Player : MonoBehaviour
 	}
 	public void OnMoveInput(InputAction.CallbackContext context)
 	{
-		// getting horizontal input
-		xAxis = context.ReadValue<Vector2>().x;
+        if (Time.timeScale != 1f)
+        {
+            return;
+        }
+        // getting horizontal input
+        xAxis = context.ReadValue<Vector2>().x;
 	}
 	
 	public void OnJumpInput(InputAction.CallbackContext context)
 	{
-		// getting jump input
-		if (context.phase == InputActionPhase.Performed && isGrounded && !isFalling)
+        if (Time.timeScale != 1f)
+        {
+            return;
+        }
+        // getting jump input
+        if (context.phase == InputActionPhase.Performed && isGrounded && !isFalling)
 		{
 			isJumping = true;
 			// adding jump force
@@ -216,7 +228,11 @@ public class Player : MonoBehaviour
 	}
 	public void OnDropDownInput(InputAction.CallbackContext context)
 	{
-		if (context.phase == InputActionPhase.Performed && isGrounded && !isFalling && !isJumping)
+        if (Time.timeScale != 1f)
+        {
+            return;
+        }
+        if (context.phase == InputActionPhase.Performed && isGrounded && !isFalling && !isJumping)
 		{
 			isDropDown = true;
 		}
@@ -228,8 +244,12 @@ public class Player : MonoBehaviour
 	
 	public void OnMousePos(InputAction.CallbackContext context)
 	{
-		// calculating world point of mouse
-		if (Camera.main != null) mousePos = Camera.main.ScreenToWorldPoint(context.ReadValue<Vector2>());
+        if (Time.timeScale != 1f)
+        {
+            return;
+        }
+        // calculating world point of mouse
+        if (Camera.main != null) mousePos = Camera.main.ScreenToWorldPoint(context.ReadValue<Vector2>());
 
 		// calculating the vector between mousePos and gunPos
 		delta = mousePos - (Vector2)gunTransform.position;
@@ -257,7 +277,11 @@ public class Player : MonoBehaviour
 	
 	public void OnMouseShoot(InputAction.CallbackContext context)
 	{
-		if (context.phase == InputActionPhase.Performed)
+        if (Time.timeScale != 1f)
+        {
+            return;
+        }
+        if (context.phase == InputActionPhase.Performed)
 		{
 			if (!bulletCounter.canFire) return;
 			bulletCounter.ReduceAmmo();

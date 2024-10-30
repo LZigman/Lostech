@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {
+	[SerializeField] private GameObject pauseMenu;
 	[SerializeField] private Transform gunTransform, gunBarrelTransform, croshairTransform;
 	[SerializeField] private GameObject bulletPrefab;
 	[SerializeField] private BulletCounter bulletCounter;
@@ -263,4 +264,12 @@ public class Player : MonoBehaviour
 		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 		isHurt = false;
     }
+
+	public void OnMenuButtonClick(InputAction.CallbackContext context)
+	{
+		if (context.phase == InputActionPhase.Performed && Time.timeScale != 0)
+		{
+			pauseMenu.SetActive(true);
+		}
+	}
 }

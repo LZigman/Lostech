@@ -5,10 +5,18 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject musicToggle, menuButtons, optionsButtons, pauseMenu;
+    public GameObject musicToggle, menuButtons, optionsButtons, pauseMenu, mainMenu, introSequence;
     public Slider musicSlider;
     [SerializeField] private Sprite musicOn, musicOff;
 
+    private void Start()
+    {
+        if (SceneManager.GetActiveScene().name == "Stage1")
+        {
+            AudioListener.volume = PlayerPrefs.GetFloat("volume", 1f);
+            Debug.Log("Volume: " + AudioListener.volume);
+        }
+    }
     private void Update()
     {
         if (AudioListener.volume == 0)
@@ -23,7 +31,9 @@ public class UIManager : MonoBehaviour
 
     public void NewGame()
     {
-        SceneManager.LoadSceneAsync("Stage1");
+        PlayerPrefs.SetFloat("volume", AudioListener.volume);
+        mainMenu.SetActive(false);
+        introSequence.SetActive(true);
     }
     
     public void OpenMainMenu()

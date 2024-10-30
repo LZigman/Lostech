@@ -142,6 +142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghoul
       objectReference: {fileID: 0}
+    - target: {fileID: 4635728852174143175, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7775501460751916366, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8
@@ -415,6 +419,12 @@ MonoBehaviour:
   sfxAudioSource: {fileID: 0}
   sounds: []
   audioSourcePrefab: {fileID: 0}
+  mainMenuTheme:
+    name: 
+    clip: {fileID: 0}
+  levelTheme:
+    name: 
+    clip: {fileID: 0}
 --- !u!1 &931840092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1591,7 +1601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1862682309421571887, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4635268264070661660, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: m_LocalScale.x

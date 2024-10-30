@@ -2785,26 +2785,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 167788968}
     m_Modifications:
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackDelay
-      value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: detectionRadius
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackAnimationLength
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -176.71147
@@ -2848,6 +2828,26 @@ PrefabInstance:
     - target: {fileID: 5674296813972505706, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_Name
       value: GhoulNew (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackDelay
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: detectionRadius
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackAnimationLength
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3718,26 +3718,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 167788968}
     m_Modifications:
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackDelay
-      value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: detectionRadius
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackAnimationLength
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -186
@@ -3782,24 +3762,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GhoulNew (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
---- !u!4 &645722897 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
-  m_PrefabInstance: {fileID: 645722896}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &646129899
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 167788968}
-    m_Modifications:
     - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
       propertyPath: animator
       value: 
@@ -3820,6 +3782,24 @@ PrefabInstance:
       propertyPath: attackAnimationLength
       value: 1
       objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+--- !u!4 &645722897 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+  m_PrefabInstance: {fileID: 645722896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &646129899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 167788968}
+    m_Modifications:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -175.71147
@@ -3866,6 +3846,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6993449269232907118, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackDelay
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: detectionRadius
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackAnimationLength
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4262,26 +4262,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 167788968}
     m_Modifications:
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackDelay
-      value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: detectionRadius
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackAnimationLength
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -83.78853
@@ -4325,6 +4305,26 @@ PrefabInstance:
     - target: {fileID: 5674296813972505706, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_Name
       value: GhoulNew (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackDelay
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: detectionRadius
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackAnimationLength
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42118,7 +42118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5130621633978614033, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5257271850791273916, guid: 0dcb4d21fdc626342aa56076cdcd1f34, type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -54711,26 +54711,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 167788968}
     m_Modifications:
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackDelay
-      value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: detectionRadius
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackAnimationLength
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -150.75
@@ -54775,24 +54755,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GhoulNew (9)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
---- !u!4 &1297370416 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
-  m_PrefabInstance: {fileID: 1297370415}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1313630308
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 167788968}
-    m_Modifications:
     - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
       propertyPath: animator
       value: 
@@ -54813,6 +54775,24 @@ PrefabInstance:
       propertyPath: attackAnimationLength
       value: 1
       objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+--- !u!4 &1297370416 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+  m_PrefabInstance: {fileID: 1297370415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1313630308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 167788968}
+    m_Modifications:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -127.71147
@@ -54856,6 +54836,26 @@ PrefabInstance:
     - target: {fileID: 5674296813972505706, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_Name
       value: GhoulNew (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackDelay
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: detectionRadius
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackAnimationLength
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -55585,26 +55585,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 167788968}
     m_Modifications:
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackDelay
-      value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: detectionRadius
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackAnimationLength
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -168.28853
@@ -55648,6 +55628,26 @@ PrefabInstance:
     - target: {fileID: 5674296813972505706, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_Name
       value: GhoulNew (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackDelay
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: detectionRadius
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackAnimationLength
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -56418,26 +56418,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 167788968}
     m_Modifications:
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackDelay
-      value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: detectionRadius
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackAnimationLength
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -88.63853
@@ -56481,6 +56461,26 @@ PrefabInstance:
     - target: {fileID: 5674296813972505706, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_Name
       value: GhoulNew
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackDelay
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: detectionRadius
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackAnimationLength
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -58011,26 +58011,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 167788968}
     m_Modifications:
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackDelay
-      value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: detectionRadius
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackAnimationLength
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -189.03853
@@ -58075,6 +58055,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: GhoulNew (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackDelay
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: detectionRadius
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackAnimationLength
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58098,26 +58098,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 167788968}
     m_Modifications:
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackDelay
-      value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: detectionRadius
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackAnimationLength
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -186.96147
@@ -58161,6 +58141,26 @@ PrefabInstance:
     - target: {fileID: 5674296813972505706, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_Name
       value: GhoulNew (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackDelay
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: detectionRadius
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackAnimationLength
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -61317,26 +61317,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 167788968}
     m_Modifications:
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackDelay
-      value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: detectionRadius
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
-      propertyPath: attackAnimationLength
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -128.96147
@@ -61380,6 +61360,26 @@ PrefabInstance:
     - target: {fileID: 5674296813972505706, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_Name
       value: GhoulNew (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackDelay
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: detectionRadius
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428044641632821217, guid: be7aded9e91cd68408fe5405f2b555d9, type: 3}
+      propertyPath: attackAnimationLength
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -64648,11 +64648,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1856712487251576244, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 35
+      value: 89.75
       objectReference: {fileID: 0}
     - target: {fileID: 1856712487251576244, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.5
+      value: 10.75
       objectReference: {fileID: 0}
     - target: {fileID: 1856712487251576244, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
       propertyPath: m_LocalPosition.z

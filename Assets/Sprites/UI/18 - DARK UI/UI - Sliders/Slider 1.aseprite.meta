@@ -2,7 +2,22 @@ fileFormatVersion: 2
 guid: b3fdd19fc47449c2594a19865b9f03e3
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Slider 1
+    second: {fileID: 7400000, guid: f9d58dfb0592b9743a209d29b4548bf7, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Slider 2
+    second: {fileID: 7400000, guid: 2a129f79f0f5fce479f5fcb7144da117, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Slider 3
+    second: {fileID: 7400000, guid: 864bd1630060c524ab6abdf325847b9d, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -97,7 +112,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638658044639766071
+  platformSettingsDirtyTick: 638658458475554757
   textureAssetName: 
   singleSpriteImportData:
   - name: 

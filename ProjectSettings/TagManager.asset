@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Interactable
   - Passable
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -16,10 +17,10 @@ TagManager:
   - UI
   - Player
   - Enemy
-  - 
-  - 
-  - 
-  - 
+  - Spitter
+  - Locust
+  - Summoner
+  - Bullet
   - 
   - 
   - 

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4417695353963390892}
   - component: {fileID: 1200344235514157454}
   - component: {fileID: 4428044641632821217}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghoul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 100
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -94,7 +94,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0385316, y: 0.03467834}
+  m_Offset: {x: 0.0385316, y: 0.25748393}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -105,7 +105,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6300975, y: 1.0077064}
+  m_Size: {x: 0.6300975, y: 1.4533169}
   m_EdgeRadius: 0
 --- !u!114 &4428044641632821217
 MonoBehaviour:
@@ -119,19 +119,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08b5f5bd144c72d40975847dea8babad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementSpeed: 1
+  maxHealth: 100
+  damage: 10
+  isReturnToStartingPos: 1
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
-  detectionRadius: 3
-  attackRadius: 1
-  attackDelay: 0.3
+  detectionRadius: 3.5
+  attackRadius: 2
+  animator: {fileID: 4769153230723620468}
+  spriteRenderer: {fileID: 4174327092974137342}
+  attackDelay: 1
   attackAnimationLength: 0.7
   wakeUpAnimationLength: 0.4
   sleepAnimationLength: 0.43
-  movementSpeed: 1
-  damage: 10
-  animator: {fileID: 4769153230723620468}
-  spriteRenderer: {fileID: 4174327092974137342}
+  hitAnimationLength: 0.4
+  dieAnimationLength: 0.8
   currentState: 0
 --- !u!1 &6428424065020376353
 GameObject:

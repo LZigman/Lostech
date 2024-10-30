@@ -13,13 +13,15 @@ public class TeleportPlayer : MonoBehaviour
     [Space] 
     [SerializeField] private Transform origin;
     [SerializeField] private Transform destination;
+    [SerializeField] private BoxCollider2D activationArea;
     [SerializeField] private TextMeshProUGUI promptText;
     [SerializeField] private KeyCode keyToPress = KeyCode.E;
-    [SerializeField] private float activationDistance = 5f;
     [SerializeField] private float chargeTime;
     
-    private bool teleporting = false;
-    private bool done = false;
+    
+    private float activationDistance;
+    [SerializeField]private bool charging = false;
+    [SerializeField]private bool teleporting = false;
     private String prompt;
     private float timer = 0f;
     
@@ -28,6 +30,7 @@ public class TeleportPlayer : MonoBehaviour
 
     private void Start()
     {
+        activationDistance = activationArea.size.x;
         origin = this.gameObject.transform;
         promptText.text = $"Press '{keyToPress}' key to activate.";
         promptText.gameObject.SetActive(false);
@@ -44,30 +47,33 @@ public class TeleportPlayer : MonoBehaviour
             if (Vector2.Distance(playerPos.position, origin.position) <= activationDistance)
             {
                 promptText.gameObject.SetActive(true);
-                if (!teleporting && Input.GetKey(keyToPress) && !done)
+                if (!charging && !teleporting)
                 {
-                    timer = Time.time;
-                    teleporting = true;
+                    if (other.gameObject.GetComponent<Player>().isInteracting == true)
+                    {
+                        timer = Time.time;
+                        charging = true;
+                        other.gameObject.GetComponent<Player>().isInteracting = false;
+                    }
                 }
             }
             
-            if (teleporting && !done)
+            if (charging && !teleporting)
             {
                 var timeRemaining = chargeTime + timer - Time.time;
                 int minutes = (int)timeRemaining / 60;
                 int seconds = (int)timeRemaining % 60;
                 promptText.text = $"Charging... Time remaining: {minutes:00}:{seconds:00}";
-                if ((int)timeRemaining == 0) done = true;
+                if ((int)timeRemaining == 0) teleporting = true;
             }
 
-            if (done)
+            if (teleporting)
             {
-                teleporting = false;
+                charging = false;
                 promptText.text = $"Press '{keyToPress}' to teleport";
-                if (Input.GetKey(keyToPress) && Vector2.Distance(playerPos.position, origin.position) <= activationDistance)
+                if ((Input.GetKey(keyToPress) || !animate) && Vector2.Distance(playerPos.position, origin.position) <= activationDistance)
                 {
                     StartCoroutine(Teleport(destination, other.transform));
-                    done = false;
                 }
             }
         }
@@ -80,14 +86,17 @@ public class TeleportPlayer : MonoBehaviour
 
     private IEnumerator Teleport(Transform target, Transform player)
     {
+        AudioManager.Instance.PlaySFX("teleporting");
         if (animate)
         {
             AnimationStateChanger.Instance.ChangeAnimationState(Warp, animator);
-            yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0).Length);
+            yield return null;
+            yield return new WaitForSeconds (animator.GetCurrentAnimatorClipInfo(layerIndex:0)[0].clip.length);
             AnimationStateChanger.Instance.ChangeAnimationState(IdleTeleport, animator);
         }
-        player.position = new Vector2(target.position.x, target.position.y + 2);
+        player.position = new Vector2(target.position.x, target.position.y + 1);
         promptText.gameObject.SetActive(false);
         promptText.text = $"Press '{keyToPress}' key to activate.";
+        teleporting = false;
     }
 }

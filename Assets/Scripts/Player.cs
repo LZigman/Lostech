@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
 	[HideInInspector] public bool isDropDown;
 	[HideInInspector] public bool isDead;
 	[HideInInspector] public bool isInteracting;
+	[HideInInspector] public Vector2 lastSavePoint;
 	
 	private bool isGrounded;
 	private bool isAttackPressed;
@@ -50,6 +51,7 @@ public class Player : MonoBehaviour
 	private static readonly int PlayerRoll = Animator.StringToHash("playerRoll");
 	private static readonly int PlayerHurt = Animator.StringToHash("PlayerHurt");
 	private static readonly int PlayerHeal = Animator.StringToHash("PlayerHeal");
+	private static readonly int PlayerDie = Animator.StringToHash("PlayerDie");
 
 	
 	private void Start()
@@ -65,14 +67,25 @@ public class Player : MonoBehaviour
 
 	private void Update()
 	{
-		if (currentHealth <= 0f || isDead)
+		if (currentHealth <= 0f)
 		{
-			isDead = true;
-			Debug.Log("Die!");
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+			currentHealth = maxHealth;
+			StartCoroutine(Death());
 		}
 	}
-
+	private IEnumerator Death()
+	{
+		//currentHealth = maxHealth;
+        Debug.Log("Die!");
+		AnimationStateChanger.Instance.ChangeAnimationState(PlayerDie, animator);
+        yield return new WaitForSeconds(1f);
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		AnimationStateChanger.Instance.ChangeAnimationState(PlayerIdle, animator);
+		rb.position = lastSavePoint;
+		Debug.Log("Respawned!");
+		healthBar.IncreaseHealthBarToFull();
+		isDead = false;
+    }
 	private void FixedUpdate()
 	{
 		// check if player is on the ground

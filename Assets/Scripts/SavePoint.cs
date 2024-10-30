@@ -17,7 +17,8 @@ public class SavePoint : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
-        AnimationStateChanger.Instance.ChangeAnimationState(IdleOff, animator);    }
+        AnimationStateChanger.Instance.ChangeAnimationState(IdleOff, animator);
+    }
     
     private void OnTriggerStay2D(Collider2D other)
     {
@@ -25,6 +26,8 @@ public class SavePoint : MonoBehaviour
         {
             if (!isOn)
             {
+                other.gameObject.GetComponent<Player>().lastSavePoint = (Vector2)transform.position + 2f * Vector2.up;
+                Debug.Log("RespawnPoint: " + (Vector2)transform.position);
                 StartCoroutine(TurnOn());
             }
         }

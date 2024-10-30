@@ -67,7 +67,7 @@ public class Player : MonoBehaviour
 
 	private void Update()
 	{
-		if (currentHealth <= 0f)
+		if (currentHealth <= 0f || isDead)
 		{
 			currentHealth = maxHealth;
 			StartCoroutine(Death());

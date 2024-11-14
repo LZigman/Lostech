@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 307281957239388814}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -0.68, z: 0}
+  m_LocalPosition: {x: -0.089, y: -0.614, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -60,7 +60,7 @@ Transform:
   m_GameObject: {fileID: 1004985290038021728}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.577, y: 0.237, z: 0}
+  m_LocalPosition: {x: 0.688, y: 0.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -452,6 +452,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6127c3c8ea85004883735407a5c493a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  deathScreen: {fileID: 0}
   gunTransform: {fileID: 7418704681449325812}
   gunBarrelTransform: {fileID: 844166690606159567}
   croshairTransform: {fileID: 4073523148345093474}
@@ -459,11 +462,14 @@ MonoBehaviour:
   bulletCounter: {fileID: 0}
   jumpForce: 400
   movementSpeed: 5
+  downwardForce: 0
   fallTimeBeforeAnimation: 0.25
   maxHealth: 100
   isJumping: 0
   isDropDown: 0
   isDead: 0
+  isInteracting: 0
+  lastSavePoint: {x: 0, y: 0}
 --- !u!114 &2391774275139882647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,7 +605,7 @@ Transform:
   m_GameObject: {fileID: 6696539602443618226}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.947, y: 0.147, z: 0}
+  m_LocalPosition: {x: 1.127, y: 0.032, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -631,7 +637,7 @@ Transform:
   m_GameObject: {fileID: 7138295751563524734}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.5, y: 0.2, z: 0}
+  m_LocalPosition: {x: 2.5, y: 0.134, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

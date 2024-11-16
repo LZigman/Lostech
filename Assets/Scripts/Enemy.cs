@@ -36,6 +36,14 @@ public class Enemy : MonoBehaviour
 	private float currentHealth;
 	private bool isDying;
 	private bool isHurt;
+	private IEnumerator activeCoroutine;
+
+	private int wakeUpAnimationId = Animator.StringToHash("Wake");
+	private int sleepAnimationId = Animator.StringToHash("Sleep");
+	private int moveAnimationId = Animator.StringToHash("Walk");
+	private int attackAnimationId = Animator.StringToHash("Attack");
+	private int damageAnimationId = Animator.StringToHash("Hit");
+	private int deathAnimationId = Animator.StringToHash("death");
 	public enum States
 	{
 		idle,
@@ -43,16 +51,17 @@ public class Enemy : MonoBehaviour
 		attack
 	}
 	public States currentState;
-	
+
 
 	private void Start()
 	{
 		currentHealth = maxHealth;
 		rb = GetComponent<Rigidbody2D>();
 		startingPos = rb.position;
+		activeCoroutine = DetectPlayer();
 		StartCoroutine(DetectPlayer());
 	}
-	private IEnumerator DetectPlayer ()
+	private IEnumerator DetectPlayer()
 	{
 		currentState = States.idle;
 		while (true)
@@ -63,6 +72,7 @@ public class Enemy : MonoBehaviour
 				if (CompareLayers(detectedColliders[i].gameObject, playerLayer) == true)
 				{
 					player = detectedColliders[i].gameObject;
+					activeCoroutine = WakeUp();
 					StartCoroutine(WakeUp());
 					yield break;
 				}
@@ -70,30 +80,32 @@ public class Enemy : MonoBehaviour
 			yield return new WaitForSeconds(Time.fixedDeltaTime);
 		}
 	}
-	private IEnumerator WakeUp ()
+	private IEnumerator WakeUp()
 	{
 		Debug.Log("Wake up!");
 		currentState = States.moveToAttack;
-		animator.SetBool("isPlayerDetected", true);
+		AnimationStateChanger.Instance.ChangeAnimationState(wakeUpAnimationId, animator);
 		AudioManager.Instance.PlaySFX("ghoul wake up");
-		yield return new WaitForSeconds(wakeUpAnimationLength);
-		StartCoroutine (MoveToAttack());
+		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
+		activeCoroutine = MoveToAttack();
+		StartCoroutine(MoveToAttack());
 	}
-	private IEnumerator Sleep ()
+	private IEnumerator Sleep()
 	{
 		Debug.Log("Sleep!");
 		currentState = States.idle;
 		AudioManager.Instance.PlaySFX("ghoul sleep");
-		yield return new WaitForSeconds (sleepAnimationLength);
-		animator.SetBool("isPlayerDetected", false);
+		AnimationStateChanger.Instance.ChangeAnimationState(sleepAnimationId, animator);
+		yield return new WaitForSeconds(sleepAnimationLength);
 		player = null;
+		activeCoroutine = DetectPlayer();
 		StartCoroutine(DetectPlayer());
 	}
-	private IEnumerator MoveToAttack ()
+	private IEnumerator MoveToAttack()
 	{
 		Debug.Log("Moving to attack!");
 		currentState = States.moveToAttack;
-		animator.SetBool("isMoving", true);
+		AnimationStateChanger.Instance.ChangeAnimationState(moveAnimationId, animator);
 		if (player.transform.position.x < rb.position.x)
 		{
 			spriteRenderer.flipX = true;
@@ -112,6 +124,7 @@ public class Enemy : MonoBehaviour
 			{
 				if (IsPlayerInAttackRadius() == true)
 				{
+					activeCoroutine = Attack();
 					StartCoroutine(Attack());
 					yield break;
 				}
@@ -119,47 +132,47 @@ public class Enemy : MonoBehaviour
 				{
 					if (isReturnToStartingPos == true)
 					{
+						activeCoroutine = MoveToStartingPos();
 						StartCoroutine(MoveToStartingPos());
 						yield break;
 					}
 					else
 					{
-						animator.SetBool("isMoving", false);
 						StartCoroutine(Sleep());
 						yield break;
 					}
 				}
-				rb.position = Vector2.MoveTowards (rb.position, player.transform.position, movementSpeed * Time.fixedDeltaTime);
+				rb.position = Vector2.MoveTowards(rb.position, player.transform.position, movementSpeed * Time.fixedDeltaTime);
 			}
 			yield return new WaitForSeconds(Time.fixedDeltaTime);
 		}
 	}
-	private IEnumerator MoveToStartingPos ()
+	private IEnumerator MoveToStartingPos()
 	{
 		Debug.Log("Moving Back!");
 		currentState = States.moveToAttack;
-		animator.SetBool("isMoving", true);
+		AnimationStateChanger.Instance.ChangeAnimationState(moveAnimationId, animator);
 		if (startingPos.x < rb.position.x)
 		{
-			spriteRenderer.flipX = true;
+			FlipLeft(true);
 		}
-        else
-        {
-            spriteRenderer.flipX = false;
-        }
+		else
+		{
+			FlipLeft(false);
+		}
 		while (true)
 		{
 			if (isHurt == false)
 			{
 				if (Vector2.Distance(startingPos, rb.position) < 0.25f)
 				{
-					spriteRenderer.flipX = false;
-					animator.SetBool("isMoving", false);
+					activeCoroutine = Sleep();
 					StartCoroutine(Sleep());
 					yield break;
 				}
 				if (IsPlayerInDetectionRadius() == true)
 				{
+					activeCoroutine = MoveToAttack();
 					StartCoroutine(MoveToAttack());
 					yield break;
 				}
@@ -167,49 +180,54 @@ public class Enemy : MonoBehaviour
 			}
 			yield return new WaitForSeconds(Time.fixedDeltaTime);
 		}
-    }
-	private IEnumerator Attack ()
+	}
+	private IEnumerator Attack()
 	{
 		Debug.Log("Starting attack!");
 		currentState = States.attack;
-		animator.SetBool("isAttacking", true);
+		AnimationStateChanger.Instance.ChangeAnimationState(attackAnimationId, animator);
 		while (true)
 		{
 			if (isHurt == false)
 			{
 				if (IsPlayerInAttackRadius() == false)
 				{
+					activeCoroutine = MoveToAttack();
 					StartCoroutine(MoveToAttack());
-					animator.SetBool("isAttacking", false);
 					yield break;
 				}
-				yield return new WaitForSeconds(attackDelay);								// wait for animation to hit player
+				yield return new WaitForSeconds(attackDelay);                               // wait for animation to hit player
 				Debug.Log("Attack!");
-				AudioManager.Instance.PlaySFX("ghoul attack");
 				PerformAttack();
 			}
-			yield return new WaitForSeconds(attackAnimationLength - attackDelay);       // wait for end of animation
+			yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length - attackDelay);       // wait for end of animation
 		}
 	}
 
-	private void PerformAttack ()
+	private void PerformAttack()
 	{
 		// raycast toward player, if hit player deal damage
+		AudioManager.Instance.PlaySFX("ghoul attack");
 		Vector2 dir = (Vector2)player.transform.position - rb.position;
-		RaycastHit2D hit = Physics2D.Raycast(rb.position, dir, attackRadius, playerLayer);
-		if (hit.collider != null)
+		RaycastHit2D[] hits = Physics2D.RaycastAll(rb.position, dir, attackRadius);
+		for (int i = 0; i < hits.Length; i++)
 		{
-			Player playerScript = hit.collider.gameObject.GetComponent<Player>();
-			playerScript.DamagePlayer(damage);
+			if (CompareLayers(hits[i].collider.gameObject, playerLayer) == true)
+			{
+				Player playerScript = hits[i].collider.gameObject.GetComponent<Player>();
+				playerScript.DamagePlayer(damage);
+			}
 		}
 	}
-	public IEnumerator Damage (float damage)
+	public IEnumerator Damage(float damage)
 	{
 		if (isDying == true)
 		{
 			yield break;
 		}
 		isHurt = true;
+		//StopCoroutine(activeCoroutine);
+		Debug.LogError("Coroutine continue");
 		currentHealth -= damage;
 		AudioManager.Instance.PlaySFX("enemy hit");
 		Debug.Log("health: " + currentHealth);
@@ -218,32 +236,32 @@ public class Enemy : MonoBehaviour
 			StartCoroutine(Die());
 			yield break;
 		}
-		animator.SetTrigger("hit");
+		AnimationStateChanger.Instance.ChangeAnimationState(damageAnimationId, animator);
 		yield return new WaitForSeconds(hitAnimationLength);
+		Debug.LogError("Hit animation finished!");
 		isHurt = false;
-		yield break;
-		//animator.ResetTrigger("hit");
+		//StartCoroutine(activeCoroutine);
 	}
-	private IEnumerator Die ()
+	private IEnumerator Die()
 	{
 		isDying = true;
 		AudioManager.Instance.PlaySFX("enemy death");
-		animator.SetTrigger("die");
+		AnimationStateChanger.Instance.ChangeAnimationState(deathAnimationId, animator);
 		yield return new WaitForSeconds(dieAnimationLength);
 		Destroy(gameObject);
 	}
 	// helper functions
-	private bool IsPlayerInDetectionRadius ()
+	private bool IsPlayerInDetectionRadius()
 	{
-		if (Vector2.Distance ((Vector2)player.transform.position, rb.position) < detectionRadius + 0.25f)
+		if (Vector2.Distance((Vector2)player.transform.position, rb.position) < detectionRadius + 0.25f)
 		{
 			return true;
 		}
 		return false;
 	}
-	private bool IsPlayerInAttackRadius ()
+	private bool IsPlayerInAttackRadius()
 	{
-		if (Vector2.Distance (player.transform.position, rb.position) < attackRadius)
+		if (Vector2.Distance(player.transform.position, rb.position) < attackRadius)
 		{
 			return true;
 		}
@@ -257,5 +275,15 @@ public class Enemy : MonoBehaviour
 		}
 		return false;
 	}
-
+	private void FlipLeft(bool toggle)
+	{
+		if (toggle == true)
+		{
+			transform.localScale = new Vector3(-1f, 1f, 1f);
+		}
+		else
+		{
+			transform.localScale = new Vector3(1f, 1f, 1f);
+		}
+	}
 }

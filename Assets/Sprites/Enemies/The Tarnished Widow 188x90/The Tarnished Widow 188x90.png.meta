@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,2254 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0269ac92737606049a3990c6593e2f72
+      internalID: -182364913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 630
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c70c8a2dd1eb5f4ba6561cfdfed1241
+      internalID: 481239964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 630
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f503ead40aabf4582f2d31fd941757
+      internalID: -1148725397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 630
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64190526defabcb4eb9fc4bd5f76a69e
+      internalID: -412116592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_4
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 630
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f700fcd29ab102c46860a1b9ecdc0177
+      internalID: -1617470774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_5
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 630
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf7212c3eaebec4ca82b8b9f0591217
+      internalID: 295225974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_6
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 630
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87ca5263fa145a4587d0a1a58a265cb
+      internalID: -90824656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_7
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 630
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbe689039927fe43af9b22dc2614d56
+      internalID: 1586847038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_8
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 630
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b742c348456891f47a7ca14518bfa287
+      internalID: -80807255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b576fd5c68997cd418806deaf97e1de4
+      internalID: 786869867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_10
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 540
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7953c76ed0c9e79459313814ca6adce2
+      internalID: -1968952813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_11
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 540
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018259cecbebcc241b995044cfddcbbc
+      internalID: 195705877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_12
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 540
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443f41338519e914fa93613f4757e8c6
+      internalID: 541863555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_13
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 540
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82010ce1b0505f4cbe1d437d3df0473
+      internalID: -1556645239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_14
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 540
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb568c70a21a8ed438ad88d798f19b98
+      internalID: -1777422310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_15
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 540
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbec8ed2bd2ce649a6b6280cb11b67b
+      internalID: -793070976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_16
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 540
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e40a7d7950dac468a50d34f3e162e2
+      internalID: 343166732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_17
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 540
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec35176bcc8cf24aa6b12b91ed0a79f
+      internalID: -475689835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_18
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 540
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85300a3584f052242b28e8876c681f90
+      internalID: -333123044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_19
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 540
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ff3cc642e268b44b80a4d7c6ecae54
+      internalID: -515698551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bc2c7a2f256f647a3d87d90d07178f
+      internalID: -426197123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_21
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42e34202da5e7148b235945816e35dd
+      internalID: -1045776796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_22
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ba634200ada464dac50b767730b61a
+      internalID: -595163149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_23
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8fb58bc4bd58a4f84c65ddf240793b
+      internalID: -1711460865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_24
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67636017f20c43f4992d3a7c3a0fc165
+      internalID: -1330721257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_25
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60e0c4cbb71a744b8b3ff0adc5b53e1
+      internalID: -378957161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_26
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0893a1e1961635347bf83b3c839c3500
+      internalID: -564036798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_27
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f394ece5e831134c94415a499156dfa
+      internalID: 1387896097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_28
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0babbaa3d885684ab2e402a818b0c74
+      internalID: 1714799559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_29
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb572ecbaeef1fe46a46108bdbc1f106
+      internalID: -145734150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_30
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee757a1489e04246998f679fb40125b
+      internalID: 463357967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_31
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c9e57d939b184418602e4ea94cd587
+      internalID: -1045719500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_32
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b359826c55d0ea4ca7cebef01c37f42
+      internalID: -1453240937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_33
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb84f338327f82647ba5c8aad0be09c7
+      internalID: 1368454738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_34
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802e7f1537ee83444b08b610735bb773
+      internalID: 675076056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_35
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fda9410f7853c49a1e910c77511b03
+      internalID: 981817785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_36
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5166acc639feb704b813d058821499b6
+      internalID: 1409330421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_37
+      rect:
+        serializedVersion: 2
+        x: 3196
+        y: 450
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adfeba7f5074344a917ed35ec8a729b
+      internalID: 1032975542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd5640ec285b624a9d48c672ee42ffe
+      internalID: -1258221595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_39
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828e2ac2f2282b545bb1360253c94417
+      internalID: 1201943107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_40
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2620127eeeedc6b41b0f0226f4a2575f
+      internalID: -799536898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_41
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a1933c911758248b230b1106a950b4
+      internalID: -2004213191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_42
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a78080b26bde841ad6970d85f5b33e
+      internalID: -306170435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_43
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b72bd21f15363d4aba3b830237d652c
+      internalID: 652125006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_44
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba4fdcd07bb20742bb292a35dc775bc
+      internalID: 809710421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_45
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee6870a9fec6994589e06df802f81c4
+      internalID: 238151188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_46
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df3cd8fda6bcc0459ad045ab9755021
+      internalID: 1936484736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_47
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd1ffa27aa57984185ceba730fa282c
+      internalID: -1557736833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_48
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534fb9478d61ec24e9338d9913c79fd7
+      internalID: -493563650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_49
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b4ddeaf2ab7604782228c257907405
+      internalID: -512513957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_50
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fab290e162ec944f92ab90c56654d95
+      internalID: 975206165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_51
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37028340a6fe6784b8e5b0f4761795de
+      internalID: -1792491123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_52
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de822381e1224846865794ced4cb827
+      internalID: -1709671953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_53
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 360
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1747f832133bf19498b345ecbd03539c
+      internalID: -1264016054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d6f21362396f7439e3e0aebebcb126
+      internalID: 1665971150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_55
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95d1b10a71bdb74a81df760aa8bc534
+      internalID: -1401708189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_56
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d11f82f3e1ae1c45bc3d67fccbfbb5d
+      internalID: 1932924415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_57
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7099d9c69d0ac48488560f0eb743f8b3
+      internalID: 1976335633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_58
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5b4aa64a6675f47a51d95a5e8b0ffd
+      internalID: -2053014804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_59
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7042b46c8e723e0478f49e1476825222
+      internalID: -1128565193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_60
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2f6400b576aa54795684cade923bc4
+      internalID: -676054010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_61
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81265b4f5ac84fc4cb2d4badc36911bb
+      internalID: -1298358339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_62
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2d84c3cb9cd8e4895557f6f19d134b
+      internalID: -274353856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_63
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdf4b26566d5c8488c0eb31fea8ebf1
+      internalID: -425169212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_64
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e5c48849d64574ca56490e6fd6e1bc
+      internalID: -666812931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_65
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835fe8390f76957428749c3c9657d06f
+      internalID: 902721131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_66
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622cdc3b631d3d940847b21c2c7fd14f
+      internalID: -725135654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_67
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedfe96da268eff45a67477d8278f970
+      internalID: -612294527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_68
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb27759298c0907428fe2286a5491f5f
+      internalID: -1324990153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_69
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 270
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61fddbdb73b5de4b9de8f6f2bd51e4e
+      internalID: 1330941601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ac6177f08385b4e811e36f32c7c03a
+      internalID: -1468937087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_71
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 180
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c83446f7aae4154ca50050e26e44093
+      internalID: -1985043308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_72
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 180
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc25f63f8cd36745838017e04b92491
+      internalID: -389028651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_73
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 180
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a314a7fe9e8f83d448e9b60dc4247f40
+      internalID: 1039206483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_74
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 180
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4185955a3d9d64b834c4360e19fafe
+      internalID: 363248126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_75
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 180
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d913769382ab18b44a0ca07a0b123e6f
+      internalID: 339339989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_76
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 180
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c133ac334e3458946bc9e0b7bc31bfb8
+      internalID: 728623885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_77
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 180
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce3c2b259b673b4ca9f9b80cf64659d
+      internalID: 654860406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_78
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 180
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85056fc2bbf9ce841b543efb35ca5ee7
+      internalID: 1724484493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_79
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 180
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7811248cb136544d9d7eb4651705ae3
+      internalID: -614517290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfdffcd17189d64e8a6696cd0729b39
+      internalID: 737080078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_81
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1be7ed65bc4acc478ad3afb4a9d2966
+      internalID: 351911614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_82
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdaee6948f240846ab0dd8545114a0a
+      internalID: 1928349475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_83
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08b0d175c644724d9e5a7b111b0e583
+      internalID: 453228668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_84
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91857d56a1421f439e4b797d524e141
+      internalID: 1338762710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_85
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3979070c72db442a22b8c852d8f930
+      internalID: 36634629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_86
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0319269240b6cdd42a42d17478e81c76
+      internalID: 1428428041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_87
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c4335c517df4f47af2de52201cfa94
+      internalID: 2020807087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_88
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4d482fa61f1934eb960b6afb56353d
+      internalID: -518194606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_89
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4181bbccf2c952c4987a89d5bd614661
+      internalID: -1941017035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_90
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccbdc29ceb1ebc468861e1837c43cd2
+      internalID: -1268585417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_91
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093fd7d086787e240acfd5177176d5ad
+      internalID: 1450015247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_92
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417dc5505c43a8247b8cbbd2c6fdda38
+      internalID: -1576757282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_93
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 90
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ae36c96c43afc409ff08d8f17100e5
+      internalID: 1557546370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fb8491e634d0b479b803c229a676a0
+      internalID: -387232440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_95
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651c7a21cd77e534097107644bf5ebe8
+      internalID: 1926461238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_96
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96aa685597b1db14099fd39328ca9dc5
+      internalID: -2038614850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_97
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd462047e2732864a875ca23cb3c358f
+      internalID: -1301731604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_98
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef4420d023e3554aa4c78925280a5e6
+      internalID: -1097119033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_99
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf688edd3ee3b74dbf3bea98946feb5
+      internalID: -1736930766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_100
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2688d4a420c61ac46be7bfcb48eeaa9e
+      internalID: -117812526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_101
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b5be0fbe231e4393a6aa0782e0cca
+      internalID: -913781563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_102
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da81029236db1d45bd51fe795161e7c
+      internalID: -1851177872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_103
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffd915e9f6b1b944aa8fe76217631d9
+      internalID: 461035514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_104
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34cbedf35af05444b8616985a0a79b5
+      internalID: 793457371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_105
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a123e2c385aea2941bf8fa1a4421e64b
+      internalID: 1851303251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Tarnished Widow 188x90_106
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 0
+        width: 188
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd873c71a4a5374c98878de5f4fd6d3
+      internalID: -1135442939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +2392,114 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      The Tarnished Widow 188x90_0: -182364913
+      The Tarnished Widow 188x90_1: 481239964
+      The Tarnished Widow 188x90_10: -1968952813
+      The Tarnished Widow 188x90_100: -117812526
+      The Tarnished Widow 188x90_101: -913781563
+      The Tarnished Widow 188x90_102: -1851177872
+      The Tarnished Widow 188x90_103: 461035514
+      The Tarnished Widow 188x90_104: 793457371
+      The Tarnished Widow 188x90_105: 1851303251
+      The Tarnished Widow 188x90_106: -1135442939
+      The Tarnished Widow 188x90_11: 195705877
+      The Tarnished Widow 188x90_12: 541863555
+      The Tarnished Widow 188x90_13: -1556645239
+      The Tarnished Widow 188x90_14: -1777422310
+      The Tarnished Widow 188x90_15: -793070976
+      The Tarnished Widow 188x90_16: 343166732
+      The Tarnished Widow 188x90_17: -475689835
+      The Tarnished Widow 188x90_18: -333123044
+      The Tarnished Widow 188x90_19: -515698551
+      The Tarnished Widow 188x90_2: -1148725397
+      The Tarnished Widow 188x90_20: -426197123
+      The Tarnished Widow 188x90_21: -1045776796
+      The Tarnished Widow 188x90_22: -595163149
+      The Tarnished Widow 188x90_23: -1711460865
+      The Tarnished Widow 188x90_24: -1330721257
+      The Tarnished Widow 188x90_25: -378957161
+      The Tarnished Widow 188x90_26: -564036798
+      The Tarnished Widow 188x90_27: 1387896097
+      The Tarnished Widow 188x90_28: 1714799559
+      The Tarnished Widow 188x90_29: -145734150
+      The Tarnished Widow 188x90_3: -412116592
+      The Tarnished Widow 188x90_30: 463357967
+      The Tarnished Widow 188x90_31: -1045719500
+      The Tarnished Widow 188x90_32: -1453240937
+      The Tarnished Widow 188x90_33: 1368454738
+      The Tarnished Widow 188x90_34: 675076056
+      The Tarnished Widow 188x90_35: 981817785
+      The Tarnished Widow 188x90_36: 1409330421
+      The Tarnished Widow 188x90_37: 1032975542
+      The Tarnished Widow 188x90_38: -1258221595
+      The Tarnished Widow 188x90_39: 1201943107
+      The Tarnished Widow 188x90_4: -1617470774
+      The Tarnished Widow 188x90_40: -799536898
+      The Tarnished Widow 188x90_41: -2004213191
+      The Tarnished Widow 188x90_42: -306170435
+      The Tarnished Widow 188x90_43: 652125006
+      The Tarnished Widow 188x90_44: 809710421
+      The Tarnished Widow 188x90_45: 238151188
+      The Tarnished Widow 188x90_46: 1936484736
+      The Tarnished Widow 188x90_47: -1557736833
+      The Tarnished Widow 188x90_48: -493563650
+      The Tarnished Widow 188x90_49: -512513957
+      The Tarnished Widow 188x90_5: 295225974
+      The Tarnished Widow 188x90_50: 975206165
+      The Tarnished Widow 188x90_51: -1792491123
+      The Tarnished Widow 188x90_52: -1709671953
+      The Tarnished Widow 188x90_53: -1264016054
+      The Tarnished Widow 188x90_54: 1665971150
+      The Tarnished Widow 188x90_55: -1401708189
+      The Tarnished Widow 188x90_56: 1932924415
+      The Tarnished Widow 188x90_57: 1976335633
+      The Tarnished Widow 188x90_58: -2053014804
+      The Tarnished Widow 188x90_59: -1128565193
+      The Tarnished Widow 188x90_6: -90824656
+      The Tarnished Widow 188x90_60: -676054010
+      The Tarnished Widow 188x90_61: -1298358339
+      The Tarnished Widow 188x90_62: -274353856
+      The Tarnished Widow 188x90_63: -425169212
+      The Tarnished Widow 188x90_64: -666812931
+      The Tarnished Widow 188x90_65: 902721131
+      The Tarnished Widow 188x90_66: -725135654
+      The Tarnished Widow 188x90_67: -612294527
+      The Tarnished Widow 188x90_68: -1324990153
+      The Tarnished Widow 188x90_69: 1330941601
+      The Tarnished Widow 188x90_7: 1586847038
+      The Tarnished Widow 188x90_70: -1468937087
+      The Tarnished Widow 188x90_71: -1985043308
+      The Tarnished Widow 188x90_72: -389028651
+      The Tarnished Widow 188x90_73: 1039206483
+      The Tarnished Widow 188x90_74: 363248126
+      The Tarnished Widow 188x90_75: 339339989
+      The Tarnished Widow 188x90_76: 728623885
+      The Tarnished Widow 188x90_77: 654860406
+      The Tarnished Widow 188x90_78: 1724484493
+      The Tarnished Widow 188x90_79: -614517290
+      The Tarnished Widow 188x90_8: -80807255
+      The Tarnished Widow 188x90_80: 737080078
+      The Tarnished Widow 188x90_81: 351911614
+      The Tarnished Widow 188x90_82: 1928349475
+      The Tarnished Widow 188x90_83: 453228668
+      The Tarnished Widow 188x90_84: 1338762710
+      The Tarnished Widow 188x90_85: 36634629
+      The Tarnished Widow 188x90_86: 1428428041
+      The Tarnished Widow 188x90_87: 2020807087
+      The Tarnished Widow 188x90_88: -518194606
+      The Tarnished Widow 188x90_89: -1941017035
+      The Tarnished Widow 188x90_9: 786869867
+      The Tarnished Widow 188x90_90: -1268585417
+      The Tarnished Widow 188x90_91: 1450015247
+      The Tarnished Widow 188x90_92: -1576757282
+      The Tarnished Widow 188x90_93: 1557546370
+      The Tarnished Widow 188x90_94: -387232440
+      The Tarnished Widow 188x90_95: 1926461238
+      The Tarnished Widow 188x90_96: -2038614850
+      The Tarnished Widow 188x90_97: -1301731604
+      The Tarnished Widow 188x90_98: -1097119033
+      The Tarnished Widow 188x90_99: -1736930766
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

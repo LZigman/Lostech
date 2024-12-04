@@ -23,7 +23,7 @@ public class BulletScript : MonoBehaviour
 	{
 		if (CompareLayers(other.gameObject, enemyLayer) == true)
 		{
-			StartCoroutine (other.gameObject.GetComponent<Enemy>().Damage(bulletDamage));
+			other.gameObject.GetComponent<Enemy>().Damage(bulletDamage);
             Destroy(gameObject);
         }
 		else if (CompareLayers(other.gameObject, spitterLayer) == true)

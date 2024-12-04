@@ -30,5 +30,9 @@ public class AnimationStateChanger : MonoBehaviour
 
         currentState = newState;
     }
+    public void PlayAnimationState (int state, Animator animator)
+    {
+        animator.Play(state);
+    }
 
 }

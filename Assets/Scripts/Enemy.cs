@@ -218,9 +218,12 @@ public class Enemy : MonoBehaviour
 			StartCoroutine(Die());
 			yield break;
 		}
-		animator.SetTrigger("hit");
+		animator.SetBool("isHurt", true);
+		Debug.LogError("Damage animation performing!" + hitAnimationLength);
 		yield return new WaitForSeconds(hitAnimationLength);
-		isHurt = false;
+		Debug.LogError("Damage animation performed!");
+        animator.SetBool("isHurt", false);
+        isHurt = false;
 		yield break;
 		//animator.ResetTrigger("hit");
 	}

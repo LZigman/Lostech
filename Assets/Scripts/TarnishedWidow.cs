@@ -2,13 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class TarnishedWidow : MonoBehaviour
 {
+    public enum States
+    {
+        idle,
+        walking,
+        attack,
+        damage,
+        death
+    }
+
     [SerializeField] private float movementSpeed;
     [SerializeField] private float maxHealth;
-    [SerializeField] private float detectionRadius, attackRadius, heavyAttackRadius;
+    // heavy attack radius
+    [SerializeField] private float detectionRadius, attackRadius;
     [SerializeField] private float heavyAttackDamage, spitAttackDamage;
-    [SerializeField] private float attackWaitTime;
+    [SerializeField] private float projectileSpeed = 5f;
+    [SerializeField] private float attackWaitTime = 0.2f;
     [SerializeField] private LayerMask playerLayer;
     [SerializeField] private Animator animator;
     [SerializeField] private Transform heavyAttackPointA, heavyAttackPointB;
@@ -17,51 +29,31 @@ public class TarnishedWidow : MonoBehaviour
     // private variables
     private Rigidbody2D rb;
     private GameObject player;
-
+    // heavy attack radius hardcoded because its always the same
+    private float heavyAttackRadius = 4f;
+    private States currentState;
     private float currentHealth;
-    private float spitAttackDelay, heavyAttackDelay;
+    private float spitAttackDelay = 0.33f, heavyAttackDelay = 0.38f;
     private int spitAttackAnimationId = Animator.StringToHash("Attack 2");
     private int heavyAttackAnimationId = Animator.StringToHash("Attack 1");
     private int walkingAnimationId = Animator.StringToHash("Walking");
     private int idleAnimationId = Animator.StringToHash("Idle");
     private int damageAnimationId = Animator.StringToHash("Damage");
     private int deathAnimationId = Animator.StringToHash("Death");
+    private bool isHurt;
 
     private void Awake ()
     {
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
+        currentState = States.idle;
+        isHurt = false;
     }
-    private IEnumerator DetectPlayer ()
+    private void FixedUpdate()
     {
-        while (true)
+        if (player != null)
         {
-            Collider2D[] detectedColliders = Physics2D.OverlapCircleAll(rb.position, detectionRadius);
-            for (int i = 0; i < detectedColliders.Length; i++)
-            {
-                if (CompareLayers(detectedColliders[i].gameObject, playerLayer) == true)
-                {
-                    player = detectedColliders[i].gameObject;
-                    StartCoroutine(MoveTowardsPlayer());
-                    yield break;
-                }
-            }
-            yield return new WaitForSeconds(Time.fixedDeltaTime);
-        }
-    }
-
-    private IEnumerator MoveTowardsPlayer ()
-    {
-        while (true)
-        {
-            
-            if (IsPlayerInAttackRadius() == true)
-            {
-                StartCoroutine(AttackPattern());
-                yield break;
-            }
-            Vector2 dirTowardsPlayer = (Vector2)player.transform.position - rb.position;
-            if (dirTowardsPlayer.x < 0f)
+            if (player.transform.position.x < rb.position.x)
             {
                 FlipLeft(true);
             }
@@ -69,62 +61,92 @@ public class TarnishedWidow : MonoBehaviour
             {
                 FlipLeft(false);
             }
-            rb.position += dirTowardsPlayer * movementSpeed * Time.fixedDeltaTime;
-            yield return new WaitForSeconds(Time.fixedDeltaTime);
         }
+        if (currentState == States.idle && isHurt == false)
+        {
+            DetectPlayer();
+        }
+        if (currentState == States.walking && isHurt == false)
+        {
+            MoveTowardsPlayer();
+        }
+    }
+    private void DetectPlayer ()
+    {
+        Collider2D[] detectedColliders = Physics2D.OverlapCircleAll(rb.position, detectionRadius);
+        for (int i = 0; i < detectedColliders.Length; i++)
+        {
+            if (CompareLayers(detectedColliders[i].gameObject, playerLayer) == true)
+            {
+                player = detectedColliders[i].gameObject;
+                currentState = States.walking;
+                return;
+            }
+        }
+    }
+
+    private void MoveTowardsPlayer ()
+    {
+        if (IsPlayerInAttackRadius() == true)
+        {
+            StartCoroutine(AttackPattern());
+            currentState = States.attack;
+            return;
+        }
+        Vector2 dirTowardsPlayer = (Vector2)player.transform.position - rb.position;
+        rb.position += dirTowardsPlayer * movementSpeed * Time.fixedDeltaTime;
     }
     private IEnumerator AttackPattern ()
     {
-        if (player.transform.position.x < rb.position.x)
+        while (IsPlayerInAttackRadius() == true && isHurt == false)
         {
-            FlipLeft(true);
-        }
-        else
-        {
-            FlipLeft(false);
-        }
-        if (isPlayerInHeavyAttackRadius () == true)
-        {
-            // heavy attack
-            AnimationStateChanger.Instance.ChangeAnimationState(heavyAttackAnimationId, animator);
-            yield return new WaitForSeconds(heavyAttackDelay);
-            Collider2D[] colliders = Physics2D.OverlapAreaAll(heavyAttackPointA.position, heavyAttackPointB.position);
-            for (int i = 0; i < colliders.Length; i++)
+            if (isPlayerInHeavyAttackRadius () == true)
             {
-                if (CompareLayers(colliders[i].gameObject, playerLayer) == true)
+                // heavy attack
+                AnimationStateChanger.Instance.ChangeAnimationState(heavyAttackAnimationId, animator);
+                yield return new WaitForSeconds(heavyAttackDelay);
+                Collider2D[] colliders = Physics2D.OverlapAreaAll(heavyAttackPointA.position, heavyAttackPointB.position);
+                for (int i = 0; i < colliders.Length; i++)
                 {
-                    player.GetComponent<Player>().DamagePlayer(heavyAttackDamage);
-                    break;
+                    if (CompareLayers(colliders[i].gameObject, playerLayer) == true)
+                    {
+                        player.GetComponent<Player>().DamagePlayer(heavyAttackDamage);
+                        break;
+                    }
+                }
+                yield return new WaitForSeconds(GetCurrentAnimationLength() - heavyAttackDelay);
+            }
+            else
+            {
+                // spit attack x2
+                for (int i = 0; i < 2; i++)
+                {
+                    AnimationStateChanger.Instance.ChangeAnimationState(spitAttackAnimationId, animator);
+                    yield return new WaitForSeconds(spitAttackDelay);
+                    // spit
+                    GameObject temp = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity);
+                    if (transform.localScale.x == -1f)
+                    {
+                        temp.transform.localScale = new Vector3(-1f, 1f, 1f);
+                    }
+                    else
+                    {
+                        temp.transform.localScale = new Vector3(1f, 1f, 1f);
+                    }
+                    temp.GetComponent<Rigidbody2D>().AddForce(projectileSpeed * transform.right, ForceMode2D.Impulse);
+                    yield return new WaitForSeconds(GetCurrentAnimationLength() - spitAttackDelay);
+                    //AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
                 }
             }
-            yield return new WaitForSeconds(GetCurrentAnimationLength() - heavyAttackDelay);
+            AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
+            yield return new WaitForSeconds(attackWaitTime);
         }
-        else
-        {
-            // spit attack x2
-            for (int i = 0; i < 2; i++)
-            {
-                AnimationStateChanger.Instance.ChangeAnimationState(spitAttackAnimationId, animator);
-                yield return new WaitForSeconds(spitAttackDelay);
-                // spit
-                GameObject temp = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity);
-                if (transform.localScale.x == -1f)
-                {
-                    temp.GetComponent<BossProjectileScript>().direction = Vector2.left;
-                }
-                else
-                {
-                    temp.GetComponent<BossProjectileScript>().direction = Vector2.right;
-                }
-                yield return new WaitForSeconds(GetCurrentAnimationLength() - spitAttackDelay);
-            }
-        }
-        AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
-        yield return new WaitForSeconds(attackWaitTime);
+        currentState = States.walking;
     }
 
-    private IEnumerator Damage (float damage)
+    public IEnumerator Damage (float damage)
     {
+        isHurt = true;
         currentHealth -= damage;
         if (currentHealth <= 0f)
         {
@@ -136,6 +158,7 @@ public class TarnishedWidow : MonoBehaviour
             AnimationStateChanger.Instance.ChangeAnimationState(damageAnimationId, animator);
             yield return new WaitForSeconds(GetCurrentAnimationLength());
         }
+        isHurt = false;
     }
     private IEnumerator Death ()
     {
@@ -171,6 +194,7 @@ public class TarnishedWidow : MonoBehaviour
     {
         if (Vector2.Distance(player.transform.position, rb.position) <= attackRadius)
         {
+            Debug.Log("Player in attack radius!");
             return true;
         }
         return false;
@@ -179,6 +203,7 @@ public class TarnishedWidow : MonoBehaviour
     {
         if (Vector2.Distance(player.transform.position, rb.position) <= heavyAttackRadius)
         {
+            Debug.Log("Player in heavy attack radius!");
             return true;
         }
         return false;

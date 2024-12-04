@@ -189,3 +189,6 @@ MonoBehaviour:
   summonerLayer:
     serializedVersion: 2
     m_Bits: 1024
+  tarnishedWidowLayer:
+    serializedVersion: 2
+    m_Bits: 4096

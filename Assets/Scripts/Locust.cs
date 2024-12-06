@@ -66,13 +66,13 @@ public class Locust : MonoBehaviour
             if (CompareLayers(detectedColliders[i].gameObject, playerLayer) == true)
             {
                 detectedColliders[i].gameObject.GetComponent<Player>().DamagePlayer(damage);
-                activeCoroutine = StartCoroutine(Die());
+                activeCoroutine = StartCoroutine(PerformDie());
                 yield break;
             }
         }
-        activeCoroutine = StartCoroutine(Die());
+        activeCoroutine = StartCoroutine(PerformDie());
     }
-    public IEnumerator Die ()
+    private IEnumerator PerformDie ()
     {
         StopCoroutine(activeCoroutine);
         AnimationStateChanger.Instance.ChangeAnimationState(deathAnimationId, animator);
@@ -83,6 +83,10 @@ public class Locust : MonoBehaviour
         Debug.Log("Destroying self!");
         //Destroy(gameObject);
         yield return null;
+    }
+    public void Die ()
+    {
+        StartCoroutine(PerformDie());
     }
     private void DestroySelf ()
     {

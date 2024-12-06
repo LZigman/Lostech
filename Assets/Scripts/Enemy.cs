@@ -203,7 +203,11 @@ public class Enemy : MonoBehaviour
 			playerScript.DamagePlayer(damage);
 		}
 	}
-	public IEnumerator Damage (float damage)
+	public void Damage (float damage)
+	{
+		StartCoroutine(PerformDamage(damage));
+	}
+	private IEnumerator PerformDamage (float damage)
 	{
 		if (isDying == true)
 		{
@@ -218,9 +222,11 @@ public class Enemy : MonoBehaviour
 			StartCoroutine(Die());
 			yield break;
 		}
-		animator.SetTrigger("hit");
-		yield return new WaitForSeconds(hitAnimationLength);
-		isHurt = false;
+		animator.SetBool("isHurt", true);
+		yield return new WaitForSecondsRealtime(hitAnimationLength);
+		Debug.LogError("Damage animation performed!");
+        animator.SetBool("isHurt", false);
+        isHurt = false;
 		yield break;
 		//animator.ResetTrigger("hit");
 	}
@@ -233,7 +239,12 @@ public class Enemy : MonoBehaviour
 		Destroy(gameObject);
 	}
 	// helper functions
-	private bool IsPlayerInDetectionRadius ()
+	private float GetCurrentAnimationLength()
+	{
+		return animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length;
+	}
+
+    private bool IsPlayerInDetectionRadius ()
 	{
 		if (Vector2.Distance ((Vector2)player.transform.position, rb.position) < detectionRadius + 0.25f)
 		{

@@ -107,6 +107,7 @@ AnimatorState:
   
 --- !u!91 &9100000
 AnimatorController:
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -160,6 +161,7 @@ AnimatorController:
     
 --- !u!1101 &1646037234196886099
 AnimatorStateTransition:
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}

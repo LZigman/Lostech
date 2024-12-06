@@ -219,15 +219,17 @@ public class Enemy : MonoBehaviour
 			}
 		}
 	}
-	public IEnumerator Damage(float damage)
+	public void Damage (float damage)
+	{
+		StartCoroutine(PerformDamage(damage));
+	}
+	private IEnumerator PerformDamage (float damage)
 	{
 		if (isDying == true)
 		{
 			yield break;
 		}
 		isHurt = true;
-		//StopCoroutine(activeCoroutine);
-		Debug.LogError("Coroutine continue");
 		currentHealth -= damage;
 		AudioManager.Instance.PlaySFX("enemy hit");
 		Debug.Log("health: " + currentHealth);
@@ -236,11 +238,10 @@ public class Enemy : MonoBehaviour
 			StartCoroutine(Die());
 			yield break;
 		}
-		AnimationStateChanger.Instance.ChangeAnimationState(damageAnimationId, animator);
-		yield return new WaitForSeconds(hitAnimationLength);
-		Debug.LogError("Hit animation finished!");
-		isHurt = false;
-		//StartCoroutine(activeCoroutine);
+		animator.SetBool("isHurt", true);
+		yield return new WaitForSecondsRealtime(hitAnimationLength);
+    animator.SetBool("isHurt", false);
+    isHurt = false;
 	}
 	private IEnumerator Die()
 	{
@@ -251,7 +252,11 @@ public class Enemy : MonoBehaviour
 		Destroy(gameObject);
 	}
 	// helper functions
-	private bool IsPlayerInDetectionRadius()
+	private float GetCurrentAnimationLength()
+	{
+		return animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length;
+	}
+    private bool IsPlayerInDetectionRadius ()
 	{
 		if (Vector2.Distance((Vector2)player.transform.position, rb.position) < detectionRadius + 0.25f)
 		{

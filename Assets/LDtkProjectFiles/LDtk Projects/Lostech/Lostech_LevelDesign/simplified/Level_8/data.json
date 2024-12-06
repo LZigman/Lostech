@@ -1,0 +1,43 @@
+{
+	"identifier": "Level_8",
+	"uniqueIdentifer": "6ee21270-9b00-11ef-a166-051d8eaf6467",
+	"x": 1544,
+	"y": 1684,
+	"width": 2064,
+	"height": 720,
+	"bgColor": "#696A79",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"Grey_Background.png",
+		"Sacred_Temple_Background.png",
+		"Dark_City_Background.png",
+		"Victorian_City_Background.png",
+		"Trees_background.png",
+		"DARK_Beneath_Background.png",
+		"City_Background.png",
+		"Sacred_Temple_Foreground.png",
+		"Victorian_City_Foreground.png",
+		"Trees_Foreground.png",
+		"DARK_Beneath_Foreground.png",
+		"Dark_City_Foreground.png",
+		"Victorian_Add_On_Foreground.png",
+		"Victorian_City_Foreground2.png",
+		"IntGrid_Ground.png"
+	],
+	"entities": {
+		"Door": [
+			{
+				"id": "Door",
+				"iid": "c2a8e0b0-9b00-11ef-a166-c96f5c3dd30f",
+				"layer": "Entities",
+				"x": 842,
+				"y": 96,
+				"width": 16,
+				"height": 48,
+				"color": 1397790,
+				"customFields" : {}
+			}
+		]
+	}
+}

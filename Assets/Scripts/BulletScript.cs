@@ -23,7 +23,7 @@ public class BulletScript : MonoBehaviour
 	{
 		if (CompareLayers(other.gameObject, enemyLayer) == true)
 		{
-			StartCoroutine (other.gameObject.GetComponent<Enemy>().Damage(bulletDamage));
+			other.gameObject.GetComponent<Enemy>().Damage(bulletDamage);
             Destroy(gameObject);
         }
 		else if (CompareLayers(other.gameObject, spitterLayer) == true)
@@ -33,7 +33,7 @@ public class BulletScript : MonoBehaviour
         }
 		else if (CompareLayers(other.gameObject, locustLayer) == true)
 		{
-			StartCoroutine(other.gameObject.GetComponent<Locust>().Die());
+			other.gameObject.GetComponent<Locust>().Die();
             Destroy(gameObject);
             Debug.Log("Locust Hit!");
 		}
@@ -52,11 +52,6 @@ public class BulletScript : MonoBehaviour
 			Destroy(gameObject);
 		}
 
-	}
-	private IEnumerator DestroyDelay ()
-	{
-		yield return new WaitForSeconds(destroyDelay);
-		Destroy(gameObject);
 	}
 	// helper function
 	private bool CompareLayers(GameObject objectWithLayer, LayerMask layerMask)

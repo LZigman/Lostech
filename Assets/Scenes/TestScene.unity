@@ -417,7 +417,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfxAudioSource: {fileID: 0}
-  sounds: []
+  sounds:
+  - name: 
+    clip: {fileID: 0}
+  - name: 
+    clip: {fileID: 0}
   audioSourcePrefab: {fileID: 0}
   mainMenuTheme:
     name: 
@@ -1601,7 +1605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1862682309421571887, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4635268264070661660, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: m_LocalScale.x
@@ -1759,7 +1763,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1856712487251576244, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1856712487251576244, guid: 41e41a823bb68b0469bec8cb7e0e4f70, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1890,6 +1894,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3976f49b505a4872e8a807e23bc648f6, type: 3}
+--- !u!1001 &8677157566868246684
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8622879152136774206, guid: bd9d8a8a157b1ba4cb271d0bf4a6f3c3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622879152136774206, guid: bd9d8a8a157b1ba4cb271d0bf4a6f3c3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622879152136774206, guid: bd9d8a8a157b1ba4cb271d0bf4a6f3c3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622879152136774206, guid: bd9d8a8a157b1ba4cb271d0bf4a6f3c3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622879152136774206, guid: bd9d8a8a157b1ba4cb271d0bf4a6f3c3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622879152136774206, guid: bd9d8a8a157b1ba4cb271d0bf4a6f3c3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622879152136774206, guid: bd9d8a8a157b1ba4cb271d0bf4a6f3c3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622879152136774206, guid: bd9d8a8a157b1ba4cb271d0bf4a6f3c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622879152136774206, guid: bd9d8a8a157b1ba4cb271d0bf4a6f3c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622879152136774206, guid: bd9d8a8a157b1ba4cb271d0bf4a6f3c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796527627067491686, guid: bd9d8a8a157b1ba4cb271d0bf4a6f3c3, type: 3}
+      propertyPath: m_Name
+      value: TarnishedWidow
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd9d8a8a157b1ba4cb271d0bf4a6f3c3, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1903,3 +1964,4 @@ SceneRoots:
   - {fileID: 1922424882}
   - {fileID: 2052945318}
   - {fileID: 121417689}
+  - {fileID: 8677157566868246684}

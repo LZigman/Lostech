@@ -143,8 +143,11 @@ public class TarnishedWidow : MonoBehaviour
         }
         currentState = States.walking;
     }
-
-    public IEnumerator Damage (float damage)
+    public void Damage(float damage)
+    {
+        StartCoroutine(PerformDamage(damage));
+    }
+    private IEnumerator PerformDamage (float damage)
     {
         isHurt = true;
         currentHealth -= damage;

@@ -44,7 +44,7 @@ public class BulletScript : MonoBehaviour
         }
 		else if (CompareLayers(other.gameObject, tarnishedWidowLayer) == true)
 		{
-			StartCoroutine(other.gameObject.GetComponent<TarnishedWidow>().Damage(bulletDamage));
+			other.gameObject.GetComponent<TarnishedWidow>().Damage(bulletDamage);
 			Destroy(gameObject);
 		}
 		else if (CompareLayers(other.gameObject, groundLayer) == true && !other.CompareTag("Platform"))

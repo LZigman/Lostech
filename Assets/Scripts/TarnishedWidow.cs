@@ -127,13 +127,13 @@ public class TarnishedWidow : MonoBehaviour
                     GameObject temp = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity);
                     if (transform.localScale.x == -1f)
                     {
-                        temp.transform.localScale = new Vector3(-1f, 1f, 1f);
+                        temp.GetComponent<BossProjectileScript>().direction = Vector2.left;
                     }
                     else
                     {
-                        temp.transform.localScale = new Vector3(1f, 1f, 1f);
+                        temp.GetComponent<BossProjectileScript>().direction = Vector2.right;
                     }
-                    temp.GetComponent<Rigidbody2D>().AddForce(projectileSpeed * transform.right, ForceMode2D.Impulse);
+                    //temp.GetComponent<Rigidbody2D>().AddForce(projectileSpeed * transform.right, ForceMode2D.Impulse);
                     yield return new WaitForSeconds(GetCurrentAnimationLength() - spitAttackDelay);
                     //AnimationStateChanger.Instance.ChangeAnimationState(idleAnimationId, animator);
                 }

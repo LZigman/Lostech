@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 7515707635535545553}
   - component: {fileID: 1510913539832438191}
   - component: {fileID: 9008419098382346509}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Boss Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -51,7 +51,6 @@ public class BulletScript : MonoBehaviour
 		{
 			Destroy(gameObject);
 		}
-
 	}
 	// helper function
 	private bool CompareLayers(GameObject objectWithLayer, LayerMask layerMask)

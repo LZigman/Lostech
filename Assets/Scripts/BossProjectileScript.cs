@@ -14,7 +14,8 @@ public class BossProjectileScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         //rb.AddForce(projectileSpeed * transform.right, ForceMode2D.Impulse);
-        rb.velocity = projectileSpeed * transform.right;
+        rb.velocity = projectileSpeed * direction;
+        Debug.LogError("dir of bullet: " + direction);
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

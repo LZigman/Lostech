@@ -90,6 +90,5 @@ public class AudioManager : MonoBehaviour
                 }
             }
         }
-        Debug.Log("Sound not found!\nName: " + name);
     }
 }

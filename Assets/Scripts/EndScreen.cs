@@ -7,46 +7,21 @@ using UnityEngine.SceneManagement;
 
 public class EndScreen : MonoBehaviour
 {
+	[SerializeField] private TarnishedWidow tarnishedWidow;
 	[SerializeField] private GameObject endScreen;
-	[SerializeField] private TextMeshProUGUI promptText;
-	[SerializeField] private KeyCode keyToPress = KeyCode.E;
-	[SerializeField] private GameObject doorCollider;
-	[SerializeField] private bool isOpen;
+	[SerializeField] private float delay;
 
-	private void Start()
+	private void Update()
 	{
-		promptText.text = $"Press '{keyToPress}' key to activate.";
-		promptText.enabled = false;
-	}
-	
-	private void OnTriggerStay2D(Collider2D other)
-	{
-		if (other.gameObject.CompareTag("Player"))
+		if (tarnishedWidow.currentHealth <= 0)
 		{
-			if (!isOpen)
-			{
-				promptText.enabled = true;
-				if (other.gameObject.GetComponent<Player>().isInteracting == true)
-				{
-					ShowEndScreen();
-					other.gameObject.GetComponent<Player>().isInteracting = false;
-                }
-			}
+			StartCoroutine(ShowEndScreen());
 		}
 	}
 
-	private void OnTriggerExit2D(Collider2D other)
+	private IEnumerator ShowEndScreen()
 	{
-		if (other.gameObject.CompareTag("Player"))
-		{
-			promptText.enabled = false;
-		}
-	}
-
-	private void ShowEndScreen()
-	{
-		doorCollider.SetActive(false);
-		isOpen = true;
+		yield return new WaitForSeconds(delay);
 		endScreen.SetActive(true);
 		Time.timeScale = 0;
 	}

@@ -17,6 +17,7 @@ public class IntroSequenceController : MonoBehaviour
 
 	private void OnEnable()
 	{
+		Cursor.visible = false;
 		foreach (var text in messages)
 		{		
 			StartCoroutine(StartTyping(text));

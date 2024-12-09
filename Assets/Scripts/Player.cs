@@ -229,6 +229,12 @@ public class Player : MonoBehaviour
         {
             return;
         }
+
+        if (isJumping && !Input.GetKey(KeyCode.Space))
+        {
+	        rb.velocity = new Vector2(rb.velocity.x, 0);
+        }
+        
         // getting jump input
         if (context.phase == InputActionPhase.Performed && isGrounded && !isFalling)
 		{

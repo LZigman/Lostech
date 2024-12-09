@@ -34,7 +34,7 @@ public class TarnishedWidow : MonoBehaviour
     // heavy attack radius hardcoded because its always the same
     private float heavyAttackRadius = 4f;
     [SerializeField] private States currentState;
-    private float currentHealth;
+    public float currentHealth;
     private float spitAttackDelay = 0.33f, heavyAttackDelay = 0.38f;
     private int spitAttackAnimationId = Animator.StringToHash("Attack 2");
     private int heavyAttackAnimationId = Animator.StringToHash("Attack 1");

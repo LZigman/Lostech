@@ -66,7 +66,7 @@ public class Enemy : MonoBehaviour
 		currentState = States.idle;
 		while (true)
 		{
-			Collider2D[] detectedColliders = Physics2D.OverlapCircleAll(rb.position, detectionRadius);
+			Collider2D[] detectedColliders = Physics2D.OverlapCircleAll(rb.position, detectionRadius + 0.2f);
 			for (int i = 0; i < detectedColliders.Length; i++)
 			{
 				if (CompareLayers(detectedColliders[i].gameObject, playerLayer) == true)
@@ -106,6 +106,7 @@ public class Enemy : MonoBehaviour
 		Debug.Log("Moving to attack!");
 		currentState = States.moveToAttack;
 		AnimationStateChanger.Instance.ChangeAnimationState(moveAnimationId, animator);
+		Debug.LogError("Tu2!");
 		if (player.transform.position.x < rb.position.x)
 		{
 			spriteRenderer.flipX = true;
@@ -116,12 +117,15 @@ public class Enemy : MonoBehaviour
 		}
 		while (true)
 		{
-			if (Mathf.Abs(player.transform.position.y - rb.position.y) > 2f)
-			{
-				yield return new WaitForSeconds(Time.fixedDeltaTime);
-			}
+			//if (Mathf.Abs(player.transform.position.y - rb.position.y) > 2f)
+			//{
+			//	yield return new WaitForSeconds(Time.fixedDeltaTime);
+			//}
 			if (isHurt == false)
 			{
+				Vector2 moveTo = player.transform.position;
+				moveTo.y = rb.position.y;
+				rb.position = Vector2.MoveTowards(rb.position, moveTo, movementSpeed * Time.fixedDeltaTime);
 				if (IsPlayerInAttackRadius() == true)
 				{
 					activeCoroutine = Attack();
@@ -132,8 +136,10 @@ public class Enemy : MonoBehaviour
 				{
 					if (isReturnToStartingPos == true)
 					{
+						
 						activeCoroutine = MoveToStartingPos();
 						StartCoroutine(MoveToStartingPos());
+						Debug.LogError("Sleeping");
 						yield break;
 					}
 					else
@@ -142,7 +148,6 @@ public class Enemy : MonoBehaviour
 						yield break;
 					}
 				}
-				rb.position = Vector2.MoveTowards(rb.position, player.transform.position, movementSpeed * Time.fixedDeltaTime);
 			}
 			yield return new WaitForSeconds(Time.fixedDeltaTime);
 		}
@@ -240,8 +245,8 @@ public class Enemy : MonoBehaviour
 		}
 		animator.SetBool("isHurt", true);
 		yield return new WaitForSecondsRealtime(hitAnimationLength);
-    animator.SetBool("isHurt", false);
-    isHurt = false;
+		animator.SetBool("isHurt", false);
+		isHurt = false;
 	}
 	private IEnumerator Die()
 	{
@@ -258,7 +263,7 @@ public class Enemy : MonoBehaviour
 	}
     private bool IsPlayerInDetectionRadius ()
 	{
-		if (Vector2.Distance((Vector2)player.transform.position, rb.position) < detectionRadius + 0.25f)
+		if (Vector2.Distance((Vector2)player.transform.position, rb.position) < detectionRadius + 1f)
 		{
 			return true;
 		}

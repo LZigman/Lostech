@@ -64,6 +64,7 @@ public class Enemy : MonoBehaviour
 	private IEnumerator DetectPlayer()
 	{
 		currentState = States.idle;
+		animator.SetBool("isPlayerDetected", false);
 		while (true)
 		{
 			Collider2D[] detectedColliders = Physics2D.OverlapCircleAll(rb.position, detectionRadius + 0.2f);
@@ -84,7 +85,7 @@ public class Enemy : MonoBehaviour
 	{
 		Debug.Log("Wake up!");
 		currentState = States.moveToAttack;
-		AnimationStateChanger.Instance.ChangeAnimationState(wakeUpAnimationId, animator);
+		animator.SetBool("isPlayerDetected", true);
 		AudioManager.Instance.PlaySFX("ghoul wake up");
 		yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(layerIndex: 0)[0].clip.length);
 		activeCoroutine = MoveToAttack();
@@ -95,7 +96,7 @@ public class Enemy : MonoBehaviour
 		Debug.Log("Sleep!");
 		currentState = States.idle;
 		AudioManager.Instance.PlaySFX("ghoul sleep");
-		AnimationStateChanger.Instance.ChangeAnimationState(sleepAnimationId, animator);
+		animator.SetBool("isMoving", false);
 		yield return new WaitForSeconds(sleepAnimationLength);
 		player = null;
 		activeCoroutine = DetectPlayer();
@@ -105,7 +106,7 @@ public class Enemy : MonoBehaviour
 	{
 		Debug.Log("Moving to attack!");
 		currentState = States.moveToAttack;
-		AnimationStateChanger.Instance.ChangeAnimationState(moveAnimationId, animator);
+		animator.SetBool("isMoving", true);
 		Debug.LogError("Tu2!");
 		if (player.transform.position.x < rb.position.x)
 		{
@@ -190,7 +191,7 @@ public class Enemy : MonoBehaviour
 	{
 		Debug.Log("Starting attack!");
 		currentState = States.attack;
-		AnimationStateChanger.Instance.ChangeAnimationState(attackAnimationId, animator);
+		animator.SetBool("isAttacking", true);
 		while (true)
 		{
 			if (isHurt == false)
@@ -198,6 +199,7 @@ public class Enemy : MonoBehaviour
 				if (IsPlayerInAttackRadius() == false)
 				{
 					activeCoroutine = MoveToAttack();
+					animator.SetBool("isAttacking", false);
 					StartCoroutine(MoveToAttack());
 					yield break;
 				}

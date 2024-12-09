@@ -191,6 +191,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
       value: 1.4
       objectReference: {fileID: 0}
@@ -440,6 +444,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -3219,6 +3227,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
       value: 1.4
       objectReference: {fileID: 0}
@@ -3319,6 +3331,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -3744,6 +3760,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -4729,6 +4749,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
       value: 1.4
       objectReference: {fileID: 0}
@@ -4829,6 +4853,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -5320,6 +5348,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -5911,6 +5943,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
       value: 1.4
       objectReference: {fileID: 0}
@@ -6013,6 +6049,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
       value: 1.4
       objectReference: {fileID: 0}
@@ -6105,6 +6145,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -6352,6 +6396,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -6621,6 +6669,10 @@ PrefabInstance:
     - target: {fileID: 4635268264070661660, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: patrolLimiterLeft
@@ -6955,6 +7007,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -7740,6 +7796,10 @@ PrefabInstance:
     - target: {fileID: 4635268264070661660, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: patrolLimiterLeft
@@ -61178,6 +61238,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
       value: 1.4
       objectReference: {fileID: 0}
@@ -63267,6 +63331,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
       value: 1.4
       objectReference: {fileID: 0}
@@ -63637,6 +63705,10 @@ PrefabInstance:
     - target: {fileID: 4635268264070661660, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: patrolLimiterLeft
@@ -64647,7 +64719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: maxHealth
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: detectionRadius
@@ -64724,7 +64796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: maxHealth
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: detectionRadius
@@ -64801,7 +64873,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: maxHealth
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: detectionRadius
@@ -64887,6 +64959,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -65240,6 +65316,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
       value: 1.4
       objectReference: {fileID: 0}
@@ -65409,6 +65489,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -66213,6 +66297,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -67243,6 +67331,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -69437,6 +69529,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
       value: 1.4
       objectReference: {fileID: 0}
@@ -69529,6 +69625,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -69632,6 +69732,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -70750,6 +70854,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: patrolLimiterLeft
       value: 
       objectReference: {fileID: 725451209}
@@ -71236,6 +71344,10 @@ PrefabInstance:
     - target: {fileID: 4635268264070661660, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: patrolLimiterLeft
@@ -73176,7 +73288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: maxHealth
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7834335105421889689, guid: 5b73b80c01c54684085d44b68cb6884e, type: 3}
       propertyPath: detectionRadius
@@ -73726,6 +73838,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
       value: 1.4
       objectReference: {fileID: 0}
@@ -73906,6 +74022,10 @@ PrefabInstance:
     - target: {fileID: 1180019487148991452, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
@@ -76589,6 +76709,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2515544883569679943}
     - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189707406189091679, guid: 01f0ffb5cfbffd945b3725eeb07c8e14, type: 3}
       propertyPath: attackDelay
       value: 1.4
       objectReference: {fileID: 0}
@@ -76661,7 +76785,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1900767237514204030, guid: e6c77f42f2a2c9447a37a2c1e972d83d, type: 3}
       propertyPath: maxHealth
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1900767237514204030, guid: e6c77f42f2a2c9447a37a2c1e972d83d, type: 3}
       propertyPath: detectionRadius
@@ -79088,7 +79212,7 @@ MonoBehaviour:
   attackAnimationLength: 0.8
   animator: {fileID: 2391727167735304913}
   attackRate: 1.5
-  maxHealth: 5
+  maxHealth: 3
 --- !u!1 &8543774890737901003
 GameObject:
   m_ObjectHideFlags: 0
